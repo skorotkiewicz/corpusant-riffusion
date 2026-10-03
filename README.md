@@ -2,11 +2,11 @@
 
 Back up your own songs as M4A files with embedded titles.
 
-Requires Python 3, curl, and ExifTool. No pip packages or FFmpeg needed.
+Requires Python 3, curl, and ExifTool.
 
 ## Quick start
 
-1. Install dependencies. On Debian/Ubuntu: `sudo pacman -S curl exiftool`.
+1. Install dependencies. On Arch Linux: `sudo pacman -S curl exiftool`.
 2. Log in to Flow Music and open your song library. In browser DevTools → Network, find the `clips/auth-user` request and copy its Authorization token, without the `Bearer ` prefix.
 3. Run these commands from the repository folder:
 
