@@ -10,8 +10,9 @@ from uuid import UUID
 
 
 def download_audio(source=Path("songs.json"), directory=Path("downloads")):
-    if not shutil.which("ffmpeg"):
-        raise OSError("ffmpeg is required to write M4A title metadata")
+    for tool in ("curl", "exiftool"):
+        if not shutil.which(tool):
+            raise OSError(f"{tool} is required to download and tag M4A audio")
     clips = json.loads(source.read_text(encoding="utf-8"))["clips"]
     directory.mkdir(parents=True, exist_ok=True)
     for index, clip in enumerate(clips, 1):
@@ -31,10 +32,13 @@ def download_audio(source=Path("songs.json"), directory=Path("downloads")):
         partial = output.with_suffix(".part.m4a")
         print(f"[{index}/{len(clips)}] Downloading: {title}", flush=True)
         subprocess.run([
-            "ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "error", "-y",
-            "-rw_timeout", "60000000", "-i", url,
-            "-map", "0:a:0", "-c", "copy", "-metadata", f"title={title}",
-            "-f", "ipod", str(partial),
+            "curl", "--fail", "--location", "--silent", "--show-error",
+            "--proto", "=https", "--proto-redir", "=https",
+            "--connect-timeout", "30", "--speed-limit", "1", "--speed-time", "60",
+            "--output", str(partial), "--", url,
+        ], check=True)
+        subprocess.run([
+            "exiftool", "-q", "-overwrite_original", f"-ItemList:Title={title}", str(partial),
         ], check=True)
         partial.replace(output)
     print(f"Finished. Audio saved in {directory}", flush=True)
