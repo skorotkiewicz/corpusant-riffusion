@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Fetch all Flow generations. Rerun with a fresh token to resume songs.json."""
+"""Fetch Flow generations; use --update to append new songs to songs.json."""
+import argparse
 import getpass
 import json
 import os
@@ -10,7 +11,7 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 OUTPUT = Path("songs.json")
-LIMIT = 20
+LIMIT = 100
 
 
 def fetch_page(token, offset):
@@ -35,39 +36,57 @@ def save(state, output):
     temporary.replace(output)
 
 
-def collect(token, output=OUTPUT, fetch=fetch_page):
+def collect(token, output=OUTPUT, fetch=fetch_page, update=False):
     state = json.loads(output.read_text()) if output.exists() else {"clips": [], "next_offset": 0, "complete": False}
-    if state["complete"]:
+    if update and not state["complete"] and state["clips"] and "update_known_ids" not in state:
+        raise ValueError("Finish the incomplete initial export before using --update")
+    updating = update or "update_known_ids" in state
+    if state["complete"] and not updating:
         print(f"Already complete: {len(state['clips'])} songs in {output}", flush=True)
         return
+    if updating:
+        # Keep the original baseline: songs saved before token expiry aren't a stop signal.
+        state.setdefault("update_known_ids", [clip["id"] for clip in state["clips"]])
+        state["complete"] = False
+        state["next_offset"] = 0
+    known = set(state.get("update_known_ids", []))
     save(state, output)
     seen = {clip["id"] for clip in state["clips"]}
+    pages = set()
     while True:
         page = fetch(token, state["next_offset"])
-        if not page:
-            state["complete"] = True
-            save(state, output)
-            print(f"Complete: {len(state['clips'])} songs in {output}", flush=True)
-            return
+        page_ids = tuple(clip["id"] for clip in page)
+        if page_ids in pages:
+            raise ValueError("API repeated a page; stopped without marking the export complete")
+        pages.add(page_ids)
         new = [clip for clip in page if clip["id"] not in seen]
-        if not new:
+        if page and not new and not updating:
             raise ValueError("API repeated a page; stopped without marking the export complete")
         for clip in new:
             if clip["id"] not in seen:
                 state["clips"].append(clip)
                 seen.add(clip["id"])
         state["next_offset"] += len(page)
+        # ponytail: early stop assumes newest-first ordering; full scan if API ordering changes.
+        if not page or (updating and known.intersection(page_ids)):
+            state["complete"] = True
+            state.pop("update_known_ids", None)
         save(state, output)
+        if state["complete"]:
+            print(f"Complete: {len(state['clips'])} songs in {output}", flush=True)
+            return
         print(f"Saved {len(state['clips'])} songs; next offset {state['next_offset']}", flush=True)
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--update", action="store_true", help="Append new songs, stopping at previously saved IDs")
+    args = parser.parse_args()
     token = os.environ.get("FLOW_TOKEN") or getpass.getpass("Flow bearer token: ")
-    # token = "..."
     if not token.strip():
         sys.exit("A bearer token is required")
     try:
-        collect(token.strip())
+        collect(token.strip(), update=args.update)
     except HTTPError as error:
         if error.code in (401, 403):
             sys.exit("Authentication rejected (token may have expired). Progress is saved in songs.json. Supply a fresh token and rerun to resume.")
