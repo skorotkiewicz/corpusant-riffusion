@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My audio library</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f2ea; color: #262923; font: 16px/1.5 system-ui, sans-serif; }
+    main { max-width: 1100px; margin: auto; padding: 40px 20px; }
+    h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -.04em; }
+    header p { margin: 8px 0 28px; color: #5c6256; }
+    ul { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 20px; }
+    li { background: #fffdf8; border: 1px solid #dcded3; border-radius: 12px; overflow: hidden; }
+    img, .no-cover { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; background: #e3e6da; }
+    .no-cover { display: grid; place-items: center; color: #5c6256; }
+    .details { padding: 18px; }
+    h2 { margin: 0 0 16px; font-size: 1.1rem; overflow-wrap: anywhere; }
+    audio { display: block; width: 100%; margin-bottom: 16px; }
+    .formats { display: flex; gap: 10px; }
+    a { display: inline-block; padding: 8px 16px; border: 1px solid #626d50; border-radius: 6px; color: #354329; font-weight: 650; text-decoration: none; }
+    a:hover { background: #edf0e6; }
+    a:focus-visible { outline: 3px solid #a44b24; outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>My audio library</h1>
+      <p>20 tracks · M4A &amp; WAV. Open a format link to play or save the file.</p>
+    </header>
+    <ul>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/042be839-3e42-52b8-901e-0b3d23668c17.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>Iron &amp; Amber</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/70da809a-f3e6-46b2-bd6c-c5bee92d8eaf.m4a" aria-label="Play Iron &amp; Amber"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/70da809a-f3e6-46b2-bd6c-c5bee92d8eaf.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for Iron &amp; Amber">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/70da809a-f3e6-46b2-bd6c-c5bee92d8eaf.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for Iron &amp; Amber">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/c5050b06-d2f9-51f4-bb46-68af6eb0814d.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>Iron &amp; Amber</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/b695177f-363e-4cc4-b638-3e28f124a568.m4a" aria-label="Play Iron &amp; Amber"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/b695177f-363e-4cc4-b638-3e28f124a568.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for Iron &amp; Amber">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/b695177f-363e-4cc4-b638-3e28f124a568.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for Iron &amp; Amber">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/a7f14cfe-ba5e-586d-8bce-268ffd9aba30.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>TINY MENACE</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/ad9bdbf7-a1d4-4af9-970d-c333a885fb38.m4a" aria-label="Play TINY MENACE"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/ad9bdbf7-a1d4-4af9-970d-c333a885fb38.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for TINY MENACE">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/ad9bdbf7-a1d4-4af9-970d-c333a885fb38.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for TINY MENACE">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/7391ab22-e1f0-5b19-90b9-f4740bddbe65.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>TINY MENACE</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/fb62b6ae-99cb-4371-82db-610c5ec46536.m4a" aria-label="Play TINY MENACE"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/fb62b6ae-99cb-4371-82db-610c5ec46536.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for TINY MENACE">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/fb62b6ae-99cb-4371-82db-610c5ec46536.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for TINY MENACE">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/56ee46a9-6c88-5fc9-ac5b-94d432f6bcb4.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>BITE MODE</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/369ea6b6-1bdc-4ff8-b496-76eb2de5897c.m4a" aria-label="Play BITE MODE"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/369ea6b6-1bdc-4ff8-b496-76eb2de5897c.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for BITE MODE">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/369ea6b6-1bdc-4ff8-b496-76eb2de5897c.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for BITE MODE">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/2290ae49-50ba-5e51-b35b-2255e6742d70.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>BITE MODE</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/fcf5b98c-23d4-4c21-ac9d-001cd9a0d15a.m4a" aria-label="Play BITE MODE"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/fcf5b98c-23d4-4c21-ac9d-001cd9a0d15a.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for BITE MODE">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/fcf5b98c-23d4-4c21-ac9d-001cd9a0d15a.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for BITE MODE">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/f221a5a7-e9a6-5faa-a571-418f436a38cc.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>Tiny Chaos</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/110d413b-78e0-43e9-8641-9772fea69bd6.m4a" aria-label="Play Tiny Chaos"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/110d413b-78e0-43e9-8641-9772fea69bd6.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for Tiny Chaos">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/110d413b-78e0-43e9-8641-9772fea69bd6.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for Tiny Chaos">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/30ffb229-47ce-5c55-9feb-ae0517972e01.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>Sugar Glitch Overload</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/5e42dc11-3678-4217-88e2-a1bf1922249c.m4a" aria-label="Play Sugar Glitch Overload"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/5e42dc11-3678-4217-88e2-a1bf1922249c.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for Sugar Glitch Overload">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/5e42dc11-3678-4217-88e2-a1bf1922249c.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for Sugar Glitch Overload">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/5b7af27e-e814-56b4-98e8-455b903c52d8.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>Sugar Glitch Overload</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/18b9eebd-9198-4808-be51-94591892bbe3.m4a" aria-label="Play Sugar Glitch Overload"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/18b9eebd-9198-4808-be51-94591892bbe3.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for Sugar Glitch Overload">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/18b9eebd-9198-4808-be51-94591892bbe3.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for Sugar Glitch Overload">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/c85f9d5f-71e3-55ed-bc2f-b55159ffd0fc.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>Fractal Heartbeat</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/af9a6f13-9b18-4155-bdcf-554dc06fc270.m4a" aria-label="Play Fractal Heartbeat"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/af9a6f13-9b18-4155-bdcf-554dc06fc270.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for Fractal Heartbeat">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/af9a6f13-9b18-4155-bdcf-554dc06fc270.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for Fractal Heartbeat">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/e9e555c3-2a95-5021-b1a4-6fa18fe4089a.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>Fractal Heartbeat</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/1e8908d6-e48f-4edb-8b55-0717e362b91a.m4a" aria-label="Play Fractal Heartbeat"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/1e8908d6-e48f-4edb-8b55-0717e362b91a.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for Fractal Heartbeat">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/1e8908d6-e48f-4edb-8b55-0717e362b91a.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for Fractal Heartbeat">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/9be7cee0-cf3a-5500-927f-dbc5ba8538ef.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>The Cipher Nerd&#x27;s Ballad</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/56b44776-838d-4b78-a1eb-f5b0aaf68f53.m4a" aria-label="Play The Cipher Nerd&#x27;s Ballad"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/56b44776-838d-4b78-a1eb-f5b0aaf68f53.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for The Cipher Nerd&#x27;s Ballad">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/56b44776-838d-4b78-a1eb-f5b0aaf68f53.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for The Cipher Nerd&#x27;s Ballad">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/dc938a49-d490-511e-9df4-e282239d1f09.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>The Web and the Wing</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/5c057e2c-3ee9-44dc-9999-cb6e26ce7e5e.m4a" aria-label="Play The Web and the Wing"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/5c057e2c-3ee9-44dc-9999-cb6e26ce7e5e.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for The Web and the Wing">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/5c057e2c-3ee9-44dc-9999-cb6e26ce7e5e.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for The Web and the Wing">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/6599df42-2c14-5afd-a58f-7c1bbde1802d.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>The Web and the Wing</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/8016f229-a172-4d88-9f9d-defad194a03c.m4a" aria-label="Play The Web and the Wing"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/8016f229-a172-4d88-9f9d-defad194a03c.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for The Web and the Wing">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/8016f229-a172-4d88-9f9d-defad194a03c.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for The Web and the Wing">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <div class="no-cover" aria-hidden="true">No cover</div>
+        <div class="details">
+          <h2>The Memory Server Song</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/1bf4f864-da48-47e0-b74e-f8e594e87260.m4a" aria-label="Play The Memory Server Song"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/1bf4f864-da48-47e0-b74e-f8e594e87260.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for The Memory Server Song">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/1bf4f864-da48-47e0-b74e-f8e594e87260.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for The Memory Server Song">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <div class="no-cover" aria-hidden="true">No cover</div>
+        <div class="details">
+          <h2>The Memory Server Song</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/a71fd4df-c2e2-4a85-8f22-55a296a361cf.m4a" aria-label="Play The Memory Server Song"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/a71fd4df-c2e2-4a85-8f22-55a296a361cf.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for The Memory Server Song">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/a71fd4df-c2e2-4a85-8f22-55a296a361cf.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for The Memory Server Song">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/7e7e6146-55f8-5b11-b71c-c08a35741d3d.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/35e34383-16b9-461f-9456-688571a40742.m4a" aria-label="Play MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/35e34383-16b9-461f-9456-688571a40742.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/35e34383-16b9-461f-9456-688571a40742.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/875302de-52ba-54c1-839f-ac3c204f7690.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/f12c0436-a86a-4da9-b79e-2e519ae02c0e.m4a" aria-label="Play MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/f12c0436-a86a-4da9-b79e-2e519ae02c0e.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/f12c0436-a86a-4da9-b79e-2e519ae02c0e.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/1f7c7f7e-a31c-556f-914f-090763f06fee.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/7534f0e5-14b2-45a3-a926-6499501cbad0.m4a" aria-label="Play MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/7534f0e5-14b2-45a3-a926-6499501cbad0.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/7534f0e5-14b2-45a3-a926-6499501cbad0.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)">WAV</a></div>
+        </div>
+      </li>
+      <li>
+        <img src="https://storage.googleapis.com/producer-app-public/assets/c64e553c-01a2-5d83-9017-a876c72518ac.jpg" alt="" loading="lazy" width="240" height="240">
+        <div class="details">
+          <h2>MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)</h2>
+          <audio controls preload="none" src="https://storage.googleapis.com/producer-app-public/clips/957ff722-2764-46fd-b4b6-58a93bd982a6.m4a" aria-label="Play MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)"></audio>
+          <div class="formats"><a href="https://storage.googleapis.com/producer-app-public/clips/957ff722-2764-46fd-b4b6-58a93bd982a6.m4a" target="_blank" rel="noopener noreferrer" aria-label="M4A for MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)">M4A</a> <a href="https://storage.googleapis.com/producer-app-public/clips/957ff722-2764-46fd-b4b6-58a93bd982a6.wav" target="_blank" rel="noopener noreferrer" aria-label="WAV for MEAT-SUIT OVERRIDE (The Polka-Trap Protocol)">WAV</a></div>
+        </div>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
