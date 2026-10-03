@@ -1,2 +1,4 @@
 __pycache__
-tmp
+data
+downloads
+songs*.json
