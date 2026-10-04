@@ -58,6 +58,7 @@ svg { flex-shrink: 0; }
 ::selection { background: var(--red-pencil); color: var(--sleeve-open); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 .skip-link { position: fixed; z-index: 10; inset-block-start: 8px; inset-inline-start: 8px; padding: 12px 20px; color: var(--sleeve-open); background: var(--red-pencil); transform: translateY(-200%); }
+.skip-link:not(:focus) { clip-path: inset(50%); pointer-events: none; }
 .skip-link:focus { transform: translateY(0); }
 input[type='range'] { --range-fill: 0%; appearance: none; display: block; width: 100%; height: 4px; background: linear-gradient(to right, var(--red-pencil) var(--range-fill), var(--paper-rule-bold) var(--range-fill)); border-radius: 8px; cursor: pointer; }
 input[type='range']::-webkit-slider-thumb { appearance: none; width: 12px; height: 12px; border-radius: 50%; background: var(--red-pencil); }
