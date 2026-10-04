@@ -29,7 +29,7 @@ export function lyricSegments(clip) {
   const valid = timing?.status === 'completed' &&
     timing.value.lyrics_id === lyrics.id && Array.isArray(markers) && markers.length > 0 &&
     markers.every((marker, index) => Array.isArray(marker) && marker.length === 2 &&
-      Number.isInteger(marker[0]) && marker[0] >= 0 && marker[0] < text.length &&
+      Number.isInteger(marker[0]) && marker[0] >= 0 && marker[0] <= text.length &&
       Number.isFinite(marker[1]) && marker[1] >= 0 &&
       (!index || (marker[0] > markers[index - 1][0] && marker[1] >= markers[index - 1][1])))
   if (!valid) return [{ text, time: null }]
@@ -37,7 +37,7 @@ export function lyricSegments(clip) {
     text: text.slice(offset, markers[index + 1]?.[0] ?? text.length), time,
   }))
   if (markers[0][0] > 0) sections.unshift({ text: text.slice(0, markers[0][0]), time: null })
-  return sections
+  return sections.filter((section) => section.text.length > 0)
 }
 
 export function activeLyric(segments, time) {
