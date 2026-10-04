@@ -11,12 +11,13 @@ function dateLabel(value) {
 }
 
 function Cover({ clip, className = '', small = false }) {
-  const [failed, setFailed] = useState(false)
-  useEffect(() => setFailed(false), [clip?.imageUrl])
+  const [failedUrl, setFailedUrl] = useState('')
+  const [loadedUrl, setLoadedUrl] = useState('')
+  const failed = Boolean(clip?.imageUrl && failedUrl === clip.imageUrl)
+  const loaded = Boolean(clip?.imageUrl && loadedUrl === clip.imageUrl)
   return <div class={`cover ${className}`}>
-    {clip?.imageUrl && !failed
-      ? <img src={clip.imageUrl} alt="" loading={small ? 'lazy' : 'eager'} onError={() => setFailed(true)} />
-      : <div class="cover-fallback"><Disc3 size={small ? 24 : 100} strokeWidth={1} />{!small && <span>A sleeve yet to be drawn.</span>}</div>}
+    {(!loaded || failed || !clip?.imageUrl) && <div class="cover-fallback"><Disc3 size={small ? 24 : 100} strokeWidth={1} />{!small && <span>{clip?.imageUrl && !failed ? 'Opening the sleeve…' : 'A sleeve yet to be drawn.'}</span>}</div>}
+    {clip?.imageUrl && !failed && <img src={clip.imageUrl} alt="" loading={small ? 'lazy' : 'eager'} style={{ opacity: loaded ? 1 : 0 }} onLoad={() => setLoadedUrl(clip.imageUrl)} onError={() => setFailedUrl(clip.imageUrl)} />}
   </div>
 }
 
