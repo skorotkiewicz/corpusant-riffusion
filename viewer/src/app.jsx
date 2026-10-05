@@ -3,6 +3,7 @@ import { ArrowDownToLine, ArrowRight, Check, ChevronDown, ChevronLeft, ChevronRi
 import { activeLyric, clock, filterLibrary, lyricSegments, readLibrary } from './library.js'
 import './app.css'
 
+const SONGS_URL = import.meta.env.VITE_SONGS_URL?.trim()
 const PAGE_SIZE = 24
 const dateFormat = new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'short', year: 'numeric' })
 function dateLabel(value) {
@@ -77,7 +78,7 @@ export function App() {
     const controller = new AbortController()
     setLoading(true)
     setLoadError('')
-    fetch(`${import.meta.env.BASE_URL}songs.json`, { signal: controller.signal })
+    fetch(SONGS_URL || `${import.meta.env.BASE_URL}songs.json`, { signal: controller.signal })
       .then((response) => {
         if (!response.ok) throw new Error(`Could not load songs.json (HTTP ${response.status}).`)
         return response.json()
@@ -166,7 +167,7 @@ export function App() {
         <div class="archive-note"><span class="archive-number">{loading ? '…' : clips.length.toLocaleString()}</span><div><span class="eyebrow">PERSONAL PRESSINGS</span><p>Every strange idea. Every good chorus.<br />All here, waiting for another listen.</p><span class="archive-runtime">{Math.floor(totalSeconds / 3600)}h {Math.floor((totalSeconds % 3600) / 60)}m of your music <span>/</span> {timedCount} with timed lyrics</span></div></div>
       </section>
 
-      {loadError ? <section class="library-state" role="alert"><Disc3 size={40} /><h2>The crate didn't open.</h2><p>{loadError}</p><p>Place your full export at <code>viewer/public/songs.json</code>.</p><button class="text-button" onClick={() => setAttempt(attempt + 1)}><RefreshCw size={16} />Try again</button></section>
+      {loadError ? <section class="library-state" role="alert"><Disc3 size={40} /><h2>The crate didn't open.</h2><p>{loadError}</p><p>{SONGS_URL ? 'Check VITE_SONGS_URL and make sure its server allows cross-origin requests.' : <>Place your full export at <code>viewer/public/songs.json</code>.</>}</p><button class="text-button" onClick={() => setAttempt(attempt + 1)}><RefreshCw size={16} />Try again</button></section>
         : loading ? <section class="loading-layout" aria-busy="true" aria-label="Loading your music archive"><div class="loading-caption"><LoaderCircle class="loading-spinner" size={20} />Opening the record crate…</div><div class="loading-columns"><div class="skeleton" /><div class="skeleton" /><div class="skeleton" /></div></section>
           : !clips.length ? <section class="library-state"><Disc3 size={48} strokeWidth={1} /><h2>Your first pressing belongs here.</h2><p>No clips were found in songs.json. Export your songs, then refresh.</p></section>
             : <div class="room-grid">

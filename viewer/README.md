@@ -11,6 +11,14 @@ bun run dev
 
 Open the local URL printed by Vite. After exporting new songs, copy `songs.json` again and refresh the page.
 
+To load a remote export instead, create `viewer/.env`:
+
+```dotenv
+VITE_SONGS_URL="https://example.com/songs.json"
+```
+
+Restart Vite after changing it, or rebuild for production. If unset or empty, the viewer uses its local `songs.json`. The remote server must allow CORS. This URL is public in the browser, so do not put secrets in it.
+
 ```bash
 bun test
 bun run build
