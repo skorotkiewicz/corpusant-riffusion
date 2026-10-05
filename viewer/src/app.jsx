@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks'
-import { ArrowDownToLine, ArrowRight, Check, ChevronDown, ChevronLeft, ChevronRight, Disc3, Heart, ListMusic, LoaderCircle, Music2, Pause, Play, RefreshCw, Search, Shuffle, SkipBack, SkipForward, Volume2, VolumeX, X } from 'lucide-preact'
-import { activeLyric, clock, filterLibrary, lyricSegments, readLibrary } from './library.js'
+import { ArrowDownToLine, ArrowRight, Check, ChevronDown, Copy, ChevronLeft, ChevronRight, Disc3, Heart, ListMusic, LoaderCircle, Music2, Pause, Play, RefreshCw, Search, Shuffle, SkipBack, SkipForward, Volume2, VolumeX, X } from 'lucide-preact'
+import { activeLyric, clock, filterLibrary, linkedSongIndex, lyricSegments, readLibrary, songLink } from './library.js'
 import './app.css'
 
 const SONGS_URL = import.meta.env.VITE_SONGS_URL?.trim()
@@ -64,6 +64,7 @@ export function App() {
   const [sort, setSort] = useState('newest')
   const [page, setPage] = useState(0)
   const [selectedId, setSelectedId] = useState('')
+  const [copiedId, setCopiedId] = useState('')
   const [playing, setPlaying] = useState(false)
   const [time, setTime] = useState(0)
   const [duration, setDuration] = useState(0)
@@ -85,8 +86,11 @@ export function App() {
       })
       .then((data) => {
         const library = readLibrary(data)
+        const ordered = filterLibrary(library, '', 'all', 'newest')
+        const index = linkedSongIndex(ordered, window.location.search)
         setClips(library)
-        setSelectedId(filterLibrary(library, '', 'all', 'newest')[0]?.id ?? '')
+        setSelectedId(ordered[index]?.id ?? '')
+        setPage(Math.floor(index / PAGE_SIZE))
         setLoading(false)
       })
       .catch((error) => {
@@ -107,6 +111,7 @@ export function App() {
   useEffect(() => {
     const element = audio.current
     if (!element || !selected) return
+    window.history.replaceState(window.history.state, '', songLink(selectedId, window.location.href))
     element.pause()
     element.load()
     setTime(0)
@@ -151,6 +156,15 @@ export function App() {
     if (!audio.current || !ready) return
     audio.current.currentTime = Number(value)
     setTime(Number(value))
+  }
+  async function copySongLink() {
+    const url = songLink(selected.id, window.location.href)
+    try {
+      await navigator.clipboard.writeText(url)
+      setCopiedId(selected.id)
+    } catch {
+      window.prompt('Copy this song link:', url)
+    }
   }
 
   return <>
@@ -198,7 +212,7 @@ export function App() {
                   <h2 id="pressing-title">{selected.title}</h2>
                   <div class="sleeve-actions"><button class="pressing-play" disabled={!selected.audioUrl} onClick={() => playing ? audio.current.pause() : startPlayback()}>{playing ? <Pause size={18} fill="currentColor" /> : <Play size={18} fill="currentColor" />}<span>{playing ? 'Pause this pressing' : 'Play this pressing'}</span></button>{selected.is_favorite && <span class="favorite-stamp" title="Favorite in your Flow export"><Heart size={16} fill="currentColor" /><span class="sr-only">Favorite in your Flow export</span></span>}</div>
                   {audioError && <p class="audio-error" role="alert">{audioError}</p>}
-                  <div class="file-links"><span class="eyebrow">KEEP A COPY</span>{selected.audioUrl && <a href={selected.audioUrl} target="_blank" rel="noopener noreferrer"><ArrowDownToLine size={14} />M4A</a>}{selected.wavUrl && <a href={selected.wavUrl} target="_blank" rel="noopener noreferrer"><ArrowDownToLine size={14} />WAV</a>}</div>
+                  <div class="file-links"><span class="eyebrow">KEEP A COPY</span><button type="button" aria-label="Copy song link" title={copiedId === selected.id ? 'Song link copied' : 'Copy song link'} onClick={copySongLink}>{copiedId === selected.id ? <Check size={14} /> : <Copy size={14} />}</button>{selected.audioUrl && <a href={selected.audioUrl} target="_blank" rel="noopener noreferrer"><ArrowDownToLine size={14} />M4A</a>}{selected.wavUrl && <a href={selected.wavUrl} target="_blank" rel="noopener noreferrer"><ArrowDownToLine size={14} />WAV</a>}<span class="sr-only" role="status">{copiedId === selected.id ? 'Song link copied.' : ''}</span></div>
                   <details class="generation-notes" key={`notes-${selected.id}`}><summary><span><span class="eyebrow">BEHIND THE SOUND</span><strong>Generation notes</strong></span><ChevronDown size={18} /></summary><p>{selected.prompt || 'No sound prompt included in this export.'}</p><dl><div><dt>Created</dt><dd>{dateLabel(selected.created_at)}</dd></div><div><dt>Operation</dt><dd>{selected.operation?.op_type || selected.op_type || 'Not provided'}</dd></div><div><dt>Plays in export</dt><dd>{selected.play_count ?? 'Not provided'}</dd></div><div><dt>Public use</dt><dd>{typeof selected.allow_public_use === 'boolean' ? selected.allow_public_use ? 'Allowed' : 'Not allowed' : 'Not specified'}</dd></div><div><dt>Clip ID</dt><dd>{selected.id}</dd></div></dl></details>
                   <details class="raw-data" key={`raw-${selected.id}`}><summary>All exported metadata<ArrowRight size={14} /></summary><pre>{JSON.stringify(selected.raw, null, 2)}</pre></details>
                 </section>

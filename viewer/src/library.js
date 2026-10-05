@@ -1,3 +1,15 @@
+export function linkedSongIndex(clips, search) {
+  const id = new URLSearchParams(search).get('id')
+  return Math.max(0, clips.findIndex((clip) => clip.id === id))
+}
+
+export function songLink(id, href) {
+  const url = new URL(href)
+  url.searchParams.set('id', id)
+  url.hash = ''
+  return url.href
+}
+
 export function mediaUrl(value) {
   if (typeof value !== 'string') return ''
   try {

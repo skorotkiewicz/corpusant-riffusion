@@ -11,6 +11,8 @@ bun run dev
 
 Open the local URL printed by Vite. After exporting new songs, copy `songs.json` again and refresh the page.
 
+Open `?id=<song-id>` to select a pressing without autoplay, or use the copy-link button beside M4A/WAV to share it.
+
 To load a remote export instead, create `viewer/.env`:
 
 ```dotenv

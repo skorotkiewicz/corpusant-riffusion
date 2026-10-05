@@ -92,10 +92,10 @@ h1 em { color: var(--red-pencil); font-weight: 440; }
 .pressing-play { display: flex; align-items: center; gap: var(--space-3); background: var(--red-pencil); color: var(--sleeve-open); min-height: 48px; padding: var(--space-3) var(--space-5); border-radius: 4px; font-size: 11px; font-weight: 650; }
 .pressing-play:hover:not(:disabled) { background: var(--red-pencil-hover); }
 .favorite-stamp { display: grid; place-items: center; width: 40px; color: var(--red-pencil); }
-.file-links { display: flex; align-items: center; gap: var(--space-3); margin-block-end: var(--space-5); }
+.file-links { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3); margin-block-end: var(--space-5); }
 .file-links > .eyebrow { margin-inline-end: auto; }
-.file-links a { display: flex; align-items: center; gap: var(--space-1); min-height: 44px; padding: var(--space-2); text-decoration: none; font: 10px var(--catalog-type); border-radius: 3px; }
-.file-links a:hover { background: var(--sleeve-inset); color: var(--red-pencil); }
+.file-links a, .file-links button { display: flex; align-items: center; justify-content: center; gap: var(--space-1); min-width: 44px; min-height: 44px; padding: var(--space-2); background: transparent; text-decoration: none; font: 10px var(--catalog-type); border-radius: 3px; }
+.file-links a:hover, .file-links button:hover { background: var(--sleeve-inset); color: var(--red-pencil); }
 .generation-notes { background: var(--sleeve-paper); border-radius: 4px; padding: var(--space-4); }
 .generation-notes summary { display: flex; align-items: center; justify-content: space-between; min-height: 44px; gap: var(--space-3); }
 .generation-notes summary > span { display: flex; flex-direction: column; gap: var(--space-1); }

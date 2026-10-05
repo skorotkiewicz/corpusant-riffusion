@@ -1,6 +1,6 @@
 import { test } from 'bun:test'
 import assert from 'node:assert/strict'
-import { activeLyric, clock, filterLibrary, lyricSegments, mediaUrl, readLibrary } from './library.js'
+import { activeLyric, clock, filterLibrary, linkedSongIndex, lyricSegments, mediaUrl, readLibrary, songLink } from './library.js'
 
 test('real export, search, sorting, and honest lyric timing', async () => {
   const text = '[Verse]\nHi 🌑 world.\n\n[Chorus]\nSing.'
@@ -32,6 +32,16 @@ test('real export, search, sorting, and honest lyric timing', async () => {
   assert.equal(filterLibrary(library, 'missing', 'all', 'newest').length, 0)
   assert.throws(() => readLibrary({ clips: [clip, clip] }))
   assert.throws(() => readLibrary({}))
+
+  const ordered = filterLibrary(library, '', 'all', 'newest')
+  assert.equal(linkedSongIndex(ordered, '?id=one'), 1)
+  assert.equal(linkedSongIndex(ordered, '?id=missing'), 0)
+  assert.equal(linkedSongIndex(ordered, ''), 0)
+  assert.equal(linkedSongIndex([], '?id=one'), 0)
+  assert.equal(songLink('one', 'https://example.com/?id=old#collection'), 'https://example.com/?id=one')
+  const link = songLink('a + b/&', 'https://owner.github.io/music/?id=old#collection')
+  assert.equal(link, 'https://owner.github.io/music/?id=a+%2B+b%2F%26')
+  assert.equal(linkedSongIndex([{ id: 'other' }, { id: 'a + b/&' }], new URL(link).search), 1)
 
   const exported = await Bun.file(new URL('../public/songs.json', import.meta.url)).json()
   const records = readLibrary(exported)
