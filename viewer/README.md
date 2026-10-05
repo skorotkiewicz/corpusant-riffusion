@@ -27,4 +27,15 @@ bun run preview
 
 Untimed songs show plain lyrics. Favorites come from the export. M4A/WAV links open the original files.
 
-Privacy: the entire `public/songs.json` export is served to visitors. A track's private/unlisted label is metadata, not access control. Keep this viewer local or protect it before hosting.
+## GitHub Pages
+
+1. Push this repository to GitHub.
+2. In Settings → Pages, select **GitHub Actions** as the source.
+3. For a remote export, add repository variable `VITE_SONGS_URL` under Settings → Secrets and variables → Actions → Variables. Its server must allow CORS.
+4. Push to `main` or run **Deploy viewer to GitHub Pages** manually in Actions.
+
+The workflow builds `viewer/` with Bun and sets the correct Pages base path, including custom domains. Environment URLs are embedded at build time; rerun the workflow after changing the variable.
+
+Song exports are ignored by Git. If using the local fallback instead of a remote URL, you must intentionally track `viewer/public/songs.json` for it to be deployed.
+
+Privacy: GitHub Pages publishes the viewer and any bundled export. A track's private/unlisted label is metadata, not access control. Never publish an export you want to keep private.
