@@ -2,7 +2,7 @@ name: Deploy viewer to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [viewer]
   workflow_dispatch:
 
 permissions:
