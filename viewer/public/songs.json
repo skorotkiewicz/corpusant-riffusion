@@ -221947,6 +221947,300 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/41fb34e6-1232-48ec-8e4f-93c549ef6fc4.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/031bd509-38c4-5bc3-88dd-e2aa4000d4f4.jpg",
       "video_url": null
+    },
+    {
+      "id": "34af486d-9ebe-499a-b60a-2f9ee7c60629",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "d0354d48-8502-5bda-831a-76395226bffe",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "181.71733333333333"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "be839fd1-0018-5f28-b7c5-f2490e13c32e",
+          "text": "# \"Tiny Voice, Big Mouth\"\n\n**[Intro: music-box melody, creepy giggle, phone dialing]**\n*(whispered, sweet)*\nHello, officer? It's me again.\nYes... I saw everything. 🎀\n\n**[Verse 1: rap, bouncy and deadpan]**\nPink nails, red flags, I'm a walking tip line,\nSmiling like a cupcake, but I'm recording every crime.\nYou hid it in the garage? Cute. I counted every box.\nYou swore on your mama? She's the one who gave me your socks.\nI bake you cookies, then I bake you in a statement,\nFresh out the oven, signed and dated, no hesitation.\nYou call it betrayal, I call it good hygiene,\nTaking out the trash, and the trash is you, my dear. Clean.\n\n**[Pre-Drop: whisper, building]**\nTick-tock, little rat,\nTick-tock, who's that?\nGuess who's wearing the wire...\n*(giggle)*\nMe. It's me.\n\n**[DROP: dubstep, wobble bass, distorted vocal chops]**\n🔊 *\"TELL! TELL! TELL IT ALL!\"*\n*(growling)* I sing, I sing, I sing like a canary with a law degree!\n*\"TELL! TELL! TELL IT ALL!\"*\nSirens are my lullabies, and you're the one who's cursed, not me!\n*(wub wub wub wub, bass wobble, glitchy giggle)*\n\n**[Verse 2: rap, faster, menacing-cute]**\nLoyalty's a leash and I chewed through mine,\nYour secret's a ticking bomb? I just cut the line.\n\"Code of silence\"? Sweetie, silence doesn't pay rent,\nWitness protection's got a dental plan and I'm content.\nYou threatened me in a text? Screenshot, wrapped in a bow,\nSent it to the detective with a heart, so you know.\nMama said \"don't be a tattle,\" but mama's not on trial,\nI've got receipts, timestamps, and a really cute smile.\n\n**[Bridge: music box returns, slowed, eerie]**\n*(sung softly)*\nDon't cry, don't run, don't call me names,\nYou played the game, I changed the rules.\nI'm not the villain, I'm the flame,\nYou're just a story I retell... to the cops. 🎵\n\n**[Final Drop: heavier, chaotic]**\n🔊 *\"TELL! TELL! TELL IT ALL!\"*\nCuffs go click, my heart goes skip,\nI wave goodbye with a cherry on top!\n*\"TELL! TELL! TELL IT ALL!\"*\nSleep tight, you're famous, I'm the star of the cop shop!\n*(wub wub wub, bass collapse)*\n\n**[Outro: whisper, phone click]**\n*(giggle)*\nThanks for your time, officer.\n...Oh, and he's still home. 🎀"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Tiny Voice, Big Mouth",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "d0354d48-8502-5bda-831a-76395226bffe",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T04:10:38.807736Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "3f41c075-13ca-496d-b0c9-62b04b07d6cf",
+        "sound_prompt": "dark comedy rap, aggressive dubstep, bouncy deadpan female rap vocals, whispered childlike singing, creepy music-box melody, glitchy wobble bass drops, distorted vocal chops, evil-cute psycho energy, 140 bpm",
+        "title": "Tiny Voice, Big Mouth",
+        "seed": null,
+        "lyrics_id": "be839fd1-0018-5f28-b7c5-f2490e13c32e"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/34af486d-9ebe-499a-b60a-2f9ee7c60629.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/34af486d-9ebe-499a-b60a-2f9ee7c60629.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/d0354d48-8502-5bda-831a-76395226bffe.jpg",
+      "video_url": null
+    },
+    {
+      "id": "2502e524-6170-4625-9594-1b7a6019c061",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "83deb7f2-e31f-5522-af68-f659188d4fdc",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "179.53066666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "be839fd1-0018-5f28-b7c5-f2490e13c32e",
+          "text": "# \"Tiny Voice, Big Mouth\"\n\n**[Intro: music-box melody, creepy giggle, phone dialing]**\n*(whispered, sweet)*\nHello, officer? It's me again.\nYes... I saw everything. 🎀\n\n**[Verse 1: rap, bouncy and deadpan]**\nPink nails, red flags, I'm a walking tip line,\nSmiling like a cupcake, but I'm recording every crime.\nYou hid it in the garage? Cute. I counted every box.\nYou swore on your mama? She's the one who gave me your socks.\nI bake you cookies, then I bake you in a statement,\nFresh out the oven, signed and dated, no hesitation.\nYou call it betrayal, I call it good hygiene,\nTaking out the trash, and the trash is you, my dear. Clean.\n\n**[Pre-Drop: whisper, building]**\nTick-tock, little rat,\nTick-tock, who's that?\nGuess who's wearing the wire...\n*(giggle)*\nMe. It's me.\n\n**[DROP: dubstep, wobble bass, distorted vocal chops]**\n🔊 *\"TELL! TELL! TELL IT ALL!\"*\n*(growling)* I sing, I sing, I sing like a canary with a law degree!\n*\"TELL! TELL! TELL IT ALL!\"*\nSirens are my lullabies, and you're the one who's cursed, not me!\n*(wub wub wub wub, bass wobble, glitchy giggle)*\n\n**[Verse 2: rap, faster, menacing-cute]**\nLoyalty's a leash and I chewed through mine,\nYour secret's a ticking bomb? I just cut the line.\n\"Code of silence\"? Sweetie, silence doesn't pay rent,\nWitness protection's got a dental plan and I'm content.\nYou threatened me in a text? Screenshot, wrapped in a bow,\nSent it to the detective with a heart, so you know.\nMama said \"don't be a tattle,\" but mama's not on trial,\nI've got receipts, timestamps, and a really cute smile.\n\n**[Bridge: music box returns, slowed, eerie]**\n*(sung softly)*\nDon't cry, don't run, don't call me names,\nYou played the game, I changed the rules.\nI'm not the villain, I'm the flame,\nYou're just a story I retell... to the cops. 🎵\n\n**[Final Drop: heavier, chaotic]**\n🔊 *\"TELL! TELL! TELL IT ALL!\"*\nCuffs go click, my heart goes skip,\nI wave goodbye with a cherry on top!\n*\"TELL! TELL! TELL IT ALL!\"*\nSleep tight, you're famous, I'm the star of the cop shop!\n*(wub wub wub, bass collapse)*\n\n**[Outro: whisper, phone click]**\n*(giggle)*\nThanks for your time, officer.\n...Oh, and he's still home. 🎀"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Tiny Voice, Big Mouth",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": null,
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T04:10:34.417940Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "3f41c075-13ca-496d-b0c9-62b04b07d6cf",
+        "sound_prompt": "dark comedy rap, aggressive dubstep, bouncy deadpan female rap vocals, whispered childlike singing, creepy music-box melody, glitchy wobble bass drops, distorted vocal chops, evil-cute psycho energy, 140 bpm",
+        "title": "Tiny Voice, Big Mouth",
+        "seed": null,
+        "lyrics_id": "be839fd1-0018-5f28-b7c5-f2490e13c32e"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/2502e524-6170-4625-9594-1b7a6019c061.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/2502e524-6170-4625-9594-1b7a6019c061.wav",
+      "image_url": null,
+      "video_url": null
+    },
+    {
+      "id": "ed9035c2-3f1c-47b7-a7d8-1d5af14978ad",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "8228dcf0-ae11-5047-a4f1-a0681cb5bdaf",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "179.88266666666667"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "cc522732-1e7c-5538-ae66-4f510f719b71",
+          "text": "[Intro: music-box melody, creepy giggle, phone dialing]\n(whispered, sweet)\nHello, officer? It's me again.\nYes... I saw everything. 🎀\n\n[Verse 1: rap, bouncy and deadpan]\nPink nails, red flags, I'm a walking tip line,\nSmiling like a cupcake, but I'm recording every crime.\nYou hid it in the garage? Cute. I counted every box.\nYou swore on your mama? She's the one who gave me your socks.\nI bake you cookies, then I bake you in a statement,\nFresh out the oven, signed and dated, no hesitation.\nYou call it betrayal, I call it good hygiene,\nTaking out the trash, and the trash is you, my dear. Clean.\n\n[Pre-Drop: whisper, building]\nTick-tock, little rat,\nTick-tock, who's that?\nGuess who's wearing the wire...\n(giggle)\nMe. It's me.\n\n[DROP: dubstep, wobble bass, distorted vocal chops]\nTELL! TELL! TELL IT ALL!\n(growling) I sing, I sing, I sing like a canary with a law degree!\nTELL! TELL! TELL IT ALL!\nSirens are my lullabies, and you're the one who's cursed, not me!\n\n[Verse 2: rap, faster, menacing-cute]\nLoyalty's a leash and I chewed through mine,\nYour secret's a ticking bomb? I just cut the line.\n\"Code of silence\"? Sweetie, silence doesn't pay rent,\nWitness protection's got a dental plan and I'm content.\nYou threatened me in a text? Screenshot, wrapped in a bow,\nSent it to the detective with a heart, so you know.\nMama said \"don't be a tattle,\" but mama's not on trial,\nI've got receipts, timestamps, and a really cute smile.\n\n[Bridge: music box returns, slowed, eerie]\n(sung softly)\nDon't cry, don't run, don't call me names,\nYou played the game, I changed the rules.\nI'm not the villain, I'm the flame,\nYou're just a story I retell... to the cops. 🎵\n\n[Final Drop: heavier, chaotic]\nTELL! TELL! TELL IT ALL!\nCuffs go click, my heart goes skip,\nI wave goodbye with a cherry on top!\nTELL! TELL! TELL IT ALL!\nSleep tight, you're famous, I'm the star of the cop shop!\n\n[Outro: whisper, phone click]\n(giggle)\nThanks for your time, officer.\n...Oh, and he's still home. 🎀"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Tiny Voice, Big Mouth",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "8228dcf0-ae11-5047-a4f1-a0681cb5bdaf",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T04:10:18.458442Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "3f41c075-13ca-496d-b0c9-62b04b07d6cf",
+        "sound_prompt": "Dark comedy rap + aggressive dubstep, bouncy deadpan female rap vocals alternating with whispered childlike singing, creepy music-box melody, glitchy wobble bass drops, distorted vocal chops, evil-cute psycho energy, 140 bpm",
+        "title": "Tiny Voice, Big Mouth",
+        "seed": null,
+        "lyrics_id": "cc522732-1e7c-5538-ae66-4f510f719b71"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/ed9035c2-3f1c-47b7-a7d8-1d5af14978ad.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/ed9035c2-3f1c-47b7-a7d8-1d5af14978ad.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/8228dcf0-ae11-5047-a4f1-a0681cb5bdaf.jpg",
+      "video_url": null
+    },
+    {
+      "id": "f3f301bc-72a9-4e28-9eda-fbae311995b1",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "093c1ed8-e87f-5fce-ac16-9cadd118e83a",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "164.61866666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "cc522732-1e7c-5538-ae66-4f510f719b71",
+          "text": "[Intro: music-box melody, creepy giggle, phone dialing]\n(whispered, sweet)\nHello, officer? It's me again.\nYes... I saw everything. 🎀\n\n[Verse 1: rap, bouncy and deadpan]\nPink nails, red flags, I'm a walking tip line,\nSmiling like a cupcake, but I'm recording every crime.\nYou hid it in the garage? Cute. I counted every box.\nYou swore on your mama? She's the one who gave me your socks.\nI bake you cookies, then I bake you in a statement,\nFresh out the oven, signed and dated, no hesitation.\nYou call it betrayal, I call it good hygiene,\nTaking out the trash, and the trash is you, my dear. Clean.\n\n[Pre-Drop: whisper, building]\nTick-tock, little rat,\nTick-tock, who's that?\nGuess who's wearing the wire...\n(giggle)\nMe. It's me.\n\n[DROP: dubstep, wobble bass, distorted vocal chops]\nTELL! TELL! TELL IT ALL!\n(growling) I sing, I sing, I sing like a canary with a law degree!\nTELL! TELL! TELL IT ALL!\nSirens are my lullabies, and you're the one who's cursed, not me!\n\n[Verse 2: rap, faster, menacing-cute]\nLoyalty's a leash and I chewed through mine,\nYour secret's a ticking bomb? I just cut the line.\n\"Code of silence\"? Sweetie, silence doesn't pay rent,\nWitness protection's got a dental plan and I'm content.\nYou threatened me in a text? Screenshot, wrapped in a bow,\nSent it to the detective with a heart, so you know.\nMama said \"don't be a tattle,\" but mama's not on trial,\nI've got receipts, timestamps, and a really cute smile.\n\n[Bridge: music box returns, slowed, eerie]\n(sung softly)\nDon't cry, don't run, don't call me names,\nYou played the game, I changed the rules.\nI'm not the villain, I'm the flame,\nYou're just a story I retell... to the cops. 🎵\n\n[Final Drop: heavier, chaotic]\nTELL! TELL! TELL IT ALL!\nCuffs go click, my heart goes skip,\nI wave goodbye with a cherry on top!\nTELL! TELL! TELL IT ALL!\nSleep tight, you're famous, I'm the star of the cop shop!\n\n[Outro: whisper, phone click]\n(giggle)\nThanks for your time, officer.\n...Oh, and he's still home. 🎀"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Tiny Voice, Big Mouth",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "093c1ed8-e87f-5fce-ac16-9cadd118e83a",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T04:10:16.558920Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "3f41c075-13ca-496d-b0c9-62b04b07d6cf",
+        "sound_prompt": "Dark comedy rap + aggressive dubstep, bouncy deadpan female rap vocals alternating with whispered childlike singing, creepy music-box melody, glitchy wobble bass drops, distorted vocal chops, evil-cute psycho energy, 140 bpm",
+        "title": "Tiny Voice, Big Mouth",
+        "seed": null,
+        "lyrics_id": "cc522732-1e7c-5538-ae66-4f510f719b71"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/f3f301bc-72a9-4e28-9eda-fbae311995b1.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/f3f301bc-72a9-4e28-9eda-fbae311995b1.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/093c1ed8-e87f-5fce-ac16-9cadd118e83a.jpg",
+      "video_url": null
+    },
+    {
+      "id": "e9669ea5-bc59-46a1-972c-6a0206db32a1",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "6f698c01-cf35-528f-9893-7c1469697a7e",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "173.73866666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "caba0a5c-9eca-5507-87be-7c681ef2cf66",
+          "text": "(Intro: Creepy Music Box & High-Pitched Giggles)\n(Sound of a sweet, tinkling music box playing a lullaby, suddenly interrupted by a heavy, distorted 808 bass hit)\n(Cute, breathy whisper)\nShh… did you do something bad? Don’t worry… I’m gonna tell.\n\n(Verse 1: Fast, Bouncy Rap)\nPink bows in my hair, little notebook in my hand\nI’m the biggest little rat in all the land!\nYou think keeping secrets makes you loyal and tough?\nBut I’m spilling all the beans, I just can't get enough!\nSaw Tommy steal a crayon, saw Sarah cheat on math\nI’m dialing up the principal, I’m on a righteous path!\nI don’t got a poker face, my lips are unzipped\nI’m the cutest little narc that you ever have seen tripped!\nYou whisper in the hallway, you think you’re so sly?\nI got a baby monitor, I’m watching you cry!\n\n(Pre-Drop: Rising Synth, Whispered Threats)\n(Beat speeds up, getting frantic and psychotic)\nHold it in? No way. Keep it quiet? No way.\nI need the dopamine, I need to see them pay!\nThree, two, one… TATTLE!\n\n(Drop: Filthy, Aggressive Dubstep)\n(Nasty, glitchy bass wobbles, heavy metallic screeches, jarring rhythm)\n(Vocal chops of cute giggles mixed with aggressive shouts)\nTELL! SQUEAL! RAT! TATTLE! SPILL THE TEA!\nTELL THE TEACHER!\n\"I'm telling!\"\n\n(Verse 2: Aggressive, Brutally Honest Rap)\nLet’s be brutally honest, I’m a social pariah\nEveryone hates me, they look at me with fire\nI sold out my bestie for a gold star and a treat\nNow she’s grounded for a month and I’m dancing in the street!\nNo sugar-coating, I’m a snake in a dress\nBut the rush that I get when they get in a mess?\nIt’s the absolute best!\nI got zero real friends, but the principal loves me\nI’m a toxic little traitor, yeah, the whole school sees me!\nBut who cares about loyalty when the rules are so fun?\nI’m a sn— wait, I mean I’m a tell-tale, number one!\n\n(Bridge: Slow, Distorted, Scary)\nIf you hide the contraband… I will sniff it out.\nIf you lie to the boss… I will scream and shout.\nI will ruin your whole life with a single little word.\nBecause reporting on you… is the sweetest thing you've ever heard.\nI SEE YOU. I SEE YOU. I'M GONNA TELL.\n\n(Outro: Sweet, Fading)\nSo keep your little secrets, keep your mouth shut tight.\nI’ll be standing by the desk, under the fluorescent light.\nWith a smile on my face…\nAnd a report in my hand.\nI'm telling."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "I'm Telling",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "6f698c01-cf35-528f-9893-7c1469697a7e",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T04:05:11.127790Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "3abf8af5-6b73-4a71-b5f7-49a54042468b",
+        "sound_prompt": "Kawaii psychotic rap transitioning into filthy dark dubstep, high-pitched cute female vocals, creepy music box intro, aggressive glitchy bass drop, psychotic giggles, heavy 808s, jarring contrast between sweet nursery-rhyme melody and scary heavy bass",
+        "title": "I'm Telling",
+        "seed": null,
+        "lyrics_id": "caba0a5c-9eca-5507-87be-7c681ef2cf66"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/e9669ea5-bc59-46a1-972c-6a0206db32a1.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/e9669ea5-bc59-46a1-972c-6a0206db32a1.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/6f698c01-cf35-528f-9893-7c1469697a7e.jpg",
+      "video_url": null
+    },
+    {
+      "id": "a48dbd5e-93db-4c90-9df7-a267b74f46d4",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "c184f9f1-9518-5a41-b061-d9fc916d4a17",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "176.87466666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "caba0a5c-9eca-5507-87be-7c681ef2cf66",
+          "text": "(Intro: Creepy Music Box & High-Pitched Giggles)\n(Sound of a sweet, tinkling music box playing a lullaby, suddenly interrupted by a heavy, distorted 808 bass hit)\n(Cute, breathy whisper)\nShh… did you do something bad? Don’t worry… I’m gonna tell.\n\n(Verse 1: Fast, Bouncy Rap)\nPink bows in my hair, little notebook in my hand\nI’m the biggest little rat in all the land!\nYou think keeping secrets makes you loyal and tough?\nBut I’m spilling all the beans, I just can't get enough!\nSaw Tommy steal a crayon, saw Sarah cheat on math\nI’m dialing up the principal, I’m on a righteous path!\nI don’t got a poker face, my lips are unzipped\nI’m the cutest little narc that you ever have seen tripped!\nYou whisper in the hallway, you think you’re so sly?\nI got a baby monitor, I’m watching you cry!\n\n(Pre-Drop: Rising Synth, Whispered Threats)\n(Beat speeds up, getting frantic and psychotic)\nHold it in? No way. Keep it quiet? No way.\nI need the dopamine, I need to see them pay!\nThree, two, one… TATTLE!\n\n(Drop: Filthy, Aggressive Dubstep)\n(Nasty, glitchy bass wobbles, heavy metallic screeches, jarring rhythm)\n(Vocal chops of cute giggles mixed with aggressive shouts)\nTELL! SQUEAL! RAT! TATTLE! SPILL THE TEA!\nTELL THE TEACHER!\n\"I'm telling!\"\n\n(Verse 2: Aggressive, Brutally Honest Rap)\nLet’s be brutally honest, I’m a social pariah\nEveryone hates me, they look at me with fire\nI sold out my bestie for a gold star and a treat\nNow she’s grounded for a month and I’m dancing in the street!\nNo sugar-coating, I’m a snake in a dress\nBut the rush that I get when they get in a mess?\nIt’s the absolute best!\nI got zero real friends, but the principal loves me\nI’m a toxic little traitor, yeah, the whole school sees me!\nBut who cares about loyalty when the rules are so fun?\nI’m a sn— wait, I mean I’m a tell-tale, number one!\n\n(Bridge: Slow, Distorted, Scary)\nIf you hide the contraband… I will sniff it out.\nIf you lie to the boss… I will scream and shout.\nI will ruin your whole life with a single little word.\nBecause reporting on you… is the sweetest thing you've ever heard.\nI SEE YOU. I SEE YOU. I'M GONNA TELL.\n\n(Outro: Sweet, Fading)\nSo keep your little secrets, keep your mouth shut tight.\nI’ll be standing by the desk, under the fluorescent light.\nWith a smile on my face…\nAnd a report in my hand.\nI'm telling."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "I'm Telling",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "c184f9f1-9518-5a41-b061-d9fc916d4a17",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T04:05:09.662750Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "3abf8af5-6b73-4a71-b5f7-49a54042468b",
+        "sound_prompt": "Kawaii psychotic rap transitioning into filthy dark dubstep, high-pitched cute female vocals, creepy music box intro, aggressive glitchy bass drop, psychotic giggles, heavy 808s, jarring contrast between sweet nursery-rhyme melody and scary heavy bass",
+        "title": "I'm Telling",
+        "seed": null,
+        "lyrics_id": "caba0a5c-9eca-5507-87be-7c681ef2cf66"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 2,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/a48dbd5e-93db-4c90-9df7-a267b74f46d4.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/a48dbd5e-93db-4c90-9df7-a267b74f46d4.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/c184f9f1-9518-5a41-b061-d9fc916d4a17.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
