@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Fetch Flow generations; use --update to append new songs to songs.json."""
 import argparse
+import base64
 import getpass
 import json
 import os
@@ -14,10 +15,31 @@ OUTPUT = Path("songs.json")
 LIMIT = 100
 
 
+def auth_cookie(token):
+    parts = token.split(".")
+    if len(parts) != 3 or not all(parts) or not token.startswith("eyJ"):
+        raise ValueError("Supply only the JWT starting with eyJ")
+    try:
+        claims = json.loads(base64.urlsafe_b64decode(parts[1] + "=" * (-len(parts[1]) % 4)))
+        expiry = claims["exp"]
+        if type(expiry) is not int:
+            raise ValueError("Invalid JWT expiry")
+    except (ValueError, KeyError, TypeError) as error:
+        raise ValueError("Invalid JWT: expected an exp claim") from error
+    # Flow's proxy reads a Supabase session cookie; JWT verification stays on the server.
+    session = {"access_token": token, "refresh_token": "", "expires_at": expiry}
+    value = "base64-" + base64.urlsafe_b64encode(json.dumps(session, separators=(",", ":")).encode()).decode().rstrip("=")
+    name = "sb-sb-auth-token"
+    if len(value) <= 3180:
+        return name + "=" + value
+    return "; ".join(f"{name}.{i // 3180}={value[i:i + 3180]}" for i in range(0, len(value), 3180))
+
+
 def fetch_page(token, offset):
     query = urlencode({"limit": LIMIT, "offset": offset, "filter": "generations", "include_disliked": "false"})
     request = Request("https://www.flowmusic.app/__api/clips/auth-user?" + query, headers={
         "Authorization": "Bearer " + token,
+        "Cookie": auth_cookie(token),
         "Accept": "application/json",
         "User-Agent": "Mozilla/5.0",
         "Referer": "https://www.flowmusic.app/library/my-songs",
@@ -82,14 +104,14 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--update", action="store_true", help="Append new songs, stopping at previously saved IDs")
     args = parser.parse_args()
-    token = os.environ.get("FLOW_TOKEN") or getpass.getpass("Flow bearer token: ")
+    token = os.environ.get("FLOW_TOKEN") or getpass.getpass("Flow token: ")
     if not token.strip():
         sys.exit("A bearer token is required")
     try:
         collect(token.strip(), update=args.update)
     except HTTPError as error:
         if error.code in (401, 403):
-            sys.exit("Authentication rejected (token may have expired). Progress is saved in songs.json. Supply a fresh token and rerun to resume.")
+            sys.exit(f"HTTP {error.code}: authentication rejected. Progress is saved in songs.json; rerun to resume.")
         sys.exit(f"HTTP {error.code}. Progress is saved; rerun to resume.")
     except (OSError, ValueError) as error:
         sys.exit(f"{error}. Progress is saved; rerun to resume.")
