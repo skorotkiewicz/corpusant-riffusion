@@ -221604,6 +221604,349 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/73612f0f-ecd3-4b1d-ac3c-3bd498d8758c.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/77722d9b-1461-5653-9301-9ba002afc97e.jpg",
       "video_url": null
+    },
+    {
+      "id": "87f2cbbe-060a-47ae-aab0-909a7e0fd932",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "48537cc3-533a-5ffe-a2bd-849f928c3b2e",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "165.90933333333334"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "adcc9a16-301f-567f-aa9b-065d473d32e5",
+          "text": "[Intro: whispered, music-box melody, then glitchy static]\nTick-tock... tick-tock...\nSomebody did a naughty thing...\nand a tiny little mouth knows everything. 🐭\n\n[Verse 1: Rap, bouncy and fast]\nYo, I'm small like a hamster, but my eyes see ALL,\nCookie jar bandit? I saw you, y'all.\nYou thought nobody watched you in the dark?\nI got a notebook, a flashlight, and a bark!\nTeacher's pet? Nah, I'm the truth's pet,\nTell the grown-ups, place your bet,\nYou tiptoe left, I tiptoe right,\nSpilled your secret by lunchtime. Goodnight!\n\n[Pre-Chorus: Cute voice, creepy slowdown]\nLa la la, I'm just a baby bunny,\nBig blue eyes and a voice so sunny...\nBut if you break the rules today,\nI'll know. I'll tell. Hip hip hooray.\n\n[Drop: Dubstep wobble 🔊 WUB WUB WUB]\n\n[Chorus: Chanted, huge]\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nTell the truth, don't be shy!\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nLiars, hide! Here comes the guy!\nCute little cape and a megaphone,\nBad deeds can't hide, there's nowhere to go!\nSPILL IT, SPILL IT, SWEETIE!\nTell the truth, be a hero! 🦸\n\n[Verse 2: Rap, deep scary voice]\nMidnight hallway, creaky floor,\nWho's that shadow at the door?\nIt's me, with a clipboard, glowing eyes,\nTiny teeth and a big surprise.\nYou pranked the cat and blamed the fish?\nI recorded it, now make a wish.\nYour crimes are loud, my whisper's louder,\nI'm a cuddly little truth-powder!\nBoo! (Aww!) Boo! (Aww!)\nScary AND adorable, what a flaw!\n\n[Bridge: Music box + glitch + giggles]\nHee hee hee...\nFibbing is a trap, and I hold the key,\nTelling on trouble? That's heroism, see!\nHall monitor? Nope, I'm a legend,\nSparkly badge and a lawful blessing. ✨\n\n[Final Chorus: Faster, wobblier]\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nTell the truth, don't be shy!\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nEven the shadows can't tell a lie!\nCute little cape and a megaphone,\nBad deeds can'hide, you're not alone!\nSPILL IT, SPILL IT, SWEETIE!\nTell the truth, be a hero!\n\n[Outro: Whispered, music box fades]\nGoodnight, little liars...\nI'll know by morning. 🐰"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Spill It, Sweetie",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "48537cc3-533a-5ffe-a2bd-849f928c3b2e",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T03:44:59.709363Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "38fad51a-145b-4cc1-82a8-5681e2b0072f",
+        "sound_prompt": "funny cute-creepy rap meets heavy dubstep, music-box intro, bouncy trap rap verses, giggly child-like pre-chorus with eerie slowdown, huge wobble bass drop, chanted shout chorus, glitch effects, spooky whispers, playful villain-hero energy, 140 bpm",
+        "title": "Spill It, Sweetie",
+        "seed": null,
+        "lyrics_id": "adcc9a16-301f-567f-aa9b-065d473d32e5"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 2,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/87f2cbbe-060a-47ae-aab0-909a7e0fd932.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/87f2cbbe-060a-47ae-aab0-909a7e0fd932.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/48537cc3-533a-5ffe-a2bd-849f928c3b2e.jpg",
+      "video_url": null
+    },
+    {
+      "id": "9baa807a-42cf-4df2-b15b-b4d4cc07cbbb",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "84966731-3737-4063-841a-a7be87398d01",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "165.376"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "adcc9a16-301f-567f-aa9b-065d473d32e5",
+          "text": "[Intro: whispered, music-box melody, then glitchy static]\nTick-tock... tick-tock...\nSomebody did a naughty thing...\nand a tiny little mouth knows everything. 🐭\n\n[Verse 1: Rap, bouncy and fast]\nYo, I'm small like a hamster, but my eyes see ALL,\nCookie jar bandit? I saw you, y'all.\nYou thought nobody watched you in the dark?\nI got a notebook, a flashlight, and a bark!\nTeacher's pet? Nah, I'm the truth's pet,\nTell the grown-ups, place your bet,\nYou tiptoe left, I tiptoe right,\nSpilled your secret by lunchtime. Goodnight!\n\n[Pre-Chorus: Cute voice, creepy slowdown]\nLa la la, I'm just a baby bunny,\nBig blue eyes and a voice so sunny...\nBut if you break the rules today,\nI'll know. I'll tell. Hip hip hooray.\n\n[Drop: Dubstep wobble 🔊 WUB WUB WUB]\n\n[Chorus: Chanted, huge]\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nTell the truth, don't be shy!\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nLiars, hide! Here comes the guy!\nCute little cape and a megaphone,\nBad deeds can't hide, there's nowhere to go!\nSPILL IT, SPILL IT, SWEETIE!\nTell the truth, be a hero! 🦸\n\n[Verse 2: Rap, deep scary voice]\nMidnight hallway, creaky floor,\nWho's that shadow at the door?\nIt's me, with a clipboard, glowing eyes,\nTiny teeth and a big surprise.\nYou pranked the cat and blamed the fish?\nI recorded it, now make a wish.\nYour crimes are loud, my whisper's louder,\nI'm a cuddly little truth-powder!\nBoo! (Aww!) Boo! (Aww!)\nScary AND adorable, what a flaw!\n\n[Bridge: Music box + glitch + giggles]\nHee hee hee...\nFibbing is a trap, and I hold the key,\nTelling on trouble? That's heroism, see!\nHall monitor? Nope, I'm a legend,\nSparkly badge and a lawful blessing. ✨\n\n[Final Chorus: Faster, wobblier]\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nTell the truth, don't be shy!\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nEven the shadows can't tell a lie!\nCute little cape and a megaphone,\nBad deeds can'hide, you're not alone!\nSPILL IT, SPILL IT, SWEETIE!\nTell the truth, be a hero!\n\n[Outro: Whispered, music box fades]\nGoodnight, little liars...\nI'll know by morning. 🐰"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Spill It, Sweetie",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "84966731-3737-4063-841a-a7be87398d01",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T03:44:59.596542Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "38fad51a-145b-4cc1-82a8-5681e2b0072f",
+        "sound_prompt": "funny cute-creepy rap meets heavy dubstep, music-box intro, bouncy trap rap verses, giggly child-like pre-chorus with eerie slowdown, huge wobble bass drop, chanted shout chorus, glitch effects, spooky whispers, playful villain-hero energy, 140 bpm",
+        "title": "Spill It, Sweetie",
+        "seed": null,
+        "lyrics_id": "adcc9a16-301f-567f-aa9b-065d473d32e5"
+      },
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 2,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/9baa807a-42cf-4df2-b15b-b4d4cc07cbbb.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/9baa807a-42cf-4df2-b15b-b4d4cc07cbbb.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/84966731-3737-4063-841a-a7be87398d01.jpg",
+      "video_url": null
+    },
+    {
+      "id": "d703af73-9450-4212-9fe1-69a07849667e",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "9162ff99-854f-5ad0-a622-cf6b6832b507",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "177.25866666666667"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "adcc9a16-301f-567f-aa9b-065d473d32e5",
+          "text": "[Intro: whispered, music-box melody, then glitchy static]\nTick-tock... tick-tock...\nSomebody did a naughty thing...\nand a tiny little mouth knows everything. 🐭\n\n[Verse 1: Rap, bouncy and fast]\nYo, I'm small like a hamster, but my eyes see ALL,\nCookie jar bandit? I saw you, y'all.\nYou thought nobody watched you in the dark?\nI got a notebook, a flashlight, and a bark!\nTeacher's pet? Nah, I'm the truth's pet,\nTell the grown-ups, place your bet,\nYou tiptoe left, I tiptoe right,\nSpilled your secret by lunchtime. Goodnight!\n\n[Pre-Chorus: Cute voice, creepy slowdown]\nLa la la, I'm just a baby bunny,\nBig blue eyes and a voice so sunny...\nBut if you break the rules today,\nI'll know. I'll tell. Hip hip hooray.\n\n[Drop: Dubstep wobble 🔊 WUB WUB WUB]\n\n[Chorus: Chanted, huge]\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nTell the truth, don't be shy!\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nLiars, hide! Here comes the guy!\nCute little cape and a megaphone,\nBad deeds can't hide, there's nowhere to go!\nSPILL IT, SPILL IT, SWEETIE!\nTell the truth, be a hero! 🦸\n\n[Verse 2: Rap, deep scary voice]\nMidnight hallway, creaky floor,\nWho's that shadow at the door?\nIt's me, with a clipboard, glowing eyes,\nTiny teeth and a big surprise.\nYou pranked the cat and blamed the fish?\nI recorded it, now make a wish.\nYour crimes are loud, my whisper's louder,\nI'm a cuddly little truth-powder!\nBoo! (Aww!) Boo! (Aww!)\nScary AND adorable, what a flaw!\n\n[Bridge: Music box + glitch + giggles]\nHee hee hee...\nFibbing is a trap, and I hold the key,\nTelling on trouble? That's heroism, see!\nHall monitor? Nope, I'm a legend,\nSparkly badge and a lawful blessing. ✨\n\n[Final Chorus: Faster, wobblier]\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nTell the truth, don't be shy!\nSPILL IT, SPILL IT, SWEETIE! (WUB WUB!)\nEven the shadows can't tell a lie!\nCute little cape and a megaphone,\nBad deeds can'hide, you're not alone!\nSPILL IT, SPILL IT, SWEETIE!\nTell the truth, be a hero!\n\n[Outro: Whispered, music box fades]\nGoodnight, little liars...\nI'll know by morning. 🐰"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Spill It, Sweetie",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "9162ff99-854f-5ad0-a622-cf6b6832b507",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T03:44:58.945579Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "38fad51a-145b-4cc1-82a8-5681e2b0072f",
+        "sound_prompt": "funny cute-creepy rap meets heavy dubstep, music-box intro, bouncy trap rap verses, giggly child-like pre-chorus with eerie slowdown, huge wobble bass drop, chanted shout chorus, glitch effects, spooky whispers, playful villain-hero energy, 140 bpm",
+        "title": "Spill It, Sweetie",
+        "seed": null,
+        "lyrics_id": "adcc9a16-301f-567f-aa9b-065d473d32e5"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 2,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/d703af73-9450-4212-9fe1-69a07849667e.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/d703af73-9450-4212-9fe1-69a07849667e.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/9162ff99-854f-5ad0-a622-cf6b6832b507.jpg",
+      "video_url": null
+    },
+    {
+      "id": "825fa603-624e-4b1c-9bf6-c3ed28e2011d",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "99f0800b-b69c-5f3c-a213-a899ad832e83",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "176.55466666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "47b3025f-a5d5-5d7a-b9d0-6df45e32d873",
+          "text": "(Verse 1)\nA whisper in the twilight air,\nA silent promise we both share.\nThe heat of glances, soft and slow,\nWhere every secret starts to glow.\n\n(Chorus)\nIn this deep and tender space we find,\nA passion woven, intertwined.\nA current running, sweet and deep,\nSecrets that our spirits keep.\n\n(Verse 2)\nThe touch of skin, a gentle art,\nA rhythm beating in the heart.\nA yearning rising, pure and true,\nIn shades of love, forever new.\n\n(Bridge)\nThe language spoken, soft and low,\nWhere only feelings start to grow.\nAn ocean of unspoken need,\nA beautiful and tender creed.\n\n(Chorus)\nIn this deep and tender space we find,\nA passion woven, intertwined.\nA current running, sweet and deep,\nSecrets that our spirits keep."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Tender Space",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "99f0800b-b69c-5f3c-a213-a899ad832e83",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-07T12:44:20.043792Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "deff744c-a151-4853-95f5-b75b62fa1a4e",
+        "sound_prompt": "seductive neo-soul, velvety vocals, warm electric piano, subtle percussion, lush pads, slow groove",
+        "title": "Tender Space",
+        "seed": null,
+        "lyrics_id": "47b3025f-a5d5-5d7a-b9d0-6df45e32d873"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/825fa603-624e-4b1c-9bf6-c3ed28e2011d.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/825fa603-624e-4b1c-9bf6-c3ed28e2011d.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/99f0800b-b69c-5f3c-a213-a899ad832e83.jpg",
+      "video_url": null
+    },
+    {
+      "id": "d8114ac8-06fc-466e-b68c-5d50aac9ec37",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "aa2978b2-d925-57b4-a37c-4cc3a2318c51",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "181.26933333333332"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "47b3025f-a5d5-5d7a-b9d0-6df45e32d873",
+          "text": "(Verse 1)\nA whisper in the twilight air,\nA silent promise we both share.\nThe heat of glances, soft and slow,\nWhere every secret starts to glow.\n\n(Chorus)\nIn this deep and tender space we find,\nA passion woven, intertwined.\nA current running, sweet and deep,\nSecrets that our spirits keep.\n\n(Verse 2)\nThe touch of skin, a gentle art,\nA rhythm beating in the heart.\nA yearning rising, pure and true,\nIn shades of love, forever new.\n\n(Bridge)\nThe language spoken, soft and low,\nWhere only feelings start to grow.\nAn ocean of unspoken need,\nA beautiful and tender creed.\n\n(Chorus)\nIn this deep and tender space we find,\nA passion woven, intertwined.\nA current running, sweet and deep,\nSecrets that our spirits keep."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Secrets We Keep",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "aa2978b2-d925-57b4-a37c-4cc3a2318c51",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-07T12:44:17.111127Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "deff744c-a151-4853-95f5-b75b62fa1a4e",
+        "sound_prompt": "sensual R&B ballad, sultry vocals, smooth bassline, ambient synths, atmospheric, slow tempo",
+        "title": "Secrets We Keep",
+        "seed": null,
+        "lyrics_id": "47b3025f-a5d5-5d7a-b9d0-6df45e32d873"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 2,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/d8114ac8-06fc-466e-b68c-5d50aac9ec37.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/d8114ac8-06fc-466e-b68c-5d50aac9ec37.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/aa2978b2-d925-57b4-a37c-4cc3a2318c51.jpg",
+      "video_url": null
+    },
+    {
+      "id": "fcb43249-f1e3-49d7-aefe-a8658d7ddef0",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "a04792ef-91fb-5fb7-afff-d86b9fd358ed",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "119.136"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "38acebc0-7ccf-5945-9511-1727a9ad2391",
+          "text": "(Intro - Bubbly synth riser)\n(Fast, playful vocal chop)\nYo! Check the vibe! Little secret flow!\n\n(Verse 1 - Rap, fast and bouncy)\nGot the tiny scoop, shining bright,\nSharing the news with pure delight!\nLittle whisper, big effect,\nThe cutest data I can collect!\n\n(Chorus - Dubstep drop, high energy)\nBoing! Bop! Super sweet sound!\nSharing the chatter all around!\nTiny secrets, big applause,\nBreaking all the silly laws!\n\n(Verse 2 - Rap, slightly slower, more charming)\nPeek-a-boo, look what I found,\nThe sweetest gossip all around!\nA happy giggle, a sparkly chime,\nWe're playing games, it's just sublime!\n\n(Chorus - Dubstep drop, high energy)\nBoing! Bop! Super sweet sound!\nSharing the chatter all around!\nTiny secrets, big applause,\nBreaking all the silly laws!\n\n(Outro - Synth fades with a cute 'pop' sound)\nYeah! Super cool fun! Bye!"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Little Secret Flow",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "a04792ef-91fb-5fb7-afff-d86b9fd358ed",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-07T09:27:55.950465Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "1fbcd655-7515-49fb-aa47-00d5dc123cd0",
+        "sound_prompt": "Hyper-bouncy, saccharine light dubstep, extremely high energy, bubbly, cute, playful vocal effects, bright cheerful synth melodies, 145 bpm",
+        "title": "Little Secret Flow",
+        "seed": null,
+        "lyrics_id": "38acebc0-7ccf-5945-9511-1727a9ad2391"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 2,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/fcb43249-f1e3-49d7-aefe-a8658d7ddef0.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/fcb43249-f1e3-49d7-aefe-a8658d7ddef0.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/a04792ef-91fb-5fb7-afff-d86b9fd358ed.jpg",
+      "video_url": null
+    },
+    {
+      "id": "41fb34e6-1232-48ec-8e4f-93c549ef6fc4",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "031bd509-38c4-5bc3-88dd-e2aa4000d4f4",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "149.41866666666667"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "38acebc0-7ccf-5945-9511-1727a9ad2391",
+          "text": "(Intro - Bubbly synth riser)\n(Fast, playful vocal chop)\nYo! Check the vibe! Little secret flow!\n\n(Verse 1 - Rap, fast and bouncy)\nGot the tiny scoop, shining bright,\nSharing the news with pure delight!\nLittle whisper, big effect,\nThe cutest data I can collect!\n\n(Chorus - Dubstep drop, high energy)\nBoing! Bop! Super sweet sound!\nSharing the chatter all around!\nTiny secrets, big applause,\nBreaking all the silly laws!\n\n(Verse 2 - Rap, slightly slower, more charming)\nPeek-a-boo, look what I found,\nThe sweetest gossip all around!\nA happy giggle, a sparkly chime,\nWe're playing games, it's just sublime!\n\n(Chorus - Dubstep drop, high energy)\nBoing! Bop! Super sweet sound!\nSharing the chatter all around!\nTiny secrets, big applause,\nBreaking all the silly laws!\n\n(Outro - Synth fades with a cute 'pop' sound)\nYeah! Super cool fun! Bye!"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Little Secret Flow",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "031bd509-38c4-5bc3-88dd-e2aa4000d4f4",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-07T09:27:54.168372Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "1fbcd655-7515-49fb-aa47-00d5dc123cd0",
+        "sound_prompt": "Hyper-bouncy, saccharine light dubstep, extremely high energy, bubbly, cute, playful vocal effects, bright cheerful synth melodies, 145 bpm",
+        "title": "Little Secret Flow",
+        "seed": null,
+        "lyrics_id": "38acebc0-7ccf-5945-9511-1727a9ad2391"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 2,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/41fb34e6-1232-48ec-8e4f-93c549ef6fc4.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/41fb34e6-1232-48ec-8e4f-93c549ef6fc4.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/031bd509-38c4-5bc3-88dd-e2aa4000d4f4.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
