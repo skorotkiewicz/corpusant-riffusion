@@ -222633,6 +222633,104 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/c6fed05b-2507-44e7-b560-9d89950aeb16.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/9c05305b-f63c-5350-a172-f5033d1480bc.jpg",
       "video_url": null
+    },
+    {
+      "id": "087183e4-d99b-4027-8885-ba3c744e4fdd",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "ccdc9f93-a244-5b96-895e-8fc0c98e16c0",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "122.144"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "1a2da1c3-f23c-596e-9c72-769aac2f41eb",
+          "text": "[Verse 1]\nI am a hamster with tiny feet.\nI steal your socks when you are asleep.\nLeft foot, right foot, where do they go?\nInto my pouch, now I look like a pro.\nI chew on the cotton, I spit out the thread.\nI build a soft castle right next to my bed.\n\n[Chorus]\nSqueak squeak, look at my cheeks.\nI am the thief, a furry little freak.\nSqueak squeak, hear my little voice.\nStealing your footwear is my only choice.\n\n[Verse 2]\nYou look for your sneakers, you look for your boots.\nI am just sitting here eating my roots.\nYou cry and you shout, you tear up the floor.\nI have three more socks hidden behind the door.\n\n[Pre-Drop]\nWait, I hear you coming.\nHide the cotton.\nHide the thread.\nAct like a normal hamster instead.\n\n[Drop]\nHeavy bass line starts.\nSynth pitches up.\nRhythmic clicking sounds.\nBass drops hard.\nGlitchy vocal chops.\nBeat returns to normal.\n\n[Outro]\nSqueak.\nGive me the socks.\nSqueak."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Sock Thief Hamster",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "ccdc9f93-a244-5b96-895e-8fc0c98e16c0",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T17:58:07.268354Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "8defccc3-03cb-46f3-80fd-7a96f87877e2",
+        "sound_prompt": "Upbeat cute rap verse transitioning into heavy glitchy dubstep drop. Squeaky vocal samples, rhythmic bassline, funny playful mood, high energy, 140 BPM",
+        "title": "Sock Thief Hamster",
+        "seed": null,
+        "lyrics_id": "1a2da1c3-f23c-596e-9c72-769aac2f41eb"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/087183e4-d99b-4027-8885-ba3c744e4fdd.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/087183e4-d99b-4027-8885-ba3c744e4fdd.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/ccdc9f93-a244-5b96-895e-8fc0c98e16c0.jpg",
+      "video_url": null
+    },
+    {
+      "id": "130152fe-54f2-47cb-8c99-a78c0ca6125b",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "a025cc19-b1d4-5b0d-9a09-1b1b622b188f",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "113.83466666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "1a2da1c3-f23c-596e-9c72-769aac2f41eb",
+          "text": "[Verse 1]\nI am a hamster with tiny feet.\nI steal your socks when you are asleep.\nLeft foot, right foot, where do they go?\nInto my pouch, now I look like a pro.\nI chew on the cotton, I spit out the thread.\nI build a soft castle right next to my bed.\n\n[Chorus]\nSqueak squeak, look at my cheeks.\nI am the thief, a furry little freak.\nSqueak squeak, hear my little voice.\nStealing your footwear is my only choice.\n\n[Verse 2]\nYou look for your sneakers, you look for your boots.\nI am just sitting here eating my roots.\nYou cry and you shout, you tear up the floor.\nI have three more socks hidden behind the door.\n\n[Pre-Drop]\nWait, I hear you coming.\nHide the cotton.\nHide the thread.\nAct like a normal hamster instead.\n\n[Drop]\nHeavy bass line starts.\nSynth pitches up.\nRhythmic clicking sounds.\nBass drops hard.\nGlitchy vocal chops.\nBeat returns to normal.\n\n[Outro]\nSqueak.\nGive me the socks.\nSqueak."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Sock Thief Hamster",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "a025cc19-b1d4-5b0d-9a09-1b1b622b188f",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T17:58:03.673099Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "8defccc3-03cb-46f3-80fd-7a96f87877e2",
+        "sound_prompt": "Upbeat cute rap verse transitioning into heavy glitchy dubstep drop. Squeaky vocal samples, rhythmic bassline, funny playful mood, high energy, 140 BPM",
+        "title": "Sock Thief Hamster",
+        "seed": null,
+        "lyrics_id": "1a2da1c3-f23c-596e-9c72-769aac2f41eb"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/130152fe-54f2-47cb-8c99-a78c0ca6125b.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/130152fe-54f2-47cb-8c99-a78c0ca6125b.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/a025cc19-b1d4-5b0d-9a09-1b1b622b188f.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
