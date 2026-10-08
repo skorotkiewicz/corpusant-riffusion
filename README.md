@@ -15,7 +15,7 @@ python3 save_songs.py
 python3 download_audio.py
 ```
 
-Paste the token when prompted; input is hidden. Keep it private. If it expires, rerun with a fresh token. Saved progress is kept.
+Paste only the JWT starting with `eyJ` when prompted; input is hidden. You can also supply it through `FLOW_TOKEN`, which overrides the prompt. The script builds Flow's Supabase session cookie automatically from that token, without another environment variable or saving credentials. If it expires, rerun with a fresh token. Saved progress is kept.
 
 ## Get new songs
 
