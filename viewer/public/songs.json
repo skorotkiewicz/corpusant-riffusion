@@ -222535,6 +222535,104 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/3b49a6a6-f3c4-4c04-a82b-d0c651e20a10.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/14f9f4c8-4edd-5031-bfe9-b2c4c50a5f6b.jpg",
       "video_url": null
+    },
+    {
+      "id": "6946e10b-4ecd-4c98-94b0-cc7e9f80c1b8",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "27e6e2c3-0f1f-50b9-9f45-180d5c93f701",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "128.0"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "aa70879c-7524-59c3-adc3-486a2fb02fd2",
+          "text": "(Verse 1 - Rap)\nPaws on the carpet, I’m trying to sneak\nBut I’m built like a fluffy pillow, playing hide-and-seek\nGot the fuzziest tail and a twitchy little nose\nI step on a rubber chicken, and everybody knows\nI’m a shadow in the alley, but I’m orange and round\nTripped over a pebble and I fell to the ground\nThud.\n\n(Pre-Chorus - Build up)\nWiggle the ears, twitch the whiskers\nThe energy is rising, the rhythm gets thicker\nOne, two, three, watch me bounce!\n\n(Chorus - Heavy Bass Section)\nBoop-bop-squish!\nZap-zip-plop!\nSqueak-skrrt-meow!\nRollin' down the hill, I'm a fuzzy bowling ball!\nBzzt-boing-crash!\nI didn't mean to do that at all!\nPop-fizz-squash!\nHonk-beep-splat!\nI'm the tiniest ninja, and I'm proud of that!\n\n(Verse 2 - Rap)\nUn-peel from the rug, shake off the dust\nBeing a stealthy master is an absolute must\nGot a bamboo stick, swinging it around\nHit myself in the forehead and I fell to the ground\nBonk.\nThey call me the terror, they call me the beast\nBut I just want a nap and a belly-full feast\nI’m a tiny tornado, a fuzzy machine\nThe roundest little rogue that you’ve ever seen\n\n(Bridge - Fast Rap)\nLeft paw, right paw, wiggle to the left\nGot a little bit of fluff and a whole lot of pep\nI’m a pocket-sized panic, a cuddly command\nThe most dangerous creature in all of the land!\n(Beat pauses)\nWait, I'm stuck in a bucket. Can somebody help?\n\n(Final Chorus - Heavy Bass Section)\nBoop-bop-squish!\nZap-zip-plop!\nSqueak-skrrt-meow!\nRollin' down the hill, I'm a fuzzy bowling ball!\nBzzt-boing-crash!\nI didn't mean to do that at all!\nPop-fizz-squash!\nHonk-beep-splat!\n\n(Outro)\n(Music stops abruptly)\n...Did I just sneeze?\nAchoo!\nBoom-bop-splat!"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Tiniest Ninja",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "27e6e2c3-0f1f-50b9-9f45-180d5c93f701",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T17:05:06.984345Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "a7e16443-b73a-47b0-a581-3cdcf2bdcdb9",
+        "sound_prompt": "comedic rap, bouncy dubstep, cute squeaky toy synths, fast playful flow, heavy rhythmic bassline, funny sound effects, high energy, adorable silly vibe",
+        "title": "The Tiniest Ninja",
+        "seed": null,
+        "lyrics_id": "aa70879c-7524-59c3-adc3-486a2fb02fd2"
+      },
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/6946e10b-4ecd-4c98-94b0-cc7e9f80c1b8.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/6946e10b-4ecd-4c98-94b0-cc7e9f80c1b8.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/27e6e2c3-0f1f-50b9-9f45-180d5c93f701.jpg",
+      "video_url": null
+    },
+    {
+      "id": "c6fed05b-2507-44e7-b560-9d89950aeb16",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "9c05305b-f63c-5350-a172-f5033d1480bc",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "154.92266666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "aa70879c-7524-59c3-adc3-486a2fb02fd2",
+          "text": "(Verse 1 - Rap)\nPaws on the carpet, I’m trying to sneak\nBut I’m built like a fluffy pillow, playing hide-and-seek\nGot the fuzziest tail and a twitchy little nose\nI step on a rubber chicken, and everybody knows\nI’m a shadow in the alley, but I’m orange and round\nTripped over a pebble and I fell to the ground\nThud.\n\n(Pre-Chorus - Build up)\nWiggle the ears, twitch the whiskers\nThe energy is rising, the rhythm gets thicker\nOne, two, three, watch me bounce!\n\n(Chorus - Heavy Bass Section)\nBoop-bop-squish!\nZap-zip-plop!\nSqueak-skrrt-meow!\nRollin' down the hill, I'm a fuzzy bowling ball!\nBzzt-boing-crash!\nI didn't mean to do that at all!\nPop-fizz-squash!\nHonk-beep-splat!\nI'm the tiniest ninja, and I'm proud of that!\n\n(Verse 2 - Rap)\nUn-peel from the rug, shake off the dust\nBeing a stealthy master is an absolute must\nGot a bamboo stick, swinging it around\nHit myself in the forehead and I fell to the ground\nBonk.\nThey call me the terror, they call me the beast\nBut I just want a nap and a belly-full feast\nI’m a tiny tornado, a fuzzy machine\nThe roundest little rogue that you’ve ever seen\n\n(Bridge - Fast Rap)\nLeft paw, right paw, wiggle to the left\nGot a little bit of fluff and a whole lot of pep\nI’m a pocket-sized panic, a cuddly command\nThe most dangerous creature in all of the land!\n(Beat pauses)\nWait, I'm stuck in a bucket. Can somebody help?\n\n(Final Chorus - Heavy Bass Section)\nBoop-bop-squish!\nZap-zip-plop!\nSqueak-skrrt-meow!\nRollin' down the hill, I'm a fuzzy bowling ball!\nBzzt-boing-crash!\nI didn't mean to do that at all!\nPop-fizz-squash!\nHonk-beep-splat!\n\n(Outro)\n(Music stops abruptly)\n...Did I just sneeze?\nAchoo!\nBoom-bop-splat!"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Tiniest Ninja",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "9c05305b-f63c-5350-a172-f5033d1480bc",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T17:05:06.655853Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "a7e16443-b73a-47b0-a581-3cdcf2bdcdb9",
+        "sound_prompt": "comedic rap, bouncy dubstep, cute squeaky toy synths, fast playful flow, heavy rhythmic bassline, funny sound effects, high energy, adorable silly vibe",
+        "title": "The Tiniest Ninja",
+        "seed": null,
+        "lyrics_id": "aa70879c-7524-59c3-adc3-486a2fb02fd2"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/c6fed05b-2507-44e7-b560-9d89950aeb16.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/c6fed05b-2507-44e7-b560-9d89950aeb16.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/9c05305b-f63c-5350-a172-f5033d1480bc.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
