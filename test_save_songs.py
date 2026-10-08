@@ -1,3 +1,4 @@
+import base64
 import json
 import tempfile
 from io import StringIO
@@ -6,7 +7,57 @@ from unittest.mock import patch
 from urllib.error import HTTPError
 from urllib.parse import parse_qs, urlparse
 
-from save_songs import LIMIT, collect, fetch_page
+from save_songs import LIMIT, auth_cookie, collect, fetch_page, main
+
+
+def jwt_token(padding=""):
+    claims = {"exp": 2000000000, "padding": padding}
+    payload = base64.urlsafe_b64encode(json.dumps(claims).encode()).decode().rstrip("=")
+    return "eyJhbGciOiJIUzI1NiJ9." + payload + ".test-signature"
+
+
+def test_token_auth():
+    for padding in ("", "x" * 5000):
+        token = jwt_token(padding)
+
+        def response(request, timeout):
+            assert request.get_header("Authorization") == "Bearer " + token
+            chunks = [item.split("=", 1) for item in request.get_header("Cookie").split("; ")]
+            names = [name for name, _ in chunks]
+            assert names == (["sb-sb-auth-token"] if not padding else [f"sb-sb-auth-token.{i}" for i in range(len(chunks))])
+            assert all(len(value) <= 3180 for _, value in chunks)
+            encoded = "".join(value for _, value in chunks)
+            assert encoded.startswith("base64-")
+            payload = encoded[len("base64-"):]
+            session = json.loads(base64.urlsafe_b64decode(payload + "=" * (-len(payload) % 4)))
+            assert session == {"access_token": token, "refresh_token": "", "expires_at": 2000000000}
+            assert timeout == 60
+            return StringIO('{"clips": []}')
+
+        with patch("save_songs.urlopen", side_effect=response):
+            assert fetch_page(token, 0) == []
+
+    for invalid in ("", "Bearer " + jwt_token(), "eyJ.bad.signature", "eyJ.e30.signature", "eyJ.W10.signature", "eyJ.eyJleHAiOiJub3QtaW50In0.signature"):
+        try:
+            auth_cookie(invalid)
+        except ValueError:
+            pass
+        else:
+            raise AssertionError("Expected invalid-token error")
+
+    token = jwt_token()
+    for code in (401, 403):
+        error = HTTPError("https://example.test", code, "Unauthorized", {}, None)
+        with patch.dict("os.environ", {"FLOW_TOKEN": token}, clear=True), patch("sys.argv", ["save_songs.py", "--update"]):
+            with patch("save_songs.collect", side_effect=error) as collect_mock:
+                try:
+                    main()
+                except SystemExit as result:
+                    assert str(result).startswith(f"HTTP {code}:")
+                    assert "expired" not in str(result) and token not in str(result)
+                else:
+                    raise AssertionError("Expected authentication failure")
+                collect_mock.assert_called_once_with(token, update=True)
 
 
 def test_resume():
@@ -52,7 +103,7 @@ def test_update():
         return StringIO('{"clips": []}')
 
     with patch("save_songs.urlopen", side_effect=response):
-        assert fetch_page("test-token", 7) == []
+        assert fetch_page(jwt_token(), 7) == []
 
     with tempfile.TemporaryDirectory() as directory:
         output = Path(directory) / "songs.json"
@@ -109,6 +160,7 @@ def test_update():
 
 
 if __name__ == "__main__":
+    test_token_auth()
     test_resume()
     test_update()
-    print("PASS: limit 100, pagination, updates, early stopping, deduplication, and token-expiry resume")
+    print("PASS: JWT session cookies, validation, auth errors, limit 100, pagination, updates, deduplication, and resume")

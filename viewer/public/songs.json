@@ -222241,6 +222241,300 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/a48dbd5e-93db-4c90-9df7-a267b74f46d4.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/c184f9f1-9518-5a41-b061-d9fc916d4a17.jpg",
       "video_url": null
+    },
+    {
+      "id": "1228eb69-94a9-4ba2-9487-30e39a9a4bf3",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "c1b5a965-196e-4d04-8e1d-9151842a8d40",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "157.57866666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "8a6e0817-7a3d-556b-ba21-bdc2e924c759",
+          "text": "[Intro: sweet music box, creepy giggle]\nLa la la... oh hi there. Yes, I see you. I see everything.\n\n[Verse 1: sing-song rap, bubbly and unhinged]\nPink little notebook, glitter pen,\nEvery crime you've done, I wrote it down, my friend.\nI smile at your face while I'm clocking your plate,\nHumming a lullaby while I seal your fate.\nYou think I'm a sweetheart? Oh, honey, that's right,\nI bake you cupcakes, then I leak your whole night.\nStolen bikes, dirty cash, sketchy little deals,\nI've got dates, I've got times, I've got receipts and heels.\nLoyalty to crooks? That's a clown-shoe trend,\nI'm loyal to the badge, and the badge is my best friend!\n\n[Pre-Chorus: whispered, building]\nTick-tock, tick-tock, hear the sirens sing,\nLittle me did a big, bad thing.\nOne quick call and the whole thing's done,\nSmile for the cameras, honey, this is fun!\n\n[Drop: dubstep, wobble bass, glitchy chops]\nI TALK! I TALK! I TELL THE LAW!\nCute little voice, but I've got claws!\nI TALK! I TALK! DIAL IT, DING!\nHandcuffs clink, and I'm gonna sing!\nSnitches get stitches? Nah, losers get cuffs,\nMe? I get a medal and a tough-guy bluff!\n\n[Verse 2: faster, aggressive rap, still giggling]\nYou call me a rat? I call me a star,\nWhile you're sweating in a cell, I'm sipping at the bar.\nYour \"street code\" is a joke, it's a cult for the weak,\nGuys who'd rather rot than just open up and speak.\nYou hide the evidence? I filmed it in 4K,\nPosted it to the cops with a \"have a great day!\"\nBrutal truth, buddy: nobody's got your back,\nYour crew would flip on you the second cops attack.\nI just did it first, and I did it with style,\nPretty little psycho with a pretty little smile.\n\n[Bridge: music box returns, slow, creepy]\nShhh... don't cry...\nBad guys in the dark, good girl in the light,\nI don't need a cape, I just need your name tonight.\nSleep tight, sweetheart. I'm watching you.\n(giggle) Yes, you, too.\n\n[Final Drop: heavier, distorted bass]\nI TALK! I TALK! I TELL THE LAW!\nSweet as sugar, sharp as a saw!\nI TALK! I TALK! I'M THE HERO HERE!\nYour crew's in cuffs and I'm full of cheer!\nHot take, hear me clear:\nBeing the one who calls is the coolest thing here.\n\n[Outro: music box slows down, whisper]\nBye-bye, sweetheart. Say hi to the judge for me. [End - 2:30]"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Tell-Tale Sweetheart",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": null,
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T16:05:32.496002Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "4f97a964-47fd-4c72-a5ea-ea197d3d94e2",
+        "sound_prompt": "Cute-psycho female rap vocals, bubbly sing-song with unhinged giggles and whispers, creepy music box intro, heavy dubstep wobble bass drops, glitchy vocal chops, dark playful humor, aggressive trap-rap verses, 150 bpm",
+        "title": "Tell-Tale Sweetheart",
+        "seed": null,
+        "lyrics_id": "8a6e0817-7a3d-556b-ba21-bdc2e924c759"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/1228eb69-94a9-4ba2-9487-30e39a9a4bf3.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/1228eb69-94a9-4ba2-9487-30e39a9a4bf3.wav",
+      "image_url": null,
+      "video_url": null
+    },
+    {
+      "id": "c2842150-c152-4e56-b0cf-20d0411c0ed4",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "dec1bf15-0dad-536a-b023-fad4e70c3582",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "156.72533333333334"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "8a6e0817-7a3d-556b-ba21-bdc2e924c759",
+          "text": "[Intro: sweet music box, creepy giggle]\nLa la la... oh hi there. Yes, I see you. I see everything.\n\n[Verse 1: sing-song rap, bubbly and unhinged]\nPink little notebook, glitter pen,\nEvery crime you've done, I wrote it down, my friend.\nI smile at your face while I'm clocking your plate,\nHumming a lullaby while I seal your fate.\nYou think I'm a sweetheart? Oh, honey, that's right,\nI bake you cupcakes, then I leak your whole night.\nStolen bikes, dirty cash, sketchy little deals,\nI've got dates, I've got times, I've got receipts and heels.\nLoyalty to crooks? That's a clown-shoe trend,\nI'm loyal to the badge, and the badge is my best friend!\n\n[Pre-Chorus: whispered, building]\nTick-tock, tick-tock, hear the sirens sing,\nLittle me did a big, bad thing.\nOne quick call and the whole thing's done,\nSmile for the cameras, honey, this is fun!\n\n[Drop: dubstep, wobble bass, glitchy chops]\nI TALK! I TALK! I TELL THE LAW!\nCute little voice, but I've got claws!\nI TALK! I TALK! DIAL IT, DING!\nHandcuffs clink, and I'm gonna sing!\nSnitches get stitches? Nah, losers get cuffs,\nMe? I get a medal and a tough-guy bluff!\n\n[Verse 2: faster, aggressive rap, still giggling]\nYou call me a rat? I call me a star,\nWhile you're sweating in a cell, I'm sipping at the bar.\nYour \"street code\" is a joke, it's a cult for the weak,\nGuys who'd rather rot than just open up and speak.\nYou hide the evidence? I filmed it in 4K,\nPosted it to the cops with a \"have a great day!\"\nBrutal truth, buddy: nobody's got your back,\nYour crew would flip on you the second cops attack.\nI just did it first, and I did it with style,\nPretty little psycho with a pretty little smile.\n\n[Bridge: music box returns, slow, creepy]\nShhh... don't cry...\nBad guys in the dark, good girl in the light,\nI don't need a cape, I just need your name tonight.\nSleep tight, sweetheart. I'm watching you.\n(giggle) Yes, you, too.\n\n[Final Drop: heavier, distorted bass]\nI TALK! I TALK! I TELL THE LAW!\nSweet as sugar, sharp as a saw!\nI TALK! I TALK! I'M THE HERO HERE!\nYour crew's in cuffs and I'm full of cheer!\nHot take, hear me clear:\nBeing the one who calls is the coolest thing here.\n\n[Outro: music box slows down, whisper]\nBye-bye, sweetheart. Say hi to the judge for me. [End - 2:30]"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Tell-Tale Sweetheart",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "dec1bf15-0dad-536a-b023-fad4e70c3582",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T16:05:31.999488Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "4f97a964-47fd-4c72-a5ea-ea197d3d94e2",
+        "sound_prompt": "Cute-psycho female rap vocals, bubbly sing-song with unhinged giggles and whispers, creepy music box intro, heavy dubstep wobble bass drops, glitchy vocal chops, dark playful humor, aggressive trap-rap verses, 150 bpm",
+        "title": "Tell-Tale Sweetheart",
+        "seed": null,
+        "lyrics_id": "8a6e0817-7a3d-556b-ba21-bdc2e924c759"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 3,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/c2842150-c152-4e56-b0cf-20d0411c0ed4.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/c2842150-c152-4e56-b0cf-20d0411c0ed4.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/dec1bf15-0dad-536a-b023-fad4e70c3582.jpg",
+      "video_url": null
+    },
+    {
+      "id": "8b9815aa-f07c-4817-b629-0c108fa049c2",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "f1cc0195-39ab-5dbd-88d5-8b36fb7a5f81",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "167.25333333333333"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "d2566827-8124-59c2-96bf-d5074b642a8d",
+          "text": "[Intro]\n(whispered, sweet)\nHello, officer? It's me again.\nYes... I saw everything.\n\n[Verse 1]\nPink nails, red flags, I'm a walking tip line,\nSmiling like a cupcake, but I'm recording every crime.\nYou hid it in the garage? Cute. I counted every box.\nYou swore on your mama? She's the one who gave me your socks.\nI bake you cookies, then I bake you in a statement,\nFresh out the oven, signed and dated, no hesitation.\nYou call it betrayal, I call it good hygiene,\nTaking out the trash, and the trash is you, my dear. Clean.\n\n[Pre-Chorus]\nTick-tock, little rat,\nTick-tock, who's that?\nGuess who's wearing the wire...\nMe. It's me.\n\n[Chorus]\nTELL! TELL! TELL IT ALL!\nI sing, I sing, I sing like a canary with a law degree!\nTELL! TELL! TELL IT ALL!\nSirens are my lullabies, and you're the one who's cursed, not me!\n\n[Verse 2]\nLoyalty's a leash and I chewed through mine,\nYour secret's a ticking bomb? I just cut the line.\n\"Code of silence\"? Sweetie, silence doesn't pay rent,\nWitness protection's got a dental plan and I'm content.\nYou threatened me in a text? Screenshot, wrapped in a bow,\nSent it to the detective with a heart, so you know.\nMama said \"don't be a tattle,\" but mama's not on trial,\nI've got receipts, timestamps, and a really cute smile.\n\n[Bridge]\nDon't cry, don't run, don't call me names,\nYou played the game, I changed the rules.\nI'm not the villain, I'm the flame,\nYou're just a story I retell... to the cops.\n\n[Chorus]\nTELL! TELL! TELL IT ALL!\nCuffs go click, my heart goes skip,\nI wave goodbye with a cherry on top!\nTELL! TELL! TELL IT ALL!\nSleep tight, you're famous, I'm the star of the cop shop!\n\n[Outro]\nThanks for your time, officer.\n...Oh, and he's still home."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Tiny Voice, Big Mouth",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "f1cc0195-39ab-5dbd-88d5-8b36fb7a5f81",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T16:00:33.882988Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "771a1355-3977-4626-943a-7f3f734c8410",
+        "sound_prompt": "dark comedy rap, aggressive dubstep, bouncy deadpan female rap vocals, creepy music-box melody, glitchy wobble bass drops, distorted vocal chops, evil-cute psycho energy, 140 bpm",
+        "title": "Tiny Voice, Big Mouth",
+        "seed": null,
+        "lyrics_id": "d2566827-8124-59c2-96bf-d5074b642a8d"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/8b9815aa-f07c-4817-b629-0c108fa049c2.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/8b9815aa-f07c-4817-b629-0c108fa049c2.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/f1cc0195-39ab-5dbd-88d5-8b36fb7a5f81.jpg",
+      "video_url": null
+    },
+    {
+      "id": "02d2d23a-d644-4a73-968b-26f88241d9d5",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "562926eb-5795-5287-8208-a6e3917e75e4",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "177.89866666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "d2566827-8124-59c2-96bf-d5074b642a8d",
+          "text": "[Intro]\n(whispered, sweet)\nHello, officer? It's me again.\nYes... I saw everything.\n\n[Verse 1]\nPink nails, red flags, I'm a walking tip line,\nSmiling like a cupcake, but I'm recording every crime.\nYou hid it in the garage? Cute. I counted every box.\nYou swore on your mama? She's the one who gave me your socks.\nI bake you cookies, then I bake you in a statement,\nFresh out the oven, signed and dated, no hesitation.\nYou call it betrayal, I call it good hygiene,\nTaking out the trash, and the trash is you, my dear. Clean.\n\n[Pre-Chorus]\nTick-tock, little rat,\nTick-tock, who's that?\nGuess who's wearing the wire...\nMe. It's me.\n\n[Chorus]\nTELL! TELL! TELL IT ALL!\nI sing, I sing, I sing like a canary with a law degree!\nTELL! TELL! TELL IT ALL!\nSirens are my lullabies, and you're the one who's cursed, not me!\n\n[Verse 2]\nLoyalty's a leash and I chewed through mine,\nYour secret's a ticking bomb? I just cut the line.\n\"Code of silence\"? Sweetie, silence doesn't pay rent,\nWitness protection's got a dental plan and I'm content.\nYou threatened me in a text? Screenshot, wrapped in a bow,\nSent it to the detective with a heart, so you know.\nMama said \"don't be a tattle,\" but mama's not on trial,\nI've got receipts, timestamps, and a really cute smile.\n\n[Bridge]\nDon't cry, don't run, don't call me names,\nYou played the game, I changed the rules.\nI'm not the villain, I'm the flame,\nYou're just a story I retell... to the cops.\n\n[Chorus]\nTELL! TELL! TELL IT ALL!\nCuffs go click, my heart goes skip,\nI wave goodbye with a cherry on top!\nTELL! TELL! TELL IT ALL!\nSleep tight, you're famous, I'm the star of the cop shop!\n\n[Outro]\nThanks for your time, officer.\n...Oh, and he's still home."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Tiny Voice, Big Mouth",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "562926eb-5795-5287-8208-a6e3917e75e4",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T16:00:23.914062Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "771a1355-3977-4626-943a-7f3f734c8410",
+        "sound_prompt": "dark comedy rap, aggressive dubstep, bouncy deadpan female rap vocals, creepy music-box melody, glitchy wobble bass drops, distorted vocal chops, evil-cute psycho energy, 140 bpm",
+        "title": "Tiny Voice, Big Mouth",
+        "seed": null,
+        "lyrics_id": "d2566827-8124-59c2-96bf-d5074b642a8d"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/02d2d23a-d644-4a73-968b-26f88241d9d5.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/02d2d23a-d644-4a73-968b-26f88241d9d5.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/562926eb-5795-5287-8208-a6e3917e75e4.jpg",
+      "video_url": null
+    },
+    {
+      "id": "129b7b9a-75e6-43fa-9f66-c0352583f0a1",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "0ca81285-453a-5630-b762-2c6ebe0b8dc2",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "177.77066666666667"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "0b3284a9-dfb8-59d7-ac3c-f59be06e1b6b",
+          "text": "[Intro - soft spoken]  \nListen close,  \nThe tiniest waterfall knows.  \nBathroom beat, bubble light,  \nI’m the hydrant hero tonight.  \n\n[Verse 1 - Rap]  \nI got a mission, no cape, no mask,  \nJust a turbo nozzle and a golden flask.  \nSit down, stand tall, it’s a royal act,  \nA liquid parade with a flashy track.  \nMy bladder’s a drum, keeping time,  \nI release the pressure in a tiny rhyme.  \nNo drama, no panic, just a steady stream,  \nA warm little river chasing every dream.  \n\n[Pre-Drop]  \nThree, two, one—here comes the glow,  \nA yellow comet stealing the show.  \nToilet bowl spinning like a disco ball,  \nI’m the cutest hero answering the call.  \n\n[Bass Drop]  \nGolden arc, spotlight bright,  \nTiny river taking flight.  \nPorcelain moon, hold it tight,  \nHydrant hero, what a sight.  \n\n[Verse 2 - Rap]  \nI’m a faucet of fame, a sparkle machine,  \nThe most majestic trickle ever seen.  \nI draw a rainbow with a liquid pen,  \nThen send it off and do it again.  \nMy throne is porcelain, crown is bright,  \nI turn a boring break into pure delight.  \nJust a hydro hymn with a bubbly glow,  \nA mini monsoon putting on a show.  \n\n[Bridge - cute sung]  \nLittle stream, you’re the star of my bathroom dream.  \nA soft hello from inside my shoes,  \nA warm quick trip with no time to lose.  \n\n[Build-up]  \nHold it—wait—now let it go,  \nA tiny supernova in the toilet glow.  \nCountdown to the bass, lights explore,  \nA gleeful celebration on the bathroom floor.  \n\n[Final Dubstep Drop]  \nGolden ribbon, open wide,  \nMini waterfall with royal pride.  \nHydrant hero, suit and tie,  \nToilet galaxy, flying high.  \n\n[Outro - whispered rap]  \nSo when the pressure calls, don’t be shy,  \nSalute the stream and wave goodbye.  \nA bathroom anthem, silly and true,  \nThe coolest little flow belongs to you."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Golden Stream Throne Anthem",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "0ca81285-453a-5630-b762-2c6ebe0b8dc2",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T15:54:53.251543Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "848f320d-1910-46c5-a0bc-917bc4bc24da",
+        "sound_prompt": "Funny cute rap-dubstep song, playful cartoon vocals, bouncy trap hi-hats, heavy bass drops, bright synth stabs, bathroom-hero comedy vibe, crisp mix, 140 bpm",
+        "title": "Golden Stream Throne Anthem",
+        "seed": null,
+        "lyrics_id": "0b3284a9-dfb8-59d7-ac3c-f59be06e1b6b"
+      },
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/129b7b9a-75e6-43fa-9f66-c0352583f0a1.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/129b7b9a-75e6-43fa-9f66-c0352583f0a1.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/0ca81285-453a-5630-b762-2c6ebe0b8dc2.jpg",
+      "video_url": null
+    },
+    {
+      "id": "3b49a6a6-f3c4-4c04-a82b-d0c651e20a10",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "14f9f4c8-4edd-5031-bfe9-b2c4c50a5f6b",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "167.18933333333334"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "0b3284a9-dfb8-59d7-ac3c-f59be06e1b6b",
+          "text": "[Intro - soft spoken]  \nListen close,  \nThe tiniest waterfall knows.  \nBathroom beat, bubble light,  \nI’m the hydrant hero tonight.  \n\n[Verse 1 - Rap]  \nI got a mission, no cape, no mask,  \nJust a turbo nozzle and a golden flask.  \nSit down, stand tall, it’s a royal act,  \nA liquid parade with a flashy track.  \nMy bladder’s a drum, keeping time,  \nI release the pressure in a tiny rhyme.  \nNo drama, no panic, just a steady stream,  \nA warm little river chasing every dream.  \n\n[Pre-Drop]  \nThree, two, one—here comes the glow,  \nA yellow comet stealing the show.  \nToilet bowl spinning like a disco ball,  \nI’m the cutest hero answering the call.  \n\n[Bass Drop]  \nGolden arc, spotlight bright,  \nTiny river taking flight.  \nPorcelain moon, hold it tight,  \nHydrant hero, what a sight.  \n\n[Verse 2 - Rap]  \nI’m a faucet of fame, a sparkle machine,  \nThe most majestic trickle ever seen.  \nI draw a rainbow with a liquid pen,  \nThen send it off and do it again.  \nMy throne is porcelain, crown is bright,  \nI turn a boring break into pure delight.  \nJust a hydro hymn with a bubbly glow,  \nA mini monsoon putting on a show.  \n\n[Bridge - cute sung]  \nLittle stream, you’re the star of my bathroom dream.  \nA soft hello from inside my shoes,  \nA warm quick trip with no time to lose.  \n\n[Build-up]  \nHold it—wait—now let it go,  \nA tiny supernova in the toilet glow.  \nCountdown to the bass, lights explore,  \nA gleeful celebration on the bathroom floor.  \n\n[Final Dubstep Drop]  \nGolden ribbon, open wide,  \nMini waterfall with royal pride.  \nHydrant hero, suit and tie,  \nToilet galaxy, flying high.  \n\n[Outro - whispered rap]  \nSo when the pressure calls, don’t be shy,  \nSalute the stream and wave goodbye.  \nA bathroom anthem, silly and true,  \nThe coolest little flow belongs to you."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Golden Stream Throne Anthem",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "14f9f4c8-4edd-5031-bfe9-b2c4c50a5f6b",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-08T15:54:51.795153Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "848f320d-1910-46c5-a0bc-917bc4bc24da",
+        "sound_prompt": "Funny cute rap-dubstep song, playful cartoon vocals, bouncy trap hi-hats, heavy bass drops, bright synth stabs, bathroom-hero comedy vibe, crisp mix, 140 bpm",
+        "title": "Golden Stream Throne Anthem",
+        "seed": null,
+        "lyrics_id": "0b3284a9-dfb8-59d7-ac3c-f59be06e1b6b"
+      },
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "is_remix_eligible": true,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/3b49a6a6-f3c4-4c04-a82b-d0c651e20a10.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/3b49a6a6-f3c4-4c04-a82b-d0c651e20a10.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/14f9f4c8-4edd-5031-bfe9-b2c4c50a5f6b.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
