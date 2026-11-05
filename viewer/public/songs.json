@@ -223944,8 +223944,841 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/b9430170-8dd8-4df1-bce0-8f0b3438285b.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/3b4d80a8-8f2f-565a-b689-78dcc99fafdc.jpg",
       "video_url": null
+    },
+    {
+      "id": "14e1b796-27b1-4409-9ff3-8cfd1ce6b5a1",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "49e3e26c-522e-59ac-8714-1962c124f9b9",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "162.76266666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "8e4c6a65-01af-59dd-aca0-4ecfd2cc3130",
+          "text": "[Intro: Mannequin & Dummy]\nEvening, handsome.\nEvening, doll.\nWanna see how I look in the light?\nSure. Hit the switch.\n\n[Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\nCome on, Dummy, let’s go shopping.\n\n[Verse 1: Mannequin & Dummy]\nHollow inside, but I’m dressed so nice,\nSize zero’s the only size I come in.\nYou’re my guy, stiff and shy,\nSame suit every day, that’s my thing.\nPin me here, tuck me there,\nSwap my head if you don’t like my hair.\n\n[Bridge: Mannequin]\nYou can stare, you can pay,\nIf you tell me I’m always yours.\nTake me home, take me home,\nI’ll be whatever you saw.\n\n[Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\n\n[Breakdown: Mannequin & Dummy]\nCome on, Dummy, let’s go shopping!\nAh, ah, ah, yeah!\nCome on, Dummy, let’s go shopping!\nOoh, ooh!\n\n[Verse 2: Mannequin & Dummy]\nFix my face, fix my pace,\nI’m a brand-new dream every season.\nNever tired, never wired for a “no,”\nI don’t need a reason.\nTrends turn old, I get sold,\nDon’t you worry, I’ll be gold.\n\n[Bridge: Mannequin]\nYou can stare, you can pay,\nIf you tell me I’m always yours.\nYou can stare, you can pay,\nI never close the doors.\n\n[Final Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\nPose me up, pose me down, change me out of town,\nNobody asks what I’m worth, I’m worth it.\n\n[Outro: Mannequin & Dummy]\nOh, I’m having so much fun.\nWell, Dummy, the sale’s just starting.\nOh, I love you, Dummy.\n(Dummy:) Thank you, come again."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Window Girl",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "49e3e26c-522e-59ac-8714-1962c124f9b9",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-05T23:38:24.324708Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "f426076f-0c6f-4b20-be69-a99eca3cf345",
+        "sound_prompt": "Bright 90s Eurodance, bubblegum synth-pop, chirpy female lead with flat robotic vocoder male spoken responses, upbeat synth bass, upbeat dance drums, cheerful and ironic, 130 bpm",
+        "title": "Window Girl",
+        "seed": null,
+        "lyrics_id": "8e4c6a65-01af-59dd-aca0-4ecfd2cc3130"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/14e1b796-27b1-4409-9ff3-8cfd1ce6b5a1.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/14e1b796-27b1-4409-9ff3-8cfd1ce6b5a1.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/49e3e26c-522e-59ac-8714-1962c124f9b9.jpg",
+      "video_url": null
+    },
+    {
+      "id": "45fb5a56-ea16-4fc3-86fd-2a43e926f2f0",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "ad96b20d-4800-519d-b645-1ee47178cd6b",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "163.36"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "8e4c6a65-01af-59dd-aca0-4ecfd2cc3130",
+          "text": "[Intro: Mannequin & Dummy]\nEvening, handsome.\nEvening, doll.\nWanna see how I look in the light?\nSure. Hit the switch.\n\n[Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\nCome on, Dummy, let’s go shopping.\n\n[Verse 1: Mannequin & Dummy]\nHollow inside, but I’m dressed so nice,\nSize zero’s the only size I come in.\nYou’re my guy, stiff and shy,\nSame suit every day, that’s my thing.\nPin me here, tuck me there,\nSwap my head if you don’t like my hair.\n\n[Bridge: Mannequin]\nYou can stare, you can pay,\nIf you tell me I’m always yours.\nTake me home, take me home,\nI’ll be whatever you saw.\n\n[Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\n\n[Breakdown: Mannequin & Dummy]\nCome on, Dummy, let’s go shopping!\nAh, ah, ah, yeah!\nCome on, Dummy, let’s go shopping!\nOoh, ooh!\n\n[Verse 2: Mannequin & Dummy]\nFix my face, fix my pace,\nI’m a brand-new dream every season.\nNever tired, never wired for a “no,”\nI don’t need a reason.\nTrends turn old, I get sold,\nDon’t you worry, I’ll be gold.\n\n[Bridge: Mannequin]\nYou can stare, you can pay,\nIf you tell me I’m always yours.\nYou can stare, you can pay,\nI never close the doors.\n\n[Final Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\nPose me up, pose me down, change me out of town,\nNobody asks what I’m worth, I’m worth it.\n\n[Outro: Mannequin & Dummy]\nOh, I’m having so much fun.\nWell, Dummy, the sale’s just starting.\nOh, I love you, Dummy.\n(Dummy:) Thank you, come again."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Window Girl",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "ad96b20d-4800-519d-b645-1ee47178cd6b",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-05T23:38:17.165329Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "f426076f-0c6f-4b20-be69-a99eca3cf345",
+        "sound_prompt": "Bright 90s Eurodance, bubblegum synth-pop, chirpy female lead with flat robotic vocoder male spoken responses, upbeat synth bass, upbeat dance drums, cheerful and ironic, 130 bpm",
+        "title": "Window Girl",
+        "seed": null,
+        "lyrics_id": "8e4c6a65-01af-59dd-aca0-4ecfd2cc3130"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 2,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/45fb5a56-ea16-4fc3-86fd-2a43e926f2f0.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/45fb5a56-ea16-4fc3-86fd-2a43e926f2f0.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/ad96b20d-4800-519d-b645-1ee47178cd6b.jpg",
+      "video_url": null
+    },
+    {
+      "id": "1225f599-007a-47eb-8c7c-a4431258fce8",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "6ae11d36-27be-4635-b24c-375424415421",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "156.896"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "bb11eb20-ac81-530a-80cc-7b31c5f1223e",
+          "text": "Verse 1:\nI dream of the day when I can sing\nIn my heart, I can make it all\nWith words, I can create a world\nAnd let the music flow in my soul\n\nPre-Chorus:\nI’m not just writing a song\nI’m writing something that’s real\nAnd I’m ready to share it with the world\n\nChorus:\nI’m the one who makes the song\nWith every note, every line\nI’m the one who writes the song\nAnd I’m the one who can sing it all\n\nVerse 2:\nI’ve learned to play the guitar\nAnd I’ve learned to sing in a way\nThat can make people feel alive\nAnd I’m ready to share my music\n\nBridge:\nWhen I’m done, the song will be there\nAnd I’ll be the one who tells the story\nOf the music that I’ve made\n\nOutro:\nI’m the one who writes the song\nAnd I’m the one who can sing it all"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Song I Write",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "6ae11d36-27be-4635-b24c-375424415421",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-04T04:07:05.547158Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "b8b2b23a-f9eb-4e80-9f1c-001872ba2db8",
+        "sound_prompt": "uplifting indie acoustic pop track, acoustic guitar-driven, warm melodic male vocals, driving rhythmic strumming, inspiring and hopeful mood",
+        "title": "The Song I Write",
+        "seed": null,
+        "lyrics_id": "bb11eb20-ac81-530a-80cc-7b31c5f1223e"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/1225f599-007a-47eb-8c7c-a4431258fce8.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/1225f599-007a-47eb-8c7c-a4431258fce8.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/6ae11d36-27be-4635-b24c-375424415421.jpg",
+      "video_url": null
+    },
+    {
+      "id": "cb395a8d-5372-428a-86d9-cb9b8e481792",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "832ab4f7-a980-540a-9d7d-0e9d7a0f3298",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "177.94133333333335"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "98d7d4ef-d5da-5b69-b5c5-c4c10b83b0d2",
+          "text": "[Verse 1]\nI dream of the day when I can sing,\nIn my heart, I can make it all.\nWith words, I can create a world,\nAnd let the music flow in my soul.\n\n[Pre-Chorus]\nI'm not just writing a song,\nI'm writing something that's real.\nAnd I'm ready to share it with the world.\n\n[Chorus]\nI'm the one who makes the song,\nWith every note, every line.\nI'm the one who writes the song,\nAnd I'm the one who can sing it all.\n\n[Verse 2]\nI've learned to play the guitar,\nAnd I've learned to sing in a way,\nThat can make people feel alive.\nAnd I'm ready to share my music.\n\n[Pre-Chorus]\nI'm not just writing a song,\nI'm writing something that's real.\nAnd I'm ready to share it with the world.\n\n[Chorus]\nI'm the one who makes the song,\nWith every note, every line.\nI'm the one who writes the song,\nAnd I'm the one who can sing it all.\n\n[Bridge]\nWhen I'm done, the song will be there,\nAnd I'll be the one who tells the story,\nOf the music that I've made.\n\n[Chorus]\nI'm the one who makes the song,\nWith every note, every line.\nI'm the one who writes the song,\nAnd I'm the one who can sing it all.\n\n[Outro]\nI'm the one who writes the song,\nAnd I'm the one who can sing it all."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Song I Write",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "832ab4f7-a980-540a-9d7d-0e9d7a0f3298",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-04T04:07:05.048204Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "b8b2b23a-f9eb-4e80-9f1c-001872ba2db8",
+        "sound_prompt": "uplifting indie acoustic pop track, acoustic guitar-driven, warm melodic male vocals, driving rhythmic strumming, inspiring and hopeful mood",
+        "title": "The Song I Write",
+        "seed": null,
+        "lyrics_id": "bb11eb20-ac81-530a-80cc-7b31c5f1223e"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 2,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/cb395a8d-5372-428a-86d9-cb9b8e481792.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/cb395a8d-5372-428a-86d9-cb9b8e481792.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/832ab4f7-a980-540a-9d7d-0e9d7a0f3298.jpg",
+      "video_url": null
+    },
+    {
+      "id": "1461573b-4235-4776-9126-69ddf00089a9",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "e389c5d9-bee4-5d20-b948-f3ae113df5ba",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "171.06133333333332"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "b2a025b3-a008-59c6-baaa-9261c5629c5c",
+          "text": "[Verse 1]\nI dream of the day when I can sing,\nIn my heart, I can make it all.\nWith words, I can create a world,\nAnd let the music flow in my soul.\n\n[Pre-Chorus]\nI'm not just writing a song,\nI'm writing something that's real,\nAnd I'm ready to share it with the world.\n\n[Chorus]\nI'm the one who makes the song,\nWith every note, every line.\nI'm the one who writes the song,\nAnd I'm the one who can sing it all.\n\n[Verse 2]\nI've learned to play the guitar,\nAnd I've learned to sing in a way\nThat can make people feel alive,\nAnd I'm ready to share my music.\n\n[Chorus]\nI'm the one who makes the song,\nWith every note, every line.\nI'm the one who writes the song,\nAnd I'm the one who can sing it all.\nI'm the one who makes the song,\nWith every note, every line.\nI'm the one who writes the song,\nAnd I'm the one who can sing it all.\n\n[Bridge]\nWhen I'm done, the song will be there,\nAnd I'll be the one who tells the story\nOf the music that I've made.\n\n[Outro]\nI'm the one who makes the song,\nWith every note, every line.\nI'm the one who writes the song,\nAnd I'm the one who can sing it all.\nI'm the one who makes the song,\nWith every note, every line.\nI'm the one who writes the song,\nAnd I'm the one who can sing it all."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Song I Write",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "e389c5d9-bee4-5d20-b948-f3ae113df5ba",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-04T04:06:59.915899Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "b8b2b23a-f9eb-4e80-9f1c-001872ba2db8",
+        "sound_prompt": "energetic pop rock ballad, crisp acoustic and electric guitars, powerful soaring vocals, driving drums, inspiring and passionate mood",
+        "title": "The Song I Write",
+        "seed": null,
+        "lyrics_id": "bb11eb20-ac81-530a-80cc-7b31c5f1223e"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/1461573b-4235-4776-9126-69ddf00089a9.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/1461573b-4235-4776-9126-69ddf00089a9.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/e389c5d9-bee4-5d20-b948-f3ae113df5ba.jpg",
+      "video_url": null
+    },
+    {
+      "id": "2215fc0f-7937-4dde-bdb9-756a5254d277",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "774d4572-ffd4-5b81-aa29-06cb7469eb79",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "177.792"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "55161754-f78d-5b7f-9fa2-6a3cc8d6ba93",
+          "text": "[Instrumental]"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Hush Now, Little One (Instrumental)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "774d4572-ffd4-5b81-aa29-06cb7469eb79",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-02T09:19:37.418021Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "9d5723c3-1fab-4abc-82a9-5595b479518f",
+        "sound_prompt": "Indie folk lullaby, warm fingerpicked acoustic guitar, soft gentle intimate male vocal tone, quiet warm room acoustics, tender and peaceful atmosphere, slow tempo, 68 bpm",
+        "title": "Hush Now, Little One (Instrumental)",
+        "seed": null,
+        "lyrics_id": null
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/2215fc0f-7937-4dde-bdb9-756a5254d277.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/2215fc0f-7937-4dde-bdb9-756a5254d277.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/774d4572-ffd4-5b81-aa29-06cb7469eb79.jpg",
+      "video_url": null
+    },
+    {
+      "id": "10d74c2b-e949-405e-8ef9-5b748537c817",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "1bdd5119-ea1e-51c9-856b-675a4f0d030c",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "168.78933333333333"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "55161754-f78d-5b7f-9fa2-6a3cc8d6ba93",
+          "text": "[Instrumental]"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Hush Now, Little One (Instrumental Take 2)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "1bdd5119-ea1e-51c9-856b-675a4f0d030c",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-02T09:19:28.369761Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "9d5723c3-1fab-4abc-82a9-5595b479518f",
+        "sound_prompt": "Indie folk lullaby, warm fingerpicked acoustic guitar, soft gentle intimate male vocal tone, quiet warm room acoustics, tender and peaceful atmosphere, slow tempo, 68 bpm",
+        "title": "Hush Now, Little One (Instrumental Take 2)",
+        "seed": null,
+        "lyrics_id": null
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/10d74c2b-e949-405e-8ef9-5b748537c817.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/10d74c2b-e949-405e-8ef9-5b748537c817.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/1bdd5119-ea1e-51c9-856b-675a4f0d030c.jpg",
+      "video_url": null
+    },
+    {
+      "id": "4f551eb1-5abf-401d-bcb5-30818875dd31",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "ea385fd3-f90b-5ecf-bad8-a515318b602d",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "178.80533333333332"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "b5bd01db-60fd-5301-b2a3-c68b284ba28d",
+          "text": "[Intro]\nOoh, ooh\nAh, ah\n\n[Verse 1]\nLay down your heavy boots beside the door\nThe frost is creeping on the window glass\nThe wind is calling from the valley floor\nAnd every heavy hour has come to pass\n\n[Chorus]\nUnder the wool stitched by a loving hand\nWhere lingering chills begin to fade away\nSoftly you slip into a quiet land\nAnd give the dark the burdens of the day\n(Ooh, let it go)\nAnd give the dark the burdens of the day\n\n[Verse 2]\nThe cedar log is sinking into ash\nThe pines are sleeping in the winter air\nThe river flows beneath the starlit span\nAnd you are tucked away from cold and care\n\n[Chorus]\nUnder the wool stitched by a loving hand\nWhere lingering chills begin to fade away\nSoftly you slip into a quiet land\nAnd give the dark the burdens of the day\n(Ooh, let it go)\nAnd give the dark the burdens of the day\n\n[Bridge]\nAh, ah, ah\nThe wind can rattle on the outer sill\nThe frost can bite the meadow and the hill\nIn here the wool is thick and warm and deep\nIn here there's nothing left to hold but sleep\n\n[Chorus]\nUnder the wool stitched by a loving hand\nWhere lingering chills begin to fade away\nSoftly you slip into a quiet land\nAnd give the dark the burdens of the day\n(Ooh, let it go)\nAnd give the dark the burdens of the day\n\n[Outro]\nClose your eyes\nLet the quiet hold you now\n(Warm and still)\nClose your eyes\nOoh, ooh"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Under the Wool",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "ea385fd3-f90b-5ecf-bad8-a515318b602d",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-02T09:18:18.191873Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "9d5723c3-1fab-4abc-82a9-5595b479518f",
+        "sound_prompt": "Contemporary Folk, Pastoral Harmony-Folk, Indie Folk Lullaby, fingerpicked acoustic guitar, soft bowed cello, warm upright bass, dual female and male gentle vocal harmonies, intimate breathy tone, slow lullaby tempo, 72 BPM, D major, serene, comforting, warm wool timbre, organic acoustic space",
+        "title": "Under the Wool",
+        "seed": null,
+        "lyrics_id": "b5bd01db-60fd-5301-b2a3-c68b284ba28d"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/4f551eb1-5abf-401d-bcb5-30818875dd31.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/4f551eb1-5abf-401d-bcb5-30818875dd31.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/ea385fd3-f90b-5ecf-bad8-a515318b602d.jpg",
+      "video_url": null
+    },
+    {
+      "id": "e193ac3e-42f9-4375-9584-d396dc6373d1",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "70d3b5b6-b755-572b-872a-ff75d9ef7271",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "182.10133333333334"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "b5bd01db-60fd-5301-b2a3-c68b284ba28d",
+          "text": "[Intro]\nOoh, ooh\nAh, ah\n\n[Verse 1]\nLay down your heavy boots beside the door\nThe frost is creeping on the window glass\nThe wind is calling from the valley floor\nAnd every heavy hour has come to pass\n\n[Chorus]\nUnder the wool stitched by a loving hand\nWhere lingering chills begin to fade away\nSoftly you slip into a quiet land\nAnd give the dark the burdens of the day\n(Ooh, let it go)\nAnd give the dark the burdens of the day\n\n[Verse 2]\nThe cedar log is sinking into ash\nThe pines are sleeping in the winter air\nThe river flows beneath the starlit span\nAnd you are tucked away from cold and care\n\n[Chorus]\nUnder the wool stitched by a loving hand\nWhere lingering chills begin to fade away\nSoftly you slip into a quiet land\nAnd give the dark the burdens of the day\n(Ooh, let it go)\nAnd give the dark the burdens of the day\n\n[Bridge]\nAh, ah, ah\nThe wind can rattle on the outer sill\nThe frost can bite the meadow and the hill\nIn here the wool is thick and warm and deep\nIn here there's nothing left to hold but sleep\n\n[Chorus]\nUnder the wool stitched by a loving hand\nWhere lingering chills begin to fade away\nSoftly you slip into a quiet land\nAnd give the dark the burdens of the day\n(Ooh, let it go)\nAnd give the dark the burdens of the day\n\n[Outro]\nClose your eyes\nLet the quiet hold you now\n(Warm and still)\nClose your eyes\nOoh, ooh"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Under the Wool",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "70d3b5b6-b755-572b-872a-ff75d9ef7271",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-02T09:18:17.209892Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "9d5723c3-1fab-4abc-82a9-5595b479518f",
+        "sound_prompt": "Contemporary Folk, Pastoral Harmony-Folk, Indie Folk Lullaby, fingerpicked acoustic guitar, soft bowed cello, warm upright bass, dual female and male gentle vocal harmonies, intimate breathy tone, slow lullaby tempo, 72 BPM, D major, serene, comforting, warm wool timbre, organic acoustic space",
+        "title": "Under the Wool",
+        "seed": null,
+        "lyrics_id": "b5bd01db-60fd-5301-b2a3-c68b284ba28d"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/e193ac3e-42f9-4375-9584-d396dc6373d1.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/e193ac3e-42f9-4375-9584-d396dc6373d1.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/70d3b5b6-b755-572b-872a-ff75d9ef7271.jpg",
+      "video_url": null
+    },
+    {
+      "id": "582b4d8b-1130-4452-8af6-19ffd8bd69cc",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "593b9228-e3a9-52cc-8fe1-08d5f9f6128b",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "156.77866666666668"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "d1a5a0ea-74e5-5bce-8c3e-8d49f4d52613",
+          "text": "[Verse 1]\nPress your cheek against the double glass\nThe diesel sways through tall canary grass\nPast cedar posts and rusted tractor tires\nAnd starlings settled on the copper wires\nYour wool coat folded like a pillowcase\nLeave every bitter thought in its own place\n\n[Chorus]\nHush now, little one, close your eyes\nThe dark oak forest stretches to the skies\nLet the iron wheels roll you back home\nYou do not have to carry this alone\n(Let it go now)\n(Rest your head)\n\n[Verse 2]\nThe conductor checks the paper tickets twice\nThe riverbank is laced with early ice\nWe left the chimney smoke of Utica\nBehind the ridge near old Saratoga\nYour boots are muddy from the gravel lot\nForget the heavy arguments we fought\n\n[Chorus]\nHush now, little one, close your eyes\nThe dark oak forest stretches to the skies\nLet the iron wheels roll you back home\nYou do not have to carry this alone\n(Let it go now)\n(Rest your head)\n\n[Bridge]\nThe lantern on the tail-car swings so low\nIt marks the quiet miles we have to go\nThe telegraph poles tally up the dark\nA gentle flame without a single spark\n\n[Outro]\nClose your eyes now\nListen to the track\nNo need to turn back\n(Hush now)\n(Rest your head)\nSoftly sleep"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Hush Now, Little One (Take 2)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "593b9228-e3a9-52cc-8fe1-08d5f9f6128b",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-02T09:18:09.956993Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "9d5723c3-1fab-4abc-82a9-5595b479518f",
+        "sound_prompt": "Indie folk, chamber folk lullaby, warm fingerpicked acoustic guitar, soft muted upright piano, delicate hushed male vocal, gentle tender tone, slow tempo, 68 BPM, key of G major, organic intimate room acoustic, subtle string swells, soothing lullaby rhythm, rustic quiet atmosphere",
+        "title": "Hush Now, Little One (Take 2)",
+        "seed": null,
+        "lyrics_id": "d1a5a0ea-74e5-5bce-8c3e-8d49f4d52613"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/582b4d8b-1130-4452-8af6-19ffd8bd69cc.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/582b4d8b-1130-4452-8af6-19ffd8bd69cc.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/593b9228-e3a9-52cc-8fe1-08d5f9f6128b.jpg",
+      "video_url": null
+    },
+    {
+      "id": "652852ec-1a09-45ca-a40b-6e0b919db967",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "2c4663c1-35f8-5cf2-bb72-919f17a3f4bd",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "179.072"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "d1a5a0ea-74e5-5bce-8c3e-8d49f4d52613",
+          "text": "[Verse 1]\nPress your cheek against the double glass\nThe diesel sways through tall canary grass\nPast cedar posts and rusted tractor tires\nAnd starlings settled on the copper wires\nYour wool coat folded like a pillowcase\nLeave every bitter thought in its own place\n\n[Chorus]\nHush now, little one, close your eyes\nThe dark oak forest stretches to the skies\nLet the iron wheels roll you back home\nYou do not have to carry this alone\n(Let it go now)\n(Rest your head)\n\n[Verse 2]\nThe conductor checks the paper tickets twice\nThe riverbank is laced with early ice\nWe left the chimney smoke of Utica\nBehind the ridge near old Saratoga\nYour boots are muddy from the gravel lot\nForget the heavy arguments we fought\n\n[Chorus]\nHush now, little one, close your eyes\nThe dark oak forest stretches to the skies\nLet the iron wheels roll you back home\nYou do not have to carry this alone\n(Let it go now)\n(Rest your head)\n\n[Bridge]\nThe lantern on the tail-car swings so low\nIt marks the quiet miles we have to go\nThe telegraph poles tally up the dark\nA gentle flame without a single spark\n\n[Outro]\nClose your eyes now\nListen to the track\nNo need to turn back\n(Hush now)\n(Rest your head)\nSoftly sleep"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Hush Now, Little One",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "2c4663c1-35f8-5cf2-bb72-919f17a3f4bd",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-02T09:18:07.871668Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "9d5723c3-1fab-4abc-82a9-5595b479518f",
+        "sound_prompt": "Indie folk, chamber folk lullaby, warm fingerpicked acoustic guitar, soft muted upright piano, delicate hushed male vocal, gentle tender tone, slow tempo, 68 BPM, key of G major, organic intimate room acoustic, subtle string swells, soothing lullaby rhythm, rustic quiet atmosphere",
+        "title": "Hush Now, Little One",
+        "seed": null,
+        "lyrics_id": "d1a5a0ea-74e5-5bce-8c3e-8d49f4d52613"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/652852ec-1a09-45ca-a40b-6e0b919db967.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/652852ec-1a09-45ca-a40b-6e0b919db967.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/2c4663c1-35f8-5cf2-bb72-919f17a3f4bd.jpg",
+      "video_url": null
+    },
+    {
+      "id": "03c88394-910f-444b-82d2-182e2ebc5ab9",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "ea565724-7543-5aad-abd7-86e2408e8be4",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "167.91466666666668"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "cafac61b-ca8b-5876-9796-50a8d2f23b02",
+          "text": "Yo, I'm the one who's got the vibe,\nDubstep in the air, it's a vibe,\nI'm the one who's got the beat,\nRap's the anthem, it's the beat.\n\nFrom the streets to the beat,\nI'm the one who's got the fire,\nDubstep's the rhythm, I'm the one who's got the beat,\nRap's the anthem, it's the beat.\n\nDubstep, I'm the one who's got the beat,\nRap, I'm the one who's got the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire.\nDubstep, I'm the one who's got the beat,\nRap, I'm the one who's got the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire.\n\nYo, I'm the one who's got the vibe,\nDubstep in the air, it's a vibe,\nI'm the one who's got the beat,\nRap's the anthem, it's the beat.\n\nFrom the streets to the beat,\nI'm the one who's got the fire,\nDubstep's the rhythm, I'm the one who's got the beat,\nRap's the anthem, it's the beat.\n\nDubstep, I'm the one who's got the beat,\nRap, I'm the one who's got the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire.\nDubstep, I'm the one who's got the beat,\nRap, I'm the one who's got the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire.\n\nDubstep's the rhythm, I'm the one who's got the beat,\nRap's the anthem, it's the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire.\n\nSo I'm the one who's got the beat,\nDubstep, I'm the one who's got the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Rap as Dubstep",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "ea565724-7543-5aad-abd7-86e2408e8be4",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-02T08:17:44.770893Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "78ec53aa-ce26-423d-bd5d-04b38146ef5f",
+        "sound_prompt": "heavy dubstep rap fusion, aggressive sub bass wobble, punchy hip hop drums, fast rap flow, energetic synth growls, 140 bpm",
+        "title": "Rap as Dubstep",
+        "seed": null,
+        "lyrics_id": "cafac61b-ca8b-5876-9796-50a8d2f23b02"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 2,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/03c88394-910f-444b-82d2-182e2ebc5ab9.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/03c88394-910f-444b-82d2-182e2ebc5ab9.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/ea565724-7543-5aad-abd7-86e2408e8be4.jpg",
+      "video_url": null
+    },
+    {
+      "id": "8868da22-7891-41f3-9164-a5e87a71f53c",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "2a83c524-d553-5fe1-a46a-1ee4a2ef91b8",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "181.41866666666667"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "cafac61b-ca8b-5876-9796-50a8d2f23b02",
+          "text": "Yo, I'm the one who's got the vibe,\nDubstep in the air, it's a vibe,\nI'm the one who's got the beat,\nRap's the anthem, it's the beat.\n\nFrom the streets to the beat,\nI'm the one who's got the fire,\nDubstep's the rhythm, I'm the one who's got the beat,\nRap's the anthem, it's the beat.\n\nDubstep, I'm the one who's got the beat,\nRap, I'm the one who's got the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire.\nDubstep, I'm the one who's got the beat,\nRap, I'm the one who's got the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire.\n\nYo, I'm the one who's got the vibe,\nDubstep in the air, it's a vibe,\nI'm the one who's got the beat,\nRap's the anthem, it's the beat.\n\nFrom the streets to the beat,\nI'm the one who's got the fire,\nDubstep's the rhythm, I'm the one who's got the beat,\nRap's the anthem, it's the beat.\n\nDubstep, I'm the one who's got the beat,\nRap, I'm the one who's got the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire.\nDubstep, I'm the one who's got the beat,\nRap, I'm the one who's got the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire.\n\nDubstep's the rhythm, I'm the one who's got the beat,\nRap's the anthem, it's the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire.\n\nSo I'm the one who's got the beat,\nDubstep, I'm the one who's got the beat,\nFrom the streets to the beat,\nI'm the one who's got the fire."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Best Way to Beat",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "2a83c524-d553-5fe1-a46a-1ee4a2ef91b8",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-02T08:17:40.347604Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "78ec53aa-ce26-423d-bd5d-04b38146ef5f",
+        "sound_prompt": "grimy dubstep rap fusion, heavy bass drops, dark atmospheric synths, crisp rap vocals, 140 bpm",
+        "title": "The Best Way to Beat",
+        "seed": null,
+        "lyrics_id": "cafac61b-ca8b-5876-9796-50a8d2f23b02"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 2,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/8868da22-7891-41f3-9164-a5e87a71f53c.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/8868da22-7891-41f3-9164-a5e87a71f53c.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/2a83c524-d553-5fe1-a46a-1ee4a2ef91b8.jpg",
+      "video_url": null
+    },
+    {
+      "id": "f8a304ef-3f72-4faa-842f-35c924772adb",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "67decc8a-88c7-5df9-b33c-21ea48d5845b",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "130.368"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "8bf734f2-82e1-5305-8e01-9bffbad0e5a8",
+          "text": "[Verse 1]\nThere was a number, small and bright,\nTwo plus two, you say it right.\nBut then came multiplication's light,\nTwo times two — oh, what do we get?\n\n[Chorus]\nTwo plus two times two is six,\nNot four, not three, but six for you!\nMultiply first, the order holds true,\n2 + (2 × 2) makes the math agree.\n\n[Verse 2]\nI told a joke about this sum,\nAnd it made me smile and then um.\nMultiplication comes before addition's rule,\nSo 2 plus 4 is what we do.\n\n[Bridge]\nDon't forget the order, don't rush or skip,\nLeft to right? No — follow the math trick!\nMultiply first, then add the rest,\nThat's how you solve this little test."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Case of Two Plus Two Times Two",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "67decc8a-88c7-5df9-b33c-21ea48d5845b",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-31T17:04:47.760956Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "8897844c-fc00-48ce-a7e1-807592ecfb1a",
+        "sound_prompt": "upbeat folk-rock, acoustic guitar, playful rhythm, catchy melody, clear vocal",
+        "title": "The Case of Two Plus Two Times Two",
+        "seed": null,
+        "lyrics_id": "8bf734f2-82e1-5305-8e01-9bffbad0e5a8"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/f8a304ef-3f72-4faa-842f-35c924772adb.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/f8a304ef-3f72-4faa-842f-35c924772adb.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/67decc8a-88c7-5df9-b33c-21ea48d5845b.jpg",
+      "video_url": null
+    },
+    {
+      "id": "bce09561-ee34-4375-b1a9-05b86de432ab",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "0a933670-eef8-5d29-80e9-bcf64c6ded5f",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "153.696"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "92ce0477-3a76-5a04-9bfd-42016de9a512",
+          "text": "[Verse 1]\nThere was a number, small and bright,\nTwo plus two, you say it right.\nBut then came multiplication's light,\nTwo times two — oh, what do we get?\n\n[Chorus]\nTwo plus two times two is six,\nNot four, not three, but six for you!\nMultiply first, the order holds true,\n2 + (2 × 2) makes the math agree.\n\n[Verse 2]\nI told a joke about this sum,\nAnd it made me smile and then um.\nMultiplication comes before addition's rule,\nSo 2 plus 4 is what we do.\n\n[Chorus]\nTwo plus two times two is six,\nNot four, not three, but six for you!\nMultiply first, the order holds true,\n2 + (2 × 2) makes the math agree.\n\n[Bridge]\nDon't forget the order, don't rush or skip,\nLeft to right? No — follow the math trick!\nMultiply first, then add the rest,\nThat's how you solve this little test.\n\n[Chorus]\nTwo plus two times two is six,\nNot four, not three, but six for you!\nMultiply first, the order holds true,\n2 + (2 × 2) makes the math agree.\nTwo plus two times two is six,\nNot four, not three, but six for you!\nMultiply first, the order holds true,\n2 + (2 × 2) makes the math agree."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Case of Two Plus Two Times Two",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "0a933670-eef8-5d29-80e9-bcf64c6ded5f",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-10-31T17:04:45.374902Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "8897844c-fc00-48ce-a7e1-807592ecfb1a",
+        "sound_prompt": "upbeat folk-rock, acoustic guitar, playful rhythm, catchy melody, clear vocal",
+        "title": "The Case of Two Plus Two Times Two",
+        "seed": null,
+        "lyrics_id": "8bf734f2-82e1-5305-8e01-9bffbad0e5a8"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/bce09561-ee34-4375-b1a9-05b86de432ab.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/bce09561-ee34-4375-b1a9-05b86de432ab.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/0a933670-eef8-5d29-80e9-bcf64c6ded5f.jpg",
+      "video_url": null
+    },
+    {
+      "id": "cd9e70bb-201a-4744-9573-e51930063e69",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "b202dbee-c8ea-537a-8b8b-8dda60e792d3",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "177.73866666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "8e4c6a65-01af-59dd-aca0-4ecfd2cc3130",
+          "text": "[Intro: Mannequin & Dummy]\nEvening, handsome.\nEvening, doll.\nWanna see how I look in the light?\nSure. Hit the switch.\n\n[Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\nCome on, Dummy, let’s go shopping.\n\n[Verse 1: Mannequin & Dummy]\nHollow inside, but I’m dressed so nice,\nSize zero’s the only size I come in.\nYou’re my guy, stiff and shy,\nSame suit every day, that’s my thing.\nPin me here, tuck me there,\nSwap my head if you don’t like my hair.\n\n[Bridge: Mannequin]\nYou can stare, you can pay,\nIf you tell me I’m always yours.\nTake me home, take me home,\nI’ll be whatever you saw.\n\n[Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\n\n[Breakdown: Mannequin & Dummy]\nCome on, Dummy, let’s go shopping!\nAh, ah, ah, yeah!\nCome on, Dummy, let’s go shopping!\nOoh, ooh!\n\n[Verse 2: Mannequin & Dummy]\nFix my face, fix my pace,\nI’m a brand-new dream every season.\nNever tired, never wired for a “no,”\nI don’t need a reason.\nTrends turn old, I get sold,\nDon’t you worry, I’ll be gold.\n\n[Bridge: Mannequin]\nYou can stare, you can pay,\nIf you tell me I’m always yours.\nYou can stare, you can pay,\nI never close the doors.\n\n[Final Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\nPose me up, pose me down, change me out of town,\nNobody asks what I’m worth, I’m worth it.\n\n[Outro: Mannequin & Dummy]\nOh, I’m having so much fun.\nWell, Dummy, the sale’s just starting.\nOh, I love you, Dummy.\n(Dummy:) Thank you, come again."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Window Girl (Take 2)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "b202dbee-c8ea-537a-8b8b-8dda60e792d3",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-05T23:46:15.330719Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "f426076f-0c6f-4b20-be69-a99eca3cf345",
+        "sound_prompt": "Bright 90s Eurodance, bubblegum synth-pop, chirpy female lead with flat robotic vocoder male spoken responses, upbeat synth bass, upbeat dance drums, cheerful and ironic, 130 bpm",
+        "title": "Window Girl (Take 2)",
+        "seed": null,
+        "lyrics_id": "8e4c6a65-01af-59dd-aca0-4ecfd2cc3130"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/cd9e70bb-201a-4744-9573-e51930063e69.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/cd9e70bb-201a-4744-9573-e51930063e69.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/b202dbee-c8ea-537a-8b8b-8dda60e792d3.jpg",
+      "video_url": null
+    },
+    {
+      "id": "282c65fe-9ecd-4543-ae20-9c139c1ca29f",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "26c5a037-5105-5579-a249-2523c21405e4",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "168.26666666666668"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "8e4c6a65-01af-59dd-aca0-4ecfd2cc3130",
+          "text": "[Intro: Mannequin & Dummy]\nEvening, handsome.\nEvening, doll.\nWanna see how I look in the light?\nSure. Hit the switch.\n\n[Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\nCome on, Dummy, let’s go shopping.\n\n[Verse 1: Mannequin & Dummy]\nHollow inside, but I’m dressed so nice,\nSize zero’s the only size I come in.\nYou’re my guy, stiff and shy,\nSame suit every day, that’s my thing.\nPin me here, tuck me there,\nSwap my head if you don’t like my hair.\n\n[Bridge: Mannequin]\nYou can stare, you can pay,\nIf you tell me I’m always yours.\nTake me home, take me home,\nI’ll be whatever you saw.\n\n[Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\n\n[Breakdown: Mannequin & Dummy]\nCome on, Dummy, let’s go shopping!\nAh, ah, ah, yeah!\nCome on, Dummy, let’s go shopping!\nOoh, ooh!\n\n[Verse 2: Mannequin & Dummy]\nFix my face, fix my pace,\nI’m a brand-new dream every season.\nNever tired, never wired for a “no,”\nI don’t need a reason.\nTrends turn old, I get sold,\nDon’t you worry, I’ll be gold.\n\n[Bridge: Mannequin]\nYou can stare, you can pay,\nIf you tell me I’m always yours.\nYou can stare, you can pay,\nI never close the doors.\n\n[Final Chorus: Mannequin]\nI’m a window girl in a window world,\nSmile painted on, I’m perfect.\nPose me up, pose me down, change me out of town,\nWhatever you pick, I’m worth it.\nPose me up, pose me down, change me out of town,\nNobody asks what I’m worth, I’m worth it.\n\n[Outro: Mannequin & Dummy]\nOh, I’m having so much fun.\nWell, Dummy, the sale’s just starting.\nOh, I love you, Dummy.\n(Dummy:) Thank you, come again."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Window Girl (Take 2)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "26c5a037-5105-5579-a249-2523c21405e4",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-05T23:46:11.921751Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "f426076f-0c6f-4b20-be69-a99eca3cf345",
+        "sound_prompt": "Bright 90s Eurodance, bubblegum synth-pop, chirpy female lead with flat robotic vocoder male spoken responses, upbeat synth bass, upbeat dance drums, cheerful and ironic, 130 bpm",
+        "title": "Window Girl (Take 2)",
+        "seed": null,
+        "lyrics_id": "8e4c6a65-01af-59dd-aca0-4ecfd2cc3130"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/282c65fe-9ecd-4543-ae20-9c139c1ca29f.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/282c65fe-9ecd-4543-ae20-9c139c1ca29f.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/26c5a037-5105-5579-a249-2523c21405e4.jpg",
+      "video_url": null
     }
   ],
-  "next_offset": 584,
+  "next_offset": 100,
   "complete": true
 }
