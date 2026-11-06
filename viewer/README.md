@@ -1,6 +1,6 @@
 # Sleeve Notes
 
-A listening room for your Flow Music export: searchable records, original audio, covers, generation notes, and lyrics highlighted using saved timing markers.
+A music library for your Flow Music export with searchable songs, original audio, cover art, song details, and lyrics highlighted using saved timing markers.
 
 ```bash
 cd viewer
@@ -11,7 +11,7 @@ bun run dev
 
 Open the local URL printed by Vite. After exporting new songs, copy `songs.json` again and refresh the page.
 
-Open `?id=<song-id>` to select a pressing without autoplay, or use the copy-link button beside M4A/WAV to share it.
+Open `?id=<song-id>` to select a song without autoplay, or use the copy-link button beside M4A/WAV to share it.
 
 To load a remote export instead, create `viewer/.env`:
 

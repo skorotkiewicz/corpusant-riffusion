@@ -68,7 +68,7 @@ export function readLibrary(data) {
       throw new Error('Every clip must have a unique ID. Check the JSON export.')
     }
     ids.add(raw.id)
-    const title = typeof raw.title === 'string' && raw.title.trim() ? raw.title : 'Untitled pressing'
+    const title = typeof raw.title === 'string' && raw.title.trim() ? raw.title : 'Untitled song'
     const lyrics = typeof raw.lyrics?.value?.text === 'string' ? raw.lyrics.value.text : ''
     const prompt = typeof raw.operation?.sound_prompt === 'string' ? raw.operation.sound_prompt : ''
     return {
