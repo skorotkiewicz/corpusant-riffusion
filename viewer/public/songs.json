@@ -227014,6 +227014,55 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/da186044-e417-4cf8-9961-5ea036203010.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/15320f16-af75-52e4-a089-cc855013820f.jpg",
       "video_url": null
+    },
+    {
+      "id": "485b4989-cb53-44bd-83b3-7f34d24f757b",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "726adc20-2cf2-5fff-8326-a0f67b7acc82",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "170.4"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "ca92dad9-00ae-564d-b5e4-1930bdc1f0ea",
+          "text": "[Intro]\n(Sag es noch einmal)\n(Sag es noch einmal)\n\n[Verse 1]\nAm Esstisch schreien die Stimmen laut\nIch spüre Druck auf meiner Haut\nDu siehst mich an und hältst mich fest\nWeil man uns wieder bluten lässt\n\n[Pre-Chorus]\nSie sagen wir sind viel zu laut\nHaben wieder nur Mist gebaut\nDu bildest dir das ein\n(Du bildest dir das ein)\nDu bildest dir das ein\n(Sag es bis es nichts mehr wiegt)\n\n[Chorus]\nWir sind das Symptom\nDer Riss in eurer heilen Welt\nWir sind das Symptom\nDas eure falsche Ruhe bricht\nSchau uns an\nWir sind der Makel in dem Bild\nWir sind das Symptom\n(Das Symptom)\n\n[Verse 2]\nMein Wort hat hier kein Gewicht\nDu schaust ihnen ins Gesicht\nWir tragen ihre alte Schuld\nUnd verlieren die Geduld\n\n[Pre-Chorus]\nSie sagen wir sind viel zu laut\nHaben wieder nur Mist gebaut\nDu bildest dir das ein\n(Du bildest dir das ein)\nDu bildest dir das ein\n(Sag es bis es nichts mehr wiegt)\n\n[Chorus]\nWir sind das Symptom\nDer Riss in eurer heilen Welt\nWir sind das Symptom\nDas eure falsche Ruhe bricht\nSchau uns an\nWir sind der Makel in dem Bild\nWir sind das Symptom\n(Das Symptom)\n\n[Bridge]\nDie Tür geht auf und jemand fragt\nWarum habt ihr uns nichts gesagt\nWas stimmt denn nicht mit euch\n(Was stimmt denn nicht mit euch)\nWarum seid ihr so geworden\n\n[Chorus]\nWir sind das Symptom\nDer Riss in eurer heilen Welt\nWir sind das Symptom\nDas eure falsche Ruhe bricht\nSchau uns an\nWir sind der Makel in dem Bild\nWir sind das Symptom\n(Das Symptom)\n\n[Outro]\nDu bildest dir das ein\nDu bildest dir das ein\n(Bildest dir das ein)\nSymptom\nSymptom\n(Was stimmt nicht mit euch)\nDu bildest dir das ein"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Symptom (German Take 2)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "726adc20-2cf2-5fff-8326-a0f67b7acc82",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T07:34:20.417601Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "8bad74d3-996c-41ae-85da-bddeca46288e",
+        "sound_prompt": "Early 2000s Eurodance-pop, confessional electropop, 138 BPM, A minor, fast tempo, pulsing synth bass, energetic trance arpeggios, driving beats, anxious energy, female duet vocals, bright harmonies, emotional vocal delivery, polished dance production",
+        "title": "Symptom (German Take 2)",
+        "seed": null,
+        "lyrics_id": "ca92dad9-00ae-564d-b5e4-1930bdc1f0ea"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/485b4989-cb53-44bd-83b3-7f34d24f757b.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/485b4989-cb53-44bd-83b3-7f34d24f757b.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/726adc20-2cf2-5fff-8326-a0f67b7acc82.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
