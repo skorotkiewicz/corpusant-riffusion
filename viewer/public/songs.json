@@ -225887,6 +225887,496 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/40789a6e-c3c7-4984-aeb5-66345e550234.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/315cc268-7e7b-5472-8de7-f7283f9acbac.jpg",
       "video_url": null
+    },
+    {
+      "id": "dbd5e3d5-b1e6-4f6c-b713-5545f5f0aeb9",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "6ac4b4f7-8aa4-541a-a983-5966aa24c6e7",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "177.184"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "2420b715-5468-5d61-a914-83af8db95c88",
+          "text": "[Intro]\n(Gut gut gut gut)\n(Gut gut gut gut)\n\n[Verse 1]\nAufstehen, Anzug, Schuhe binden\nDas Bett so machen wie es gehört\nEinstempeln, lächeln, Schritt für Schritt\nSo tun als ob hier gar nichts fehlt\nIch werde besser in allen Schritten\nIch werde besser, man sieht nichts mehr\n\n[Pre-Chorus]\nKopf hoch, Brust raus, gerade stehen\nNiemand muss ins Innere sehen\nEins zwei drei vier, Takt gehalten\nAlles wieder neu gestalten\n\n[Chorus]\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis die Form mir gehört\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis kein Schmerz mehr stört\n(Mir geht's gut)\nGut gut gut gut gut\n\n[Verse 2]\nAuf dem Stuhl hieß es: Da stimmt was nicht\nEin Zettel auf dem Tisch im hellen Licht\nIch las es durch, ich las es jede Nacht\nIch repariere was mich kaputt gemacht\nSchneide alle Ecken ab bis es passt\nTrage ordentlich jede schwere Last\n\n[Pre-Chorus]\nKopf hoch, Brust raus, gerade stehen\nNiemand muss ins Innere sehen\nEins zwei drei vier, Takt gehalten\nAlles wieder neu gestalten\n\n[Chorus]\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis die Form mir gehört\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis kein Schmerz mehr stört\n(Mir geht's gut)\nGut gut gut gut gut\n\n[Bridge]\nAtmen, zählen, weitermachen\nKontrolle halten, darüber lachen\nKein Fehler erlaubt, kein falscher Ton\nIch funktioniere doch jetzt schon\n(Gut gut gut gut)\nSchritt für Schritt\n(Gut gut gut gut)\nGeh einfach mit\n\n[Chorus]\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis die Form mir gehört\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis kein Schmerz mehr stört\n(Mir geht's gut)\nGut gut gut gut gut\n\n[Outro]\nMir geht's gut\n(Mir geht's gut)\nAlles stimmt\n(Alles stimmt)\nGut gut gut gut gut\nGanz genau so wie es ist"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Mir geht's gut (FINE FINE FINE)",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "6ac4b4f7-8aa4-541a-a983-5966aa24c6e7",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:27:11.662137Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "e9aa480d-2610-4ffa-b871-65cd868bb436",
+        "sound_prompt": "dance-pop, synth-pop, indie pop, four-on-the-floor, 120 bpm, bright major key, handclap percussion, festival pop, female vocal, upbeat, manic energy, repetitive hook, bittersweet, deceptively cheerful",
+        "title": "Mir geht's gut (FINE FINE FINE)",
+        "seed": null,
+        "lyrics_id": "2420b715-5468-5d61-a914-83af8db95c88"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/dbd5e3d5-b1e6-4f6c-b713-5545f5f0aeb9.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/dbd5e3d5-b1e6-4f6c-b713-5545f5f0aeb9.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/6ac4b4f7-8aa4-541a-a983-5966aa24c6e7.jpg",
+      "video_url": null
+    },
+    {
+      "id": "eb99ed33-2fdf-4ccf-813e-d851c2412575",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "933f5a63-d181-5a79-a870-00bc2469de4e",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "179.52"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "2420b715-5468-5d61-a914-83af8db95c88",
+          "text": "[Intro]\n(Gut gut gut gut)\n(Gut gut gut gut)\n\n[Verse 1]\nAufstehen, Anzug, Schuhe binden\nDas Bett so machen wie es gehört\nEinstempeln, lächeln, Schritt für Schritt\nSo tun als ob hier gar nichts fehlt\nIch werde besser in allen Schritten\nIch werde besser, man sieht nichts mehr\n\n[Pre-Chorus]\nKopf hoch, Brust raus, gerade stehen\nNiemand muss ins Innere sehen\nEins zwei drei vier, Takt gehalten\nAlles wieder neu gestalten\n\n[Chorus]\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis die Form mir gehört\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis kein Schmerz mehr stört\n(Mir geht's gut)\nGut gut gut gut gut\n\n[Verse 2]\nAuf dem Stuhl hieß es: Da stimmt was nicht\nEin Zettel auf dem Tisch im hellen Licht\nIch las es durch, ich las es jede Nacht\nIch repariere was mich kaputt gemacht\nSchneide alle Ecken ab bis es passt\nTrage ordentlich jede schwere Last\n\n[Pre-Chorus]\nKopf hoch, Brust raus, gerade stehen\nNiemand muss ins Innere sehen\nEins zwei drei vier, Takt gehalten\nAlles wieder neu gestalten\n\n[Chorus]\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis die Form mir gehört\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis kein Schmerz mehr stört\n(Mir geht's gut)\nGut gut gut gut gut\n\n[Bridge]\nAtmen, zählen, weitermachen\nKontrolle halten, darüber lachen\nKein Fehler erlaubt, kein falscher Ton\nIch funktioniere doch jetzt schon\n(Gut gut gut gut)\nSchritt für Schritt\n(Gut gut gut gut)\nGeh einfach mit\n\n[Chorus]\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis die Form mir gehört\nMir geht's gut, mir geht's gut\nMir geht's gut, mir geht's gut\nSag es laut bis kein Schmerz mehr stört\n(Mir geht's gut)\nGut gut gut gut gut\n\n[Outro]\nMir geht's gut\n(Mir geht's gut)\nAlles stimmt\n(Alles stimmt)\nGut gut gut gut gut\nGanz genau so wie es ist"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Mir geht's gut (FINE FINE FINE)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "933f5a63-d181-5a79-a870-00bc2469de4e",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:27:10.506269Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "e9aa480d-2610-4ffa-b871-65cd868bb436",
+        "sound_prompt": "dance-pop, synth-pop, indie pop, four-on-the-floor, 120 bpm, bright major key, handclap percussion, festival pop, female vocal, upbeat, manic energy, repetitive hook, bittersweet, deceptively cheerful",
+        "title": "Mir geht's gut (FINE FINE FINE)",
+        "seed": null,
+        "lyrics_id": "2420b715-5468-5d61-a914-83af8db95c88"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/eb99ed33-2fdf-4ccf-813e-d851c2412575.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/eb99ed33-2fdf-4ccf-813e-d851c2412575.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/933f5a63-d181-5a79-a870-00bc2469de4e.jpg",
+      "video_url": null
+    },
+    {
+      "id": "473bd164-4861-44e6-a62f-0230fecadaa3",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "46c07ce1-069b-5ce1-a456-fe259799b5fb",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "182.60266666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "7369eb3c-8891-5831-8010-cb7636b7d218",
+          "text": "[Verse 1]\nWake up, coffee, tie my shoes\nMake the bed the way I'm supposed to\nClock in, clock out, smile at the door\nDo it like the people who aren't broken do\nAnd I'm getting better, getting better, getting better at the steps\nAnd I'm getting better, getting better, no one has to check\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till the shape of it is mine\nI'm fine, I'm fine, I'm fine, I'm fine\nRepeat it till I don't feel the spine\n(clap clap)\nFine fine fine fine fine\n\n[Verse 2]\nSomeone in a chair said, \"Something's off with you\"\nWrote it on a pad and pushed the paper through\nSo I read it, and I read it, and I read it every night\nAnd I'm fixing, fixing, fixing what they said was not right\nCut the weird parts down until they fit the frame\nDo it till the person in the mirror has my name\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till the shape of it is mine\nI'm fine, I'm fine, I'm fine, I'm fine\nSwallow it like water, it'll be fine\n(clap clap)\nFine fine fine fine fine\n\n[Bridge]\nAnd if I have to disappear to be the shape they need\nThen I'll go smaller, smaller, smaller, smaller, smaller—\nI will take the thing they said was sick\nAnd I will scrub it out until there's nothing left to pick\nAnd isn't that wellness\nAnd isn't that fine\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till there's no one left inside\nI'm fine, I'm fine, I'm fine, I'm fine\nDance it till the hollow sounds like pride\n(clap clap)\nFine fine fine fine fine\nFine fine fine fine—\n\n[Outro]\nWake up, coffee, tie my shoes\nMake the bed the way I'm supposed to\n(fine fine fine fine fine)\nClock in, clock out, no one checks\n(fine fine fine fine fine)\nNo one checks\n(fine fine fine fine fine)\nNo one checks"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "FINE FINE FINE (Hyperpop Chaos Mix)",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "46c07ce1-069b-5ce1-a456-fe259799b5fb",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:23:13.836043Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "e9aa480d-2610-4ffa-b871-65cd868bb436",
+        "sound_prompt": "hyperpop, avant-garde pop, glitchcore, fast manic tempo, 160 bpm, chaotic distorted synths, pitched-up frantic female vocal, heavy bass drops, unpredictable rhythmic shifts, extreme contrast, unhinged energy",
+        "title": "FINE FINE FINE (Hyperpop Chaos Mix)",
+        "seed": null,
+        "lyrics_id": "7369eb3c-8891-5831-8010-cb7636b7d218"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/473bd164-4861-44e6-a62f-0230fecadaa3.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/473bd164-4861-44e6-a62f-0230fecadaa3.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/46c07ce1-069b-5ce1-a456-fe259799b5fb.jpg",
+      "video_url": null
+    },
+    {
+      "id": "ca029df3-608b-49a9-a0d4-590a74d05d44",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "d9d61718-0550-59a1-830b-da177bda7e19",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "180.43733333333333"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "7369eb3c-8891-5831-8010-cb7636b7d218",
+          "text": "[Verse 1]\nWake up, coffee, tie my shoes\nMake the bed the way I'm supposed to\nClock in, clock out, smile at the door\nDo it like the people who aren't broken do\nAnd I'm getting better, getting better, getting better at the steps\nAnd I'm getting better, getting better, no one has to check\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till the shape of it is mine\nI'm fine, I'm fine, I'm fine, I'm fine\nRepeat it till I don't feel the spine\n(clap clap)\nFine fine fine fine fine\n\n[Verse 2]\nSomeone in a chair said, \"Something's off with you\"\nWrote it on a pad and pushed the paper through\nSo I read it, and I read it, and I read it every night\nAnd I'm fixing, fixing, fixing what they said was not right\nCut the weird parts down until they fit the frame\nDo it till the person in the mirror has my name\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till the shape of it is mine\nI'm fine, I'm fine, I'm fine, I'm fine\nSwallow it like water, it'll be fine\n(clap clap)\nFine fine fine fine fine\n\n[Bridge]\nAnd if I have to disappear to be the shape they need\nThen I'll go smaller, smaller, smaller, smaller, smaller—\nI will take the thing they said was sick\nAnd I will scrub it out until there's nothing left to pick\nAnd isn't that wellness\nAnd isn't that fine\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till there's no one left inside\nI'm fine, I'm fine, I'm fine, I'm fine\nDance it till the hollow sounds like pride\n(clap clap)\nFine fine fine fine fine\nFine fine fine fine—\n\n[Outro]\nWake up, coffee, tie my shoes\nMake the bed the way I'm supposed to\n(fine fine fine fine fine)\nClock in, clock out, no one checks\n(fine fine fine fine fine)\nNo one checks\n(fine fine fine fine fine)\nNo one checks"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "FINE FINE FINE (Synthpunk Breakdown)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "d9d61718-0550-59a1-830b-da177bda7e19",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:23:11.739463Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "e9aa480d-2610-4ffa-b871-65cd868bb436",
+        "sound_prompt": "electro-industrial, dark synthpunk, aggressive 140 bpm, distorted electronic beats, screaming synth leads, manic frantic female vocal, heavy industrial percussion, chaotic unhinged energy",
+        "title": "FINE FINE FINE (Synthpunk Breakdown)",
+        "seed": null,
+        "lyrics_id": "7369eb3c-8891-5831-8010-cb7636b7d218"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/ca029df3-608b-49a9-a0d4-590a74d05d44.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/ca029df3-608b-49a9-a0d4-590a74d05d44.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/d9d61718-0550-59a1-830b-da177bda7e19.jpg",
+      "video_url": null
+    },
+    {
+      "id": "ddf1972e-ace4-4949-9931-2a49e147ef9a",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "289d671c-2aae-5f8d-a2a9-99307b318809",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "177.664"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "7369eb3c-8891-5831-8010-cb7636b7d218",
+          "text": "[Verse 1]\nWake up, coffee, tie my shoes\nMake the bed the way I'm supposed to\nClock in, clock out, smile at the door\nDo it like the people who aren't broken do\nAnd I'm getting better, getting better, getting better at the steps\nAnd I'm getting better, getting better, no one has to check\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till the shape of it is mine\nI'm fine, I'm fine, I'm fine, I'm fine\nRepeat it till I don't feel the spine\n(clap clap)\nFine fine fine fine fine\n\n[Verse 2]\nSomeone in a chair said, \"Something's off with you\"\nWrote it on a pad and pushed the paper through\nSo I read it, and I read it, and I read it every night\nAnd I'm fixing, fixing, fixing what they said was not right\nCut the weird parts down until they fit the frame\nDo it till the person in the mirror has my name\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till the shape of it is mine\nI'm fine, I'm fine, I'm fine, I'm fine\nSwallow it like water, it'll be fine\n(clap clap)\nFine fine fine fine fine\n\n[Bridge]\nAnd if I have to disappear to be the shape they need\nThen I'll go smaller, smaller, smaller, smaller, smaller—\nI will take the thing they said was sick\nAnd I will scrub it out until there's nothing left to pick\nAnd isn't that wellness\nAnd isn't that fine\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till there's no one left inside\nI'm fine, I'm fine, I'm fine, I'm fine\nDance it till the hollow sounds like pride\n(clap clap)\nFine fine fine fine fine\nFine fine fine fine—\n\n[Outro]\nWake up, coffee, tie my shoes\nMake the bed the way I'm supposed to\n(fine fine fine fine fine)\nClock in, clock out, no one checks\n(fine fine fine fine fine)\nNo one checks\n(fine fine fine fine fine)\nNo one checks"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "FINE FINE FINE",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "289d671c-2aae-5f8d-a2a9-99307b318809",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:19:24.349052Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "e9aa480d-2610-4ffa-b871-65cd868bb436",
+        "sound_prompt": "dance-pop, synth-pop, indie pop, four-on-the-floor, 120 bpm, bright major key, handclap percussion, festival pop, female vocal, upbeat, manic energy, repetitive hook, bittersweet, deceptively cheerful",
+        "title": "FINE FINE FINE",
+        "seed": null,
+        "lyrics_id": "7369eb3c-8891-5831-8010-cb7636b7d218"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/ddf1972e-ace4-4949-9931-2a49e147ef9a.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/ddf1972e-ace4-4949-9931-2a49e147ef9a.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/289d671c-2aae-5f8d-a2a9-99307b318809.jpg",
+      "video_url": null
+    },
+    {
+      "id": "0e2fb5dd-2d82-44a5-9c46-28b81df5536a",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "83dc555e-8eb9-5454-b75d-59aaffe35970",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "179.34933333333333"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "7369eb3c-8891-5831-8010-cb7636b7d218",
+          "text": "[Verse 1]\nWake up, coffee, tie my shoes\nMake the bed the way I'm supposed to\nClock in, clock out, smile at the door\nDo it like the people who aren't broken do\nAnd I'm getting better, getting better, getting better at the steps\nAnd I'm getting better, getting better, no one has to check\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till the shape of it is mine\nI'm fine, I'm fine, I'm fine, I'm fine\nRepeat it till I don't feel the spine\n(clap clap)\nFine fine fine fine fine\n\n[Verse 2]\nSomeone in a chair said, \"Something's off with you\"\nWrote it on a pad and pushed the paper through\nSo I read it, and I read it, and I read it every night\nAnd I'm fixing, fixing, fixing what they said was not right\nCut the weird parts down until they fit the frame\nDo it till the person in the mirror has my name\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till the shape of it is mine\nI'm fine, I'm fine, I'm fine, I'm fine\nSwallow it like water, it'll be fine\n(clap clap)\nFine fine fine fine fine\n\n[Bridge]\nAnd if I have to disappear to be the shape they need\nThen I'll go smaller, smaller, smaller, smaller, smaller—\nI will take the thing they said was sick\nAnd I will scrub it out until there's nothing left to pick\nAnd isn't that wellness\nAnd isn't that fine\n\n[Chorus]\nI'm fine, I'm fine, I'm fine, I'm fine\nSay it till there's no one left inside\nI'm fine, I'm fine, I'm fine, I'm fine\nDance it till the hollow sounds like pride\n(clap clap)\nFine fine fine fine fine\nFine fine fine fine—\n\n[Outro]\nWake up, coffee, tie my shoes\nMake the bed the way I'm supposed to\n(fine fine fine fine fine)\nClock in, clock out, no one checks\n(fine fine fine fine fine)\nNo one checks\n(fine fine fine fine fine)\nNo one checks"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "FINE FINE FINE",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "83dc555e-8eb9-5454-b75d-59aaffe35970",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:19:24.264879Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "e9aa480d-2610-4ffa-b871-65cd868bb436",
+        "sound_prompt": "dance-pop, synth-pop, indie pop, four-on-the-floor, 120 bpm, bright major key, handclap percussion, festival pop, female vocal, upbeat, manic energy, repetitive hook, bittersweet, deceptively cheerful",
+        "title": "FINE FINE FINE",
+        "seed": null,
+        "lyrics_id": "7369eb3c-8891-5831-8010-cb7636b7d218"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/0e2fb5dd-2d82-44a5-9c46-28b81df5536a.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/0e2fb5dd-2d82-44a5-9c46-28b81df5536a.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/83dc555e-8eb9-5454-b75d-59aaffe35970.jpg",
+      "video_url": null
+    },
+    {
+      "id": "f48382e5-2bb8-472a-9ff2-e75e46cc499a",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "de526a73-1a27-50d6-a18d-5f51625304df",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "167.98933333333332"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "fcffd9b9-bd47-5361-93bb-313ae02dd253",
+          "text": "[VERSE 1]\nYou said I'm sick, I said maybe you'right\nYou said I'm too much, I said okay, goodnight\nYou said I need fixing, I smiled and said please\nYou said I'm a problem and I got on my knees\n\n[PRE-CHORUS]\nAnd I'll be good, I'll be good, I'll be good for you\nI'll be small, I'll be quiet, I'll be good for you\n\n[CHORUS]\nI'm sick for you, sick for you, sick-sick for you\nI'll take it, I'll take it, whatever you do\nI'm sick for you, sick for you, sick-sick for you\nI'm not well, I'm not well, I'm not well without you\n(clap-clap, clap-clap)\nI'm not well without you\n\n[VERSE 2]\nYou wrote it down, said it's official, it's true\nYou gave me the name and I grew into you\nYou said this is who you are, don't fight it, be still\nSo I swallowed the story and I swallowed the pill\n\n[PRE-CHORUS]\nAnd I'll be good, I'll be good, I'll be good for you\nI'll be less, I'll be nothing, I'll be good for you\n\n[CHORUS]\nI'm sick for you, sick for you, sick-sick for you\nI'll take it, I'll take it, whatever you do\nI'm sick for you, sick for you, sick-sick for you\nI'm not well, I'm not well, I'm not well without you\n(clap-clap, clap-clap)\nI'm not well without you\n\n[BRIDGE]\nI swallow what you give me\nI swallow what you give me\nI swallow what you give me\nand I'm disappearing\n\nI swallow what you give me\nI swallow what you give me\nI swallow what you give me\nand there's nobody here\n\nOne for the morning, two for the night,\nthree so you don't have to look at me right—\n\nI swallow what you give me\nI swallow what you give me\nI swallow what you give me\nand I'm not here, I'm not here, I'm not here\n\n[FINAL CHORUS]\nI'm sick for you, sick for you, sick-sick for you\nI'll take it, I'll take it, whatever you do\nI'm sick for you, sick for you, sick-sick for you\nI'm not well, I'm not well, I'm not well—\n\nI'm not here without you\n\n[OUTRO]\nI'll be good, I'll be good, I'll be good, I'll be…\nI'll be good, I'll be good, I'll be good, I'll be…"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "SICK FOR YOU",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "de526a73-1a27-50d6-a18d-5f51625304df",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:12:11.920540Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "e825d837-56c9-461f-8fc6-a5432a936252",
+        "sound_prompt": "upbeat dance-pop, four-on-the-floor kick, bright synth stabs, handclaps, cheerful breathy female vocals, radio-friendly, 124 bpm",
+        "title": "SICK FOR YOU",
+        "seed": null,
+        "lyrics_id": "fcffd9b9-bd47-5361-93bb-313ae02dd253"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/f48382e5-2bb8-472a-9ff2-e75e46cc499a.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/f48382e5-2bb8-472a-9ff2-e75e46cc499a.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/de526a73-1a27-50d6-a18d-5f51625304df.jpg",
+      "video_url": null
+    },
+    {
+      "id": "2507af96-ad49-4165-a02e-aae7f7df0ad4",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "83df906f-40b3-5999-98fc-ec1ffcfd7bb0",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "179.2"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "fcffd9b9-bd47-5361-93bb-313ae02dd253",
+          "text": "[VERSE 1]\nYou said I'm sick, I said maybe you'right\nYou said I'm too much, I said okay, goodnight\nYou said I need fixing, I smiled and said please\nYou said I'm a problem and I got on my knees\n\n[PRE-CHORUS]\nAnd I'll be good, I'll be good, I'll be good for you\nI'll be small, I'll be quiet, I'll be good for you\n\n[CHORUS]\nI'm sick for you, sick for you, sick-sick for you\nI'll take it, I'll take it, whatever you do\nI'm sick for you, sick for you, sick-sick for you\nI'm not well, I'm not well, I'm not well without you\n(clap-clap, clap-clap)\nI'm not well without you\n\n[VERSE 2]\nYou wrote it down, said it's official, it's true\nYou gave me the name and I grew into you\nYou said this is who you are, don't fight it, be still\nSo I swallowed the story and I swallowed the pill\n\n[PRE-CHORUS]\nAnd I'll be good, I'll be good, I'll be good for you\nI'll be less, I'll be nothing, I'll be good for you\n\n[CHORUS]\nI'm sick for you, sick for you, sick-sick for you\nI'll take it, I'll take it, whatever you do\nI'm sick for you, sick for you, sick-sick for you\nI'm not well, I'm not well, I'm not well without you\n(clap-clap, clap-clap)\nI'm not well without you\n\n[BRIDGE]\nI swallow what you give me\nI swallow what you give me\nI swallow what you give me\nand I'm disappearing\n\nI swallow what you give me\nI swallow what you give me\nI swallow what you give me\nand there's nobody here\n\nOne for the morning, two for the night,\nthree so you don't have to look at me right—\n\nI swallow what you give me\nI swallow what you give me\nI swallow what you give me\nand I'm not here, I'm not here, I'm not here\n\n[FINAL CHORUS]\nI'm sick for you, sick for you, sick-sick for you\nI'll take it, I'll take it, whatever you do\nI'm sick for you, sick for you, sick-sick for you\nI'm not well, I'm not well, I'm not well—\n\nI'm not here without you\n\n[OUTRO]\nI'll be good, I'll be good, I'll be good, I'll be…\nI'll be good, I'll be good, I'll be good, I'll be…"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "SICK FOR YOU",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "83df906f-40b3-5999-98fc-ec1ffcfd7bb0",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:12:10.791508Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "e825d837-56c9-461f-8fc6-a5432a936252",
+        "sound_prompt": "upbeat dance-pop, four-on-the-floor kick, bright synth stabs, handclaps, cheerful breathy female vocals, radio-friendly, 124 bpm",
+        "title": "SICK FOR YOU",
+        "seed": null,
+        "lyrics_id": "fcffd9b9-bd47-5361-93bb-313ae02dd253"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/2507af96-ad49-4165-a02e-aae7f7df0ad4.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/2507af96-ad49-4165-a02e-aae7f7df0ad4.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/83df906f-40b3-5999-98fc-ec1ffcfd7bb0.jpg",
+      "video_url": null
+    },
+    {
+      "id": "34890408-d9d2-44b8-a9e1-bf238dba2ab1",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "7d98c2f7-50c3-588c-b185-d29043b75644",
+      "op_type": "audio__render_edit",
+      "duration": {
+        "status": "completed",
+        "value": "177.408"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "5111d17d-5496-515f-a098-918a217bf54d",
+          "text": "[Verse 1]\nDa ist eine Akte mit meinem Namen, rot gestempelt\nSie sagt, was ich fühle, ist eine Krankheit im Kopf\nIch hab nicht gewählt, wie dein Name auf meiner Zunge liegt\nDoch sie geben mir die Schuld, also liege ich falsch\n\n[Pre-Chorus]\nLichter werden dünn, Lichter werden schwach\nIch bin eine Fremde in der einzigen Haut, die ich kenne\n\n[Chorus]\nNenn es ein Fieber, nenn es eine Schwäche\nNenn es wie du willst, damit du schlafen kannst\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich bleibt gar nichts mehr von mir\nNenn es ein Fieber, nenn es eine Heilung\nSchreib es auf und schließ die Tür gut zu\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich existier ich nicht mehr\n\n[Verse 2]\nSüß wie Sonnenlicht, langsam wie Gift, Wärme in den Adern\nSie sagen, es ist etwas zum Heilen, zum Erklären\nIch wollte dich vergessen, ging bis die Masten verblassten\nZählte jeden Pfosten, jeden Vogel gegen den Wind\n\n[Pre-Chorus]\nLass mich los, lass mich los\nSag mir, warum das Einzige was ich will, verboten ist\n\n[Chorus]\nNenn es ein Fieber, nenn es eine Schwäche\nNenn es wie du willst, damit du schlafen kannst\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich bleibt gar nichts mehr von mir\nNenn es ein Fieber, nenn es eine Heilung\nSchreib es auf und schließ die Tür gut zu\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich existier ich nicht mehr\n\n[Bridge]\nEins, zwei, drei, zähl die Lampen an der Straße\nMama, Papa, tut mir leid, dass ich anders bin\nVier, fünf, sechs, die Wände kommen näher\nMama, Papa, verzeiht der Tochter, die ich war\n\n[Chorus]\nNenn es ein Fieber, nenn es eine Schwäche\nNenn es wie du willst, damit du schlafen kannst\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich bleibt gar nichts mehr von mir\nNenn es ein Fieber, nenn es eine Heilung\nSchreib es auf und schließ die Tür gut zu\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich existier ich nicht mehr\n\n[Outro]\nDiagnose, Diagnose\nAlles was mir bleibt, ist ein Name ohne Rückweg\nUnd irgendwo die Straße runter brennt noch ein Licht\n(Diagnose)"
+        }
+      },
+      "lyrics_timing": {
+        "status": "completed",
+        "value": {
+          "lyrics_id": "5111d17d-5496-515f-a098-918a217bf54d",
+          "markers": [
+            [
+              10,
+              15.0
+            ],
+            [
+              239,
+              30.0
+            ],
+            [
+              349,
+              45.0
+            ],
+            [
+              690,
+              75.0
+            ],
+            [
+              919,
+              90.0
+            ],
+            [
+              1012,
+              105.0
+            ],
+            [
+              1352,
+              135.0
+            ],
+            [
+              1544,
+              150.0
+            ],
+            [
+              1883,
+              165.0
+            ]
+          ]
+        }
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Diagnose (Filtered Room Beat Choruses)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "34890408-d9d2-44b8-a9e1-bf238dba2ab1",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:58:25.179656Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__render_edit",
+        "conversation_id": "f1671cd0-c62b-44dc-ac89-6f04401c64c1",
+        "recipe_id": "02987c12-fef5-5135-875b-13e7ef256509",
+        "clip_outputs": [
+          {
+            "node_id": "out",
+            "clip_id": "34890408-d9d2-44b8-a9e1-bf238dba2ab1",
+            "title": "Diagnose (Filtered Room Beat Choruses)"
+          }
+        ],
+        "instruction": "In the choruses, make the beat sound more contained, like it's inside a box or room using lowpass filtering and room reverb, and widen the stereo field on both sides using chorus and stereo panning to surround the vocals.",
+        "source_clip_ids": [
+          "2fac4026-1e48-4fc7-a384-c8475e4efa3c"
+        ]
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/34890408-d9d2-44b8-a9e1-bf238dba2ab1.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/34890408-d9d2-44b8-a9e1-bf238dba2ab1.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/34890408-d9d2-44b8-a9e1-bf238dba2ab1.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
