@@ -127,6 +127,9 @@ h1 em { color: var(--red-pencil); font-weight: 440; }
 .lyric-text { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 13px; font-weight: 500; line-height: 2; color: var(--pencil-ink); padding-block-end: var(--space-10); }
 .lyric-text.timed { color: var(--catalog-ink); }
 .lyric-fragment.current { color: var(--red-pencil); background: var(--red-pencil-wash); border-radius: 2px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.lyric-paragraph { display: block; border-radius: 4px; transition: background-color 200ms, color 200ms, box-shadow 200ms; }
+.lyric-paragraph.current { border-radius: 4px; box-shadow: 0 0 0 6px var(--red-pencil-wash); }
+.lyric-paragraph-break { display: block; line-height: 0; }
 .booklet-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-2); margin-block-start: var(--space-5); padding-block-start: var(--space-4); border-block-start: 1px solid var(--paper-rule); font: 8px var(--catalog-type); color: var(--catalog-ink); }
 .no-lyrics { min-height: 380px; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: var(--space-4); text-align: center; }
 .no-lyrics > svg { color: var(--red-pencil); }

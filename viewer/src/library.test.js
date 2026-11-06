@@ -1,6 +1,6 @@
 import { test } from 'bun:test'
 import assert from 'node:assert/strict'
-import { activeLyric, clock, filterLibrary, linkedSongIndex, lyricSegments, mediaUrl, readLibrary, songLink } from './library.js'
+import { activeLyric, clock, filterLibrary, linkedSongIndex, lyricParagraphs, lyricSegments, mediaUrl, readLibrary, songLink } from './library.js'
 
 test('real export, search, sorting, and honest lyric timing', async () => {
   const text = '[Verse]\nHi 🌑 world.\n\n[Chorus]\nSing.'
@@ -122,4 +122,34 @@ test('unrelated transcription leaves the complete original lyrics untimed', () =
   } })
   assert.equal(clip.hasTiming, false)
   assert.deepEqual(lyricSegments(clip), [{ text: raw.lyrics.value.text, time: null }])
+})
+
+test('API timing highlights complete original paragraphs through pauses between words', () => {
+  const text = '[Verse]\nHello,\nbeautiful world!\n \n[Instrumental]\n\n[Chorus]\nHello again.\n'
+  const raw = { id: 'paragraphs', audio_url: 'https://example.test/song.m4a', lyrics: { value: { text } } }
+  const words = [{ word: 'Hello', start: 1, end: 2 }, { word: 'world', start: 4, end: 5 },
+    { word: 'Hello', start: 10, end: 11 }, { word: 'again', start: 12, end: 13 }]
+  const [clip] = readLibrary({ clips: [raw] }, { version: 1, songs: {
+    paragraphs: { status: 'completed', audio_url: raw.audio_url, words },
+  } })
+  const paragraphs = lyricParagraphs(lyricSegments(clip))
+  assert.equal(paragraphs.map((segment) => segment.text).join(''), text)
+  assert.equal(paragraphs.filter((segment) => segment.paragraph).length, 3)
+  assert.equal(paragraphs[activeLyric(paragraphs, 1)].text, '[Verse]\nHello,\nbeautiful world!')
+  assert.equal(activeLyric(paragraphs, 3), activeLyric(paragraphs, 1))
+  assert.equal(activeLyric(paragraphs, 5), -1)
+  assert.equal(activeLyric(paragraphs, 8), -1)
+  assert.equal(paragraphs[activeLyric(paragraphs, 11.5)].text, '[Chorus]\nHello again.\n')
+  assert.equal(activeLyric(paragraphs, 13), -1)
+  assert.equal(paragraphs.find((segment) => segment.text === '[Instrumental]').time, null)
+  assert.equal(paragraphs.find((segment) => segment.paragraphBreak).blankLines, 1)
+})
+
+test('paragraph grouping preserves Windows line breaks, extra blank lines, and untimed text', () => {
+  const text = '\r\n\r\nFirst\r\n\r\n\r\nSecond\r\n'
+  const paragraphs = lyricParagraphs([{ text, time: null }])
+  assert.equal(paragraphs.map((segment) => segment.text).join(''), text)
+  assert.deepEqual(paragraphs.filter((segment) => segment.paragraphBreak).map((segment) => segment.blankLines), [2, 2])
+  assert.equal(activeLyric(paragraphs, 100), -1)
+  assert.deepEqual(lyricParagraphs([]), [])
 })

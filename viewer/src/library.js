@@ -122,6 +122,29 @@ export function lyricSegments(clip) {
   return sections.filter((section) => section.text.length > 0)
 }
 
+export function lyricParagraphs(segments) {
+  let offset = 0
+  const ranges = segments.map((segment) => {
+    const start = offset
+    offset += segment.text.length
+    return { ...segment, startOffset: start, endOffset: offset }
+  })
+  const text = segments.map((segment) => segment.text).join('')
+  offset = 0
+  return text.split(/(\r?\n[ \t]*\r?\n(?:[ \t]*\r?\n)*)/).flatMap((part, index) => {
+    const start = offset
+    offset += part.length
+    if (!part) return []
+    if (index % 2) {
+      return [{ text: part, time: null, paragraphBreak: true,
+        blankLines: part.split('\n').length - (start ? 2 : 1) }]
+    }
+    const timed = ranges.filter((range) => range.time !== null && range.endOffset > start && range.startOffset < offset)
+    return [{ text: part, time: timed[0]?.time ?? null,
+      end: timed.length ? Math.max(...timed.map((range) => range.end)) : undefined, paragraph: true }]
+  })
+}
+
 export function activeLyric(segments, time) {
   let current = -1
   for (let index = 0; index < segments.length; index++) {

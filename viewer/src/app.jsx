@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks'
 import { ArrowDownToLine, ArrowRight, Check, ChevronDown, Copy, ChevronLeft, ChevronRight, Disc3, Heart, ListMusic, LoaderCircle, Music2, Pause, Play, RefreshCw, Search, Shuffle, SkipBack, SkipForward, Volume2, VolumeX, X } from 'lucide-preact'
-import { activeLyric, clock, filterLibrary, linkedSongIndex, lyricSegments, readLibrary, songLink } from './library.js'
+import { activeLyric, clock, filterLibrary, linkedSongIndex, lyricParagraphs, lyricSegments, readLibrary, songLink } from './library.js'
 import './app.css'
 
 const SONGS_URL = import.meta.env.VITE_SONGS_URL?.trim()
@@ -24,7 +24,10 @@ function Cover({ clip, className = '', small = false }) {
 function Lyrics({ clip, time, playing }) {
   const [follow, setFollow] = useState(true)
   const scroller = useRef(null)
-  const segments = useMemo(() => lyricSegments(clip), [clip.id])
+  const segments = useMemo(() => {
+    const aligned = lyricSegments(clip)
+    return clip.timingSource === 'transcription' ? lyricParagraphs(aligned) : aligned
+  }, [clip.id])
   const current = activeLyric(segments, time)
   const timed = segments.some((segment) => segment.time !== null)
   const wordTiming = clip.timingSource === 'transcription'
@@ -47,13 +50,13 @@ function Lyrics({ clip, time, playing }) {
       <div><span class="eyebrow">03 / SONG LYRICS</span><h2 id="lyrics-heading">Lyrics</h2></div>
       {timed && <button class={`follow-button ${follow ? 'enabled' : ''}`} aria-pressed={follow} onClick={() => setFollow(!follow)}><span class="follow-dot" />Auto-scroll</button>}
     </div>
-    <div class="lyric-status"><span>{transcribedText ? 'TRANSCRIBED LYRICS' : timed ? 'SYNCED LYRICS' : segments.length ? 'TEXT LYRICS' : 'NO LYRICS'}</span><span>{transcribedText ? 'Speech recognition may differ from the original lyrics' : wordTiming ? 'Word timing matched to your original lyrics' : timed ? 'Current lyrics are highlighted during playback' : segments.length ? 'Timing is unavailable for this song' : 'Lyrics were not included in the export'}</span></div>
+    <div class="lyric-status"><span>{transcribedText ? 'TRANSCRIBED LYRICS' : timed ? 'SYNCED LYRICS' : segments.length ? 'TEXT LYRICS' : 'NO LYRICS'}</span><span>{transcribedText ? 'Speech recognition may differ from the original lyrics' : wordTiming ? 'Highlights follow the current paragraph' : timed ? 'Current lyrics are highlighted during playback' : segments.length ? 'Timing is unavailable for this song' : 'Lyrics were not included in the export'}</span></div>
     <div class="lyric-scroller" ref={scroller} tabIndex="0" role="region" aria-label={`Lyrics for ${clip.title}`}>
       {segments.length ? <div class={`lyric-text ${timed ? 'timed' : ''}`}>
-        {segments.map((segment, index) => <span key={index} class={`lyric-fragment ${current === index ? 'current' : ''}`} data-current={current === index && timed ? 'true' : undefined}>{segment.text}</span>)}
+        {segments.map((segment, index) => <span key={index} class={`lyric-fragment ${segment.paragraph ? 'lyric-paragraph' : ''} ${segment.paragraphBreak ? 'lyric-paragraph-break' : ''} ${current === index ? 'current' : ''}`} style={segment.paragraphBreak ? { height: `${segment.blankLines * 2}em` } : undefined} data-current={current === index && timed ? 'true' : undefined}>{segment.text}</span>)}
       </div> : <div class="no-lyrics"><Music2 size={32} strokeWidth={1.5} /><h3>No lyrics available</h3><p>This song has no lyrics in the export.</p></div>}
     </div>
-    <div class="booklet-footer"><span>SONG / {clip.id.slice(0, 8).toUpperCase()}</span><span>{wordTiming ? `${segments.filter((segment) => segment.time !== null).length} timed words` : timed ? `${segments.filter((segment) => segment.time !== null).length} timing markers` : 'Lyrics from your export'}</span></div>
+    <div class="booklet-footer"><span>SONG / {clip.id.slice(0, 8).toUpperCase()}</span><span>{wordTiming ? `${segments.filter((segment) => segment.time !== null).length} timed paragraphs` : timed ? `${segments.filter((segment) => segment.time !== null).length} timing markers` : 'Lyrics from your export'}</span></div>
   </section>
 }
 
