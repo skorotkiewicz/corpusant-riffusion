@@ -225169,6 +225169,528 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/fbe630c6-19dc-4095-90fb-53f3fc4843dd.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/314d9108-4b6a-5a80-96ed-030bb9ac85b8.jpg",
       "video_url": null
+    },
+    {
+      "id": "4ea0e91c-1a4b-411c-8154-6bc024752cd0",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "33f1c546-08cf-5dad-bcd0-ac1aae9d7a8e",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "178.016"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "832f23c7-6fe1-5d6d-bb9a-e0bd4398b69c",
+          "text": "[Intro]\nHallo, hallo, schau mich an\n(Mach dich schön)\nForm mein Leben, fange an\n(Steh ganz still)\nAus buntem Plastik, fehlerfrei\nDie alte Welt ist mir vorbei\n\n[Verse 1]\nRoter Lippenstift im Gesicht\nIch stehe fest im Scheinwerferlicht\nDu ziehst mich an, du wählst das Kleid\nIch bin für deine Show bereit\nEin leeres Blatt, so glatt und rein\nIch will dein liebstes Produkt nur sein\n\n[Chorus]\nIch bin dein Plastik-Mannequin\n(Ja, genau)\nDu ziehst mich an, du stellst mich hin\n(Mach das Tor auf)\nLösch mein Ich, es tut nicht weh\nWeil ich mich nur durch deine Augen seh\nOh-oh-oh, so wunderbar\n(Perfekt gemacht)\nAus Plastik, starr und glasklar\nOh-oh-oh, kein freier Wille\nIch lächle stumm in aller Stille\n\n[Verse 2]\nDu tauschst den Kopf, du tauschst das Haar\nHeute bin ich ganz neu und wunderbar\nKein eigener Gedanke stört\nMein Schweigen ist, was dir gehört\nVerpack mich gut, stell mich ins Licht\nEin Lächeln, das niemals bricht\n\n[Chorus]\nIch bin dein Plastik-Mannequin\n(Ja, genau)\nDu ziehst mich an, du stellst mich hin\n(Mach das Tor auf)\nLösch mein Ich, es tut nicht weh\nWeil ich mich nur durch deine Augen seh\nOh-oh-oh, so wunderbar\n(Perfekt gemacht)\nAus Plastik, starr und glasklar\nOh-oh-oh, kein freier Wille\nIch lächle stumm in aller Stille\n\n[Bridge]\nKauf mich, zieh mich, dreh mich um\nKeine Fragen, ich bleib stumm\nMach aus mir, was dir gefällt\nEin schönes Bild für deine Welt\nLösch den Namen, lösch das Herz\nKein Verstand und kein Schmerz\n\n[Breakdown]\n(Komm schon)\n(Steh still)\n(Ganz leise)\n(Kein Gefühl)\nEins, zwei, drei, vier, mach mich neu\nEins, zwei, drei, vier, bleib mir treu\n\n[Spoken Verse]\nPose Nummer eins: Lächeln\n(Position akzeptiert)\nPose Nummer zwei: Winken\n(Perfekt positioniert)\nHast du einen eigenen Wunsch, kleine Puppe?\nNein, Meister, nur deinen Plan\n(Sehr gut, neues Outfit laden)\n\n[Final Chorus]\nIch bin dein Plastik-Mannequin\n(Ja, genau)\nDu ziehst mich an, du stellst mich hin\n(Mach das Tor auf)\nLösch mein Ich, es tut nicht weh\nWeil ich mich nur durch deine Augen seh\nOh-oh-oh, so wunderbar\n(Perfekt gemacht)\nAus Plastik, starr und glasklar\nOh-oh-oh, kein freier Wille\nIch lächle stumm in aller Stille\n\n[Outro]\nAusschalten\n(Reset)\nBis morgen im Schaufenster\n(Schlaf gut, Puppe)\nOh-oh-oh, aus Plastik\n(Aus Plastik)\nEnde"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Plastik-Mannequin",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "33f1c546-08cf-5dad-bcd0-ac1aae9d7a8e",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:08:32.643212Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "ca91ddab-a901-483c-964c-481f0072c867",
+        "sound_prompt": "90s Eurodance, Europop, bubblegum dance, 135 BPM, key C major, energetic four-on-the-floor kick, snappy synth bassline, bright saw-wave synth leads, playful pitch-shifted female lead vocals, deep rhythmic spoken male call-and-response interjections, vocal chops, cheerful bouncy 90s dance floor arrangement",
+        "title": "Plastik-Mannequin",
+        "seed": null,
+        "lyrics_id": "832f23c7-6fe1-5d6d-bb9a-e0bd4398b69c"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/4ea0e91c-1a4b-411c-8154-6bc024752cd0.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/4ea0e91c-1a4b-411c-8154-6bc024752cd0.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/33f1c546-08cf-5dad-bcd0-ac1aae9d7a8e.jpg",
+      "video_url": null
+    },
+    {
+      "id": "055e825c-e304-4b18-9a4c-49a5ea90c6ee",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "c8674b25-7583-55f3-9bde-9690494f09aa",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "172.608"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "832f23c7-6fe1-5d6d-bb9a-e0bd4398b69c",
+          "text": "[Intro]\nHallo, hallo, schau mich an\n(Mach dich schön)\nForm mein Leben, fange an\n(Steh ganz still)\nAus buntem Plastik, fehlerfrei\nDie alte Welt ist mir vorbei\n\n[Verse 1]\nRoter Lippenstift im Gesicht\nIch stehe fest im Scheinwerferlicht\nDu ziehst mich an, du wählst das Kleid\nIch bin für deine Show bereit\nEin leeres Blatt, so glatt und rein\nIch will dein liebstes Produkt nur sein\n\n[Chorus]\nIch bin dein Plastik-Mannequin\n(Ja, genau)\nDu ziehst mich an, du stellst mich hin\n(Mach das Tor auf)\nLösch mein Ich, es tut nicht weh\nWeil ich mich nur durch deine Augen seh\nOh-oh-oh, so wunderbar\n(Perfekt gemacht)\nAus Plastik, starr und glasklar\nOh-oh-oh, kein freier Wille\nIch lächle stumm in aller Stille\n\n[Verse 2]\nDu tauschst den Kopf, du tauschst das Haar\nHeute bin ich ganz neu und wunderbar\nKein eigener Gedanke stört\nMein Schweigen ist, was dir gehört\nVerpack mich gut, stell mich ins Licht\nEin Lächeln, das niemals bricht\n\n[Chorus]\nIch bin dein Plastik-Mannequin\n(Ja, genau)\nDu ziehst mich an, du stellst mich hin\n(Mach das Tor auf)\nLösch mein Ich, es tut nicht weh\nWeil ich mich nur durch deine Augen seh\nOh-oh-oh, so wunderbar\n(Perfekt gemacht)\nAus Plastik, starr und glasklar\nOh-oh-oh, kein freier Wille\nIch lächle stumm in aller Stille\n\n[Bridge]\nKauf mich, zieh mich, dreh mich um\nKeine Fragen, ich bleib stumm\nMach aus mir, was dir gefällt\nEin schönes Bild für deine Welt\nLösch den Namen, lösch das Herz\nKein Verstand und kein Schmerz\n\n[Breakdown]\n(Komm schon)\n(Steh still)\n(Ganz leise)\n(Kein Gefühl)\nEins, zwei, drei, vier, mach mich neu\nEins, zwei, drei, vier, bleib mir treu\n\n[Spoken Verse]\nPose Nummer eins: Lächeln\n(Position akzeptiert)\nPose Nummer zwei: Winken\n(Perfekt positioniert)\nHast du einen eigenen Wunsch, kleine Puppe?\nNein, Meister, nur deinen Plan\n(Sehr gut, neues Outfit laden)\n\n[Final Chorus]\nIch bin dein Plastik-Mannequin\n(Ja, genau)\nDu ziehst mich an, du stellst mich hin\n(Mach das Tor auf)\nLösch mein Ich, es tut nicht weh\nWeil ich mich nur durch deine Augen seh\nOh-oh-oh, so wunderbar\n(Perfekt gemacht)\nAus Plastik, starr und glasklar\nOh-oh-oh, kein freier Wille\nIch lächle stumm in aller Stille\n\n[Outro]\nAusschalten\n(Reset)\nBis morgen im Schaufenster\n(Schlaf gut, Puppe)\nOh-oh-oh, aus Plastik\n(Aus Plastik)\nEnde"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Plastik-Mannequin",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "c8674b25-7583-55f3-9bde-9690494f09aa",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:08:29.157483Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "ca91ddab-a901-483c-964c-481f0072c867",
+        "sound_prompt": "90s Eurodance, Europop, bubblegum dance, 135 BPM, key C major, energetic four-on-the-floor kick, snappy synth bassline, bright saw-wave synth leads, playful pitch-shifted female lead vocals, deep rhythmic spoken male call-and-response interjections, vocal chops, cheerful bouncy 90s dance floor arrangement",
+        "title": "Plastik-Mannequin",
+        "seed": null,
+        "lyrics_id": "832f23c7-6fe1-5d6d-bb9a-e0bd4398b69c"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/055e825c-e304-4b18-9a4c-49a5ea90c6ee.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/055e825c-e304-4b18-9a4c-49a5ea90c6ee.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/c8674b25-7583-55f3-9bde-9690494f09aa.jpg",
+      "video_url": null
+    },
+    {
+      "id": "0bf5c69e-673e-4679-8c74-a128c7ba0a3a",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "6f820983-af5f-5129-84a6-ebaab100526a",
+      "op_type": "audio__render_edit",
+      "duration": {
+        "status": "completed",
+        "value": "176.46933333333334"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "fe238364-0394-52a8-8cbc-3ff1a4244c69",
+          "text": "[Intro]\nSonríe para la foto\n(Ooh yeah)\nCopia la pose\nUn dos tres congela\n\n[Verse 1]\nSuena la alarma de la tarde\nOtra función en el parque\nLlevo el vestido de seda\nEl maquillaje es perfecto\nMuevo el brazo derecho\nLuego muevo el izquierdo\nTodos me miran girar\nNadie me mira a los ojos\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Verse 2]\nPaso a paso en la tarima\nSigo el guion del libreto\nMuevo la cabeza un poco\nParpadeo para el público\nAplauden la fantasía\nCompran el souvenir\nSi lloro nadie lo nota\nEl tinte cubre mis lágrimas\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Bridge]\nBaja el telón\n(Baja el telón)\nCambia de posición\n(Otra posición)\n¿Ves la persona bajo la ropa?\n¿O solo ves la figura de cera?\nDime la verdad\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Outro]\nCongela la postura\n(Maniquí)\nFin del show\n(Maniquí)\nUn dos tres silencio\n(Plástico perfecto)\nCierra los ojos"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Operatic Chorus & Breakdown Remix",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "0bf5c69e-673e-4679-8c74-a128c7ba0a3a",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:05:32.817300Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__render_edit",
+        "conversation_id": "ca91ddab-a901-483c-964c-481f0072c867",
+        "recipe_id": "632eb586-ce19-556e-b5a8-552d498503c2",
+        "clip_outputs": [
+          {
+            "node_id": "out",
+            "clip_id": "0bf5c69e-673e-4679-8c74-a128c7ba0a3a",
+            "title": "Operatic Chorus & Breakdown Remix"
+          }
+        ],
+        "instruction": "Layer rich, haunting operatic choir harmonies into the background of the chorus and breakdown sections to give it a darker, theatrical atmosphere.",
+        "source_clip_ids": [
+          "629ac32b-664d-47bc-983e-a4ae482ce167"
+        ]
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/0bf5c69e-673e-4679-8c74-a128c7ba0a3a.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/0bf5c69e-673e-4679-8c74-a128c7ba0a3a.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/0bf5c69e-673e-4679-8c74-a128c7ba0a3a.jpg",
+      "video_url": null
+    },
+    {
+      "id": "bd10bcc7-62d7-419b-8564-e73683aa415d",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "ec743bf8-282d-5478-a458-b6ff1f6749e5",
+      "op_type": "audio__render_edit",
+      "duration": {
+        "status": "completed",
+        "value": "176.46933333333334"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "fe238364-0394-52a8-8cbc-3ff1a4244c69",
+          "text": "[Intro]\nSonríe para la foto\n(Ooh yeah)\nCopia la pose\nUn dos tres congela\n\n[Verse 1]\nSuena la alarma de la tarde\nOtra función en el parque\nLlevo el vestido de seda\nEl maquillaje es perfecto\nMuevo el brazo derecho\nLuego muevo el izquierdo\nTodos me miran girar\nNadie me mira a los ojos\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Verse 2]\nPaso a paso en la tarima\nSigo el guion del libreto\nMuevo la cabeza un poco\nParpadeo para el público\nAplauden la fantasía\nCompran el souvenir\nSi lloro nadie lo nota\nEl tinte cubre mis lágrimas\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Bridge]\nBaja el telón\n(Baja el telón)\nCambia de posición\n(Otra posición)\n¿Ves la persona bajo la ropa?\n¿O solo ves la figura de cera?\nDime la verdad\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Outro]\nCongela la postura\n(Maniquí)\nFin del show\n(Maniquí)\nUn dos tres silencio\n(Plástico perfecto)\nCierra los ojos"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Choral Backing Vocals Remix",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "bd10bcc7-62d7-419b-8564-e73683aa415d",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:04:54.504050Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__render_edit",
+        "conversation_id": "ca91ddab-a901-483c-964c-481f0072c867",
+        "recipe_id": "f417b7ef-a9fb-5157-b1af-c7baae829306",
+        "clip_outputs": [
+          {
+            "node_id": "out",
+            "clip_id": "bd10bcc7-62d7-419b-8564-e73683aa415d",
+            "title": "Choral Backing Vocals Remix"
+          }
+        ],
+        "instruction": "Add dramatic, epic layered choral backing vocals (choir harmonies) during the chorus and bridge, supporting the lead vocals while keeping the high-energy 90s nightclub dance beat intact.",
+        "source_clip_ids": [
+          "629ac32b-664d-47bc-983e-a4ae482ce167"
+        ]
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/bd10bcc7-62d7-419b-8564-e73683aa415d.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/bd10bcc7-62d7-419b-8564-e73683aa415d.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/bd10bcc7-62d7-419b-8564-e73683aa415d.jpg",
+      "video_url": null
+    },
+    {
+      "id": "b362e6ec-4175-41f2-bbc0-f54d06bcd2d2",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "2b99710e-bc60-5554-8856-9c28697b6590",
+      "op_type": "audio__render_edit",
+      "duration": {
+        "status": "completed",
+        "value": "176.576"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "fe238364-0394-52a8-8cbc-3ff1a4244c69",
+          "text": "[Intro]\nSonríe para la foto\n(Ooh yeah)\nCopia la pose\nUn dos tres congela\n\n[Verse 1]\nSuena la alarma de la tarde\nOtra función en el parque\nLlevo el vestido de seda\nEl maquillaje es perfecto\nMuevo el brazo derecho\nLuego muevo el izquierdo\nTodos me miran girar\nNadie me mira a los ojos\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Verse 2]\nPaso a paso en la tarima\nSigo el guion del libreto\nMuevo la cabeza un poco\nParpadeo para el público\nAplauden la fantasía\nCompran el souvenir\nSi lloro nadie lo nota\nEl tinte cubre mis lágrimas\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Bridge]\nBaja el telón\n(Baja el telón)\nCambia de posición\n(Otra posición)\n¿Ves la persona bajo la ropa?\n¿O solo ves la figura de cera?\nDime la verdad\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Outro]\nCongela la postura\n(Maniquí)\nFin del show\n(Maniquí)\nUn dos tres silencio\n(Plástico perfecto)\nCierra los ojos"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Maniquí de Plástico (Dark Club Mix)",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "b362e6ec-4175-41f2-bbc0-f54d06bcd2d2",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:00:47.560258Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__render_edit",
+        "conversation_id": "ca91ddab-a901-483c-964c-481f0072c867",
+        "recipe_id": "e408cd7a-6e07-5b2d-9c2b-e6a7eab1ac6a",
+        "clip_outputs": [
+          {
+            "node_id": "out",
+            "clip_id": "b362e6ec-4175-41f2-bbc0-f54d06bcd2d2",
+            "title": "Maniquí de Plástico (Dark Club Mix)"
+          }
+        ],
+        "instruction": "Create an alternate dark club mix version with aggressive peak-hour Eurodance synth leads, heavy subwoofer bass, and extended club rhythm.",
+        "source_clip_ids": [
+          "ae31178a-11d1-4470-b354-7fc7826b5189"
+        ]
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/b362e6ec-4175-41f2-bbc0-f54d06bcd2d2.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/b362e6ec-4175-41f2-bbc0-f54d06bcd2d2.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/b362e6ec-4175-41f2-bbc0-f54d06bcd2d2.jpg",
+      "video_url": null
+    },
+    {
+      "id": "629ac32b-664d-47bc-983e-a4ae482ce167",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "2f5d5f64-1aa7-5a1a-975b-4b40a8512b6d",
+      "op_type": "audio__render_edit",
+      "duration": {
+        "status": "completed",
+        "value": "176.46933333333334"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "fe238364-0394-52a8-8cbc-3ff1a4244c69",
+          "text": "[Intro]\nSonríe para la foto\n(Ooh yeah)\nCopia la pose\nUn dos tres congela\n\n[Verse 1]\nSuena la alarma de la tarde\nOtra función en el parque\nLlevo el vestido de seda\nEl maquillaje es perfecto\nMuevo el brazo derecho\nLuego muevo el izquierdo\nTodos me miran girar\nNadie me mira a los ojos\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Verse 2]\nPaso a paso en la tarima\nSigo el guion del libreto\nMuevo la cabeza un poco\nParpadeo para el público\nAplauden la fantasía\nCompran el souvenir\nSi lloro nadie lo nota\nEl tinte cubre mis lágrimas\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Bridge]\nBaja el telón\n(Baja el telón)\nCambia de posición\n(Otra posición)\n¿Ves la persona bajo la ropa?\n¿O solo ves la figura de cera?\nDime la verdad\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Outro]\nCongela la postura\n(Maniquí)\nFin del show\n(Maniquí)\nUn dos tres silencio\n(Plástico perfecto)\nCierra los ojos"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "90s Nightclub Dance Remix",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "629ac32b-664d-47bc-983e-a4ae482ce167",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:00:06.305219Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__render_edit",
+        "conversation_id": "ca91ddab-a901-483c-964c-481f0072c867",
+        "recipe_id": "1c068c93-692d-5082-929b-bc4f62f4180a",
+        "clip_outputs": [
+          {
+            "node_id": "out",
+            "clip_id": "629ac32b-664d-47bc-983e-a4ae482ce167",
+            "title": "90s Nightclub Dance Remix"
+          }
+        ],
+        "instruction": "Remix into an intense 90s nightclub dance version: heavier four-on-the-floor kick, deeper bassline, driving Eurodance club synths, dark high-energy club atmosphere, faster 138 BPM, keeping the vocals and call-and-response intact.",
+        "source_clip_ids": [
+          "ae31178a-11d1-4470-b354-7fc7826b5189"
+        ]
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/629ac32b-664d-47bc-983e-a4ae482ce167.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/629ac32b-664d-47bc-983e-a4ae482ce167.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/629ac32b-664d-47bc-983e-a4ae482ce167.jpg",
+      "video_url": null
+    },
+    {
+      "id": "ae31178a-11d1-4470-b354-7fc7826b5189",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "8e4e8c2a-19b7-5c86-a35b-10247ab39cfb",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "180.16"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "fe238364-0394-52a8-8cbc-3ff1a4244c69",
+          "text": "[Intro]\nSonríe para la foto\n(Ooh yeah)\nCopia la pose\nUn dos tres congela\n\n[Verse 1]\nSuena la alarma de la tarde\nOtra función en el parque\nLlevo el vestido de seda\nEl maquillaje es perfecto\nMuevo el brazo derecho\nLuego muevo el izquierdo\nTodos me miran girar\nNadie me mira a los ojos\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Verse 2]\nPaso a paso en la tarima\nSigo el guion del libreto\nMuevo la cabeza un poco\nParpadeo para el público\nAplauden la fantasía\nCompran el souvenir\nSi lloro nadie lo nota\nEl tinte cubre mis lágrimas\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Bridge]\nBaja el telón\n(Baja el telón)\nCambia de posición\n(Otra posición)\n¿Ves la persona bajo la ropa?\n¿O solo ves la figura de cera?\nDime la verdad\n\n[Chorus]\nSoy un maniquí de plástico\n(Maniquí maniquí)\nBailo para ti en el escenario\nPíntame la boca de rojo\nDime que te gusto así\nSoy tu maniquí de plástico\n(Maniquí maniquí)\nNadie ve la herida adentro\nTodo es perfecto por fuera\n\n[Outro]\nCongela la postura\n(Maniquí)\nFin del show\n(Maniquí)\nUn dos tres silencio\n(Plástico perfecto)\nCierra los ojos"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Maniquí de Plástico",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "8e4e8c2a-19b7-5c86-a35b-10247ab39cfb",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T02:58:41.721186Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "ca91ddab-a901-483c-964c-481f0072c867",
+        "sound_prompt": "90s Europop, bubblegum dance, sophisti-pop, upbeat 135 BPM, key of C minor, driving four-on-the-floor beat, snappy synth bass, Euro-dance brass stabs, sugary glossy production, high-pitched doll-like female lead vocal, monotone spoken male call-and-response, cheerful melody with satirical edge, theatrical arrangement",
+        "title": "Maniquí de Plástico",
+        "seed": null,
+        "lyrics_id": "fe238364-0394-52a8-8cbc-3ff1a4244c69"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/ae31178a-11d1-4470-b354-7fc7826b5189.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/ae31178a-11d1-4470-b354-7fc7826b5189.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/8e4e8c2a-19b7-5c86-a35b-10247ab39cfb.jpg",
+      "video_url": null
+    },
+    {
+      "id": "4bce1cc3-c0d9-48ca-b000-03fb0f14f694",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "b597e3e6-88a4-5a32-9ec1-aaba60f457fc",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "178.96533333333332"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "54a13992-2061-585e-a470-f95d7d7395b8",
+          "text": "[Intro]\n(Sonríe)\n(Así, no te muevas)\nAbre la boca\nDime qué decir\nLimpia mi cara\nDime cómo ir\n\n[Chorus]\nRepíteme, borra mi voz\nUn maniquí para los dos\nSin opinión, sin respirar\nDime qué pose hay que copiar\nRepíteme, hazme bailar\nPlástico blanco en el altar\n(Muy bien)\n(Otra vez)\n\n[Verse 1]\nMueve el brazo a la derecha\nMira al punto sin parpadear\nLa costura está perfecta\nNo hace falta ni pensar\n(Gira el cuello)\n(Posa más)\nYa no sé cuál es mi faz\n\n[Chorus]\nRepíteme, borra mi voz\nUn maniquí para los dos\nSin opinión, sin respirar\nDime qué pose hay que copiar\nRepíteme, hazme bailar\nPlástico blanco en el altar\n(Perfecta)\n(No te muevas)\n\n[Verse 2]\nCorta el hilo de mi boca\nPinta un labio color rosa\nSi me rompo no te importa\nSoy tu muñeca hermosa\n(Congelada)\n(Así te ves bien)\nHago exactamente el papel\n\n[Bridge]\nSin nombre\nSin cuerpo real\nVacía\nCompletamente igual\nHazme a tu antojo\nLléname el alma\nCierra mis ojos\nDámela calma\n\n[Breakdown]\n(Uno)\nSin mente\n(Dos)\nSin voz\n(Tres)\nManiquí de catálogo\n(Flash)\n\n[Spoken Verse]\n(Excelente trabajo)\n(Ahora sonríe sin pestañear)\n(No hables, no pienses)\n(Solo vende la ropa)\n(Eres mi obra)\n\n[Final Chorus]\nRepíteme, borra mi voz\nUn maniquí para los dos\nSin opinión, sin respirar\nDime qué pose hay que copiar\nRepíteme, hazme bailar\nPlástico blanco en el altar\n(Eso es)\n(Sin vida)\n\n[Outro]\nBorra mi voz\n(Cero)\nBorra mi voz\n(Cero)\nPlástico blanco\n(Click)\nSin nada más"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Maniquí",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "b597e3e6-88a4-5a32-9ec1-aaba60f457fc",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T02:57:34.291706Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "ca91ddab-a901-483c-964c-481f0072c867",
+        "sound_prompt": "90s Europop, bubblegum dance, upbeat electronic pop, 132 BPM, key of A minor, bright synth hooks, energetic four-on-the-floor beat, fast synth bassline, pitched-up high female vocal, robotic processed vocal timbre, male spoken vocal interjections, dark cheerful horror atmosphere, plastic studio pop",
+        "title": "Maniquí",
+        "seed": null,
+        "lyrics_id": "54a13992-2061-585e-a470-f95d7d7395b8"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/4bce1cc3-c0d9-48ca-b000-03fb0f14f694.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/4bce1cc3-c0d9-48ca-b000-03fb0f14f694.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/b597e3e6-88a4-5a32-9ec1-aaba60f457fc.jpg",
+      "video_url": null
+    },
+    {
+      "id": "3a13f332-435f-45e7-a36d-58ce8cf071b3",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "3e86aa8f-bea6-5c7e-9cb8-ad0267249438",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "173.84533333333334"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "df04aaf9-ea27-568d-9e3a-73c9409d9ed1",
+          "text": "[Intro]\nHallo, süßes Ding\nHi, Baby\nWillst du mich heute bauen?\nImmer\nMach die Schachtel auf\n\n[Chorus]\nIch bin deine Puppe, im Plastik gut verpackt\nForm mich perfekt, glatt im Takt\nMal mir die Lippen an, Reißverschluss zu, Reißverschluss auf\nIch bin deine Leinwand, Baby — schreib mein Drehbuch drauf\nKomm schon, süßes Ding, lass uns auftreten\n\n[Verse 1]\nIch bin ein Hohlknochen-Mädchen im Glaskasten-Sinn\nZieh mich eng an, näh mich fest, weil ich so biegsam bin\nDu bist die Hand, ich die Puppe am Faden\nBring mich in Pose, stell mich hin, lass mein Denken entladen\n\n[Bridge]\nDu kannst mich formen, du kannst mich brechen\nWenn du leise sagst „Du bist mein, ohne zu sprechen“\n(Ooh-ah)\n\n[Chorus]\nIch bin deine Puppe, im Plastik gut verpackt\nForm mich perfekt, glatt im Takt\nMal mir die Lippen an, Reißverschluss zu, Reißverschluss auf\nIch bin deine Leinwand, Baby — schreib mein Drehbuch drauf\n\n[Verse 2]\nLass mich lächeln, lass mich knien, sag die Zeilen mir an\nIch kann deine Heilige sein, betteln wo ich kann\nKomm zieh mich auf, Puppengesicht, mach die Szene neu\nLicht an, Standbild, bleib mir immer treu\n\n[Bridge]\nDu kannst mich formen, du kannst mich brechen\nWenn du leise sagst „Du bist mein, ohne zu sprechen“\nDu kannst mich formen, du kannst mich brechen\nWenn du leise sagst „Du bist mein, ohne zu sprechen“\n\n[Breakdown]\nKomm schon, süßes Ding, lass uns auftreten\n(Ah, ah, ah, ja)\nKomm schon, süßes Ding, lass uns auftreten\n(Ooh, ooh)\nKomm schon, süßes Ding, lass uns auftreten\n(Ah, ah, ah, ja)\nKomm schon, süßes Ding, lass uns auftreten\n(Ooh, ooh)\n\n[Verse 3]\nIch gehe nicht — ich werde gegangen\nIch spreche nicht — ich werde gesprochen\nIch will nichts — ich werde gewollt\nIch spuke nicht — ich werde bespukt\nVon den Händen, die mich bauten\nVon den Augen, die mich schätzten\nVon dem Regal, auf das sie mich stellten\nVon dem Preis, den sie mir gaben\n\n[Final Chorus]\nIch bin deine Puppe… im Plastik gut verpackt…\nForm mich perfekt… glatt im Takt…\nMal mir die Lippen an… Reißverschluss zu… Reißverschluss auf…\nIch bin deine Leinwand, Baby…\n…Ich habe vergessen, wer ich vor der Farbe war\n\n[Outro]\nOh, ich habe so viel Spaß\nTja, süßes Ding… wir fangen gerade erst an\nIch liebe dich. Glaube ich. Das sollte ich sagen"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "FORM MICH",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "3e86aa8f-bea6-5c7e-9cb8-ad0267249438",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:12:37.698975Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "6ea44c7d-f7a4-44bf-8137-a30be1f255a1",
+        "sound_prompt": "90s Europop, bubblegum dance, synth-pop, 130 BPM, energetic four-on-the-floor beat, bright synth brass and bouncy basslines, pitched playful female vocals, deep voice male eurodance spoken responses, dark satirical tone, synthetic plastic timbre",
+        "title": "FORM MICH",
+        "seed": null,
+        "lyrics_id": "df04aaf9-ea27-568d-9e3a-73c9409d9ed1"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/3a13f332-435f-45e7-a36d-58ce8cf071b3.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/3a13f332-435f-45e7-a36d-58ce8cf071b3.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/3e86aa8f-bea6-5c7e-9cb8-ad0267249438.jpg",
+      "video_url": null
+    },
+    {
+      "id": "211f81b4-05a6-4dd7-8405-4704eb7b6a9f",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "e68f7b36-b825-5f69-a3b7-dd090189753b",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "180.768"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "df04aaf9-ea27-568d-9e3a-73c9409d9ed1",
+          "text": "[Intro]\nHallo, süßes Ding\nHi, Baby\nWillst du mich heute bauen?\nImmer\nMach die Schachtel auf\n\n[Chorus]\nIch bin deine Puppe, im Plastik gut verpackt\nForm mich perfekt, glatt im Takt\nMal mir die Lippen an, Reißverschluss zu, Reißverschluss auf\nIch bin deine Leinwand, Baby — schreib mein Drehbuch drauf\nKomm schon, süßes Ding, lass uns auftreten\n\n[Verse 1]\nIch bin ein Hohlknochen-Mädchen im Glaskasten-Sinn\nZieh mich eng an, näh mich fest, weil ich so biegsam bin\nDu bist die Hand, ich die Puppe am Faden\nBring mich in Pose, stell mich hin, lass mein Denken entladen\n\n[Bridge]\nDu kannst mich formen, du kannst mich brechen\nWenn du leise sagst „Du bist mein, ohne zu sprechen“\n(Ooh-ah)\n\n[Chorus]\nIch bin deine Puppe, im Plastik gut verpackt\nForm mich perfekt, glatt im Takt\nMal mir die Lippen an, Reißverschluss zu, Reißverschluss auf\nIch bin deine Leinwand, Baby — schreib mein Drehbuch drauf\n\n[Verse 2]\nLass mich lächeln, lass mich knien, sag die Zeilen mir an\nIch kann deine Heilige sein, betteln wo ich kann\nKomm zieh mich auf, Puppengesicht, mach die Szene neu\nLicht an, Standbild, bleib mir immer treu\n\n[Bridge]\nDu kannst mich formen, du kannst mich brechen\nWenn du leise sagst „Du bist mein, ohne zu sprechen“\nDu kannst mich formen, du kannst mich brechen\nWenn du leise sagst „Du bist mein, ohne zu sprechen“\n\n[Breakdown]\nKomm schon, süßes Ding, lass uns auftreten\n(Ah, ah, ah, ja)\nKomm schon, süßes Ding, lass uns auftreten\n(Ooh, ooh)\nKomm schon, süßes Ding, lass uns auftreten\n(Ah, ah, ah, ja)\nKomm schon, süßes Ding, lass uns auftreten\n(Ooh, ooh)\n\n[Verse 3]\nIch gehe nicht — ich werde gegangen\nIch spreche nicht — ich werde gesprochen\nIch will nichts — ich werde gewollt\nIch spuke nicht — ich werde bespukt\nVon den Händen, die mich bauten\nVon den Augen, die mich schätzten\nVon dem Regal, auf das sie mich stellten\nVon dem Preis, den sie mir gaben\n\n[Final Chorus]\nIch bin deine Puppe… im Plastik gut verpackt…\nForm mich perfekt… glatt im Takt…\nMal mir die Lippen an… Reißverschluss zu… Reißverschluss auf…\nIch bin deine Leinwand, Baby…\n…Ich habe vergessen, wer ich vor der Farbe war\n\n[Outro]\nOh, ich habe so viel Spaß\nTja, süßes Ding… wir fangen gerade erst an\nIch liebe dich. Glaube ich. Das sollte ich sagen"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "FORM MICH",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "e68f7b36-b825-5f69-a3b7-dd090189753b",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:12:36.698093Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "6ea44c7d-f7a4-44bf-8137-a30be1f255a1",
+        "sound_prompt": "90s Europop, bubblegum dance, synth-pop, 130 BPM, energetic four-on-the-floor beat, bright synth brass and bouncy basslines, pitched playful female vocals, deep voice male eurodance spoken responses, dark satirical tone, synthetic plastic timbre",
+        "title": "FORM MICH",
+        "seed": null,
+        "lyrics_id": "df04aaf9-ea27-568d-9e3a-73c9409d9ed1"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/211f81b4-05a6-4dd7-8405-4704eb7b6a9f.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/211f81b4-05a6-4dd7-8405-4704eb7b6a9f.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/e68f7b36-b825-5f69-a3b7-dd090189753b.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
