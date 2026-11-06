@@ -4,6 +4,7 @@ import { activeLyric, clock, filterLibrary, linkedSongIndex, lyricSegments, read
 import './app.css'
 
 const SONGS_URL = import.meta.env.VITE_SONGS_URL?.trim()
+const TIMING_URL = import.meta.env.VITE_TIMING_URL?.trim()
 const PAGE_SIZE = 24
 const dateFormat = new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'short', year: 'numeric' })
 function dateLabel(value) {
@@ -44,13 +45,13 @@ function Lyrics({ clip, time, playing }) {
       <div><span class="eyebrow">03 / SONG LYRICS</span><h2 id="lyrics-heading">Lyrics</h2></div>
       {timed && <button class={`follow-button ${follow ? 'enabled' : ''}`} aria-pressed={follow} onClick={() => setFollow(!follow)}><span class="follow-dot" />Auto-scroll</button>}
     </div>
-    <div class="lyric-status"><span>{timed ? 'SYNCED LYRICS' : segments.length ? 'TEXT LYRICS' : 'NO LYRICS'}</span><span>{timed ? 'Current lyrics are highlighted during playback' : segments.length ? 'Timing is unavailable for this song' : 'Lyrics were not included in the export'}</span></div>
+    <div class="lyric-status"><span>{clip.timingSource === 'transcription' ? 'TRANSCRIBED LYRICS' : timed ? 'SYNCED LYRICS' : segments.length ? 'TEXT LYRICS' : 'NO LYRICS'}</span><span>{clip.timingSource === 'transcription' ? 'Speech recognition may differ from the original lyrics' : timed ? 'Current lyrics are highlighted during playback' : segments.length ? 'Timing is unavailable for this song' : 'Lyrics were not included in the export'}</span></div>
     <div class="lyric-scroller" ref={scroller} tabIndex="0" role="region" aria-label={`Lyrics for ${clip.title}`}>
       {segments.length ? <div class={`lyric-text ${timed ? 'timed' : ''}`}>
         {segments.map((segment, index) => <span key={index} class={`lyric-fragment ${current === index ? 'current' : ''}`} data-current={current === index && timed ? 'true' : undefined}>{segment.text}</span>)}
       </div> : <div class="no-lyrics"><Music2 size={32} strokeWidth={1.5} /><h3>No lyrics available</h3><p>This song has no lyrics in the export.</p></div>}
     </div>
-    <div class="booklet-footer"><span>SONG / {clip.id.slice(0, 8).toUpperCase()}</span><span>{timed ? `${segments.filter((segment) => segment.time !== null).length} timing markers` : 'Lyrics from your export'}</span></div>
+    <div class="booklet-footer"><span>SONG / {clip.id.slice(0, 8).toUpperCase()}</span><span>{clip.timingSource === 'transcription' ? `${segments.length} transcribed words` : timed ? `${segments.filter((segment) => segment.time !== null).length} timing markers` : 'Lyrics from your export'}</span></div>
   </section>
 }
 
@@ -58,6 +59,7 @@ export function App() {
   const [clips, setClips] = useState([])
   const [loading, setLoading] = useState(true)
   const [loadError, setLoadError] = useState('')
+  const [timingError, setTimingError] = useState('')
   const [attempt, setAttempt] = useState(0)
   const [query, setQuery] = useState('')
   const [filter, setFilter] = useState('all')
@@ -79,13 +81,28 @@ export function App() {
     const controller = new AbortController()
     setLoading(true)
     setLoadError('')
-    fetch(SONGS_URL || `${import.meta.env.BASE_URL}songs.json`, { signal: controller.signal })
+    setTimingError('')
+    const timing = fetch(TIMING_URL || `${import.meta.env.BASE_URL}timing.json`, { signal: controller.signal, cache: 'no-store' })
+      .then(async (response) => {
+        if (response.status === 404 && !TIMING_URL) return null
+        if (!response.ok) throw new Error(`HTTP ${response.status}`)
+        const data = await response.json()
+        if (data?.version !== 1 || !data.songs || typeof data.songs !== 'object' || Array.isArray(data.songs)) throw new Error('Invalid timing file')
+        return data
+      })
+      .catch((error) => {
+        if (error.name === 'AbortError') throw error
+        if (!controller.signal.aborted) setTimingError('Extra lyric timing could not be loaded. Songs can still play.')
+        return null
+      })
+    const songs = fetch(SONGS_URL || `${import.meta.env.BASE_URL}songs.json`, { signal: controller.signal })
       .then((response) => {
         if (!response.ok) throw new Error(`Could not load songs.json (HTTP ${response.status}).`)
         return response.json()
       })
-      .then((data) => {
-        const library = readLibrary(data)
+    Promise.all([songs, timing])
+      .then(([data, timingData]) => {
+        const library = readLibrary(data, timingData)
         const ordered = filterLibrary(library, '', 'all', 'newest')
         const index = linkedSongIndex(ordered, window.location.search)
         setClips(library)
@@ -181,6 +198,7 @@ export function App() {
         <div class="archive-note"><span class="archive-number">{loading ? '…' : clips.length.toLocaleString()}</span><div><span class="eyebrow">SONGS IN YOUR LIBRARY</span><p>Browse your songs, play the originals,<br />and read the lyrics as you listen.</p><span class="archive-runtime">{Math.floor(totalSeconds / 3600)}h {Math.floor((totalSeconds % 3600) / 60)}m of your music <span>/</span> {timedCount} with timed lyrics</span></div></div>
       </section>
 
+      {timingError && <p class="audio-error" role="status">{timingError}</p>}
       {loadError ? <section class="library-state" role="alert"><Disc3 size={40} /><h2>Could not load your library</h2><p>{loadError}</p><p>{SONGS_URL ? 'Check VITE_SONGS_URL and make sure its server allows cross-origin requests.' : <>Place your full export at <code>viewer/public/songs.json</code>.</>}</p><button class="text-button" onClick={() => setAttempt(attempt + 1)}><RefreshCw size={16} />Try again</button></section>
         : loading ? <section class="loading-layout" aria-busy="true" aria-label="Loading your music archive"><div class="loading-caption"><LoaderCircle class="loading-spinner" size={20} />Loading your songs…</div><div class="loading-columns"><div class="skeleton" /><div class="skeleton" /><div class="skeleton" /></div></section>
           : !clips.length ? <section class="library-state"><Disc3 size={48} strokeWidth={1} /><h2>Your library is empty</h2><p>No songs were found in the export. Export your songs, then refresh.</p></section>

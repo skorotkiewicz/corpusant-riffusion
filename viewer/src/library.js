@@ -32,10 +32,24 @@ export function clock(seconds = 0) {
   return `${hours ? `${hours}:` : ''}${hours ? String(minutes).padStart(2, '0') : minutes}:${String(total % 60).padStart(2, '0')}`
 }
 
+function transcribedSegments(clip) {
+  const timing = clip.transcriptionTiming
+  if (timing?.status !== 'completed' || timing.audio_url !== clip.audio_url ||
+      !Array.isArray(timing.words) || !timing.words.length) return []
+  const valid = timing.words.every((word, index) => word && typeof word.word === 'string' && word.word.trim() &&
+    Number.isFinite(word.start) && Number.isFinite(word.end) && word.start >= 0 && word.end >= word.start &&
+    (!index || word.start >= timing.words[index - 1].start))
+  if (!valid) return []
+  return timing.words.map((word, index) => ({
+    text: word.word.trim() + (index < timing.words.length - 1 ? ' ' : ''),
+    time: word.start, end: word.end, transcribed: true,
+  }))
+}
+
 export function lyricSegments(clip) {
   const lyrics = clip.lyrics?.value
   const text = typeof lyrics?.text === 'string' ? lyrics.text : ''
-  if (!text) return []
+  if (!text) return transcribedSegments(clip)
   const timing = clip.lyrics_timing
   const markers = timing?.value?.markers
   const valid = timing?.status === 'completed' &&
@@ -44,7 +58,10 @@ export function lyricSegments(clip) {
       Number.isInteger(marker[0]) && marker[0] >= 0 && marker[0] <= text.length &&
       Number.isFinite(marker[1]) && marker[1] >= 0 &&
       (!index || (marker[0] > markers[index - 1][0] && marker[1] >= markers[index - 1][1])))
-  if (!valid) return [{ text, time: null }]
+  if (!valid) {
+    const transcribed = transcribedSegments(clip)
+    return transcribed.length ? transcribed : [{ text, time: null }]
+  }
   const sections = markers.map(([offset, time], index) => ({
     text: text.slice(offset, markers[index + 1]?.[0] ?? text.length), time,
   }))
@@ -55,12 +72,14 @@ export function lyricSegments(clip) {
 export function activeLyric(segments, time) {
   let current = -1
   for (let index = 0; index < segments.length; index++) {
-    if (segments[index].time !== null && segments[index].time <= time) current = index
+    if (segments[index].time !== null && segments[index].time <= time) {
+      current = segments[index].end === undefined || time < segments[index].end ? index : -1
+    }
   }
   return current
 }
 
-export function readLibrary(data) {
+export function readLibrary(data, timing = null) {
   if (!Array.isArray(data?.clips)) throw new Error('Expected a songs.json export containing a clips array.')
   const ids = new Set()
   return data.clips.map((raw) => {
@@ -71,11 +90,15 @@ export function readLibrary(data) {
     const title = typeof raw.title === 'string' && raw.title.trim() ? raw.title : 'Untitled song'
     const lyrics = typeof raw.lyrics?.value?.text === 'string' ? raw.lyrics.value.text : ''
     const prompt = typeof raw.operation?.sound_prompt === 'string' ? raw.operation.sound_prompt : ''
+    const clip = { ...raw, transcriptionTiming: timing?.version === 1 ? timing.songs?.[raw.id] : undefined }
+    const segments = lyricSegments(clip)
+    const transcribed = segments.some((segment) => segment.transcribed)
     return {
-      ...raw, raw, title, prompt, lyricsText: lyrics, durationSeconds: durationOf(raw),
+      ...clip, raw, title, prompt, lyricsText: lyrics, durationSeconds: durationOf(raw),
       audioUrl: mediaUrl(raw.audio_url), imageUrl: mediaUrl(raw.image_url), wavUrl: mediaUrl(raw.wav_url),
-      hasTiming: lyricSegments(raw).some((segment) => segment.time !== null),
-      searchText: `${title}\n${prompt}\n${lyrics}`.toLocaleLowerCase(),
+      hasTiming: segments.some((segment) => segment.time !== null),
+      timingSource: transcribed ? 'transcription' : 'export',
+      searchText: `${title}\n${prompt}\n${lyrics}\n${transcribed ? segments.map((segment) => segment.text).join('') : ''}`.toLocaleLowerCase(),
     }
   })
 }

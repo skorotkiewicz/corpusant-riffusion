@@ -44,6 +44,7 @@ jobs:
         env:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
           VITE_SONGS_URL: ${{ vars.VITE_SONGS_URL }}
+          VITE_TIMING_URL: ${{ vars.VITE_TIMING_URL }}
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
