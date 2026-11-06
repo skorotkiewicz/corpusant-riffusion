@@ -226573,6 +226573,104 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/bc8b2f47-0c2b-4aaa-a33a-c34aa803ddda.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/b1069417-9aaa-5c5c-996f-315df086b936.jpg",
       "video_url": null
+    },
+    {
+      "id": "585e1490-4e75-41c7-a8ca-acf52ea83d34",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "36424e64-d752-5cb1-84e1-01bb236992a7",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "175.34933333333333"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "a2645c2b-f0fd-545a-9a9a-83feaddf27d4",
+          "text": "[Intro]\nPicture the door is open, but only for a minute\nBehind it is the life you want, and you're standing at the limit\nDo you walk through it shaking, or stay out where it's safe?\nListen\n\n[Verse 1: The Fear]\nHands are shaking on the mic stand, throat is dry as dust\nSmiling at the room like it's a thing he's built on trust\nHundred lines inside his head, polished, tight, and clean\nThen the spotlight hits his face and the whole page goes unseen\nSilence for a heartbeat, and the silence gets so loud\nSomeone coughs, somebody laughs, and he's sinking in the crowd\nIt's not that he can't do it, he's done it in his sleep\nIt's the fear that talent can't outrun, it's got him in too deep\nHe walks home in the rain, with the cracked phone in his hand\nRewinding every second of the night that wasn't planned\nSame cramped room, same mattress, same ceiling to ignore\nBut tonight he's writing faster than he ever did before\n\n[Chorus]\nSo drown the doubt in the sound\nDon't think, just go, never look down\nThe door won't wait while you're measuring the room\nBurn the fear before it buries you\nDrown the doubt in the sound\nHold the moment, let it ground you\nBecause when you've got nothing left to lose\nYou walk through it, or it walks through you\n\n[Verse 2: The Cautionary Tale]\nNow picture that he wins it, signed and sold, the lights come on\nEverybody knows his name, the old him is long gone\nTour bus, hotel ceilings, flashbulbs in his eyes\nSmiling for the cameras while he's learning how to hide\nCalls from home go unanswered, birthdays slip away\nHis little girl is growing up in photos, day by day\nThen the singles start to stall, and the phone stops ringing\nThe same crowd that adored him moves on to someone singing\nContracts turn to ashes, and the friends turn into ghosts\nHe's a headline for a week, then a name they barely post\nThe dream he bled for, empty, and the house is way too wide\nThe prize and the price were the same thing, and it's hollow deep inside\n\n[Chorus]\nSo drown the doubt in the sound\nDon't think, just go, never look down\nThe door won't wait while you're measuring the room\nBurn the fear before it buries you\nDrown the doubt in the sound\nHold the moment, let it ground you\nBecause when you've got nothing left to lose\nYou walk through it, or it walks through you\n\n[Verse 3: The Resolve]\nNow I drop the character, because this one's mine\nWarehouse shift at six a.m., rent due on the line\nOverdraft notices stacked up by the door\nDaughter asks for sneakers and I'm counting what's in the drawer\nI love her, but I'm tired, and I love her mother too\nBut the weight of all the \"almost\" is something I can't outrun\nNobody's filming this, there's no soundtrack in the air\nNo rising strings, no montage, just the bills and one cold chair\nI've been laughed at, I've been ghosted, I've been told to sit back down\nI've been the quiet one at open mics in every town\nBut I can't fade into this life, I won't wear this like a chain\nSo I'm betting everything on me, through the fear and through the pain\nIt's not because I'm fearless, it's because I'm out of doors\nI'm choosing this completely, so I won't be here no more\nIf I fall, I fall forward, and I get up when I do\nBut tonight I give it everything, and I'm walking through\n\n[Chorus]\nSo drown the doubt in the sound\nDon't think, just go, never look down\nThe door won't wait while you're measuring the room\nBurn the fear before it buries you\nDrown the doubt in the sound\nHold the moment, let it ground you\nBecause when you've got nothing left to lose\nYou walk through it, or it walks through you\n\n[Outro]\n(Softly)\nIt was never about being brave\nIt was about being all in"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Sink or Sing",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "36424e64-d752-5cb1-84e1-01bb236992a7",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T05:14:57.748717Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "72a1d836-48e3-420d-8090-f9658a9a5a99",
+        "sound_prompt": "Cinematic hip-hop, dark piano and driving 808s, intense male rapper, raw aggressive delivery, rapid-fire verses building to an anthemic sung chorus, gritty and emotional, minor key, crescendo into final chorus, 90 bpm",
+        "title": "Sink or Sing",
+        "seed": null,
+        "lyrics_id": "a2645c2b-f0fd-545a-9a9a-83feaddf27d4"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/585e1490-4e75-41c7-a8ca-acf52ea83d34.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/585e1490-4e75-41c7-a8ca-acf52ea83d34.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/36424e64-d752-5cb1-84e1-01bb236992a7.jpg",
+      "video_url": null
+    },
+    {
+      "id": "c90062a6-317b-46e6-9d30-9c98b4efe110",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "2d3de3b6-f465-5393-bdc2-f65806b54242",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "161.49333333333334"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "a2645c2b-f0fd-545a-9a9a-83feaddf27d4",
+          "text": "[Intro]\nPicture the door is open, but only for a minute\nBehind it is the life you want, and you're standing at the limit\nDo you walk through it shaking, or stay out where it's safe?\nListen\n\n[Verse 1: The Fear]\nHands are shaking on the mic stand, throat is dry as dust\nSmiling at the room like it's a thing he's built on trust\nHundred lines inside his head, polished, tight, and clean\nThen the spotlight hits his face and the whole page goes unseen\nSilence for a heartbeat, and the silence gets so loud\nSomeone coughs, somebody laughs, and he's sinking in the crowd\nIt's not that he can't do it, he's done it in his sleep\nIt's the fear that talent can't outrun, it's got him in too deep\nHe walks home in the rain, with the cracked phone in his hand\nRewinding every second of the night that wasn't planned\nSame cramped room, same mattress, same ceiling to ignore\nBut tonight he's writing faster than he ever did before\n\n[Chorus]\nSo drown the doubt in the sound\nDon't think, just go, never look down\nThe door won't wait while you're measuring the room\nBurn the fear before it buries you\nDrown the doubt in the sound\nHold the moment, let it ground you\nBecause when you've got nothing left to lose\nYou walk through it, or it walks through you\n\n[Verse 2: The Cautionary Tale]\nNow picture that he wins it, signed and sold, the lights come on\nEverybody knows his name, the old him is long gone\nTour bus, hotel ceilings, flashbulbs in his eyes\nSmiling for the cameras while he's learning how to hide\nCalls from home go unanswered, birthdays slip away\nHis little girl is growing up in photos, day by day\nThen the singles start to stall, and the phone stops ringing\nThe same crowd that adored him moves on to someone singing\nContracts turn to ashes, and the friends turn into ghosts\nHe's a headline for a week, then a name they barely post\nThe dream he bled for, empty, and the house is way too wide\nThe prize and the price were the same thing, and it's hollow deep inside\n\n[Chorus]\nSo drown the doubt in the sound\nDon't think, just go, never look down\nThe door won't wait while you're measuring the room\nBurn the fear before it buries you\nDrown the doubt in the sound\nHold the moment, let it ground you\nBecause when you've got nothing left to lose\nYou walk through it, or it walks through you\n\n[Verse 3: The Resolve]\nNow I drop the character, because this one's mine\nWarehouse shift at six a.m., rent due on the line\nOverdraft notices stacked up by the door\nDaughter asks for sneakers and I'm counting what's in the drawer\nI love her, but I'm tired, and I love her mother too\nBut the weight of all the \"almost\" is something I can't outrun\nNobody's filming this, there's no soundtrack in the air\nNo rising strings, no montage, just the bills and one cold chair\nI've been laughed at, I've been ghosted, I've been told to sit back down\nI've been the quiet one at open mics in every town\nBut I can't fade into this life, I won't wear this like a chain\nSo I'm betting everything on me, through the fear and through the pain\nIt's not because I'm fearless, it's because I'm out of doors\nI'm choosing this completely, so I won't be here no more\nIf I fall, I fall forward, and I get up when I do\nBut tonight I give it everything, and I'm walking through\n\n[Chorus]\nSo drown the doubt in the sound\nDon't think, just go, never look down\nThe door won't wait while you're measuring the room\nBurn the fear before it buries you\nDrown the doubt in the sound\nHold the moment, let it ground you\nBecause when you've got nothing left to lose\nYou walk through it, or it walks through you\n\n[Outro]\n(Softly)\nIt was never about being brave\nIt was about being all in"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Sink or Sing",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "2d3de3b6-f465-5393-bdc2-f65806b54242",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T05:14:55.489423Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "72a1d836-48e3-420d-8090-f9658a9a5a99",
+        "sound_prompt": "Cinematic hip-hop, dark piano and driving 808s, intense male rapper, raw aggressive delivery, rapid-fire verses building to an anthemic sung chorus, gritty and emotional, minor key, crescendo into final chorus, 90 bpm",
+        "title": "Sink or Sing",
+        "seed": null,
+        "lyrics_id": "a2645c2b-f0fd-545a-9a9a-83feaddf27d4"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/c90062a6-317b-46e6-9d30-9c98b4efe110.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/c90062a6-317b-46e6-9d30-9c98b4efe110.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/2d3de3b6-f465-5393-bdc2-f65806b54242.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
