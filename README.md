@@ -45,14 +45,16 @@ python3 build_timing.py --limit 1
 python3 build_timing.py
 
 # eg
-python3 build_timing.py --api-url http://192.168.0.124:8055/transcribe
+python3 build_timing.py --api-url http://localhost:8055/transcribe
 ```
 
 The default endpoint is `http://localhost:8055/transcribe`. Use `--api-url` or `TRANSCRIBE_URL` for another endpoint. `--limit 1` processes one song as a first check; omit it to process all remaining songs.
 
 The script skips songs with usable timing in the export and results already saved for the same song ID and audio URL. It downloads one song into a temporary directory, converts the entire song to MP3, checks that it is smaller than 25,000,000 bytes, and submits it for word timestamps. Oversized MP3s are re-encoded at lower bitrates, never truncated. Temporary audio is removed before starting the next song.
 
-Each successful API response and its normalized words are saved atomically in `timing.json`, indexed by song ID. A copy is saved to `viewer/public/timing.json` for the viewer. Empty transcriptions are saved as `no_speech` and skipped on reruns. Errors stop the run; rerun the same command to resume from the last saved song. Ctrl+C also keeps saved results.
+Each successful API response and its normalized words are saved atomically in `timing.json`, indexed by song ID. A copy is saved to `viewer/public/timing.json` for the viewer. Empty transcriptions are saved as `no_speech` and skipped on reruns. Songs rejected with HTTP 400, 413, or 415 are saved as `failed`, skipped, and the next song is processed. These failures are also skipped on normal reruns; add `--retry-failed` to try them again. A changed audio URL makes a song eligible for another attempt. Failed songs receive no lyric highlighting.
+
+Connection errors, authentication failures, rate limits, and server failures still stop the run. Rerun the same command to resume from the last saved song. Ctrl+C also keeps saved results.
 
 Options include `--source`, `--output`, and `--viewer-output` to change the default `songs.json`, `timing.json`, and `viewer/public/timing.json` paths. Both timing files are ignored by Git.
 

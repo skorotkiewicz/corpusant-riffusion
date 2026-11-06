@@ -80,6 +80,7 @@ test('transcribed timing highlights original words without replacing formatting 
   for (const invalid of [
     { ...entry, audio_url: 'https://example.test/different.m4a' },
     { ...entry, status: 'no_speech', words: [] },
+    { status: 'failed', audio_url: raw.audio_url, http_status: 400, error: 'Audio rejected' },
     { ...entry, words: [{ word: 'Bad', start: 3, end: 2 }] },
     { ...entry, words: [{ word: 'Bad', start: NaN, end: 2 }] },
     { ...entry, words: [{ word: 'Bad', start: 3, end: 4 }, { word: 'order', start: 1, end: 2 }] },

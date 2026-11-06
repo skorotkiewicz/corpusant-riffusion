@@ -16,6 +16,12 @@ MAX_MP3_BYTES = 25_000_000
 DEFAULT_API_URL = "http://localhost:8055/transcribe"
 
 
+class TranscriptionError(RuntimeError):
+    def __init__(self, message, status):
+        super().__init__(message)
+        self.status = status
+
+
 def number(value):
     return type(value) in (int, float) and math.isfinite(value)
 
@@ -92,6 +98,11 @@ def cached(clip, entry):
             or entry.get("status") == "no_speech" and not words)
 
 
+def previously_failed(clip, entry):
+    return (isinstance(entry, dict) and entry.get("status") == "failed"
+            and entry.get("audio_url") == clip.get("audio_url"))
+
+
 def save_json(state, output):
     output.parent.mkdir(parents=True, exist_ok=True)
     temporary = None
@@ -155,12 +166,12 @@ def transcribe(api_url, mp3, response_file):
     if result.returncode:
         detail = response_file.read_text(encoding="utf-8", errors="replace")[:500] if response_file.exists() else ""
         status = int(result.stdout.strip()) if result.stdout.strip().isdigit() else 0
-        raise RuntimeError(f"Transcription request failed, HTTP {status}, curl exit {result.returncode}: {detail}")
+        raise TranscriptionError(f"Transcription request failed, HTTP {status}, curl exit {result.returncode}: {detail}", status)
     return json.loads(response_file.read_text(encoding="utf-8"))
 
 
 def build_timing(source=Path("songs.json"), output=Path("timing.json"),
-                 api_url=DEFAULT_API_URL, viewer_output=Path("viewer/public/timing.json"), limit=None):
+                 api_url=DEFAULT_API_URL, viewer_output=Path("viewer/public/timing.json"), limit=None, retry_failed=False):
     if source.resolve() in {output.resolve(), viewer_output.resolve()}:
         raise ValueError("Timing outputs must not overwrite the song export")
     data = json.loads(source.read_text(encoding="utf-8"))
@@ -179,8 +190,13 @@ def build_timing(source=Path("songs.json"), output=Path("timing.json"),
     if output.exists() and output.resolve() != viewer_output.resolve():
         save_json(state, viewer_output)
     pending = [clip for clip in clips if not has_export_timing(clip)
-               and not cached(clip, state["songs"].get(clip["id"])) and clip.get("audio_url")]
+               and not cached(clip, state["songs"].get(clip["id"])) and clip.get("audio_url")
+               and (retry_failed or not previously_failed(clip, state["songs"].get(clip["id"])))]
     print(f"{len(pending)} songs need transcription", flush=True)
+    skipped = sum(not has_export_timing(clip) and bool(clip.get("audio_url"))
+                  and previously_failed(clip, state["songs"].get(clip["id"])) for clip in clips)
+    if skipped and not retry_failed:
+        print(f"Skipping {skipped} previously rejected songs. Use --retry-failed to retry them.", flush=True)
     if limit is not None:
         pending = pending[:limit]
     if pending:
@@ -197,23 +213,33 @@ def build_timing(source=Path("songs.json"), output=Path("timing.json"),
             print("  Converting to MP3…", flush=True)
             convert_mp3(original, mp3)
             print(f"  Transcribing {mp3.stat().st_size / 1_000_000:.2f} MB…", flush=True)
-            response = transcribe(api_url, mp3, work / "response.json")
-            words = transcription_words(response)
             entry = {
-                "status": "completed" if words else "no_speech",
                 "audio_url": clip["audio_url"],
                 "created_at": datetime.now(timezone.utc).isoformat(),
-                "text": " ".join(word["word"] for word in words),
-                "words": words,
-                "response": response,
             }
+            try:
+                response = transcribe(api_url, mp3, work / "response.json")
+            except TranscriptionError as error:
+                if error.status not in (400, 413, 415):
+                    raise
+                entry.update(status="failed", http_status=error.status, error=str(error))
+            else:
+                words = transcription_words(response)
+                entry.update(status="completed" if words else "no_speech",
+                             text=" ".join(word["word"] for word in words), words=words, response=response)
             state["songs"][clip["id"]] = entry
             save_json(state, output)
             if output.resolve() != viewer_output.resolve():
                 save_json(state, viewer_output)
-            print(f"  Saved {len(words)} words" if words else "  Saved: no speech detected", flush=True)
+            if entry["status"] == "failed":
+                print(f"  Skipped: API rejected this song (HTTP {entry['http_status']}). Failure saved; continuing.", flush=True)
+            else:
+                print(f"  Saved {len(words)} words" if words else "  Saved: no speech detected", flush=True)
         # Temporary audio is removed before the next song is downloaded.
     print(f"Done. {len(state['songs'])} saved results in {output}", flush=True)
+    failed = sum(previously_failed(clip, state["songs"].get(clip["id"])) for clip in clips)
+    if failed:
+        print(f"{failed} rejected songs have no timing. Use --retry-failed to retry them.", flush=True)
     return state
 
 
@@ -225,11 +251,12 @@ def main():
     parser.add_argument("--api-url", default=os.environ.get("TRANSCRIBE_URL") or DEFAULT_API_URL,
                         help="Transcription endpoint, or set TRANSCRIBE_URL")
     parser.add_argument("--limit", type=int, help="Process at most this many songs this run")
+    parser.add_argument("--retry-failed", action="store_true", help="Retry previously rejected songs")
     args = parser.parse_args()
     if args.limit is not None and args.limit < 1:
         parser.error("--limit must be at least 1")
     try:
-        build_timing(args.source, args.output, args.api_url, args.viewer_output, args.limit)
+        build_timing(args.source, args.output, args.api_url, args.viewer_output, args.limit, args.retry_failed)
     except KeyboardInterrupt:
         sys.exit("Stopped. Saved results are kept; rerun the same command to resume.")
     except (OSError, ValueError, RuntimeError, subprocess.CalledProcessError) as error:

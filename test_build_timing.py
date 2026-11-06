@@ -7,8 +7,8 @@ from unittest.mock import patch
 import pytest
 
 from build_timing import (
-    MAX_MP3_BYTES, build_timing, cached, convert_mp3, has_export_timing,
-    transcribe, transcription_words,
+    MAX_MP3_BYTES, TranscriptionError, build_timing, cached, convert_mp3, has_export_timing,
+    previously_failed, transcribe, transcription_words,
 )
 
 
@@ -154,4 +154,72 @@ def test_limit_saves_one_song(tmp_path):
         state = build_timing(source, output, viewer_output=output, limit=1)
     assert list(state["songs"]) == ["one"]
     api.assert_called_once()
+
+
+def test_rejected_song_is_saved_and_skipped_without_blocking_later_songs(tmp_path):
+    source, output, viewer = (tmp_path / name for name in ("songs.json", "timing.json", "public/timing.json"))
+    clips = [{"id": name, "audio_url": f"https://example.test/{name}.m4a"} for name in ("rejected", "good")]
+    source.write_text(json.dumps({"clips": clips}))
+    calls, temporary_paths = [], []
+    reject = True
+
+    def download(url, target):
+        assert all(not path.exists() for path in temporary_paths)
+        temporary_paths.append(target.parent)
+        if calls:
+            assert json.loads(output.read_text())["songs"]["rejected"]["status"] == "failed"
+        target.write_bytes(b"audio")
+
+    def api(url, mp3, response):
+        song = "rejected" if not calls else "good"
+        calls.append(song)
+        if len(calls) == 1 and reject:
+            raise TranscriptionError("Invalid or unsupported audio", 400)
+        return {"segments": [{"words": [{"word": "Hello", "start": 1, "end": 2}]}]}
+
+    with patch("build_timing.download", side_effect=download), \
+            patch("build_timing.convert_mp3", side_effect=lambda source, target: target.write_bytes(b"mp3")), \
+            patch("build_timing.transcribe", side_effect=api), \
+            patch("build_timing.shutil.which", return_value="tool"):
+        state = build_timing(source, output, viewer_output=viewer)
+        assert calls == ["rejected", "good"]
+        assert state["songs"]["rejected"]["status"] == "failed"
+        assert state["songs"]["rejected"]["http_status"] == 400
+        assert "Invalid or unsupported audio" in state["songs"]["rejected"]["error"]
+        assert not cached(clips[0], state["songs"]["rejected"])
+        assert previously_failed(clips[0], state["songs"]["rejected"])
+        assert not previously_failed({**clips[0], "audio_url": "https://example.test/new.m4a"}, state["songs"]["rejected"])
+        assert state["songs"]["good"]["status"] == "completed"
+        assert json.loads(viewer.read_text()) == state
+        build_timing(source, output, viewer_output=viewer)
+        assert len(calls) == 2
+        reject = False
+        build_timing(source, output, viewer_output=viewer, retry_failed=True)
+        assert len(calls) == 3
+        assert json.loads(output.read_text())["songs"]["rejected"]["status"] == "completed"
+    assert all(not path.exists() for path in temporary_paths)
+
+
+@pytest.mark.parametrize("status", [0, 401, 404, 429, 500, 503])
+def test_service_failures_still_stop_without_marking_songs_failed(tmp_path, status):
+    source, output = tmp_path / "songs.json", tmp_path / "timing.json"
+    source.write_text(json.dumps({"clips": [{"id": "one", "audio_url": "https://example.test/one.m4a"}]}))
+    with patch("build_timing.download"), \
+            patch("build_timing.convert_mp3", side_effect=lambda source, target: target.write_bytes(b"mp3")), \
+            patch("build_timing.transcribe", side_effect=TranscriptionError("Service unavailable", status)), \
+            patch("build_timing.shutil.which", return_value="tool"):
+        with pytest.raises(TranscriptionError):
+            build_timing(source, output, viewer_output=output)
+    assert not output.exists()
+
+
+def test_transcription_http_error_has_status_for_rejection_handling(tmp_path):
+    mp3, response = tmp_path / "audio.mp3", tmp_path / "response.json"
+    mp3.write_bytes(b"mp3")
+    response.write_text('{"detail":"Invalid or unsupported audio"}')
+    with patch("build_timing.subprocess.run", return_value=subprocess.CompletedProcess([], 22, stdout="400")):
+        with pytest.raises(TranscriptionError) as failure:
+            transcribe("http://localhost/transcribe", mp3, response)
+    assert failure.value.status == 400
+    assert "Invalid or unsupported audio" in str(failure.value)
 
