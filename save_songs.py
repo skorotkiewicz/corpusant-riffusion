@@ -103,8 +103,13 @@ def collect(token, output=OUTPUT, fetch=fetch_page, update=False):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--update", action="store_true", help="Append new songs, stopping at previously saved IDs")
+    parser.add_argument("--prompt-token", action="store_true", help="Ask for a token even when FLOW_TOKEN is set")
     args = parser.parse_args()
-    token = os.environ.get("FLOW_TOKEN") or getpass.getpass("Flow token: ")
+    try:
+        token = None if args.prompt_token else os.environ.get("FLOW_TOKEN")
+        token = token or getpass.getpass("Flow token: ")
+    except (EOFError, KeyboardInterrupt):
+        sys.exit("Token entry cancelled.")
     if not token.strip():
         sys.exit("A bearer token is required")
     try:

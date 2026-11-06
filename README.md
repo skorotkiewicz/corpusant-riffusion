@@ -17,6 +17,10 @@ python3 download_audio.py
 
 Paste only the JWT starting with `eyJ` when prompted; input is hidden. You can also supply it through `FLOW_TOKEN`, which overrides the prompt. The script builds Flow's Supabase session cookie automatically from that token, without another environment variable or saving credentials. If it expires, rerun with a fresh token. Saved progress is kept.
 
+Use `python3 save_songs.py --update --prompt-token` to ask for a token even when `FLOW_TOKEN` is set. You can also run `./save_songs.py` directly.
+
+For the full update workflow, run `./run.sh`. It prompts for a token, updates the song export, copies it into the viewer, and builds missing timing. Set `TRANSCRIBE_URL` to select your transcription endpoint. The launcher stops if a step fails and uses `ding` when available, otherwise a terminal bell, when finished.
+
 ## Get new songs
 
 ```bash

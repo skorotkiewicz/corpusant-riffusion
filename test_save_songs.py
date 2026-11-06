@@ -96,6 +96,28 @@ def test_resume():
         collect("fresh-token", output, lambda *_: (_ for _ in ()).throw(AssertionError("Refetched completed export")))
 
 
+def test_interactive_token_prompt():
+    token = jwt_token()
+    for environment, arguments in [({}, []), ({"FLOW_TOKEN": "old-token"}, ["--prompt-token"])]:
+        with patch.dict("os.environ", environment, clear=True), \
+                patch("sys.argv", ["save_songs.py", "--update", *arguments]), \
+                patch("save_songs.getpass.getpass", return_value=f" {token} ") as prompt, \
+                patch("save_songs.collect") as collect_mock:
+            main()
+            prompt.assert_called_once_with("Flow token: ")
+            collect_mock.assert_called_once_with(token, update=True)
+
+    with patch.dict("os.environ", {}, clear=True), patch("sys.argv", ["save_songs.py"]), \
+            patch("save_songs.getpass.getpass", side_effect=EOFError), patch("save_songs.collect") as collect_mock:
+        try:
+            main()
+        except SystemExit as result:
+            assert str(result) == "Token entry cancelled."
+        else:
+            raise AssertionError("Expected cancelled-token error")
+        collect_mock.assert_not_called()
+
+
 def test_update():
     def response(request, timeout):
         query = parse_qs(urlparse(request.full_url).query)
@@ -162,5 +184,6 @@ def test_update():
 if __name__ == "__main__":
     test_token_auth()
     test_resume()
+    test_interactive_token_prompt()
     test_update()
     print("PASS: JWT session cookies, validation, auth errors, limit 100, pagination, updates, deduplication, and resume")
