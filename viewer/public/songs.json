@@ -225691,6 +225691,202 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/211f81b4-05a6-4dd7-8405-4704eb7b6a9f.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/e68f7b36-b825-5f69-a3b7-dd090189753b.jpg",
       "video_url": null
+    },
+    {
+      "id": "2fac4026-1e48-4fc7-a384-c8475e4efa3c",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "7f1bac1a-3ff4-5e6b-8a35-dc93612c8c1c",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "181.216"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "5111d17d-5496-515f-a098-918a217bf54d",
+          "text": "[Verse 1]\nDa ist eine Akte mit meinem Namen, rot gestempelt\nSie sagt, was ich fühle, ist eine Krankheit im Kopf\nIch hab nicht gewählt, wie dein Name auf meiner Zunge liegt\nDoch sie geben mir die Schuld, also liege ich falsch\n\n[Pre-Chorus]\nLichter werden dünn, Lichter werden schwach\nIch bin eine Fremde in der einzigen Haut, die ich kenne\n\n[Chorus]\nNenn es ein Fieber, nenn es eine Schwäche\nNenn es wie du willst, damit du schlafen kannst\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich bleibt gar nichts mehr von mir\nNenn es ein Fieber, nenn es eine Heilung\nSchreib es auf und schließ die Tür gut zu\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich existier ich nicht mehr\n\n[Verse 2]\nSüß wie Sonnenlicht, langsam wie Gift, Wärme in den Adern\nSie sagen, es ist etwas zum Heilen, zum Erklären\nIch wollte dich vergessen, ging bis die Masten verblassten\nZählte jeden Pfosten, jeden Vogel gegen den Wind\n\n[Pre-Chorus]\nLass mich los, lass mich los\nSag mir, warum das Einzige was ich will, verboten ist\n\n[Chorus]\nNenn es ein Fieber, nenn es eine Schwäche\nNenn es wie du willst, damit du schlafen kannst\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich bleibt gar nichts mehr von mir\nNenn es ein Fieber, nenn es eine Heilung\nSchreib es auf und schließ die Tür gut zu\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich existier ich nicht mehr\n\n[Bridge]\nEins, zwei, drei, zähl die Lampen an der Straße\nMama, Papa, tut mir leid, dass ich anders bin\nVier, fünf, sechs, die Wände kommen näher\nMama, Papa, verzeiht der Tochter, die ich war\n\n[Chorus]\nNenn es ein Fieber, nenn es eine Schwäche\nNenn es wie du willst, damit du schlafen kannst\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich bleibt gar nichts mehr von mir\nNenn es ein Fieber, nenn es eine Heilung\nSchreib es auf und schließ die Tür gut zu\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich existier ich nicht mehr\n\n[Outro]\nDiagnose, Diagnose\nAlles was mir bleibt, ist ein Name ohne Rückweg\nUnd irgendwo die Straße runter brennt noch ein Licht\n(Diagnose)"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Diagnose",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "7f1bac1a-3ff4-5e6b-8a35-dc93612c8c1c",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:45:05.551319Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "f1671cd0-c62b-44dc-ac89-6f04401c64c1",
+        "sound_prompt": "dark pop, pulsing synth bass, breathless double-tracked female vocals, hypnotic repetitive chorus, haunting whispered bridge, cinematic build, 128 bpm, minor key, early 2000s Eurodance-meets-modern-synthpop, German lyrics",
+        "title": "Diagnose",
+        "seed": null,
+        "lyrics_id": "5111d17d-5496-515f-a098-918a217bf54d"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 2,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/2fac4026-1e48-4fc7-a384-c8475e4efa3c.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/2fac4026-1e48-4fc7-a384-c8475e4efa3c.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/7f1bac1a-3ff4-5e6b-8a35-dc93612c8c1c.jpg",
+      "video_url": null
+    },
+    {
+      "id": "00ef0873-25a2-4c57-8e70-a86adaa28028",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "ae0cd7d6-71ee-5a08-ae80-de319b1ffe22",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "180.896"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "5111d17d-5496-515f-a098-918a217bf54d",
+          "text": "[Verse 1]\nDa ist eine Akte mit meinem Namen, rot gestempelt\nSie sagt, was ich fühle, ist eine Krankheit im Kopf\nIch hab nicht gewählt, wie dein Name auf meiner Zunge liegt\nDoch sie geben mir die Schuld, also liege ich falsch\n\n[Pre-Chorus]\nLichter werden dünn, Lichter werden schwach\nIch bin eine Fremde in der einzigen Haut, die ich kenne\n\n[Chorus]\nNenn es ein Fieber, nenn es eine Schwäche\nNenn es wie du willst, damit du schlafen kannst\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich bleibt gar nichts mehr von mir\nNenn es ein Fieber, nenn es eine Heilung\nSchreib es auf und schließ die Tür gut zu\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich existier ich nicht mehr\n\n[Verse 2]\nSüß wie Sonnenlicht, langsam wie Gift, Wärme in den Adern\nSie sagen, es ist etwas zum Heilen, zum Erklären\nIch wollte dich vergessen, ging bis die Masten verblassten\nZählte jeden Pfosten, jeden Vogel gegen den Wind\n\n[Pre-Chorus]\nLass mich los, lass mich los\nSag mir, warum das Einzige was ich will, verboten ist\n\n[Chorus]\nNenn es ein Fieber, nenn es eine Schwäche\nNenn es wie du willst, damit du schlafen kannst\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich bleibt gar nichts mehr von mir\nNenn es ein Fieber, nenn es eine Heilung\nSchreib es auf und schließ die Tür gut zu\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich existier ich nicht mehr\n\n[Bridge]\nEins, zwei, drei, zähl die Lampen an der Straße\nMama, Papa, tut mir leid, dass ich anders bin\nVier, fünf, sechs, die Wände kommen näher\nMama, Papa, verzeiht der Tochter, die ich war\n\n[Chorus]\nNenn es ein Fieber, nenn es eine Schwäche\nNenn es wie du willst, damit du schlafen kannst\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich bleibt gar nichts mehr von mir\nNenn es ein Fieber, nenn es eine Heilung\nSchreib es auf und schließ die Tür gut zu\nIch bin nur echt, wenn du im Zimmer bist\nOhne dich existier ich nicht mehr\n\n[Outro]\nDiagnose, Diagnose\nAlles was mir bleibt, ist ein Name ohne Rückweg\nUnd irgendwo die Straße runter brennt noch ein Licht\n(Diagnose)"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Diagnose",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "ae0cd7d6-71ee-5a08-ae80-de319b1ffe22",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:45:05.550267Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "f1671cd0-c62b-44dc-ac89-6f04401c64c1",
+        "sound_prompt": "dark pop, pulsing synth bass, breathless double-tracked female vocals, hypnotic repetitive chorus, haunting whispered bridge, cinematic build, 128 bpm, minor key, early 2000s Eurodance-meets-modern-synthpop, German lyrics",
+        "title": "Diagnose",
+        "seed": null,
+        "lyrics_id": "5111d17d-5496-515f-a098-918a217bf54d"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/00ef0873-25a2-4c57-8e70-a86adaa28028.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/00ef0873-25a2-4c57-8e70-a86adaa28028.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/ae0cd7d6-71ee-5a08-ae80-de319b1ffe22.jpg",
+      "video_url": null
+    },
+    {
+      "id": "5e87970b-80bb-437c-8a34-4443004999fc",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "2ba9e3a4-6dee-5684-9574-26e38bed94d2",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "176.43733333333333"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "2546ab5c-edfc-5ea4-877b-6177afd34081",
+          "text": "[Verse 1]\nThere's a file with my name on it, stamped in red\nSays the way that I feel is a sickness in my head\nI didn't choose the way your name sits on my tongue\nBut I'm the one they're blaming, so I'm the one who'wrong\n\n[Pre-Chorus]\nLights go thin, lights go low\nI'm a stranger in the only skin I know\n\n[Chorus]\nCall it a fever, call it a flaw\nCall it whatever helps you sleep\nI'm only real when you're in the room\nWithout you there's nothing left of me\nCall it a fever, call it a cure\nWrite it down and lock the door\nI'm only real when you're in the room\nWithout you I don't exist anymore\n\n[Verse 2]\nSweet as sunlight, slow as poison, gold in my veins\nThey say it's something to treat, something to explain\nI tried to forget you, I walked until the streetlights thinned\nCounted every lamppost, every bird against the wind\n\n[Pre-Chorus]\nLet me go, let me go\nTell me why the only thing I want is the thing I'm not supposed to know\n\n[Chorus]\nCall it a fever, call it a flaw\nCall it whatever helps you sleep\nI'm only real when you're in the room\nWithout you there's nothing left of me\nCall it a fever, call it a cure\nWrite it down and lock the door\nI'm only real when you're in the room\nWithout you I don't exist anymore\n\n[Bridge, whispered, minimal music]\nOne, two, three, count the lamps along the road\nMama, Papa, I'm sorry I'm not who you were told\nFour, five, six, the walls are closing in\nMama, Papa, forgive the daughter I have been\n\n[Final Chorus, full band, vocals cracking]\nCall it a fever, call it a flaw\nCall it whatever helps you sleep\nI'm only real when you're in the room\nWithout you there's nothing left of me\nCall it a fever, call it a cure\nWrite it down and lock the door\nI'm only real when you're in the room\nWithout you I don't exist anymore\n\n[Outro, fading]\nDiagnosis, diagnosis...\nAll I've got is a name that I can't take back\nAnd somewhere down the road, one light left on"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Diagnosis",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "2ba9e3a4-6dee-5684-9574-26e38bed94d2",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:39:54.288473Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "f1671cd0-c62b-44dc-ac89-6f04401c64c1",
+        "sound_prompt": "dark pop, pulsing synth bass, breathless double-tracked female vocals, hypnotic repetitive chorus, haunting whispered bridge, cinematic build, 128 bpm, minor key, early 2000s Eurodance-meets-modern-synthpop",
+        "title": "Diagnosis",
+        "seed": null,
+        "lyrics_id": "2546ab5c-edfc-5ea4-877b-6177afd34081"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 2,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/5e87970b-80bb-437c-8a34-4443004999fc.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/5e87970b-80bb-437c-8a34-4443004999fc.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/2ba9e3a4-6dee-5684-9574-26e38bed94d2.jpg",
+      "video_url": null
+    },
+    {
+      "id": "40789a6e-c3c7-4984-aeb5-66345e550234",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "315cc268-7e7b-5472-8de7-f7283f9acbac",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "181.312"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "2546ab5c-edfc-5ea4-877b-6177afd34081",
+          "text": "[Verse 1]\nThere's a file with my name on it, stamped in red\nSays the way that I feel is a sickness in my head\nI didn't choose the way your name sits on my tongue\nBut I'm the one they're blaming, so I'm the one who'wrong\n\n[Pre-Chorus]\nLights go thin, lights go low\nI'm a stranger in the only skin I know\n\n[Chorus]\nCall it a fever, call it a flaw\nCall it whatever helps you sleep\nI'm only real when you're in the room\nWithout you there's nothing left of me\nCall it a fever, call it a cure\nWrite it down and lock the door\nI'm only real when you're in the room\nWithout you I don't exist anymore\n\n[Verse 2]\nSweet as sunlight, slow as poison, gold in my veins\nThey say it's something to treat, something to explain\nI tried to forget you, I walked until the streetlights thinned\nCounted every lamppost, every bird against the wind\n\n[Pre-Chorus]\nLet me go, let me go\nTell me why the only thing I want is the thing I'm not supposed to know\n\n[Chorus]\nCall it a fever, call it a flaw\nCall it whatever helps you sleep\nI'm only real when you're in the room\nWithout you there's nothing left of me\nCall it a fever, call it a cure\nWrite it down and lock the door\nI'm only real when you're in the room\nWithout you I don't exist anymore\n\n[Bridge, whispered, minimal music]\nOne, two, three, count the lamps along the road\nMama, Papa, I'm sorry I'm not who you were told\nFour, five, six, the walls are closing in\nMama, Papa, forgive the daughter I have been\n\n[Final Chorus, full band, vocals cracking]\nCall it a fever, call it a flaw\nCall it whatever helps you sleep\nI'm only real when you're in the room\nWithout you there's nothing left of me\nCall it a fever, call it a cure\nWrite it down and lock the door\nI'm only real when you're in the room\nWithout you I don't exist anymore\n\n[Outro, fading]\nDiagnosis, diagnosis...\nAll I've got is a name that I can't take back\nAnd somewhere down the road, one light left on"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Diagnosis",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "315cc268-7e7b-5472-8de7-f7283f9acbac",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T03:39:50.710457Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "f1671cd0-c62b-44dc-ac89-6f04401c64c1",
+        "sound_prompt": "dark pop, pulsing synth bass, breathless double-tracked female vocals, hypnotic repetitive chorus, haunting whispered bridge, cinematic build, 128 bpm, minor key, early 2000s Eurodance-meets-modern-synthpop",
+        "title": "Diagnosis",
+        "seed": null,
+        "lyrics_id": "2546ab5c-edfc-5ea4-877b-6177afd34081"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/40789a6e-c3c7-4984-aeb5-66345e550234.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/40789a6e-c3c7-4984-aeb5-66345e550234.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/315cc268-7e7b-5472-8de7-f7283f9acbac.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
