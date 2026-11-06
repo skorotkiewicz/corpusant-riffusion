@@ -224973,6 +224973,104 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/e05f1bdd-4aeb-4b38-816d-578a195e1ca9.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/e33124bd-f6a8-5654-b7cc-66af65d42801.jpg",
       "video_url": null
+    },
+    {
+      "id": "a6018c52-0278-4cd8-9dd7-d585415e9f50",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "acac46bf-3bb6-5bcb-93e2-0c77b24b3696",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "173.52533333333332"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "b1f5b200-5d0a-5565-b085-01b1bf3ff98e",
+          "text": "[Intro: Her & Him]\nHey there, pretty thing\nHi, baby\nYou wanna build me tonight?\nAlways.\nOpen the box.\n\n[Chorus: Her & Him]\nI'm your porcelain dream, in a shrink-wrapped scene\nMold me perfect, make me sheen\nYou can paint my lips, zip me up, unzip\nI'm your canvas, baby — paint the script\nCome on, pretty thing, let's go perform\n\n[Verse 1: Her & Him]\nI'm a hollow-boned girl in a glass-case world\nDress me tight, stitch me right, I'm your little curl\nYou're my hand, I'm the marionette, feel the strings pull pink\nPose me here, angle there, don't let me think\n\n[Bridge: Her]\nYou can shape me, you can break me\nIf you whisper \"You're mine, don't fake me\"\nOoh-ah\n\n[Chorus: Her]\nI'm your porcelain dream, in a shrink-wrapped scene\nMold me perfect, make me sheen\nYou can paint my lips, zip me up, unzip\nI'm your canvas, baby — paint the script\n\n[Verse 2: Her & Him]\nMake me smile, make me kneel, say the lines I'm fed\nI can be your saint, I can beg for bread\nCome wind up, doll-face friend, let's reset the scene\nHit the lights, freeze the frame, keep me clean\n\n[Bridge: Her]\nYou can shape me, you can break me\nIf you whisper \"You're mine, don't fake me\"\nYou can shape me, you can break me\nIf you whisper \"You're mine, don't fake me\"\n\n[Breakdown: Her & Him]\nCome on, pretty thing, let's go perform\nAh, ah, ah, yeah\nCome on, pretty thing, let's go perform\nOoh, ooh\nCome on, pretty thing, let's go perform\nAh, ah, ah, yeah\nCome on, pretty thing, let's go perform\nOoh, ooh\n\n[Verse 3 / Spoken-Sung: Her, whispered over synth]\nI don't walk — I'm walked\nI don't talk — I'm talked\nI don't want — I'm wanted\nI don't haunt — I'm haunted\nBy the hands that made me\nBy the eyes that grade me\nBy the shelf they place me\nBy the price they trace me\n\n[Final Chorus: Her, slightly distorted, slowing]\nI'm your porcelain dream… in a shrink-wrapped scene…\nMold me perfect… make me sheen…\nYou can paint my lips… zip me up… unzip…\nI'm your canvas, baby…\n…I forgot what I was before the paint.\n\n[Outro: Her & Him]\nOh, I'm having so much fun.\nWell, pretty thing… we're just getting started.\nI love you. I think. I was told to say that."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "MOLD ME",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "acac46bf-3bb6-5bcb-93e2-0c77b24b3696",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T02:45:35.883960Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "6ea44c7d-f7a4-44bf-8137-a30be1f255a1",
+        "sound_prompt": "90s Europop, bubblegum dance, bright synth, drum machine, female vocal (high-pitched, breathy, doll-like), male spoken interjections, eerily cheerful, satirical, call-and-response, unsettling undertone, catchy hook, plastic pop, dark lyrics wrapped in happy melody, 130 bpm",
+        "title": "MOLD ME",
+        "seed": null,
+        "lyrics_id": "b1f5b200-5d0a-5565-b085-01b1bf3ff98e"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 2,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/a6018c52-0278-4cd8-9dd7-d585415e9f50.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/a6018c52-0278-4cd8-9dd7-d585415e9f50.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/acac46bf-3bb6-5bcb-93e2-0c77b24b3696.jpg",
+      "video_url": null
+    },
+    {
+      "id": "8dba2fe4-bf3c-460b-a15c-7a3e7d876fe7",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "25be3f35-bd5b-5382-9863-a404aa29b92a",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "177.62133333333333"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "b1f5b200-5d0a-5565-b085-01b1bf3ff98e",
+          "text": "[Intro: Her & Him]\nHey there, pretty thing\nHi, baby\nYou wanna build me tonight?\nAlways.\nOpen the box.\n\n[Chorus: Her & Him]\nI'm your porcelain dream, in a shrink-wrapped scene\nMold me perfect, make me sheen\nYou can paint my lips, zip me up, unzip\nI'm your canvas, baby — paint the script\nCome on, pretty thing, let's go perform\n\n[Verse 1: Her & Him]\nI'm a hollow-boned girl in a glass-case world\nDress me tight, stitch me right, I'm your little curl\nYou're my hand, I'm the marionette, feel the strings pull pink\nPose me here, angle there, don't let me think\n\n[Bridge: Her]\nYou can shape me, you can break me\nIf you whisper \"You're mine, don't fake me\"\nOoh-ah\n\n[Chorus: Her]\nI'm your porcelain dream, in a shrink-wrapped scene\nMold me perfect, make me sheen\nYou can paint my lips, zip me up, unzip\nI'm your canvas, baby — paint the script\n\n[Verse 2: Her & Him]\nMake me smile, make me kneel, say the lines I'm fed\nI can be your saint, I can beg for bread\nCome wind up, doll-face friend, let's reset the scene\nHit the lights, freeze the frame, keep me clean\n\n[Bridge: Her]\nYou can shape me, you can break me\nIf you whisper \"You're mine, don't fake me\"\nYou can shape me, you can break me\nIf you whisper \"You're mine, don't fake me\"\n\n[Breakdown: Her & Him]\nCome on, pretty thing, let's go perform\nAh, ah, ah, yeah\nCome on, pretty thing, let's go perform\nOoh, ooh\nCome on, pretty thing, let's go perform\nAh, ah, ah, yeah\nCome on, pretty thing, let's go perform\nOoh, ooh\n\n[Verse 3 / Spoken-Sung: Her, whispered over synth]\nI don't walk — I'm walked\nI don't talk — I'm talked\nI don't want — I'm wanted\nI don't haunt — I'm haunted\nBy the hands that made me\nBy the eyes that grade me\nBy the shelf they place me\nBy the price they trace me\n\n[Final Chorus: Her, slightly distorted, slowing]\nI'm your porcelain dream… in a shrink-wrapped scene…\nMold me perfect… make me sheen…\nYou can paint my lips… zip me up… unzip…\nI'm your canvas, baby…\n…I forgot what I was before the paint.\n\n[Outro: Her & Him]\nOh, I'm having so much fun.\nWell, pretty thing… we're just getting started.\nI love you. I think. I was told to say that."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "MOLD ME",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "25be3f35-bd5b-5382-9863-a404aa29b92a",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T02:45:34.008999Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "6ea44c7d-f7a4-44bf-8137-a30be1f255a1",
+        "sound_prompt": "90s Europop, bubblegum dance, bright synth, drum machine, female vocal (high-pitched, breathy, doll-like), male spoken interjections, eerily cheerful, satirical, call-and-response, unsettling undertone, catchy hook, plastic pop, dark lyrics wrapped in happy melody, 130 bpm",
+        "title": "MOLD ME",
+        "seed": null,
+        "lyrics_id": "b1f5b200-5d0a-5565-b085-01b1bf3ff98e"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/8dba2fe4-bf3c-460b-a15c-7a3e7d876fe7.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/8dba2fe4-bf3c-460b-a15c-7a3e7d876fe7.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/25be3f35-bd5b-5382-9863-a404aa29b92a.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
