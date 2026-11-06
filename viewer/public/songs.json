@@ -226377,6 +226377,104 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/34890408-d9d2-44b8-a9e1-bf238dba2ab1.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/34890408-d9d2-44b8-a9e1-bf238dba2ab1.jpg",
       "video_url": null
+    },
+    {
+      "id": "8847ade4-91db-440a-b711-248b64c10538",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "2d80c0e5-ff71-5cc7-89e0-6d0fa1cc584a",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "153.81333333333333"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "c8e3ac17-525e-5fc1-84b6-f84f850f083d",
+          "text": "[Verse 1]\nSuena la alarma me visto despacio\nMato la prisa limpio mi espacio\nAtar cordones hacer la cama bien\nCruzar la puerta sin perder control\nFichar al entrar sonreír al pasar\nComo la gente que no sabe romper\nY voy mejorando la cuenta en los pasos\nNadie comprueba nada que temer\n\n[Pre-Chorus]\nUn paso al frente otro detrás\nSi no me miras no duele jamás\nTres dos uno despegar\n\n[Chorus]\nEstoy bien estoy bien estoy bien estoy bien\nDilo hasta que la forma sea mía\nEstoy bien estoy bien estoy bien estoy bien\nRepítelo hasta no sentir la columna\n(bien bien bien bien)\nEstoy bien estoy bien\n\n[Post-Chorus]\n(bien bien)\nTodo perfecto por fuera\n(bien bien)\nMira qué bien me queda\n\n[Verse 2]\nCuidar la postura devolver el saludo\nTragar la rabia apretar bien los dientes\nNadie pregunta si el aire se acaba\nTodos prefieren respuestas decentes\nY voy ejecutando la rutina exacta\nNadie revisa la parte rota\n\n[Pre-Chorus]\nUn paso al frente otro detrás\nSi no me miras no duele jamás\nTres dos uno despegar\n\n[Chorus]\nEstoy bien estoy bien estoy bien estoy bien\nDilo hasta que la forma sea mía\nEstoy bien estoy bien estoy bien estoy bien\nRepítelo hasta no sentir la columna\n(bien bien bien bien)\nEstoy bien estoy bien\n\n[Bridge]\nSi lo repito mil veces seguidas\nBorro las marcas de la caída\nSi me lo digo una vez más\nLa mentira será verdad\n\n[Chorus]\nEstoy bien estoy bien estoy bien estoy bien\nDilo hasta que la forma sea mía\nEstoy bien estoy bien estoy bien estoy bien\nRepítelo hasta no sentir la columna\n(bien bien bien bien)\n\n[Outro]\n(bien bien)\nEstoy bien\n(bien bien)\nTodo bajo control\nEstoy bien"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Estoy bien (FINE FINE FINE)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "2d80c0e5-ff71-5cc7-89e0-6d0fa1cc584a",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:36:40.106684Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "e9aa480d-2610-4ffa-b871-65cd868bb436",
+        "sound_prompt": "dance-pop, synth-pop, indie pop, four-on-the-floor, 120 bpm, bright major key, handclap percussion, festival pop, female vocal, upbeat, manic energy, repetitive hook, bittersweet, deceptively cheerful",
+        "title": "Estoy bien (FINE FINE FINE)",
+        "seed": null,
+        "lyrics_id": "c8e3ac17-525e-5fc1-84b6-f84f850f083d"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/8847ade4-91db-440a-b711-248b64c10538.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/8847ade4-91db-440a-b711-248b64c10538.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/2d80c0e5-ff71-5cc7-89e0-6d0fa1cc584a.jpg",
+      "video_url": null
+    },
+    {
+      "id": "b7647c06-7800-450a-8d84-7cbfe72e3d0e",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "4c4e3a48-a469-5ee3-9595-10a50cb29305",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "182.67733333333334"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "c8e3ac17-525e-5fc1-84b6-f84f850f083d",
+          "text": "[Verse 1]\nSuena la alarma me visto despacio\nMato la prisa limpio mi espacio\nAtar cordones hacer la cama bien\nCruzar la puerta sin perder control\nFichar al entrar sonreír al pasar\nComo la gente que no sabe romper\nY voy mejorando la cuenta en los pasos\nNadie comprueba nada que temer\n\n[Pre-Chorus]\nUn paso al frente otro detrás\nSi no me miras no duele jamás\nTres dos uno despegar\n\n[Chorus]\nEstoy bien estoy bien estoy bien estoy bien\nDilo hasta que la forma sea mía\nEstoy bien estoy bien estoy bien estoy bien\nRepítelo hasta no sentir la columna\n(bien bien bien bien)\nEstoy bien estoy bien\n\n[Post-Chorus]\n(bien bien)\nTodo perfecto por fuera\n(bien bien)\nMira qué bien me queda\n\n[Verse 2]\nCuidar la postura devolver el saludo\nTragar la rabia apretar bien los dientes\nNadie pregunta si el aire se acaba\nTodos prefieren respuestas decentes\nY voy ejecutando la rutina exacta\nNadie revisa la parte rota\n\n[Pre-Chorus]\nUn paso al frente otro detrás\nSi no me miras no duele jamás\nTres dos uno despegar\n\n[Chorus]\nEstoy bien estoy bien estoy bien estoy bien\nDilo hasta que la forma sea mía\nEstoy bien estoy bien estoy bien estoy bien\nRepítelo hasta no sentir la columna\n(bien bien bien bien)\nEstoy bien estoy bien\n\n[Bridge]\nSi lo repito mil veces seguidas\nBorro las marcas de la caída\nSi me lo digo una vez más\nLa mentira será verdad\n\n[Chorus]\nEstoy bien estoy bien estoy bien estoy bien\nDilo hasta que la forma sea mía\nEstoy bien estoy bien estoy bien estoy bien\nRepítelo hasta no sentir la columna\n(bien bien bien bien)\n\n[Outro]\n(bien bien)\nEstoy bien\n(bien bien)\nTodo bajo control\nEstoy bien"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Estoy bien (FINE FINE FINE)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "4c4e3a48-a469-5ee3-9595-10a50cb29305",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:36:39.878907Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "e9aa480d-2610-4ffa-b871-65cd868bb436",
+        "sound_prompt": "dance-pop, synth-pop, indie pop, four-on-the-floor, 120 bpm, bright major key, handclap percussion, festival pop, female vocal, upbeat, manic energy, repetitive hook, bittersweet, deceptively cheerful",
+        "title": "Estoy bien (FINE FINE FINE)",
+        "seed": null,
+        "lyrics_id": "c8e3ac17-525e-5fc1-84b6-f84f850f083d"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/b7647c06-7800-450a-8d84-7cbfe72e3d0e.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/b7647c06-7800-450a-8d84-7cbfe72e3d0e.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/4c4e3a48-a469-5ee3-9595-10a50cb29305.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
