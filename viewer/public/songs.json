@@ -226867,6 +226867,104 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/4dca3d47-a795-4da5-bf20-4506248fc976.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/6253362d-2422-5b4e-840f-09713d4777e7.jpg",
       "video_url": null
+    },
+    {
+      "id": "d2d83e00-2a6a-42b1-be65-101aa9df6231",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "23baa56e-641a-5113-93cf-0a31a19bd4b4",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "173.54666666666665"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "a3ad2bd6-5635-5237-9144-ff67bc5aa730",
+          "text": "[Verse 1]\nHands are shaking on the kitchen floor\nPhone face-down, but I can still hear\nWhat you whispered by the door\nSix words, maybe seven, I don't know anymore\nI keep pressing play on a room that's gone\nKeep rewinding till the sound wears thin\nI swore I'd never let this start\nNow it's the only place I live in\n\n[Pre-Chorus]\nThey've got a word for what I am\nThey say it slow, like it's a sickness\nI just know my pulse says your name\nAnd nobody's asking what I'm feeling\n\n[Chorus]\nCall it a symptom, call it a phase\nCall it a fever, it'll fade\nSay it again, say it again\nSay it again till it's not a word\nCall it a symptom, call it a flaw\nSay it again, say it again\nSay it again\nIt's still not enough\nIt's still not enough\n\n[Verse 2]\nEvery face at the table turns to glass\nSmile too wide, they can see right through\nI practice being someone else\nWear the lie like a borrowed shoe\nYou said my name like it was holy\nThey said my name like it was wrong\nSame two syllables, same mouth shape\nWhy do I carry both so long?\n\n[Pre-Chorus]\nThey've got a word for what I am\nThey say it slow, like it's a sickness\nI just know my pulse says your name\nAnd nobody's asking what I'm feeling\n\n[Chorus]\nCall it a symptom, call it a phase\nCall it a fever, it'll fade\nSay it again, say it again\nSay it again till it's not a word\nCall it a symptom, call it a flaw\nSay it again, say it again\nSay it again\nIt's still not enough\nIt's still not enough\n\n[Post-Chorus]\n[Whispered]\nSay it again, say it again\nSay it again, say it, say\nSay it again, say it again\nSay\n\n[Bridge]\nMother, at the door, hands in your sleeves\nIs there a name for this look in your eyes?\nFather, at the window, back turned to me\nIs there a cure, or is this goodbye?\nAm I sick or am I seen?\nTell me, which one scares you more?\nAm I sick or am I seen?\nI can't tell which one I'm for\n\n[Final Chorus]\n[Vocals crack]\nCall it a symptom, call it a phase\nI've heard the diagnosis, it won't change\nSay it again, say it again\nSay it again till it's not a word\nCall it a symptom, call it a flaw\nSay it again, say it again\nSay it again\nIt's still not enough\nIt's still not enough\n\n[Outro]\nSay it again, say it again\nSay it again, say it again\nSay it...\n[End - 3:00]"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Symptom",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "23baa56e-641a-5113-93cf-0a31a19bd4b4",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T07:26:51.541193Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "8bad74d3-996c-41ae-85da-bddeca46288e",
+        "sound_prompt": "Early 2000s Eurodance-pop, female duet vocals, breathy, raw, urgent, pulsing driving synths, minor key, claustrophobic and anxious, hypnotic looping hook, stripped heartbeat bridge, unresolved fade-out ending, 138 bpm",
+        "title": "Symptom",
+        "seed": null,
+        "lyrics_id": "a3ad2bd6-5635-5237-9144-ff67bc5aa730"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/d2d83e00-2a6a-42b1-be65-101aa9df6231.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/d2d83e00-2a6a-42b1-be65-101aa9df6231.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/23baa56e-641a-5113-93cf-0a31a19bd4b4.jpg",
+      "video_url": null
+    },
+    {
+      "id": "2ea14796-e5d8-4e03-91aa-c4ef8a2f0b26",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "593f186b-e8ce-5883-a214-05041a369b16",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "178.28266666666667"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "a3ad2bd6-5635-5237-9144-ff67bc5aa730",
+          "text": "[Verse 1]\nHands are shaking on the kitchen floor\nPhone face-down, but I can still hear\nWhat you whispered by the door\nSix words, maybe seven, I don't know anymore\nI keep pressing play on a room that's gone\nKeep rewinding till the sound wears thin\nI swore I'd never let this start\nNow it's the only place I live in\n\n[Pre-Chorus]\nThey've got a word for what I am\nThey say it slow, like it's a sickness\nI just know my pulse says your name\nAnd nobody's asking what I'm feeling\n\n[Chorus]\nCall it a symptom, call it a phase\nCall it a fever, it'll fade\nSay it again, say it again\nSay it again till it's not a word\nCall it a symptom, call it a flaw\nSay it again, say it again\nSay it again\nIt's still not enough\nIt's still not enough\n\n[Verse 2]\nEvery face at the table turns to glass\nSmile too wide, they can see right through\nI practice being someone else\nWear the lie like a borrowed shoe\nYou said my name like it was holy\nThey said my name like it was wrong\nSame two syllables, same mouth shape\nWhy do I carry both so long?\n\n[Pre-Chorus]\nThey've got a word for what I am\nThey say it slow, like it's a sickness\nI just know my pulse says your name\nAnd nobody's asking what I'm feeling\n\n[Chorus]\nCall it a symptom, call it a phase\nCall it a fever, it'll fade\nSay it again, say it again\nSay it again till it's not a word\nCall it a symptom, call it a flaw\nSay it again, say it again\nSay it again\nIt's still not enough\nIt's still not enough\n\n[Post-Chorus]\n[Whispered]\nSay it again, say it again\nSay it again, say it, say\nSay it again, say it again\nSay\n\n[Bridge]\nMother, at the door, hands in your sleeves\nIs there a name for this look in your eyes?\nFather, at the window, back turned to me\nIs there a cure, or is this goodbye?\nAm I sick or am I seen?\nTell me, which one scares you more?\nAm I sick or am I seen?\nI can't tell which one I'm for\n\n[Final Chorus]\n[Vocals crack]\nCall it a symptom, call it a phase\nI've heard the diagnosis, it won't change\nSay it again, say it again\nSay it again till it's not a word\nCall it a symptom, call it a flaw\nSay it again, say it again\nSay it again\nIt's still not enough\nIt's still not enough\n\n[Outro]\nSay it again, say it again\nSay it again, say it again\nSay it...\n[End - 3:00]"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Symptom",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "593f186b-e8ce-5883-a214-05041a369b16",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T07:26:50.669913Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "8bad74d3-996c-41ae-85da-bddeca46288e",
+        "sound_prompt": "Early 2000s Eurodance-pop, female duet vocals, breathy, raw, urgent, pulsing driving synths, minor key, claustrophobic and anxious, hypnotic looping hook, stripped heartbeat bridge, unresolved fade-out ending, 138 bpm",
+        "title": "Symptom",
+        "seed": null,
+        "lyrics_id": "a3ad2bd6-5635-5237-9144-ff67bc5aa730"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/2ea14796-e5d8-4e03-91aa-c4ef8a2f0b26.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/2ea14796-e5d8-4e03-91aa-c4ef8a2f0b26.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/593f186b-e8ce-5883-a214-05041a369b16.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
