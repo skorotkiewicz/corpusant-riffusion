@@ -1,6 +1,6 @@
 import { test } from 'bun:test'
 import assert from 'node:assert/strict'
-import { activeLyric, clock, filterLibrary, linkedSongIndex, lyricParagraphs, lyricSegments, mediaUrl, readLibrary, songLink } from './library.js'
+import { activeLyric, clock, filterLibrary, linkedSongIndex, lyricHighlights, lyricLines, lyricParagraphs, lyricSegments, mediaUrl, readLibrary, songLink } from './library.js'
 
 test('real export, search, sorting, and honest lyric timing', async () => {
   const text = '[Verse]\nHi 🌑 world.\n\n[Chorus]\nSing.'
@@ -152,4 +152,51 @@ test('paragraph grouping preserves Windows line breaks, extra blank lines, and u
   assert.deepEqual(paragraphs.filter((segment) => segment.paragraphBreak).map((segment) => segment.blankLines), [2, 2])
   assert.equal(activeLyric(paragraphs, 100), -1)
   assert.deepEqual(lyricParagraphs([]), [])
+})
+
+test('API timing follows the current written lyric line within a verse', () => {
+  const text = '[Verse]\nHello, world!\nStay with me.\n\n[Chorus]\nSing again.'
+  const raw = { id: 'lines', audio_url: 'https://example.test/song.m4a', lyrics: { value: { text } } }
+  const words = ['Hello', 'world', 'Stay', 'me', 'Sing', 'again']
+    .map((word, index) => ({ word, start: index * 2 + 1, end: index * 2 + 2 }))
+  const [clip] = readLibrary({ clips: [raw] }, { version: 1, songs: {
+    lines: { status: 'completed', audio_url: raw.audio_url, words },
+  } })
+  const highlights = lyricHighlights(lyricSegments(clip))
+  assert.equal(highlights.map((segment) => segment.text).join(''), text)
+  assert.equal(highlights[activeLyric(highlights, 2.5)].text, 'Hello, world!')
+  assert.equal(highlights[activeLyric(highlights, 5.5)].text, 'Stay with me.')
+  assert.equal(highlights[activeLyric(highlights, 9.5)].text, 'Sing again.')
+  assert.equal(activeLyric(highlights, 4.5), -1)
+  assert.equal(highlights.find((segment) => segment.text === '[Verse]').time, null)
+  assert.ok(highlights.filter((segment) => segment.time !== null).every((segment) => segment.line))
+})
+
+test('uncertain line boundaries fall back to their paragraph while other verses keep line highlights', () => {
+  const text = '[Verse]\nHello, world!\nAn unrecognized ending.\n\n[Chorus]\nSing again.\nOne more.'
+  const raw = { id: 'fallback', audio_url: 'https://example.test/song.m4a', lyrics: { value: { text } } }
+  const words = ['Hello', 'world', 'An', 'Sing', 'again', 'One', 'more']
+    .map((word, index) => ({ word, start: index * 2 + 1, end: index * 2 + 2 }))
+  const [clip] = readLibrary({ clips: [raw] }, { version: 1, songs: {
+    fallback: { status: 'completed', audio_url: raw.audio_url, words },
+  } })
+  const highlights = lyricHighlights(lyricSegments(clip))
+  assert.equal(highlights.map((segment) => segment.text).join(''), text)
+  const verse = highlights[activeLyric(highlights, 3)]
+  assert.equal(verse.text, '[Verse]\nHello, world!\nAn unrecognized ending.')
+  assert.equal(verse.paragraph, true)
+  assert.equal(highlights[activeLyric(highlights, 7.5)].text, 'Sing again.')
+  assert.equal(highlights[activeLyric(highlights, 11.5)].text, 'One more.')
+  assert.equal(activeLyric(highlights, 14), -1)
+})
+
+test('line grouping preserves Windows line endings, blank lines, and one-word lyrics', () => {
+  const text = '[Verse]\r\nHello\r\n\r\n'
+  const highlights = lyricHighlights([{ text: '[Verse]\r\n', time: null },
+    { text: 'Hello', time: 1, end: 2 }, { text: '\r\n\r\n', time: null }])
+  assert.equal(highlights.map((segment) => segment.text).join(''), text)
+  assert.equal(highlights[activeLyric(highlights, 1.5)].text, 'Hello')
+  assert.equal(highlights[activeLyric(highlights, 1.5)].line, true)
+  assert.deepEqual(lyricLines([]), [])
+  assert.deepEqual(lyricHighlights([]), [])
 })

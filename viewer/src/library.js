@@ -122,15 +122,19 @@ export function lyricSegments(clip) {
   return sections.filter((section) => section.text.length > 0)
 }
 
-export function lyricParagraphs(segments) {
+function segmentRanges(segments) {
   let offset = 0
-  const ranges = segments.map((segment) => {
+  return segments.map((segment) => {
     const start = offset
     offset += segment.text.length
     return { ...segment, startOffset: start, endOffset: offset }
   })
+}
+
+export function lyricParagraphs(segments) {
+  const ranges = segmentRanges(segments)
   const text = segments.map((segment) => segment.text).join('')
-  offset = 0
+  let offset = 0
   return text.split(/(\r?\n[ \t]*\r?\n(?:[ \t]*\r?\n)*)/).flatMap((part, index) => {
     const start = offset
     offset += part.length
@@ -142,6 +146,40 @@ export function lyricParagraphs(segments) {
     const timed = ranges.filter((range) => range.time !== null && range.endOffset > start && range.startOffset < offset)
     return [{ text: part, time: timed[0]?.time ?? null,
       end: timed.length ? Math.max(...timed.map((range) => range.end)) : undefined, paragraph: true }]
+  })
+}
+
+export function lyricLines(segments) {
+  const ranges = segmentRanges(segments)
+  const text = segments.map((segment) => segment.text).join('')
+  let offset = 0
+  return text.split(/(\r\n|\n|\r)/).flatMap((part, index) => {
+    const start = offset
+    offset += part.length
+    if (!part) return []
+    if (index % 2) return [{ text: part, time: null }]
+    const timed = ranges.filter((range) => range.time !== null && range.endOffset > start && range.startOffset < offset)
+    const words = lyricWords(part)
+    const anchored = (word) => timed.some((range) => !/[\r\n]/.test(range.text) &&
+      range.startOffset <= start + word.start && range.endOffset >= start + word.end)
+    // Both ends must be matched to give the written line a useful time range.
+    const reliable = !words.length || anchored(words[0]) && anchored(words[words.length - 1])
+    return [{ text: part, time: timed[0]?.time ?? null,
+      end: timed.length ? Math.max(...timed.map((range) => range.end)) : undefined, line: true, reliable }]
+  })
+}
+
+export function lyricHighlights(segments) {
+  const ranges = segmentRanges(segments)
+  let offset = 0
+  return lyricParagraphs(segments).flatMap((paragraph) => {
+    const start = offset
+    offset += paragraph.text.length
+    if (paragraph.paragraphBreak) return [paragraph]
+    const words = ranges.filter((range) => range.endOffset > start && range.startOffset < offset)
+      .map((range) => ({ ...range, text: range.text.slice(Math.max(0, start - range.startOffset), Math.min(range.text.length, offset - range.startOffset)) }))
+    const lines = lyricLines(words)
+    return lines.some((line) => line.line && !line.reliable) ? [paragraph] : lines
   })
 }
 
