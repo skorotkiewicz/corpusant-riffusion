@@ -226965,6 +226965,55 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/2ea14796-e5d8-4e03-91aa-c4ef8a2f0b26.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/593f186b-e8ce-5883-a214-05041a369b16.jpg",
       "video_url": null
+    },
+    {
+      "id": "da186044-e417-4cf8-9961-5ea036203010",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "15320f16-af75-52e4-a089-cc855013820f",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "176.94933333333333"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "1d1d32b5-912f-583f-b1ea-30a386477138",
+          "text": "[Intro]\n(Fehler im System)\n(Keine Heilung)\n\n[Verse 1]\nDie Haut brennt heiß\nDer Puls geht schnell\nIch ziehe Grenzen\nUnd überschreite sie wohl doch\nDu nennst es Liebe\nIch nenn es Gift\nMein Körper kämpft\nGegen das was mich trifft\n\n[Pre-Chorus]\nDer Raum wird eng\nDer Atem schwindet\nIch bin umstellt\nWeil mich die Angst bindet\n(Ich kann nicht raus)\n(Ich kann nicht raus)\n\n[Chorus]\nIch bin das Symptom\nIch bin nicht die Medizin\nIch bin das Symptom\nVor dem wir beide fliehen\nKein Mittel heilt diesen Schmerz\nKein Pflaster rettet dieses Herz\nIch bin das Symptom\n(Das Symptom)\n\n[Verse 2]\nDie Scham bleibt tief\nDer Fehler wiederholt sich neu\nIch wollte bleiben\nUnd brach mein eigenes Wort\nWir fallen weiter\nIn diesen Kreis\nIch zahle wieder\nDen höchsten Preis\n\n[Pre-Chorus]\nDer Raum wird eng\nDer Atem schwindet\nIch bin umstellt\nWeil mich die Angst bindet\n(Ich kann nicht raus)\n\n[Chorus]\nIch bin das Symptom\nIch bin nicht die Medizin\nIch bin das Symptom\nVor dem wir beide fliehen\nKein Mittel heilt diesen Schmerz\nKein Pflaster rettet dieses Herz\nIch bin das Symptom\n(Das Symptom)\n\n[Bridge]\nMeine Mutter trug diese Last\nMein Vater hat nie gepasst\nIch habe ihren Blick geerbt\nUnd jede Wunde tief verfärbt\nEs liegt im Blut\nEs hört nicht auf\nDer alte Fehler nimmt seinen Lauf\n\n[Chorus]\nIch bin das Symptom\nIch bin nicht die Medizin\nIch bin das Symptom\nVor dem wir beide fliehen\nKein Mittel heilt diesen Schmerz\nKein Pflaster rettet dieses Herz\nIch bin das Symptom\n\n[Outro]\nIch heile nicht\nIch heile nicht\n(Ich bin das Symptom)\nIch heile nicht"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Symptom (German Version)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "15320f16-af75-52e4-a089-cc855013820f",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T07:31:44.326350Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "8bad74d3-996c-41ae-85da-bddeca46288e",
+        "sound_prompt": "Eurodance, progressive EDM, 138 BPM, minor key, dual female vocals, emotional confessional tone, whispered intro vocals, sharp synth arpeggios, driving kick drum, pumping bassline, breathless verse delivery, cracking emotional upper register in bridge, energetic synth drop, tragic dancefloor catharsis, abrupt fade out at 3:00 mark",
+        "title": "Symptom (German Version)",
+        "seed": null,
+        "lyrics_id": "1d1d32b5-912f-583f-b1ea-30a386477138"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/da186044-e417-4cf8-9961-5ea036203010.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/da186044-e417-4cf8-9961-5ea036203010.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/15320f16-af75-52e4-a089-cc855013820f.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
