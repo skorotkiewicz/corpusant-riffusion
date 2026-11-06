@@ -173,8 +173,8 @@ test('API timing follows the current written lyric line within a verse', () => {
   assert.ok(highlights.filter((segment) => segment.time !== null).every((segment) => segment.line))
 })
 
-test('uncertain line boundaries fall back to their paragraph while other verses keep line highlights', () => {
-  const text = '[Verse]\nHello, world!\nAn unrecognized ending.\n\n[Chorus]\nSing again.\nOne more.'
+test('one matched word highlights its whole line even when neighboring lines cannot be timed', () => {
+  const text = '[Verse]\nHello, world!\nAn unrecognized ending.\nNo anchors here.\n\n[Chorus]\nSing again.\nOne more.'
   const raw = { id: 'fallback', audio_url: 'https://example.test/song.m4a', lyrics: { value: { text } } }
   const words = ['Hello', 'world', 'An', 'Sing', 'again', 'One', 'more']
     .map((word, index) => ({ word, start: index * 2 + 1, end: index * 2 + 2 }))
@@ -183,12 +183,25 @@ test('uncertain line boundaries fall back to their paragraph while other verses 
   } })
   const highlights = lyricHighlights(lyricSegments(clip))
   assert.equal(highlights.map((segment) => segment.text).join(''), text)
-  const verse = highlights[activeLyric(highlights, 3)]
-  assert.equal(verse.text, '[Verse]\nHello, world!\nAn unrecognized ending.')
-  assert.equal(verse.paragraph, true)
+  assert.equal(highlights[activeLyric(highlights, 3)].text, 'Hello, world!')
+  assert.equal(highlights[activeLyric(highlights, 5.5)].text, 'An unrecognized ending.')
+  assert.equal(highlights[activeLyric(highlights, 5.5)].line, true)
+  assert.equal(highlights.find((segment) => segment.text === 'No anchors here.').time, null)
   assert.equal(highlights[activeLyric(highlights, 7.5)].text, 'Sing again.')
   assert.equal(highlights[activeLyric(highlights, 11.5)].text, 'One more.')
   assert.equal(activeLyric(highlights, 14), -1)
+})
+
+test('a match in the middle of a line is enough, with paragraph fallback for timing that spans lines', () => {
+  const highlights = lyricHighlights([{ text: '[Verse]\nKeep the ', time: null },
+    { text: 'rhythm', time: 1, end: 2 }, { text: ' moving.\nUnmatched lyrics.\n', time: null }])
+  assert.equal(highlights[activeLyric(highlights, 1.5)].text, 'Keep the rhythm moving.')
+  assert.equal(highlights[activeLyric(highlights, 1.5)].line, true)
+  assert.equal(highlights.map((segment) => segment.text).join(''), '[Verse]\nKeep the rhythm moving.\nUnmatched lyrics.\n')
+
+  const coarse = lyricHighlights([{ text: 'First line\nSecond line', time: 1, end: 4 }])
+  assert.equal(coarse[activeLyric(coarse, 2)].text, 'First line\nSecond line')
+  assert.equal(coarse[activeLyric(coarse, 2)].paragraph, true)
 })
 
 test('line grouping preserves Windows line endings, blank lines, and one-word lyrics', () => {

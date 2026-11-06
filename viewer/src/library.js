@@ -158,14 +158,12 @@ export function lyricLines(segments) {
     offset += part.length
     if (!part) return []
     if (index % 2) return [{ text: part, time: null }]
-    const timed = ranges.filter((range) => range.time !== null && range.endOffset > start && range.startOffset < offset)
-    const words = lyricWords(part)
-    const anchored = (word) => timed.some((range) => !/[\r\n]/.test(range.text) &&
-      range.startOffset <= start + word.start && range.endOffset >= start + word.end)
-    // Both ends must be matched to give the written line a useful time range.
-    const reliable = !words.length || anchored(words[0]) && anchored(words[words.length - 1])
+    // A single matched word is enough to time its whole written line.
+    // Timing that spans multiple lines belongs to the paragraph fallback.
+    const timed = ranges.filter((range) => range.time !== null && !/[\r\n]/.test(range.text) &&
+      range.endOffset > start && range.startOffset < offset)
     return [{ text: part, time: timed[0]?.time ?? null,
-      end: timed.length ? Math.max(...timed.map((range) => range.end)) : undefined, line: true, reliable }]
+      end: timed.length ? Math.max(...timed.map((range) => range.end)) : undefined, line: true }]
   })
 }
 
@@ -179,7 +177,7 @@ export function lyricHighlights(segments) {
     const words = ranges.filter((range) => range.endOffset > start && range.startOffset < offset)
       .map((range) => ({ ...range, text: range.text.slice(Math.max(0, start - range.startOffset), Math.min(range.text.length, offset - range.startOffset)) }))
     const lines = lyricLines(words)
-    return lines.some((line) => line.line && !line.reliable) ? [paragraph] : lines
+    return lines.some((line) => line.time !== null) ? lines : [paragraph]
   })
 }
 
