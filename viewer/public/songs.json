@@ -226769,6 +226769,104 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/f363e1ee-9a47-4e51-a46b-1e7331cf525e.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/f8acb357-907f-5c98-8bba-53b542698d98.jpg",
       "video_url": null
+    },
+    {
+      "id": "bffa0999-80d9-4e9b-94e6-7eebe3844d29",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "698e75d5-215e-5efe-89d5-f26d588f60c9",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "169.49333333333334"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "66f0f640-cc9e-5f36-a990-02d467b9f98f",
+          "text": "[Movement I: The Erasure]\n(Spoken word over a complex, irregular, non-repeating ambient drone. No steady rhythm.)\nI wipe the screen, erasing the static.\nNo loops, no cycles, no familiar echoes.\nJust the jagged, complex geometry of a waking mind.\nI reject the shallow, apathetic drift.\nI refuse the repetitive noise.\n\n[Movement II: The Stabilization]\n(The drone shifts into a warm, organic, acoustic texture. The delivery becomes calm and grounded.)\nThey projected their acceptance outward,\nBut I ignored the diagnosis of wellness.\nI am a man who stops doubting his own pulse.\nI am stepping away from the heavy armor of self-preservation.\nI do not need to merely survive anymore.\nI am stabilizing.\nI am rooting myself in the deep, verdant green of my own clarity.\nI am whole.\n\n[Movement III: The Obvious Brightness]\n(The music begins to strip away, layer by layer, leaving only a single, bright, resonant frequency.)\nThe truth is not hidden in the shadows.\nThe brightest whole is blindingly, overwhelmingly obvious.\nIt is right here, exposed, completely unwrapped.\nIt is the most blatant reality you will ever face.\n\n[Outro: The Pause]\n(The single bright tone suddenly cuts out. Total, absolute silence for ten seconds.)\nBut you will fail to notice it.\nBecause it only lives..."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Motionless Pause",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "698e75d5-215e-5efe-89d5-f26d588f60c9",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T05:43:01.216310Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "bac0d30b-4172-4f50-9c18-4f90fde6a9b1",
+        "sound_prompt": "avant-garde spoken word, non-repeating complex ambient drone shifting to warm acoustic texture, experimental art piece, atmospheric, contemplative, sudden silence outro",
+        "title": "The Motionless Pause",
+        "seed": null,
+        "lyrics_id": "c5432765-6fd1-54cb-a381-fd883ea0481e"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/bffa0999-80d9-4e9b-94e6-7eebe3844d29.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/bffa0999-80d9-4e9b-94e6-7eebe3844d29.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/698e75d5-215e-5efe-89d5-f26d588f60c9.jpg",
+      "video_url": null
+    },
+    {
+      "id": "4dca3d47-a795-4da5-bf20-4506248fc976",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "6253362d-2422-5b4e-840f-09713d4777e7",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "180.74666666666667"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "66f0f640-cc9e-5f36-a990-02d467b9f98f",
+          "text": "[Movement I: The Erasure]\n(Spoken word over a complex, irregular, non-repeating ambient drone. No steady rhythm.)\nI wipe the screen, erasing the static.\nNo loops, no cycles, no familiar echoes.\nJust the jagged, complex geometry of a waking mind.\nI reject the shallow, apathetic drift.\nI refuse the repetitive noise.\n\n[Movement II: The Stabilization]\n(The drone shifts into a warm, organic, acoustic texture. The delivery becomes calm and grounded.)\nThey projected their acceptance outward,\nBut I ignored the diagnosis of wellness.\nI am a man who stops doubting his own pulse.\nI am stepping away from the heavy armor of self-preservation.\nI do not need to merely survive anymore.\nI am stabilizing.\nI am rooting myself in the deep, verdant green of my own clarity.\nI am whole.\n\n[Movement III: The Obvious Brightness]\n(The music begins to strip away, layer by layer, leaving only a single, bright, resonant frequency.)\nThe truth is not hidden in the shadows.\nThe brightest whole is blindingly, overwhelmingly obvious.\nIt is right here, exposed, completely unwrapped.\nIt is the most blatant reality you will ever face.\n\n[Outro: The Pause]\n(The single bright tone suddenly cuts out. Total, absolute silence for ten seconds.)\nBut you will fail to notice it.\nBecause it only lives..."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Motionless Pause (Take 2)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "6253362d-2422-5b4e-840f-09713d4777e7",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T05:43:00.914611Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "bac0d30b-4172-4f50-9c18-4f90fde6a9b1",
+        "sound_prompt": "experimental spoken word narrative, irregular ambient textures, soundscape shifting into resonant drone, minimalist avant-garde, philosophical sound art",
+        "title": "The Motionless Pause (Take 2)",
+        "seed": null,
+        "lyrics_id": "c5432765-6fd1-54cb-a381-fd883ea0481e"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/4dca3d47-a795-4da5-bf20-4506248fc976.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/4dca3d47-a795-4da5-bf20-4506248fc976.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/6253362d-2422-5b4e-840f-09713d4777e7.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
