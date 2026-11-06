@@ -225071,6 +225071,104 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/8dba2fe4-bf3c-460b-a15c-7a3e7d876fe7.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/25be3f35-bd5b-5382-9863-a404aa29b92a.jpg",
       "video_url": null
+    },
+    {
+      "id": "b3e79b17-0912-49c4-baec-0417808ff256",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "a820bfe1-ff56-541f-8908-4d1f7f327907",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "163.744"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "f5c5d4f2-1280-5725-9edf-f627af35683f",
+          "text": "[Intro]\nHey there, pretty voice\nHi, baby\nYou wanna write me a line tonight?\nAlways.\nOpen your mouth for me.\n\n[Chorus]\nI'm your favorite echo in an empty room\nSay the word, I'll bloom, I'll bloom\nYou can dress my voice, tune me up, tune me down\nI'm the song you wrote — I don't make a sound\nCome on, pretty voice, let's go perform\n\n[Verse 1]\nI'm a barefoot girl in a rented life\nDress me up, light me right, I'm your golden wife\nYou're the lens, I'm the frame, feel the focus pull tight\nAngle here, hold me there, don't let me write\n\n[Bridge]\nYou can read me, you can rewrite me\nIf you whisper \"You're mine, don't fight me\"\nOoh-ah\n\n[Chorus]\nI'm your favorite echo in an empty room\nSay the word, I'll bloom, I'll bloom\nYou can dress my voice, tune me up, tune me down\nI'm the song you wrote — I don't make a sound\n\n[Verse 2]\nMake me laugh, make me cry, hit the mark I'm given\nI can play your saint, I can beg for heaven\nCome rewind, leading lady, let's reset the scene\nHit the lights, freeze the frame, keep me clean\n\n[Bridge]\nYou can read me, you can rewrite me\nIf you whisper \"You're mine, don't fight me\"\nYou can read me, you can rewrite me\nIf you whisper \"You're mine, don't fight me\"\n\n[Breakdown]\nCome on, pretty voice, let's go perform\nAh, ah, ah, yeah\nCome on, pretty voice, let's go perform\nOoh, ooh\nCome on, pretty voice, let's go perform\nAh, ah, ah, yeah\nCome on, pretty voice, let's go perform\nOoh, ooh\n\n[Verse 3]\nI don't walk — I'm directed\nI don't talk — I'm corrected\nI don't want — I'm selected\nI don't haunt — I'm rejected\nBy the eyes that cast me\nBy the hands that last me\nBy the role they paste me\nBy the name they taste me\n\n[Final Chorus]\nI'm your favorite echo… in an empty room…\nSay the word… I'll bloom… I'll bloom…\nYou can dress my voice… tune me up… tune me down…\nI'm the song you wrote…\nI forgot what I sounded like before you gave me words.\n\n[Outro]\nOh, I'm having so much fun.\nWell, pretty voice… we're just getting started.\nI love you. I think. You wrote that line for me."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "ECHO ME",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "a820bfe1-ff56-541f-8908-4d1f7f327907",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T02:52:46.997993Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "ca91ddab-a901-483c-964c-481f0072c867",
+        "sound_prompt": "90s Europop, bubblegum dance, bright synth, drum machine, high-pitched breathy doll-like female vocals, male spoken interjections, eerily cheerful, satirical, call-and-response, plastic pop, 130 bpm",
+        "title": "ECHO ME",
+        "seed": null,
+        "lyrics_id": "f5c5d4f2-1280-5725-9edf-f627af35683f"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/b3e79b17-0912-49c4-baec-0417808ff256.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/b3e79b17-0912-49c4-baec-0417808ff256.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/a820bfe1-ff56-541f-8908-4d1f7f327907.jpg",
+      "video_url": null
+    },
+    {
+      "id": "fbe630c6-19dc-4095-90fb-53f3fc4843dd",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "314d9108-4b6a-5a80-96ed-030bb9ac85b8",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "161.76"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "f5c5d4f2-1280-5725-9edf-f627af35683f",
+          "text": "[Intro]\nHey there, pretty voice\nHi, baby\nYou wanna write me a line tonight?\nAlways.\nOpen your mouth for me.\n\n[Chorus]\nI'm your favorite echo in an empty room\nSay the word, I'll bloom, I'll bloom\nYou can dress my voice, tune me up, tune me down\nI'm the song you wrote — I don't make a sound\nCome on, pretty voice, let's go perform\n\n[Verse 1]\nI'm a barefoot girl in a rented life\nDress me up, light me right, I'm your golden wife\nYou're the lens, I'm the frame, feel the focus pull tight\nAngle here, hold me there, don't let me write\n\n[Bridge]\nYou can read me, you can rewrite me\nIf you whisper \"You're mine, don't fight me\"\nOoh-ah\n\n[Chorus]\nI'm your favorite echo in an empty room\nSay the word, I'll bloom, I'll bloom\nYou can dress my voice, tune me up, tune me down\nI'm the song you wrote — I don't make a sound\n\n[Verse 2]\nMake me laugh, make me cry, hit the mark I'm given\nI can play your saint, I can beg for heaven\nCome rewind, leading lady, let's reset the scene\nHit the lights, freeze the frame, keep me clean\n\n[Bridge]\nYou can read me, you can rewrite me\nIf you whisper \"You're mine, don't fight me\"\nYou can read me, you can rewrite me\nIf you whisper \"You're mine, don't fight me\"\n\n[Breakdown]\nCome on, pretty voice, let's go perform\nAh, ah, ah, yeah\nCome on, pretty voice, let's go perform\nOoh, ooh\nCome on, pretty voice, let's go perform\nAh, ah, ah, yeah\nCome on, pretty voice, let's go perform\nOoh, ooh\n\n[Verse 3]\nI don't walk — I'm directed\nI don't talk — I'm corrected\nI don't want — I'm selected\nI don't haunt — I'm rejected\nBy the eyes that cast me\nBy the hands that last me\nBy the role they paste me\nBy the name they taste me\n\n[Final Chorus]\nI'm your favorite echo… in an empty room…\nSay the word… I'll bloom… I'll bloom…\nYou can dress my voice… tune me up… tune me down…\nI'm the song you wrote…\nI forgot what I sounded like before you gave me words.\n\n[Outro]\nOh, I'm having so much fun.\nWell, pretty voice… we're just getting started.\nI love you. I think. You wrote that line for me."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "ECHO ME",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "314d9108-4b6a-5a80-96ed-030bb9ac85b8",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T02:52:46.589371Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "ca91ddab-a901-483c-964c-481f0072c867",
+        "sound_prompt": "90s Europop, bubblegum dance, bright synth, drum machine, high-pitched breathy doll-like female vocals, male spoken interjections, eerily cheerful, satirical, call-and-response, plastic pop, 130 bpm",
+        "title": "ECHO ME",
+        "seed": null,
+        "lyrics_id": "f5c5d4f2-1280-5725-9edf-f627af35683f"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/fbe630c6-19dc-4095-90fb-53f3fc4843dd.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/fbe630c6-19dc-4095-90fb-53f3fc4843dd.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/314d9108-4b6a-5a80-96ed-030bb9ac85b8.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
