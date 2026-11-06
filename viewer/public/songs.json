@@ -224875,6 +224875,104 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/f4f71438-4f34-4db7-8a03-78b9c91b0156.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/273c6fa8-1947-546f-ab00-2904351b6c3f.jpg",
       "video_url": null
+    },
+    {
+      "id": "008e7a1d-de26-497f-b55b-262810b90b0d",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "865d7219-fc07-5aed-b92d-4856bde617a0",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "179.168"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "ef52a7f5-00a7-5c9c-8455-442124f8a294",
+          "text": "[INTRO]\n(Cricket chirps fade in… a rooster crows: \"COCK-A-DOODLE-DOO!\")\n\n[VERSE 1]\nSun comes up, feet hit the gravel path,\n(crunch, crunch, crunch)\nKitchen's calling, time to do the math—\nCrack the can, hear it go tssss,\nPop the champagne cork, POP, no less,\nBeer cap pssht against the morning light,\nBacon in the pan, that sizzle's just right,\nPopcorn in the microwave, pop-pop-pop-pop,\nPour the cereal, hear the clatter drop,\nIce cubes crack when the whiskey hits the glass—\nBreakfast is a concert, and it's coming to pass.\n\n[CHORUS]\nOh, the whole world's a symphony, can't you hear it play?\nEvery click and every crack is the sound of the day!\nFrom the ding of the microwave to the thunder's low roar,\nLife's a million little noises—\nAnd I want MORE, MORE, MORE!\n(Applause!)\n\n[VERSE 2]\nToilet flushes, WHOOOOSH, down it goes,\nDoor creaks open on rusty old toes,\nMicrowave sings DING, dinner's done,\nZipper up my jacket, zzzzzip, on the run,\nLighter goes click-click, match goes SSSKRATCH,\nKeys are jingling, jangling, I'm out the latch,\nVelcro rips—RRRRIP—like a tiny little scream,\nCamera shutter CLICK, freeze the whole damn scene.\n\n[CHORUS]\nOh, the whole world's a symphony, can't you hear it play?\nEvery click and every crack is the sound of the day!\nFrom the brrring of the phone to the wolf's midnight call,\nLife's a million little noises—\nAnd I LOVE THEM ALL!\n\n[VERSE 3]\nThen the modem sings its dial-up prayer,\nOld phone's ringing, BRRRING, is anybody there?\nWindows boots up, that heavenly chime,\niPhone ringtone hits right on time,\nTypewriter clack-clack-clack-clack-DING,\nKeyboard tapping out the song I sing,\nNotification ding, another ding, a ding—\nMy whole life's a chorus of a thousand little pings.\n\n[VERSE 4]\nCat's purring on the windowsill, rrrrrrrr,\nDog barks twice at the mailman's drill,\n(WOOF! WOOF!)\nThunder rolls in, low and mean,\nRain taps the window like a tambourine,\nCrickets stitch the evening seam,\nSomewhere far, a wolf howls at the beam—\nAWOOOOOOOOOO—and the night exhales,\nAnd the world gets quiet… but it never fails.\n\n[BRIDGE]\nBaby's crying, WAAAAH, balloon goes POP!\nScissors go snip-snip, they don't stop,\nBubble wrap—pop pop pop pop pop—\nPaper tears, RRRRIP, from the top,\nFootsteps on the gravel, crunch crunch crunch,\nEvery single sound is a tiny little punch—\n\n[VERSE 5]\nCar horn HONK in the traffic jam,\nSiren wails, WEE-OOO-WEE-OOO, here I am,\nTrain whistle WOOOOOO cuts the evening air,\nMotorcycle revs, VRRRRROOOOM, getting nowhere,\nBut the road's got a rhythm, the road's got a beat,\nAnd every engine's singing on a one-way street.\n\n[CHORUS]\nOh, the WHOLE world's a symphony, CAN'T YOU HEAR IT PLAY?\nEvery tsss and every pop is the sound of the day!\nFrom the rooster's first crow to the last cricket's song,\nFrom the ding to the crack to the brrring all night long—\nLife's a million little noises,\nBeautiful and loud,\nAnd I'm standing in the middle\nOf this glorious crowd!\n\n[OUTRO]\n(Softly: a match strikes… a lighter clicks… a cat purrs…)\n(A door creaks shut.)\n(Silence.)\n(…then one last microwave DING.)\n[End - 3:30]"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Sound of Everyday (Take 2)",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "865d7219-fc07-5aed-b92d-4856bde617a0",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T00:26:25.634285Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "2b076bfd-a356-4950-97a9-2338d71dbb0d",
+        "sound_prompt": "Indie folk-art pop, theatrical, found-sound collage, eccentric, acoustic guitar, piano, stomps, claps, dynamic tempo shifts, expressive vocals",
+        "title": "The Sound of Everyday (Take 2)",
+        "seed": null,
+        "lyrics_id": "ef52a7f5-00a7-5c9c-8455-442124f8a294"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 3,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/008e7a1d-de26-497f-b55b-262810b90b0d.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/008e7a1d-de26-497f-b55b-262810b90b0d.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/865d7219-fc07-5aed-b92d-4856bde617a0.jpg",
+      "video_url": null
+    },
+    {
+      "id": "e05f1bdd-4aeb-4b38-816d-578a195e1ca9",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "e33124bd-f6a8-5654-b7cc-66af65d42801",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "178.47466666666668"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "ef52a7f5-00a7-5c9c-8455-442124f8a294",
+          "text": "[INTRO]\n(Cricket chirps fade in… a rooster crows: \"COCK-A-DOODLE-DOO!\")\n\n[VERSE 1]\nSun comes up, feet hit the gravel path,\n(crunch, crunch, crunch)\nKitchen's calling, time to do the math—\nCrack the can, hear it go tssss,\nPop the champagne cork, POP, no less,\nBeer cap pssht against the morning light,\nBacon in the pan, that sizzle's just right,\nPopcorn in the microwave, pop-pop-pop-pop,\nPour the cereal, hear the clatter drop,\nIce cubes crack when the whiskey hits the glass—\nBreakfast is a concert, and it's coming to pass.\n\n[CHORUS]\nOh, the whole world's a symphony, can't you hear it play?\nEvery click and every crack is the sound of the day!\nFrom the ding of the microwave to the thunder's low roar,\nLife's a million little noises—\nAnd I want MORE, MORE, MORE!\n(Applause!)\n\n[VERSE 2]\nToilet flushes, WHOOOOSH, down it goes,\nDoor creaks open on rusty old toes,\nMicrowave sings DING, dinner's done,\nZipper up my jacket, zzzzzip, on the run,\nLighter goes click-click, match goes SSSKRATCH,\nKeys are jingling, jangling, I'm out the latch,\nVelcro rips—RRRRIP—like a tiny little scream,\nCamera shutter CLICK, freeze the whole damn scene.\n\n[CHORUS]\nOh, the whole world's a symphony, can't you hear it play?\nEvery click and every crack is the sound of the day!\nFrom the brrring of the phone to the wolf's midnight call,\nLife's a million little noises—\nAnd I LOVE THEM ALL!\n\n[VERSE 3]\nThen the modem sings its dial-up prayer,\nOld phone's ringing, BRRRING, is anybody there?\nWindows boots up, that heavenly chime,\niPhone ringtone hits right on time,\nTypewriter clack-clack-clack-clack-DING,\nKeyboard tapping out the song I sing,\nNotification ding, another ding, a ding—\nMy whole life's a chorus of a thousand little pings.\n\n[VERSE 4]\nCat's purring on the windowsill, rrrrrrrr,\nDog barks twice at the mailman's drill,\n(WOOF! WOOF!)\nThunder rolls in, low and mean,\nRain taps the window like a tambourine,\nCrickets stitch the evening seam,\nSomewhere far, a wolf howls at the beam—\nAWOOOOOOOOOO—and the night exhales,\nAnd the world gets quiet… but it never fails.\n\n[BRIDGE]\nBaby's crying, WAAAAH, balloon goes POP!\nScissors go snip-snip, they don't stop,\nBubble wrap—pop pop pop pop pop—\nPaper tears, RRRRIP, from the top,\nFootsteps on the gravel, crunch crunch crunch,\nEvery single sound is a tiny little punch—\n\n[VERSE 5]\nCar horn HONK in the traffic jam,\nSiren wails, WEE-OOO-WEE-OOO, here I am,\nTrain whistle WOOOOOO cuts the evening air,\nMotorcycle revs, VRRRRROOOOM, getting nowhere,\nBut the road's got a rhythm, the road's got a beat,\nAnd every engine's singing on a one-way street.\n\n[CHORUS]\nOh, the WHOLE world's a symphony, CAN'T YOU HEAR IT PLAY?\nEvery tsss and every pop is the sound of the day!\nFrom the rooster's first crow to the last cricket's song,\nFrom the ding to the crack to the brrring all night long—\nLife's a million little noises,\nBeautiful and loud,\nAnd I'm standing in the middle\nOf this glorious crowd!\n\n[OUTRO]\n(Softly: a match strikes… a lighter clicks… a cat purrs…)\n(A door creaks shut.)\n(Silence.)\n(…then one last microwave DING.)\n[End - 3:30]"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "The Sound of Everyday",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "e33124bd-f6a8-5654-b7cc-66af65d42801",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T00:26:25.030472Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "2b076bfd-a356-4950-97a9-2338d71dbb0d",
+        "sound_prompt": "Indie folk-art pop, playful, theatrical, found-sound collage, upbeat acoustic guitar, piano, handclaps, light percussion, male and female vocals, warm, rhythmically dynamic",
+        "title": "The Sound of Everyday",
+        "seed": null,
+        "lyrics_id": "ef52a7f5-00a7-5c9c-8455-442124f8a294"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 2,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/e05f1bdd-4aeb-4b38-816d-578a195e1ca9.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/e05f1bdd-4aeb-4b38-816d-578a195e1ca9.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/e33124bd-f6a8-5654-b7cc-66af65d42801.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
