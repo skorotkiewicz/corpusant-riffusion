@@ -57,7 +57,8 @@ export function lyricSegments(clip) {
     markers.every((marker, index) => Array.isArray(marker) && marker.length === 2 &&
       Number.isInteger(marker[0]) && marker[0] >= 0 && marker[0] <= text.length &&
       Number.isFinite(marker[1]) && marker[1] >= 0 &&
-      (!index || (marker[0] > markers[index - 1][0] && marker[1] >= markers[index - 1][1])))
+      (!index || (marker[0] > markers[index - 1][0] && marker[1] >= markers[index - 1][1]))) &&
+    markers[0][0] < text.length
   if (!valid) {
     const transcribed = transcribedSegments(clip)
     return transcribed.length ? transcribed : [{ text, time: null }]

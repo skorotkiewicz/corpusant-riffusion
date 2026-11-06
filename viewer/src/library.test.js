@@ -51,3 +51,45 @@ test('real export, search, sorting, and honest lyric timing', async () => {
     if (record.lyrics_timing?.status === 'completed') assert.equal(record.hasTiming, true, record.title)
   }
 })
+
+test('transcribed timing fills gaps without replacing native lyrics or accepting stale audio', () => {
+  const raw = { id: 'one', title: 'Test', audio_url: 'https://example.test/one.m4a',
+    lyrics: { value: { id: 'lyrics', text: 'Original lyrics' } } }
+  const entry = { status: 'completed', audio_url: raw.audio_url,
+    words: [{ word: 'Recognized', start: 1, end: 2 }, { word: 'words', start: 3, end: 4 }] }
+  const timing = { version: 1, songs: { one: entry } }
+  const [clip] = readLibrary({ clips: [raw] }, timing)
+  const segments = lyricSegments(clip)
+  assert.equal(clip.hasTiming, true)
+  assert.equal(clip.timingSource, 'transcription')
+  assert.equal(clip.lyricsText, 'Original lyrics')
+  assert.equal(segments.map((segment) => segment.text).join(''), 'Recognized words')
+  assert.equal(activeLyric(segments, 0), -1)
+  assert.equal(activeLyric(segments, 1.5), 0)
+  assert.equal(activeLyric(segments, 2.5), -1)
+  assert.equal(activeLyric(segments, 3), 1)
+  assert.equal(activeLyric(segments, 4), -1)
+  assert.equal(filterLibrary([clip], 'recognized', 'timed', 'title').length, 1)
+
+  const [native] = readLibrary({ clips: [{ ...raw,
+    lyrics_timing: { status: 'completed', value: { lyrics_id: 'lyrics', markers: [[0, 1]] } },
+  }] }, timing)
+  assert.equal(native.timingSource, 'export')
+  assert.equal(lyricSegments(native)[0].text, 'Original lyrics')
+
+  for (const invalid of [
+    { ...entry, audio_url: 'https://example.test/different.m4a' },
+    { ...entry, status: 'no_speech', words: [] },
+    { ...entry, words: [{ word: 'Bad', start: 3, end: 2 }] },
+    { ...entry, words: [{ word: 'Bad', start: NaN, end: 2 }] },
+    { ...entry, words: [{ word: 'Bad', start: 3, end: 4 }, { word: 'order', start: 1, end: 2 }] },
+  ]) {
+    const [fallback] = readLibrary({ clips: [raw] }, { version: 1, songs: { one: invalid } })
+    assert.equal(fallback.hasTiming, false)
+    assert.equal(lyricSegments(fallback)[0].text, 'Original lyrics')
+  }
+  assert.equal(readLibrary({ clips: [raw] })[0].hasTiming, false)
+  assert.equal(readLibrary({ clips: [raw] }, { version: 2, songs: timing.songs })[0].hasTiming, false)
+  const [noLyrics] = readLibrary({ clips: [{ ...raw, lyrics: null }] }, timing)
+  assert.equal(noLyrics.hasTiming, true)
+})

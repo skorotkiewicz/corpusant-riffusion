@@ -122,12 +122,14 @@ def download(url, target):
 
 
 def convert_mp3(source, output):
-    # Mono, 16 kHz MP3 is sufficient for speech recognition. Never truncate audio.
-    for bitrate in (64, 48, 32, 24, 16, 8):
+    # Start with normal FFmpeg MP3 encoding, preserving the input sample rate/channels.
+    # Lower the bitrate only when the complete file exceeds the upload limit.
+    for bitrate in (None, 96, 64, 48, 32):
+        encoding = ["-b:a", f"{bitrate}k"] if bitrate is not None else []
         subprocess.run([
             "ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "error", "-y",
             "-i", str(source), "-map", "0:a:0", "-vn", "-map_metadata", "-1",
-            "-ac", "1", "-ar", "16000", "-c:a", "libmp3lame", "-b:a", f"{bitrate}k",
+            "-c:a", "libmp3lame", *encoding,
             str(output),
         ], check=True)
         size = output.stat().st_size
@@ -148,11 +150,12 @@ def transcribe(api_url, mp3, response_file):
         "curl", "--fail-with-body", "--silent", "--show-error",
         "--connect-timeout", "30", "--max-time", "1800",
         "--form", f"file=@{mp3};type=audio/mpeg", "--form", "timestamps=word",
-        "--output", str(response_file), "--", api_url,
-    ], check=False)
+        "--output", str(response_file), "--write-out", "%{http_code}", "--", api_url,
+    ], check=False, stdout=subprocess.PIPE, text=True)
     if result.returncode:
         detail = response_file.read_text(encoding="utf-8", errors="replace")[:500] if response_file.exists() else ""
-        raise RuntimeError(f"Transcription request failed, curl exit {result.returncode}: {detail}")
+        status = int(result.stdout.strip()) if result.stdout.strip().isdigit() else 0
+        raise RuntimeError(f"Transcription request failed, HTTP {status}, curl exit {result.returncode}: {detail}")
     return json.loads(response_file.read_text(encoding="utf-8"))
 
 

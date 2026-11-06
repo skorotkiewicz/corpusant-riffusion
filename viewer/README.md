@@ -29,6 +29,16 @@ bun run preview
 
 Untimed songs show plain lyrics. Favorites come from the export. M4A/WAV links open the original files.
 
+## Additional lyric timing
+
+From the repository folder, run `python3 build_timing.py` with your transcription API running. See the root README for endpoint configuration and requirements. Results are saved after each song to `timing.json` and copied to `viewer/public/timing.json`. Refresh the viewer to load them.
+
+The viewer uses the export's original timing first, then matching song IDs and audio URLs from the timing file. The fallback displays the recognized words as **Transcribed lyrics**; it does not replace the export's written lyrics. Both sources appear in the **Synced lyrics** filter. Words stop highlighting at their end timestamps, including pauses between words.
+
+The local `timing.json` is optional. Missing timing leaves the original library usable. For a remote timing file, set `VITE_TIMING_URL` in `viewer/.env`; its server must allow CORS. An empty value loads the local file even when `VITE_SONGS_URL` is set. Invalid or unavailable timing shows a message while songs remain playable.
+
+Production builds include `public/timing.json` when present at build time. Rebuild after adding results. GitHub Pages can use repository variable `VITE_TIMING_URL` for a hosted timing file. To bundle the generated local file in a deployment, deliberately add `viewer/public/timing.json` to Git; it is ignored by default and contains transcription data and audio URLs.
+
 ## GitHub Pages
 
 1. Push this repository to GitHub.

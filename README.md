@@ -35,3 +35,22 @@ Optional helpers:
 python3 extract_songs.py     # Create songs-list.json with titles and media URLs
 python3 check_duplicates.py  # Check songs.json for duplicate clip IDs
 ```
+
+## Add word timing
+
+Requires Python 3, curl, FFmpeg with the `libmp3lame` encoder, and a running transcription API that accepts `file` and `timestamps=word` multipart fields. Run from the repository folder:
+
+```bash
+python3 build_timing.py --limit 1
+python3 build_timing.py
+```
+
+The default endpoint is `http://localhost:8055/transcribe`. Use `--api-url` or `TRANSCRIBE_URL` for another endpoint. `--limit 1` processes one song as a first check; omit it to process all remaining songs.
+
+The script skips songs with usable timing in the export and results already saved for the same song ID and audio URL. It downloads one song into a temporary directory, converts the entire song to MP3, checks that it is smaller than 25,000,000 bytes, and submits it for word timestamps. Oversized MP3s are re-encoded at lower bitrates, never truncated. Temporary audio is removed before starting the next song.
+
+Each successful API response and its normalized words are saved atomically in `timing.json`, indexed by song ID. A copy is saved to `viewer/public/timing.json` for the viewer. Empty transcriptions are saved as `no_speech` and skipped on reruns. Errors stop the run; rerun the same command to resume from the last saved song. Ctrl+C also keeps saved results.
+
+Options include `--source`, `--output`, and `--viewer-output` to change the default `songs.json`, `timing.json`, and `viewer/public/timing.json` paths. Both timing files are ignored by Git.
+
+Refresh the viewer to load newly saved timing. Original export timing takes priority. Songs without it use the API's transcribed words, labeled **Transcribed lyrics** because speech recognition may differ from the original lyrics. The export's written lyrics remain intact.

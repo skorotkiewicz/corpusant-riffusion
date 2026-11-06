@@ -86,6 +86,8 @@ export function App() {
       .then(async (response) => {
         if (response.status === 404 && !TIMING_URL) return null
         if (!response.ok) throw new Error(`HTTP ${response.status}`)
+        // Development servers may serve the HTML fallback for a missing optional file.
+        if (!TIMING_URL && response.headers.get('content-type')?.includes('text/html')) return null
         const data = await response.json()
         if (data?.version !== 1 || !data.songs || typeof data.songs !== 'object' || Array.isArray(data.songs)) throw new Error('Invalid timing file')
         return data
