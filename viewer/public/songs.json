@@ -226475,6 +226475,104 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/b7647c06-7800-450a-8d84-7cbfe72e3d0e.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/4c4e3a48-a469-5ee3-9595-10a50cb29305.jpg",
       "video_url": null
+    },
+    {
+      "id": "8ff5395b-ab12-4041-9e77-f04adba146be",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "09568c96-aea3-5e34-b43c-2b7705d602fd",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "181.25866666666667"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "9f5d7add-284e-560c-9ae9-9d6d8da610d9",
+          "text": "[Intro]\n[Spoken, quiet, sarcastic]\nPink dress. Wrong party. Let's go.\n\n[Verse 1]\n[Half-spoken, dark pop, minimal beat]\nPink dress at the party I wasn't invited to,\nI'll say the thing that ruins it, then I'll act like I'm not through.\nThey walk me to the exit, it's the third time this year,\nI laugh out loud in the parking lot with nobody to hear.\n\n[Pre-Chorus]\n[Bouncy, anxious, staccato synths, finger snaps]\nAnd I've got your whole feed memorized, I'm \"totally unbothered,\"\nFilled my week with plans so I won't text you, so I won't bother.\nI'd rather burn the whole room down than wait here by the phone,\nBoth ways I'm just begging someone: look at me. Don't leave me alone.\n\n[Chorus]\n[Big, defiant, gang vocals, full drums]\nI'm loud for the wrong reasons, loud for the wrong reasons,\nBreaking glass to hear it sing, calling it a season.\nLoud for the wrong reasons, I'd rather be the villain\nThan a quiet background face that no one's ever missing.\n\n[Verse 2]\n[Half-spoken, tighter beat, bass-driven]\nLet them write the stories, let them whisper down the street,\nA boring life would kill me quicker than the heat.\nWe're all just bones in costumes, so why not start a fire?\nBut the fire only warms me when somebody's there to admire.\n\n[Pre-Chorus]\n[Bouncy, more vulnerable]\nI know the cool-girl act is thin, I know you see right through,\nI'm \"a little intense,\" but baby, that's only half of the truth:\nI've built a whole person out of pictures and a stare,\nAnd I'm scared you're only ordinary, and I'm in love with air.\n\n[Chorus]\n[Big, defiant, gang vocals, full drums]\nI'm loud for the wrong reasons, loud for the wrong reasons,\nBreaking glass to hear it sing, calling it a season.\nLoud for the wrong reasons, I'd rather be the villain\nThan a quiet background face that no one's ever missing.\n\n[Bridge]\n[Beat drops out, slow, emotional, soft percussion enters]\nThen I heard a woman sing who lost her country, lost her door,\nThirty years of exile, and she never stopped for more.\nShe stood before the world and said what no one dared to say,\nAnd they could take her passport, but not the voice she'd made.\n[Clicking percussion builds]\nClick-click, the rhythm rising, she turned her pain to sound.\nI only turn mine into noise that knocks the others down.\n\n[Final Chorus]\n[Afro-pop groove, congas, shakers, call and response, warm group vocals]\n[Leader] Who was loud for the right reasons?\n[Group] Mama, Mama Africa!\n[Leader] Who sang the truth when truth was banned?\n[Group] Mama, Mama Africa!\n[Leader] Who made her suffering a song?\n[Group] Mama, Mama Africa!\n[Softer, solo voice] Maybe I can learn to be loud for the right reasons.\n\n[Outro]\n[Spoken, stripped back, quiet, single piano or soft pad]\nStill no one's walking home with me.\nBut tomorrow I'll try making a sound that's worth hearing.\n[End]"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Loud for the Wrong Reasons",
+      "privacy": "public",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "09568c96-aea3-5e34-b43c-2b7705d602fd",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:59:14.249826Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "2235d559-d698-4113-9750-3cb2dad1daad",
+        "sound_prompt": "Dark alt-pop with Afro-pop influence, 105 BPM, minor key. Female lead vocal, breathy and half-spoken in the verses, sarcastic and playful, building to a defiant belting chorus with stacked gang-chant backing vocals. Pre-chorus is bouncy and nervous, with staccato synths and finger snaps. Moody bass, tight drums, glitchy vocal chops. Final section opens into a warm Afro-pop groove with congas, shakers, clicking percussion, and call-and-response group vocals. Ending strips back to a single quiet voice. Cinematic, emotional, slightly sad underneath the confidence.",
+        "title": "Loud for the Wrong Reasons",
+        "seed": null,
+        "lyrics_id": "9f5d7add-284e-560c-9ae9-9d6d8da610d9"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": true,
+      "preference_state": "liked",
+      "favorite_count": 1,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/8ff5395b-ab12-4041-9e77-f04adba146be.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/8ff5395b-ab12-4041-9e77-f04adba146be.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/09568c96-aea3-5e34-b43c-2b7705d602fd.jpg",
+      "video_url": null
+    },
+    {
+      "id": "bc8b2f47-0c2b-4aaa-a33a-c34aa803ddda",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "b1069417-9aaa-5c5c-996f-315df086b936",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "179.46666666666667"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "9f5d7add-284e-560c-9ae9-9d6d8da610d9",
+          "text": "[Intro]\n[Spoken, quiet, sarcastic]\nPink dress. Wrong party. Let's go.\n\n[Verse 1]\n[Half-spoken, dark pop, minimal beat]\nPink dress at the party I wasn't invited to,\nI'll say the thing that ruins it, then I'll act like I'm not through.\nThey walk me to the exit, it's the third time this year,\nI laugh out loud in the parking lot with nobody to hear.\n\n[Pre-Chorus]\n[Bouncy, anxious, staccato synths, finger snaps]\nAnd I've got your whole feed memorized, I'm \"totally unbothered,\"\nFilled my week with plans so I won't text you, so I won't bother.\nI'd rather burn the whole room down than wait here by the phone,\nBoth ways I'm just begging someone: look at me. Don't leave me alone.\n\n[Chorus]\n[Big, defiant, gang vocals, full drums]\nI'm loud for the wrong reasons, loud for the wrong reasons,\nBreaking glass to hear it sing, calling it a season.\nLoud for the wrong reasons, I'd rather be the villain\nThan a quiet background face that no one's ever missing.\n\n[Verse 2]\n[Half-spoken, tighter beat, bass-driven]\nLet them write the stories, let them whisper down the street,\nA boring life would kill me quicker than the heat.\nWe're all just bones in costumes, so why not start a fire?\nBut the fire only warms me when somebody's there to admire.\n\n[Pre-Chorus]\n[Bouncy, more vulnerable]\nI know the cool-girl act is thin, I know you see right through,\nI'm \"a little intense,\" but baby, that's only half of the truth:\nI've built a whole person out of pictures and a stare,\nAnd I'm scared you're only ordinary, and I'm in love with air.\n\n[Chorus]\n[Big, defiant, gang vocals, full drums]\nI'm loud for the wrong reasons, loud for the wrong reasons,\nBreaking glass to hear it sing, calling it a season.\nLoud for the wrong reasons, I'd rather be the villain\nThan a quiet background face that no one's ever missing.\n\n[Bridge]\n[Beat drops out, slow, emotional, soft percussion enters]\nThen I heard a woman sing who lost her country, lost her door,\nThirty years of exile, and she never stopped for more.\nShe stood before the world and said what no one dared to say,\nAnd they could take her passport, but not the voice she'd made.\n[Clicking percussion builds]\nClick-click, the rhythm rising, she turned her pain to sound.\nI only turn mine into noise that knocks the others down.\n\n[Final Chorus]\n[Afro-pop groove, congas, shakers, call and response, warm group vocals]\n[Leader] Who was loud for the right reasons?\n[Group] Mama, Mama Africa!\n[Leader] Who sang the truth when truth was banned?\n[Group] Mama, Mama Africa!\n[Leader] Who made her suffering a song?\n[Group] Mama, Mama Africa!\n[Softer, solo voice] Maybe I can learn to be loud for the right reasons.\n\n[Outro]\n[Spoken, stripped back, quiet, single piano or soft pad]\nStill no one's walking home with me.\nBut tomorrow I'll try making a sound that's worth hearing.\n[End]"
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Loud for the Wrong Reasons",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "b1069417-9aaa-5c5c-996f-315df086b936",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-06T04:59:09.608131Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "2235d559-d698-4113-9750-3cb2dad1daad",
+        "sound_prompt": "Dark alt-pop with Afro-pop influence, 105 BPM, minor key. Female lead vocal, breathy and half-spoken in the verses, sarcastic and playful, building to a defiant belting chorus with stacked gang-chant backing vocals. Pre-chorus is bouncy and nervous, with staccato synths and finger snaps. Moody bass, tight drums, glitchy vocal chops. Final section opens into a warm Afro-pop groove with congas, shakers, clicking percussion, and call-and-response group vocals. Ending strips back to a single quiet voice. Cinematic, emotional, slightly sad underneath the confidence.",
+        "title": "Loud for the Wrong Reasons",
+        "seed": null,
+        "lyrics_id": "9f5d7add-284e-560c-9ae9-9d6d8da610d9"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/bc8b2f47-0c2b-4aaa-a33a-c34aa803ddda.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/bc8b2f47-0c2b-4aaa-a33a-c34aa803ddda.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/b1069417-9aaa-5c5c-996f-315df086b936.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
