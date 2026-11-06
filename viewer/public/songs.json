@@ -224777,6 +224777,104 @@
       "wav_url": "https://storage.googleapis.com/producer-app-public/clips/282c65fe-9ecd-4543-ae20-9c139c1ca29f.wav",
       "image_url": "https://storage.googleapis.com/producer-app-public/assets/26c5a037-5105-5579-a249-2523c21405e4.jpg",
       "video_url": null
+    },
+    {
+      "id": "68c2a012-7fe1-416a-9bdc-8cb0ff3d7cc1",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "31df180c-fae5-5ae5-8f42-59f1180bd9fc",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "169.22666666666666"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "bef63aa9-4ef7-5943-a658-79c3b32221bb",
+          "text": "[Intro: Spoken, glitchy, distorted]\nLights on. Glass up.\nSmile loaded. Price tag set.\n(Dummy, robotic:) Welcome. Please. Buy.\n\n[Build-up: Chopped vocal, rising synth]\nPose me, pose me, pose me, pose me...\nPay me, pay me, pay me, pay me...\n\n[Drop: Wobble bass, instrumental]\n(8 bars, heavy wub-wub, vocal chop: “Worth it!”)\n\n[Verse 1: Mannequin, rap]\nPainted-on grin, yeah, I’m hollow within,\nSize zero or nothing, that’s the spec I live in.\nPin in my back, tape on my hip,\nHead swapped Tuesday ’cause the old one’s out of style.\nHands on my waist, never ask me why,\nWhatever you dress me in, I smile and comply.\nI don’t pick the outfit, I don’t pick the pose,\nI’m a billboard with a pulse that nobody knows.\n\n[Hook: Chanted, bass hits between lines]\nI’m a window girl, window world, (WUB)\nSmile on, price on, perfect girl, (WUB)\nPose me up, pose me down, (WUB)\nWhatever you pick, I’m worth it now! (WUB)\n\n[Drop: Heavier, screeching bass]\n(8 bars, half-time, glass-crack sound effects)\n\n[Verse 2: Mannequin, faster flow]\nNever tired, never wired for a “no,”\nSwitch me off at midnight, switch me on for the show.\nTrends turn old, so I get sold,\nBrand-new face by spring, that’s the story I’m told.\nYou say “yours forever” while you’re handing over cash,\nLove is just a receipt and I’m the thing you grab.\nThey call it a dream, I call it a sale,\nSame smile every season, never going stale.\n\n[Bridge: Half-time, bass drops out, whispered]\nYou can stare, you can pay,\nIf you tell me I’m always yours.\n(Dummy, flat:) Thank you. Come again.\n\n[Build-up: Tempo doubles]\nPose me, pose me, pose me, pose me...\nWorth it, worth it, worth it, worth it...\n\n[Final Drop: Maximum distortion]\n(16 bars, full wub, chaotic glitches)\n\n[Final Hook]\nI’m a window girl, window world, (WUB)\nSmile on, price on, perfect girl, (WUB)\nPose me up, pose me down, (WUB)\nNobody asks what I’m worth... (silence)\n...I’m worth it.\n\n[Outro: Spoken, glitch fade]\n(Dummy:) The sale’s just starting.\nThank you. Come again."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Window Girl (Dubstep Rap Version)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "31df180c-fae5-5ae5-8f42-59f1180bd9fc",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-05T23:58:58.792684Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "859c80dd-659f-4d04-be0f-e014f5c4b934",
+        "sound_prompt": "Aggressive dubstep rap, 140 bpm half-time, heavy wobble bass, glitchy drops, rapid female rap verses, chanted hook, robotic male vocoder ad-libs, dark ironic energy",
+        "title": "Window Girl (Dubstep Rap Version)",
+        "seed": null,
+        "lyrics_id": "bef63aa9-4ef7-5943-a658-79c3b32221bb"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 1,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/68c2a012-7fe1-416a-9bdc-8cb0ff3d7cc1.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/68c2a012-7fe1-416a-9bdc-8cb0ff3d7cc1.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/31df180c-fae5-5ae5-8f42-59f1180bd9fc.jpg",
+      "video_url": null
+    },
+    {
+      "id": "f4f71438-4f34-4db7-8a03-78b9c91b0156",
+      "author_id": "41d4a659-1f61-44ae-964d-ced5834b8cac",
+      "op_id": "273c6fa8-1947-546f-ab00-2904351b6c3f",
+      "op_type": "audio__create_song",
+      "duration": {
+        "status": "completed",
+        "value": "169.41866666666667"
+      },
+      "lyrics": {
+        "status": "completed",
+        "value": {
+          "id": "bef63aa9-4ef7-5943-a658-79c3b32221bb",
+          "text": "[Intro: Spoken, glitchy, distorted]\nLights on. Glass up.\nSmile loaded. Price tag set.\n(Dummy, robotic:) Welcome. Please. Buy.\n\n[Build-up: Chopped vocal, rising synth]\nPose me, pose me, pose me, pose me...\nPay me, pay me, pay me, pay me...\n\n[Drop: Wobble bass, instrumental]\n(8 bars, heavy wub-wub, vocal chop: “Worth it!”)\n\n[Verse 1: Mannequin, rap]\nPainted-on grin, yeah, I’m hollow within,\nSize zero or nothing, that’s the spec I live in.\nPin in my back, tape on my hip,\nHead swapped Tuesday ’cause the old one’s out of style.\nHands on my waist, never ask me why,\nWhatever you dress me in, I smile and comply.\nI don’t pick the outfit, I don’t pick the pose,\nI’m a billboard with a pulse that nobody knows.\n\n[Hook: Chanted, bass hits between lines]\nI’m a window girl, window world, (WUB)\nSmile on, price on, perfect girl, (WUB)\nPose me up, pose me down, (WUB)\nWhatever you pick, I’m worth it now! (WUB)\n\n[Drop: Heavier, screeching bass]\n(8 bars, half-time, glass-crack sound effects)\n\n[Verse 2: Mannequin, faster flow]\nNever tired, never wired for a “no,”\nSwitch me off at midnight, switch me on for the show.\nTrends turn old, so I get sold,\nBrand-new face by spring, that’s the story I’m told.\nYou say “yours forever” while you’re handing over cash,\nLove is just a receipt and I’m the thing you grab.\nThey call it a dream, I call it a sale,\nSame smile every season, never going stale.\n\n[Bridge: Half-time, bass drops out, whispered]\nYou can stare, you can pay,\nIf you tell me I’m always yours.\n(Dummy, flat:) Thank you. Come again.\n\n[Build-up: Tempo doubles]\nPose me, pose me, pose me, pose me...\nWorth it, worth it, worth it, worth it...\n\n[Final Drop: Maximum distortion]\n(16 bars, full wub, chaotic glitches)\n\n[Final Hook]\nI’m a window girl, window world, (WUB)\nSmile on, price on, perfect girl, (WUB)\nPose me up, pose me down, (WUB)\nNobody asks what I’m worth... (silence)\n...I’m worth it.\n\n[Outro: Spoken, glitch fade]\n(Dummy:) The sale’s just starting.\nThank you. Come again."
+        }
+      },
+      "lyrics_timing": {
+        "status": "not_requested"
+      },
+      "user_edited_lyrics_id": null,
+      "title": "Window Girl (Dubstep Rap Version)",
+      "privacy": "unlisted",
+      "allow_public_use": true,
+      "has_vocals": null,
+      "has_cid_match": null,
+      "has_minor_vocals": null,
+      "image_id": "273c6fa8-1947-546f-ab00-2904351b6c3f",
+      "video_id": null,
+      "song_plan_id": null,
+      "created_at": "2026-11-05T23:58:50.489063Z",
+      "deleted_at": null,
+      "operation": {
+        "op_type": "audio__create_song",
+        "conversation_id": "859c80dd-659f-4d04-be0f-e014f5c4b934",
+        "sound_prompt": "Aggressive dubstep rap, 140 bpm half-time, heavy wobble bass, glitchy drops, rapid female rap verses, chanted hook, robotic male vocoder ad-libs, dark ironic energy",
+        "title": "Window Girl (Dubstep Rap Version)",
+        "seed": null,
+        "lyrics_id": "bef63aa9-4ef7-5943-a658-79c3b32221bb"
+      },
+      "is_remix_eligible": true,
+      "is_favorite": false,
+      "preference_state": null,
+      "favorite_count": 0,
+      "play_count": 0,
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/f4f71438-4f34-4db7-8a03-78b9c91b0156.m4a",
+      "wav_url": "https://storage.googleapis.com/producer-app-public/clips/f4f71438-4f34-4db7-8a03-78b9c91b0156.wav",
+      "image_url": "https://storage.googleapis.com/producer-app-public/assets/273c6fa8-1947-546f-ab00-2904351b6c3f.jpg",
+      "video_url": null
     }
   ],
   "next_offset": 100,
