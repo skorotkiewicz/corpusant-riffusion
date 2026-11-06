@@ -296684,6 +296684,4757 @@
           }
         ]
       }
+    },
+    "4cbb330e-c7fe-45bf-80dd-3bd06b3cb06f": {
+      "status": "completed",
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/4cbb330e-c7fe-45bf-80dd-3bd06b3cb06f.m4a",
+      "created_at": "2026-11-06T09:06:45.777944+00:00",
+      "text": "Jeszcze nie wyłączaj. Zagraj Piszę, kocham, potem kasuję pozdania Ty odpisujesz, padni bez wybyty dania Na stole się, napicza twój telefon drży Odwracasz kolejanym teraz tylko my Zażaną, to jest znów wielki, jest 20 druga Nasz głośnik przestrzy kabel trzeba przytrzymać Mówisz daj ten numer, szukam go na liście Pierwszy pasy już się śnie jeszcze, oczywiście Zagrani to jest ten kawałek, znacz jak ja myliście, nie. Twoja dłoni na mojej dłoni kubek 3 na poprzedni stoł. Czekaj. Zaraz wejdź głośniej. Miałem wyjść przed pierwszą, już dochodzi trzecia, opowiadasz coś, co znam, lecz chcę posłuchać jeszcze Rano pewnie będę spał, na stojąców w tramwaju, teraz w tej menty, dobra, Ostatni. Ostatni. Eee. Dobra. Jeszcze ten.",
+      "words": [
+        {
+          "word": "Jeszcze",
+          "start": 10.16,
+          "end": 10.56
+        },
+        {
+          "word": "nie",
+          "start": 10.72,
+          "end": 10.88
+        },
+        {
+          "word": "wyłączaj.",
+          "start": 10.88,
+          "end": 12.64
+        },
+        {
+          "word": "Zagraj",
+          "start": 12.64,
+          "end": 13.200000000000001
+        },
+        {
+          "word": "Piszę,",
+          "start": 16.96,
+          "end": 17.52
+        },
+        {
+          "word": "kocham,",
+          "start": 17.52,
+          "end": 18.080000000000002
+        },
+        {
+          "word": "potem",
+          "start": 18.080000000000002,
+          "end": 18.4
+        },
+        {
+          "word": "kasuję",
+          "start": 18.560000000000002,
+          "end": 19.12
+        },
+        {
+          "word": "pozdania",
+          "start": 19.2,
+          "end": 20.0
+        },
+        {
+          "word": "Ty",
+          "start": 20.48,
+          "end": 20.64
+        },
+        {
+          "word": "odpisujesz,",
+          "start": 20.880000000000003,
+          "end": 21.76
+        },
+        {
+          "word": "padni",
+          "start": 21.76,
+          "end": 22.16
+        },
+        {
+          "word": "bez",
+          "start": 22.32,
+          "end": 22.560000000000002
+        },
+        {
+          "word": "wybyty",
+          "start": 22.560000000000002,
+          "end": 23.04
+        },
+        {
+          "word": "dania",
+          "start": 23.2,
+          "end": 23.6
+        },
+        {
+          "word": "Na",
+          "start": 23.76,
+          "end": 23.92
+        },
+        {
+          "word": "stole",
+          "start": 23.92,
+          "end": 24.4
+        },
+        {
+          "word": "się,",
+          "start": 24.560000000000002,
+          "end": 25.04
+        },
+        {
+          "word": "napicza",
+          "start": 25.04,
+          "end": 25.6
+        },
+        {
+          "word": "twój",
+          "start": 25.759999999999998,
+          "end": 26.0
+        },
+        {
+          "word": "telefon",
+          "start": 26.08,
+          "end": 26.4
+        },
+        {
+          "word": "drży",
+          "start": 26.72,
+          "end": 27.28
+        },
+        {
+          "word": "Odwracasz",
+          "start": 27.92,
+          "end": 28.72
+        },
+        {
+          "word": "kolejanym",
+          "start": 28.880000000000003,
+          "end": 29.68
+        },
+        {
+          "word": "teraz",
+          "start": 29.84,
+          "end": 29.92
+        },
+        {
+          "word": "tylko",
+          "start": 30.4,
+          "end": 30.72
+        },
+        {
+          "word": "my",
+          "start": 30.72,
+          "end": 31.04
+        },
+        {
+          "word": "Zażaną,",
+          "start": 31.68,
+          "end": 32.56
+        },
+        {
+          "word": "to",
+          "start": 32.56,
+          "end": 32.64
+        },
+        {
+          "word": "jest",
+          "start": 32.64,
+          "end": 32.72
+        },
+        {
+          "word": "znów",
+          "start": 32.72,
+          "end": 32.96
+        },
+        {
+          "word": "wielki,",
+          "start": 33.120000000000005,
+          "end": 33.519999999999996
+        },
+        {
+          "word": "jest",
+          "start": 33.519999999999996,
+          "end": 33.68
+        },
+        {
+          "word": "20",
+          "start": 33.84,
+          "end": 34.32
+        },
+        {
+          "word": "druga",
+          "start": 34.56,
+          "end": 34.88
+        },
+        {
+          "word": "Nasz",
+          "start": 35.36,
+          "end": 35.6
+        },
+        {
+          "word": "głośnik",
+          "start": 35.760000000000005,
+          "end": 36.16
+        },
+        {
+          "word": "przestrzy",
+          "start": 36.32,
+          "end": 36.64
+        },
+        {
+          "word": "kabel",
+          "start": 36.8,
+          "end": 37.04
+        },
+        {
+          "word": "trzeba",
+          "start": 37.28,
+          "end": 37.68
+        },
+        {
+          "word": "przytrzymać",
+          "start": 37.68,
+          "end": 38.400000000000006
+        },
+        {
+          "word": "Mówisz",
+          "start": 38.64,
+          "end": 39.04
+        },
+        {
+          "word": "daj",
+          "start": 39.2,
+          "end": 39.36
+        },
+        {
+          "word": "ten",
+          "start": 39.6,
+          "end": 39.68
+        },
+        {
+          "word": "numer,",
+          "start": 39.92,
+          "end": 40.480000000000004
+        },
+        {
+          "word": "szukam",
+          "start": 40.480000000000004,
+          "end": 40.96
+        },
+        {
+          "word": "go",
+          "start": 41.2,
+          "end": 41.519999999999996
+        },
+        {
+          "word": "na",
+          "start": 41.519999999999996,
+          "end": 41.760000000000005
+        },
+        {
+          "word": "liście",
+          "start": 41.760000000000005,
+          "end": 42.08
+        },
+        {
+          "word": "Pierwszy",
+          "start": 43.08,
+          "end": 43.4
+        },
+        {
+          "word": "pasy",
+          "start": 43.64,
+          "end": 43.96
+        },
+        {
+          "word": "już",
+          "start": 44.04,
+          "end": 44.28
+        },
+        {
+          "word": "się",
+          "start": 44.28,
+          "end": 44.36
+        },
+        {
+          "word": "śnie",
+          "start": 44.52,
+          "end": 44.68
+        },
+        {
+          "word": "jeszcze,",
+          "start": 45.0,
+          "end": 46.04
+        },
+        {
+          "word": "oczywiście",
+          "start": 46.04,
+          "end": 47.16
+        },
+        {
+          "word": "Zagrani",
+          "start": 49.480000000000004,
+          "end": 50.76
+        },
+        {
+          "word": "to",
+          "start": 51.96,
+          "end": 52.28
+        },
+        {
+          "word": "jest",
+          "start": 52.28,
+          "end": 52.519999999999996
+        },
+        {
+          "word": "ten",
+          "start": 56.92,
+          "end": 57.24
+        },
+        {
+          "word": "kawałek,",
+          "start": 57.56,
+          "end": 59.72
+        },
+        {
+          "word": "znacz",
+          "start": 59.72,
+          "end": 60.36
+        },
+        {
+          "word": "jak",
+          "start": 60.760000000000005,
+          "end": 61.0
+        },
+        {
+          "word": "ja",
+          "start": 61.56,
+          "end": 61.879999999999995
+        },
+        {
+          "word": "myliście,",
+          "start": 64.44,
+          "end": 71.88
+        },
+        {
+          "word": "nie.",
+          "start": 71.88,
+          "end": 72.52
+        },
+        {
+          "word": "Twoja",
+          "start": 81.56,
+          "end": 82.2
+        },
+        {
+          "word": "dłoni",
+          "start": 82.2,
+          "end": 82.60000000000001
+        },
+        {
+          "word": "na",
+          "start": 82.76,
+          "end": 83.0
+        },
+        {
+          "word": "mojej",
+          "start": 83.0,
+          "end": 83.24000000000001
+        },
+        {
+          "word": "dłoni",
+          "start": 83.4,
+          "end": 83.88000000000001
+        },
+        {
+          "word": "kubek",
+          "start": 85.32000000000001,
+          "end": 85.96000000000001
+        },
+        {
+          "word": "3",
+          "start": 85.96000000000001,
+          "end": 86.36000000000001
+        },
+        {
+          "word": "na",
+          "start": 86.36000000000001,
+          "end": 86.52000000000001
+        },
+        {
+          "word": "poprzedni",
+          "start": 86.52000000000001,
+          "end": 87.0
+        },
+        {
+          "word": "stoł.",
+          "start": 87.24000000000001,
+          "end": 88.28
+        },
+        {
+          "word": "Czekaj.",
+          "start": 88.28,
+          "end": 90.12
+        },
+        {
+          "word": "Zaraz",
+          "start": 90.12,
+          "end": 90.68
+        },
+        {
+          "word": "wejdź",
+          "start": 90.68,
+          "end": 91.32000000000001
+        },
+        {
+          "word": "głośniej.",
+          "start": 92.44000000000001,
+          "end": 94.84
+        },
+        {
+          "word": "Miałem",
+          "start": 128.96,
+          "end": 129.52
+        },
+        {
+          "word": "wyjść",
+          "start": 129.52,
+          "end": 129.92
+        },
+        {
+          "word": "przed",
+          "start": 130.08,
+          "end": 130.24
+        },
+        {
+          "word": "pierwszą,",
+          "start": 130.24,
+          "end": 130.8
+        },
+        {
+          "word": "już",
+          "start": 130.8,
+          "end": 130.96
+        },
+        {
+          "word": "dochodzi",
+          "start": 131.04,
+          "end": 131.44
+        },
+        {
+          "word": "trzecia,",
+          "start": 131.68,
+          "end": 132.48
+        },
+        {
+          "word": "opowiadasz",
+          "start": 132.48,
+          "end": 133.35999999999999
+        },
+        {
+          "word": "coś,",
+          "start": 133.35999999999999,
+          "end": 133.76
+        },
+        {
+          "word": "co",
+          "start": 133.76,
+          "end": 133.84
+        },
+        {
+          "word": "znam,",
+          "start": 133.92,
+          "end": 134.24
+        },
+        {
+          "word": "lecz",
+          "start": 134.24,
+          "end": 134.48
+        },
+        {
+          "word": "chcę",
+          "start": 134.48,
+          "end": 134.72
+        },
+        {
+          "word": "posłuchać",
+          "start": 134.8,
+          "end": 135.36
+        },
+        {
+          "word": "jeszcze",
+          "start": 135.52,
+          "end": 135.92
+        },
+        {
+          "word": "Rano",
+          "start": 136.32,
+          "end": 136.72
+        },
+        {
+          "word": "pewnie",
+          "start": 136.88,
+          "end": 137.12
+        },
+        {
+          "word": "będę",
+          "start": 137.36,
+          "end": 137.6
+        },
+        {
+          "word": "spał,",
+          "start": 137.68,
+          "end": 138.32
+        },
+        {
+          "word": "na",
+          "start": 138.32,
+          "end": 138.48
+        },
+        {
+          "word": "stojąców",
+          "start": 138.48,
+          "end": 139.12
+        },
+        {
+          "word": "w",
+          "start": 139.12,
+          "end": 139.2
+        },
+        {
+          "word": "tramwaju,",
+          "start": 139.2,
+          "end": 140.16
+        },
+        {
+          "word": "teraz",
+          "start": 140.16,
+          "end": 140.32
+        },
+        {
+          "word": "w",
+          "start": 140.48,
+          "end": 140.56
+        },
+        {
+          "word": "tej",
+          "start": 140.56,
+          "end": 140.64
+        },
+        {
+          "word": "menty,",
+          "start": 140.88,
+          "end": 141.76
+        },
+        {
+          "word": "dobra,",
+          "start": 141.76,
+          "end": 142.4
+        },
+        {
+          "word": "Ostatni.",
+          "start": 160.16,
+          "end": 163.84
+        },
+        {
+          "word": "Ostatni.",
+          "start": 163.84,
+          "end": 167.52
+        },
+        {
+          "word": "Eee.",
+          "start": 167.84,
+          "end": 168.64
+        },
+        {
+          "word": "Dobra.",
+          "start": 169.84,
+          "end": 170.8
+        },
+        {
+          "word": "Jeszcze",
+          "start": 171.04,
+          "end": 171.52
+        },
+        {
+          "word": "ten.",
+          "start": 171.68,
+          "end": 172.16
+        }
+      ],
+      "response": {
+        "text": "Jeszcze nie wyłączaj. Zagraj Piszę, kocham, potem kasuję pozdania Ty odpisujesz, padni bez wybyty dania Na stole się, napicza twój telefon drży Odwracasz kolejanym teraz tylko my Zażaną, to jest znów wielki, jest 20 druga Nasz głośnik przestrzy kabel trzeba przytrzymać Mówisz daj ten numer, szukam go na liście Pierwszy pasy już się śnie jeszcze, oczywiście Zagrani to jest ten kawałek, znacz jak ja myliście, nie. Twoja dłoni na mojej dłoni kubek 3 na poprzedni stoł. Czekaj. Zaraz wejdź głośniej. Miałem wyjść przed pierwszą, już dochodzi trzecia, opowiadasz coś, co znam, lecz chcę posłuchać jeszcze Rano pewnie będę spał, na stojąców w tramwaju, teraz w tej menty, dobra, Ostatni. Ostatni. Eee. Dobra. Jeszcze ten.",
+        "language": null,
+        "task": "transcribe",
+        "duration_seconds": 178.25066666666666,
+        "source_duration_seconds": 178.25066666666666,
+        "clip_start_seconds": 0.0,
+        "clip_end_seconds": 178.25066666666666,
+        "segments": [
+          {
+            "text": "Jeszcze nie wyłączaj.",
+            "start": 10.16,
+            "end": 12.64,
+            "words": [
+              {
+                "word": "Jeszcze",
+                "start": 10.16,
+                "end": 10.56
+              },
+              {
+                "word": "nie",
+                "start": 10.72,
+                "end": 10.88
+              },
+              {
+                "word": "wyłączaj.",
+                "start": 10.88,
+                "end": 12.64
+              }
+            ]
+          },
+          {
+            "text": "Zagraj",
+            "start": 12.64,
+            "end": 13.200000000000001,
+            "words": [
+              {
+                "word": "Zagraj",
+                "start": 12.64,
+                "end": 13.200000000000001
+              }
+            ]
+          },
+          {
+            "text": "Piszę, kocham, potem kasuję pozdania Ty odpisujesz, padni bez wybyty dania Na stole się, napicza twój telefon drży Odwracasz kolejanym teraz tylko my Zażaną, to jest znów wielki, jest 20 druga Nasz głośnik przestrzy kabel trzeba przytrzymać Mówisz daj ten numer, szukam go na liście",
+            "start": 16.96,
+            "end": 42.08,
+            "words": [
+              {
+                "word": "Piszę,",
+                "start": 16.96,
+                "end": 17.52
+              },
+              {
+                "word": "kocham,",
+                "start": 17.52,
+                "end": 18.080000000000002
+              },
+              {
+                "word": "potem",
+                "start": 18.080000000000002,
+                "end": 18.4
+              },
+              {
+                "word": "kasuję",
+                "start": 18.560000000000002,
+                "end": 19.12
+              },
+              {
+                "word": "pozdania",
+                "start": 19.2,
+                "end": 20.0
+              },
+              {
+                "word": "Ty",
+                "start": 20.48,
+                "end": 20.64
+              },
+              {
+                "word": "odpisujesz,",
+                "start": 20.880000000000003,
+                "end": 21.76
+              },
+              {
+                "word": "padni",
+                "start": 21.76,
+                "end": 22.16
+              },
+              {
+                "word": "bez",
+                "start": 22.32,
+                "end": 22.560000000000002
+              },
+              {
+                "word": "wybyty",
+                "start": 22.560000000000002,
+                "end": 23.04
+              },
+              {
+                "word": "dania",
+                "start": 23.2,
+                "end": 23.6
+              },
+              {
+                "word": "Na",
+                "start": 23.76,
+                "end": 23.92
+              },
+              {
+                "word": "stole",
+                "start": 23.92,
+                "end": 24.4
+              },
+              {
+                "word": "się,",
+                "start": 24.560000000000002,
+                "end": 25.04
+              },
+              {
+                "word": "napicza",
+                "start": 25.04,
+                "end": 25.6
+              },
+              {
+                "word": "twój",
+                "start": 25.759999999999998,
+                "end": 26.0
+              },
+              {
+                "word": "telefon",
+                "start": 26.08,
+                "end": 26.4
+              },
+              {
+                "word": "drży",
+                "start": 26.72,
+                "end": 27.28
+              },
+              {
+                "word": "Odwracasz",
+                "start": 27.92,
+                "end": 28.72
+              },
+              {
+                "word": "kolejanym",
+                "start": 28.880000000000003,
+                "end": 29.68
+              },
+              {
+                "word": "teraz",
+                "start": 29.84,
+                "end": 29.92
+              },
+              {
+                "word": "tylko",
+                "start": 30.4,
+                "end": 30.72
+              },
+              {
+                "word": "my",
+                "start": 30.72,
+                "end": 31.04
+              },
+              {
+                "word": "Zażaną,",
+                "start": 31.68,
+                "end": 32.56
+              },
+              {
+                "word": "to",
+                "start": 32.56,
+                "end": 32.64
+              },
+              {
+                "word": "jest",
+                "start": 32.64,
+                "end": 32.72
+              },
+              {
+                "word": "znów",
+                "start": 32.72,
+                "end": 32.96
+              },
+              {
+                "word": "wielki,",
+                "start": 33.120000000000005,
+                "end": 33.519999999999996
+              },
+              {
+                "word": "jest",
+                "start": 33.519999999999996,
+                "end": 33.68
+              },
+              {
+                "word": "20",
+                "start": 33.84,
+                "end": 34.32
+              },
+              {
+                "word": "druga",
+                "start": 34.56,
+                "end": 34.88
+              },
+              {
+                "word": "Nasz",
+                "start": 35.36,
+                "end": 35.6
+              },
+              {
+                "word": "głośnik",
+                "start": 35.760000000000005,
+                "end": 36.16
+              },
+              {
+                "word": "przestrzy",
+                "start": 36.32,
+                "end": 36.64
+              },
+              {
+                "word": "kabel",
+                "start": 36.8,
+                "end": 37.04
+              },
+              {
+                "word": "trzeba",
+                "start": 37.28,
+                "end": 37.68
+              },
+              {
+                "word": "przytrzymać",
+                "start": 37.68,
+                "end": 38.400000000000006
+              },
+              {
+                "word": "Mówisz",
+                "start": 38.64,
+                "end": 39.04
+              },
+              {
+                "word": "daj",
+                "start": 39.2,
+                "end": 39.36
+              },
+              {
+                "word": "ten",
+                "start": 39.6,
+                "end": 39.68
+              },
+              {
+                "word": "numer,",
+                "start": 39.92,
+                "end": 40.480000000000004
+              },
+              {
+                "word": "szukam",
+                "start": 40.480000000000004,
+                "end": 40.96
+              },
+              {
+                "word": "go",
+                "start": 41.2,
+                "end": 41.519999999999996
+              },
+              {
+                "word": "na",
+                "start": 41.519999999999996,
+                "end": 41.760000000000005
+              },
+              {
+                "word": "liście",
+                "start": 41.760000000000005,
+                "end": 42.08
+              }
+            ]
+          },
+          {
+            "text": "Pierwszy pasy już się śnie jeszcze, oczywiście Zagrani to jest ten kawałek, znacz jak ja myliście, nie.",
+            "start": 43.08,
+            "end": 72.52,
+            "words": [
+              {
+                "word": "Pierwszy",
+                "start": 43.08,
+                "end": 43.4
+              },
+              {
+                "word": "pasy",
+                "start": 43.64,
+                "end": 43.96
+              },
+              {
+                "word": "już",
+                "start": 44.04,
+                "end": 44.28
+              },
+              {
+                "word": "się",
+                "start": 44.28,
+                "end": 44.36
+              },
+              {
+                "word": "śnie",
+                "start": 44.52,
+                "end": 44.68
+              },
+              {
+                "word": "jeszcze,",
+                "start": 45.0,
+                "end": 46.04
+              },
+              {
+                "word": "oczywiście",
+                "start": 46.04,
+                "end": 47.16
+              },
+              {
+                "word": "Zagrani",
+                "start": 49.480000000000004,
+                "end": 50.76
+              },
+              {
+                "word": "to",
+                "start": 51.96,
+                "end": 52.28
+              },
+              {
+                "word": "jest",
+                "start": 52.28,
+                "end": 52.519999999999996
+              },
+              {
+                "word": "ten",
+                "start": 56.92,
+                "end": 57.24
+              },
+              {
+                "word": "kawałek,",
+                "start": 57.56,
+                "end": 59.72
+              },
+              {
+                "word": "znacz",
+                "start": 59.72,
+                "end": 60.36
+              },
+              {
+                "word": "jak",
+                "start": 60.760000000000005,
+                "end": 61.0
+              },
+              {
+                "word": "ja",
+                "start": 61.56,
+                "end": 61.879999999999995
+              },
+              {
+                "word": "myliście,",
+                "start": 64.44,
+                "end": 71.88
+              },
+              {
+                "word": "nie.",
+                "start": 71.88,
+                "end": 72.52
+              }
+            ]
+          },
+          {
+            "text": "Twoja dłoni na mojej dłoni kubek 3 na poprzedni stoł.",
+            "start": 81.56,
+            "end": 88.28,
+            "words": [
+              {
+                "word": "Twoja",
+                "start": 81.56,
+                "end": 82.2
+              },
+              {
+                "word": "dłoni",
+                "start": 82.2,
+                "end": 82.60000000000001
+              },
+              {
+                "word": "na",
+                "start": 82.76,
+                "end": 83.0
+              },
+              {
+                "word": "mojej",
+                "start": 83.0,
+                "end": 83.24000000000001
+              },
+              {
+                "word": "dłoni",
+                "start": 83.4,
+                "end": 83.88000000000001
+              },
+              {
+                "word": "kubek",
+                "start": 85.32000000000001,
+                "end": 85.96000000000001
+              },
+              {
+                "word": "3",
+                "start": 85.96000000000001,
+                "end": 86.36000000000001
+              },
+              {
+                "word": "na",
+                "start": 86.36000000000001,
+                "end": 86.52000000000001
+              },
+              {
+                "word": "poprzedni",
+                "start": 86.52000000000001,
+                "end": 87.0
+              },
+              {
+                "word": "stoł.",
+                "start": 87.24000000000001,
+                "end": 88.28
+              }
+            ]
+          },
+          {
+            "text": "Czekaj.",
+            "start": 88.28,
+            "end": 90.12,
+            "words": [
+              {
+                "word": "Czekaj.",
+                "start": 88.28,
+                "end": 90.12
+              }
+            ]
+          },
+          {
+            "text": "Zaraz wejdź głośniej.",
+            "start": 90.12,
+            "end": 94.84,
+            "words": [
+              {
+                "word": "Zaraz",
+                "start": 90.12,
+                "end": 90.68
+              },
+              {
+                "word": "wejdź",
+                "start": 90.68,
+                "end": 91.32000000000001
+              },
+              {
+                "word": "głośniej.",
+                "start": 92.44000000000001,
+                "end": 94.84
+              }
+            ]
+          },
+          {
+            "text": "Miałem wyjść przed pierwszą, już dochodzi trzecia, opowiadasz coś, co znam, lecz chcę posłuchać jeszcze Rano pewnie będę spał, na stojąców w tramwaju, teraz w tej menty, dobra,",
+            "start": 128.96,
+            "end": 142.4,
+            "words": [
+              {
+                "word": "Miałem",
+                "start": 128.96,
+                "end": 129.52
+              },
+              {
+                "word": "wyjść",
+                "start": 129.52,
+                "end": 129.92
+              },
+              {
+                "word": "przed",
+                "start": 130.08,
+                "end": 130.24
+              },
+              {
+                "word": "pierwszą,",
+                "start": 130.24,
+                "end": 130.8
+              },
+              {
+                "word": "już",
+                "start": 130.8,
+                "end": 130.96
+              },
+              {
+                "word": "dochodzi",
+                "start": 131.04,
+                "end": 131.44
+              },
+              {
+                "word": "trzecia,",
+                "start": 131.68,
+                "end": 132.48
+              },
+              {
+                "word": "opowiadasz",
+                "start": 132.48,
+                "end": 133.35999999999999
+              },
+              {
+                "word": "coś,",
+                "start": 133.35999999999999,
+                "end": 133.76
+              },
+              {
+                "word": "co",
+                "start": 133.76,
+                "end": 133.84
+              },
+              {
+                "word": "znam,",
+                "start": 133.92,
+                "end": 134.24
+              },
+              {
+                "word": "lecz",
+                "start": 134.24,
+                "end": 134.48
+              },
+              {
+                "word": "chcę",
+                "start": 134.48,
+                "end": 134.72
+              },
+              {
+                "word": "posłuchać",
+                "start": 134.8,
+                "end": 135.36
+              },
+              {
+                "word": "jeszcze",
+                "start": 135.52,
+                "end": 135.92
+              },
+              {
+                "word": "Rano",
+                "start": 136.32,
+                "end": 136.72
+              },
+              {
+                "word": "pewnie",
+                "start": 136.88,
+                "end": 137.12
+              },
+              {
+                "word": "będę",
+                "start": 137.36,
+                "end": 137.6
+              },
+              {
+                "word": "spał,",
+                "start": 137.68,
+                "end": 138.32
+              },
+              {
+                "word": "na",
+                "start": 138.32,
+                "end": 138.48
+              },
+              {
+                "word": "stojąców",
+                "start": 138.48,
+                "end": 139.12
+              },
+              {
+                "word": "w",
+                "start": 139.12,
+                "end": 139.2
+              },
+              {
+                "word": "tramwaju,",
+                "start": 139.2,
+                "end": 140.16
+              },
+              {
+                "word": "teraz",
+                "start": 140.16,
+                "end": 140.32
+              },
+              {
+                "word": "w",
+                "start": 140.48,
+                "end": 140.56
+              },
+              {
+                "word": "tej",
+                "start": 140.56,
+                "end": 140.64
+              },
+              {
+                "word": "menty,",
+                "start": 140.88,
+                "end": 141.76
+              },
+              {
+                "word": "dobra,",
+                "start": 141.76,
+                "end": 142.4
+              }
+            ]
+          },
+          {
+            "text": "Ostatni.",
+            "start": 160.16,
+            "end": 163.84,
+            "words": [
+              {
+                "word": "Ostatni.",
+                "start": 160.16,
+                "end": 163.84
+              }
+            ]
+          },
+          {
+            "text": "Ostatni.",
+            "start": 163.84,
+            "end": 167.52,
+            "words": [
+              {
+                "word": "Ostatni.",
+                "start": 163.84,
+                "end": 167.52
+              }
+            ]
+          },
+          {
+            "text": "Eee.",
+            "start": 167.84,
+            "end": 168.64,
+            "words": [
+              {
+                "word": "Eee.",
+                "start": 167.84,
+                "end": 168.64
+              }
+            ]
+          },
+          {
+            "text": "Dobra.",
+            "start": 169.84,
+            "end": 170.8,
+            "words": [
+              {
+                "word": "Dobra.",
+                "start": 169.84,
+                "end": 170.8
+              }
+            ]
+          },
+          {
+            "text": "Jeszcze ten.",
+            "start": 171.04,
+            "end": 172.16,
+            "words": [
+              {
+                "word": "Jeszcze",
+                "start": 171.04,
+                "end": 171.52
+              },
+              {
+                "word": "ten.",
+                "start": 171.68,
+                "end": 172.16
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "7801c45b-8e77-42ca-aba2-41bdbaed2d51": {
+      "status": "completed",
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/7801c45b-8e77-42ca-aba2-41bdbaed2d51.m4a",
+      "created_at": "2026-11-06T09:07:05.314638+00:00",
+      "text": "Jestem nie wyłączaj. Zakraj Piszę kochak, potem kasuję pustania Ty opisujesz, kpadni bez wypytywania Na stole zimna picza twój telefon, czy Odwracą z go ekranem teraz tylko my Ze ścianą też tą wierci jest 22, nasz łośnik przeszczy, kabel trzeba przytrzymać Mówisz, daj ten numer, szukam go na lisie Pierwszy bas już się śmiejesz oczywiście Zagranitujesz seraz, ten kampałek znacz, jak ja mielisztek się kubie tak, nie poprawiaj niech tak trwa, Twoja włoń na mojej błoni, kubekrzy nam żegł stoł Vegai, Saras, vê, voy a ver. Jeszcze raz Miałem wyjdźkę pierwszą już dochodzi trzecia opowiadasz coś, co znam, chcę posłuchać jeszcze radą pewnie będę zpał na stojącą w tramwaju teraz zdejmę buty Dobra, puszczaj zagraj Zagraj mi tutaj Nie mój prawdzich tak zwana Ostatni, ostatni. Ostatni. Dobra, jeszcze ten.",
+      "words": [
+        {
+          "word": "Jestem",
+          "start": 8.88,
+          "end": 9.36
+        },
+        {
+          "word": "nie",
+          "start": 9.52,
+          "end": 9.76
+        },
+        {
+          "word": "wyłączaj.",
+          "start": 9.76,
+          "end": 13.36
+        },
+        {
+          "word": "Zakraj",
+          "start": 13.36,
+          "end": 13.84
+        },
+        {
+          "word": "Piszę",
+          "start": 17.92,
+          "end": 18.32
+        },
+        {
+          "word": "kochak,",
+          "start": 18.56,
+          "end": 19.28
+        },
+        {
+          "word": "potem",
+          "start": 19.28,
+          "end": 19.76
+        },
+        {
+          "word": "kasuję",
+          "start": 19.76,
+          "end": 20.4
+        },
+        {
+          "word": "pustania",
+          "start": 20.560000000000002,
+          "end": 21.28
+        },
+        {
+          "word": "Ty",
+          "start": 21.92,
+          "end": 22.08
+        },
+        {
+          "word": "opisujesz,",
+          "start": 22.32,
+          "end": 23.36
+        },
+        {
+          "word": "kpadni",
+          "start": 23.36,
+          "end": 23.92
+        },
+        {
+          "word": "bez",
+          "start": 24.08,
+          "end": 24.32
+        },
+        {
+          "word": "wypytywania",
+          "start": 24.32,
+          "end": 25.52
+        },
+        {
+          "word": "Na",
+          "start": 25.68,
+          "end": 25.92
+        },
+        {
+          "word": "stole",
+          "start": 25.92,
+          "end": 26.240000000000002
+        },
+        {
+          "word": "zimna",
+          "start": 26.48,
+          "end": 27.04
+        },
+        {
+          "word": "picza",
+          "start": 27.04,
+          "end": 27.36
+        },
+        {
+          "word": "twój",
+          "start": 27.68,
+          "end": 28.0
+        },
+        {
+          "word": "telefon,",
+          "start": 28.16,
+          "end": 28.8
+        },
+        {
+          "word": "czy",
+          "start": 28.8,
+          "end": 28.880000000000003
+        },
+        {
+          "word": "Odwracą",
+          "start": 29.200000000000003,
+          "end": 30.0
+        },
+        {
+          "word": "z",
+          "start": 30.0,
+          "end": 30.08
+        },
+        {
+          "word": "go",
+          "start": 30.08,
+          "end": 30.240000000000002
+        },
+        {
+          "word": "ekranem",
+          "start": 30.4,
+          "end": 30.96
+        },
+        {
+          "word": "teraz",
+          "start": 31.12,
+          "end": 31.36
+        },
+        {
+          "word": "tylko",
+          "start": 31.6,
+          "end": 31.92
+        },
+        {
+          "word": "my",
+          "start": 31.92,
+          "end": 32.08
+        },
+        {
+          "word": "Ze",
+          "start": 32.64,
+          "end": 32.8
+        },
+        {
+          "word": "ścianą",
+          "start": 32.879999999999995,
+          "end": 33.36
+        },
+        {
+          "word": "też",
+          "start": 33.519999999999996,
+          "end": 33.68
+        },
+        {
+          "word": "tą",
+          "start": 33.760000000000005,
+          "end": 33.92
+        },
+        {
+          "word": "wierci",
+          "start": 34.0,
+          "end": 34.400000000000006
+        },
+        {
+          "word": "jest",
+          "start": 34.56,
+          "end": 34.8
+        },
+        {
+          "word": "22,",
+          "start": 34.8,
+          "end": 36.16
+        },
+        {
+          "word": "nasz",
+          "start": 36.16,
+          "end": 36.400000000000006
+        },
+        {
+          "word": "łośnik",
+          "start": 36.480000000000004,
+          "end": 36.879999999999995
+        },
+        {
+          "word": "przeszczy,",
+          "start": 37.04,
+          "end": 37.760000000000005
+        },
+        {
+          "word": "kabel",
+          "start": 37.760000000000005,
+          "end": 38.08
+        },
+        {
+          "word": "trzeba",
+          "start": 38.32,
+          "end": 38.8
+        },
+        {
+          "word": "przytrzymać",
+          "start": 38.8,
+          "end": 39.68
+        },
+        {
+          "word": "Mówisz,",
+          "start": 39.92,
+          "end": 40.480000000000004
+        },
+        {
+          "word": "daj",
+          "start": 40.480000000000004,
+          "end": 40.879999999999995
+        },
+        {
+          "word": "ten",
+          "start": 40.879999999999995,
+          "end": 41.04
+        },
+        {
+          "word": "numer,",
+          "start": 41.04,
+          "end": 41.519999999999996
+        },
+        {
+          "word": "szukam",
+          "start": 41.519999999999996,
+          "end": 42.08
+        },
+        {
+          "word": "go",
+          "start": 42.08,
+          "end": 42.32
+        },
+        {
+          "word": "na",
+          "start": 42.32,
+          "end": 42.400000000000006
+        },
+        {
+          "word": "lisie",
+          "start": 42.56,
+          "end": 43.120000000000005
+        },
+        {
+          "word": "Pierwszy",
+          "start": 43.36,
+          "end": 43.760000000000005
+        },
+        {
+          "word": "bas",
+          "start": 44.0,
+          "end": 44.08
+        },
+        {
+          "word": "już",
+          "start": 44.480000000000004,
+          "end": 44.64
+        },
+        {
+          "word": "się",
+          "start": 44.72,
+          "end": 44.8
+        },
+        {
+          "word": "śmiejesz",
+          "start": 44.96,
+          "end": 45.36
+        },
+        {
+          "word": "oczywiście",
+          "start": 45.6,
+          "end": 46.08
+        },
+        {
+          "word": "Zagranitujesz",
+          "start": 48.959999999999994,
+          "end": 50.31999999999999
+        },
+        {
+          "word": "seraz,",
+          "start": 50.64,
+          "end": 52.879999999999995
+        },
+        {
+          "word": "ten",
+          "start": 52.879999999999995,
+          "end": 53.04
+        },
+        {
+          "word": "kampałek",
+          "start": 53.279999999999994,
+          "end": 53.839999999999996
+        },
+        {
+          "word": "znacz,",
+          "start": 54.08,
+          "end": 54.559999999999995
+        },
+        {
+          "word": "jak",
+          "start": 54.559999999999995,
+          "end": 54.64
+        },
+        {
+          "word": "ja",
+          "start": 54.959999999999994,
+          "end": 55.199999999999996
+        },
+        {
+          "word": "mielisztek",
+          "start": 56.879999999999995,
+          "end": 57.599999999999994
+        },
+        {
+          "word": "się",
+          "start": 57.76,
+          "end": 57.839999999999996
+        },
+        {
+          "word": "kubie",
+          "start": 58.239999999999995,
+          "end": 58.72
+        },
+        {
+          "word": "tak,",
+          "start": 58.959999999999994,
+          "end": 60.959999999999994
+        },
+        {
+          "word": "nie",
+          "start": 60.959999999999994,
+          "end": 61.28
+        },
+        {
+          "word": "poprawiaj",
+          "start": 61.519999999999996,
+          "end": 62.72
+        },
+        {
+          "word": "niech",
+          "start": 62.879999999999995,
+          "end": 63.199999999999996
+        },
+        {
+          "word": "tak",
+          "start": 63.36,
+          "end": 63.67999999999999
+        },
+        {
+          "word": "trwa,",
+          "start": 63.67999999999999,
+          "end": 65.44
+        },
+        {
+          "word": "Twoja",
+          "start": 65.44,
+          "end": 66.08
+        },
+        {
+          "word": "włoń",
+          "start": 66.08,
+          "end": 66.72
+        },
+        {
+          "word": "na",
+          "start": 66.88,
+          "end": 67.03999999999999
+        },
+        {
+          "word": "mojej",
+          "start": 67.28,
+          "end": 67.84
+        },
+        {
+          "word": "błoni,",
+          "start": 68.16,
+          "end": 69.44
+        },
+        {
+          "word": "kubekrzy",
+          "start": 69.44,
+          "end": 70.24
+        },
+        {
+          "word": "nam",
+          "start": 70.64,
+          "end": 70.88
+        },
+        {
+          "word": "żegł",
+          "start": 71.19999999999999,
+          "end": 71.92
+        },
+        {
+          "word": "stoł",
+          "start": 72.08,
+          "end": 72.96
+        },
+        {
+          "word": "Vegai,",
+          "start": 73.92,
+          "end": 74.80000000000001
+        },
+        {
+          "word": "Saras,",
+          "start": 74.96000000000001,
+          "end": 75.92
+        },
+        {
+          "word": "vê,",
+          "start": 75.92,
+          "end": 77.28
+        },
+        {
+          "word": "voy",
+          "start": 78.0,
+          "end": 78.32000000000001
+        },
+        {
+          "word": "a",
+          "start": 78.32000000000001,
+          "end": 78.48
+        },
+        {
+          "word": "ver.",
+          "start": 100.80000000000001,
+          "end": 100.80000000000001
+        },
+        {
+          "word": "Jeszcze",
+          "start": 111.36,
+          "end": 111.83999999999999
+        },
+        {
+          "word": "raz",
+          "start": 112.08,
+          "end": 112.39999999999999
+        },
+        {
+          "word": "Miałem",
+          "start": 113.28,
+          "end": 113.91999999999999
+        },
+        {
+          "word": "wyjdźkę",
+          "start": 113.91999999999999,
+          "end": 114.39999999999999
+        },
+        {
+          "word": "pierwszą",
+          "start": 114.55999999999999,
+          "end": 114.88
+        },
+        {
+          "word": "już",
+          "start": 115.03999999999999,
+          "end": 115.36
+        },
+        {
+          "word": "dochodzi",
+          "start": 115.36,
+          "end": 115.83999999999999
+        },
+        {
+          "word": "trzecia",
+          "start": 116.0,
+          "end": 116.47999999999999
+        },
+        {
+          "word": "opowiadasz",
+          "start": 116.72,
+          "end": 117.35999999999999
+        },
+        {
+          "word": "coś,",
+          "start": 117.52,
+          "end": 117.75999999999999
+        },
+        {
+          "word": "co",
+          "start": 117.75999999999999,
+          "end": 117.91999999999999
+        },
+        {
+          "word": "znam,",
+          "start": 117.91999999999999,
+          "end": 118.32
+        },
+        {
+          "word": "chcę",
+          "start": 118.47999999999999,
+          "end": 118.63999999999999
+        },
+        {
+          "word": "posłuchać",
+          "start": 118.8,
+          "end": 119.44
+        },
+        {
+          "word": "jeszcze",
+          "start": 119.52,
+          "end": 119.75999999999999
+        },
+        {
+          "word": "radą",
+          "start": 120.0,
+          "end": 120.39999999999999
+        },
+        {
+          "word": "pewnie",
+          "start": 120.47999999999999,
+          "end": 120.72
+        },
+        {
+          "word": "będę",
+          "start": 120.88,
+          "end": 121.03999999999999
+        },
+        {
+          "word": "zpał",
+          "start": 121.19999999999999,
+          "end": 121.52
+        },
+        {
+          "word": "na",
+          "start": 121.6,
+          "end": 121.67999999999999
+        },
+        {
+          "word": "stojącą",
+          "start": 121.83999999999999,
+          "end": 122.39999999999999
+        },
+        {
+          "word": "w",
+          "start": 122.39999999999999,
+          "end": 122.56
+        },
+        {
+          "word": "tramwaju",
+          "start": 122.56,
+          "end": 123.11999999999999
+        },
+        {
+          "word": "teraz",
+          "start": 123.52,
+          "end": 123.67999999999999
+        },
+        {
+          "word": "zdejmę",
+          "start": 123.91999999999999,
+          "end": 124.56
+        },
+        {
+          "word": "buty",
+          "start": 124.56,
+          "end": 125.03999999999999
+        },
+        {
+          "word": "Dobra,",
+          "start": 125.44,
+          "end": 125.83999999999999
+        },
+        {
+          "word": "puszczaj",
+          "start": 125.91999999999999,
+          "end": 126.47999999999999
+        },
+        {
+          "word": "zagraj",
+          "start": 126.63999999999999,
+          "end": 127.03999999999999
+        },
+        {
+          "word": "Zagraj",
+          "start": 128.88,
+          "end": 129.35999999999999
+        },
+        {
+          "word": "mi",
+          "start": 129.51999999999998,
+          "end": 129.68
+        },
+        {
+          "word": "tutaj",
+          "start": 129.76,
+          "end": 130.0
+        },
+        {
+          "word": "Nie",
+          "start": 140.92000000000002,
+          "end": 141.24
+        },
+        {
+          "word": "mój",
+          "start": 141.24,
+          "end": 141.48
+        },
+        {
+          "word": "prawdzich",
+          "start": 141.88,
+          "end": 143.16
+        },
+        {
+          "word": "tak",
+          "start": 143.4,
+          "end": 143.72
+        },
+        {
+          "word": "zwana",
+          "start": 143.72,
+          "end": 144.2
+        },
+        {
+          "word": "Ostatni,",
+          "start": 146.52,
+          "end": 147.72
+        },
+        {
+          "word": "ostatni.",
+          "start": 147.72,
+          "end": 149.32
+        },
+        {
+          "word": "Ostatni.",
+          "start": 149.32,
+          "end": 150.28
+        },
+        {
+          "word": "Dobra,",
+          "start": 151.16,
+          "end": 151.64
+        },
+        {
+          "word": "jeszcze",
+          "start": 151.72,
+          "end": 151.96
+        },
+        {
+          "word": "ten.",
+          "start": 152.2,
+          "end": 152.84
+        }
+      ],
+      "response": {
+        "text": "Jestem nie wyłączaj. Zakraj Piszę kochak, potem kasuję pustania Ty opisujesz, kpadni bez wypytywania Na stole zimna picza twój telefon, czy Odwracą z go ekranem teraz tylko my Ze ścianą też tą wierci jest 22, nasz łośnik przeszczy, kabel trzeba przytrzymać Mówisz, daj ten numer, szukam go na lisie Pierwszy bas już się śmiejesz oczywiście Zagranitujesz seraz, ten kampałek znacz, jak ja mielisztek się kubie tak, nie poprawiaj niech tak trwa, Twoja włoń na mojej błoni, kubekrzy nam żegł stoł Vegai, Saras, vê, voy a ver. Jeszcze raz Miałem wyjdźkę pierwszą już dochodzi trzecia opowiadasz coś, co znam, chcę posłuchać jeszcze radą pewnie będę zpał na stojącą w tramwaju teraz zdejmę buty Dobra, puszczaj zagraj Zagraj mi tutaj Nie mój prawdzich tak zwana Ostatni, ostatni. Ostatni. Dobra, jeszcze ten.",
+        "language": null,
+        "task": "transcribe",
+        "duration_seconds": 159.24266666666668,
+        "source_duration_seconds": 159.24266666666668,
+        "clip_start_seconds": 0.0,
+        "clip_end_seconds": 159.24266666666668,
+        "segments": [
+          {
+            "text": "Jestem nie wyłączaj.",
+            "start": 8.88,
+            "end": 13.36,
+            "words": [
+              {
+                "word": "Jestem",
+                "start": 8.88,
+                "end": 9.36
+              },
+              {
+                "word": "nie",
+                "start": 9.52,
+                "end": 9.76
+              },
+              {
+                "word": "wyłączaj.",
+                "start": 9.76,
+                "end": 13.36
+              }
+            ]
+          },
+          {
+            "text": "Zakraj",
+            "start": 13.36,
+            "end": 13.84,
+            "words": [
+              {
+                "word": "Zakraj",
+                "start": 13.36,
+                "end": 13.84
+              }
+            ]
+          },
+          {
+            "text": "Piszę kochak, potem kasuję pustania Ty opisujesz, kpadni bez wypytywania Na stole zimna picza twój telefon, czy Odwracą z go ekranem teraz tylko my Ze ścianą też tą wierci jest 22, nasz łośnik przeszczy, kabel trzeba przytrzymać Mówisz, daj ten numer, szukam go na lisie Pierwszy bas już się śmiejesz oczywiście",
+            "start": 17.92,
+            "end": 46.08,
+            "words": [
+              {
+                "word": "Piszę",
+                "start": 17.92,
+                "end": 18.32
+              },
+              {
+                "word": "kochak,",
+                "start": 18.56,
+                "end": 19.28
+              },
+              {
+                "word": "potem",
+                "start": 19.28,
+                "end": 19.76
+              },
+              {
+                "word": "kasuję",
+                "start": 19.76,
+                "end": 20.4
+              },
+              {
+                "word": "pustania",
+                "start": 20.560000000000002,
+                "end": 21.28
+              },
+              {
+                "word": "Ty",
+                "start": 21.92,
+                "end": 22.08
+              },
+              {
+                "word": "opisujesz,",
+                "start": 22.32,
+                "end": 23.36
+              },
+              {
+                "word": "kpadni",
+                "start": 23.36,
+                "end": 23.92
+              },
+              {
+                "word": "bez",
+                "start": 24.08,
+                "end": 24.32
+              },
+              {
+                "word": "wypytywania",
+                "start": 24.32,
+                "end": 25.52
+              },
+              {
+                "word": "Na",
+                "start": 25.68,
+                "end": 25.92
+              },
+              {
+                "word": "stole",
+                "start": 25.92,
+                "end": 26.240000000000002
+              },
+              {
+                "word": "zimna",
+                "start": 26.48,
+                "end": 27.04
+              },
+              {
+                "word": "picza",
+                "start": 27.04,
+                "end": 27.36
+              },
+              {
+                "word": "twój",
+                "start": 27.68,
+                "end": 28.0
+              },
+              {
+                "word": "telefon,",
+                "start": 28.16,
+                "end": 28.8
+              },
+              {
+                "word": "czy",
+                "start": 28.8,
+                "end": 28.880000000000003
+              },
+              {
+                "word": "Odwracą",
+                "start": 29.200000000000003,
+                "end": 30.0
+              },
+              {
+                "word": "z",
+                "start": 30.0,
+                "end": 30.08
+              },
+              {
+                "word": "go",
+                "start": 30.08,
+                "end": 30.240000000000002
+              },
+              {
+                "word": "ekranem",
+                "start": 30.4,
+                "end": 30.96
+              },
+              {
+                "word": "teraz",
+                "start": 31.12,
+                "end": 31.36
+              },
+              {
+                "word": "tylko",
+                "start": 31.6,
+                "end": 31.92
+              },
+              {
+                "word": "my",
+                "start": 31.92,
+                "end": 32.08
+              },
+              {
+                "word": "Ze",
+                "start": 32.64,
+                "end": 32.8
+              },
+              {
+                "word": "ścianą",
+                "start": 32.879999999999995,
+                "end": 33.36
+              },
+              {
+                "word": "też",
+                "start": 33.519999999999996,
+                "end": 33.68
+              },
+              {
+                "word": "tą",
+                "start": 33.760000000000005,
+                "end": 33.92
+              },
+              {
+                "word": "wierci",
+                "start": 34.0,
+                "end": 34.400000000000006
+              },
+              {
+                "word": "jest",
+                "start": 34.56,
+                "end": 34.8
+              },
+              {
+                "word": "22,",
+                "start": 34.8,
+                "end": 36.16
+              },
+              {
+                "word": "nasz",
+                "start": 36.16,
+                "end": 36.400000000000006
+              },
+              {
+                "word": "łośnik",
+                "start": 36.480000000000004,
+                "end": 36.879999999999995
+              },
+              {
+                "word": "przeszczy,",
+                "start": 37.04,
+                "end": 37.760000000000005
+              },
+              {
+                "word": "kabel",
+                "start": 37.760000000000005,
+                "end": 38.08
+              },
+              {
+                "word": "trzeba",
+                "start": 38.32,
+                "end": 38.8
+              },
+              {
+                "word": "przytrzymać",
+                "start": 38.8,
+                "end": 39.68
+              },
+              {
+                "word": "Mówisz,",
+                "start": 39.92,
+                "end": 40.480000000000004
+              },
+              {
+                "word": "daj",
+                "start": 40.480000000000004,
+                "end": 40.879999999999995
+              },
+              {
+                "word": "ten",
+                "start": 40.879999999999995,
+                "end": 41.04
+              },
+              {
+                "word": "numer,",
+                "start": 41.04,
+                "end": 41.519999999999996
+              },
+              {
+                "word": "szukam",
+                "start": 41.519999999999996,
+                "end": 42.08
+              },
+              {
+                "word": "go",
+                "start": 42.08,
+                "end": 42.32
+              },
+              {
+                "word": "na",
+                "start": 42.32,
+                "end": 42.400000000000006
+              },
+              {
+                "word": "lisie",
+                "start": 42.56,
+                "end": 43.120000000000005
+              },
+              {
+                "word": "Pierwszy",
+                "start": 43.36,
+                "end": 43.760000000000005
+              },
+              {
+                "word": "bas",
+                "start": 44.0,
+                "end": 44.08
+              },
+              {
+                "word": "już",
+                "start": 44.480000000000004,
+                "end": 44.64
+              },
+              {
+                "word": "się",
+                "start": 44.72,
+                "end": 44.8
+              },
+              {
+                "word": "śmiejesz",
+                "start": 44.96,
+                "end": 45.36
+              },
+              {
+                "word": "oczywiście",
+                "start": 45.6,
+                "end": 46.08
+              }
+            ]
+          },
+          {
+            "text": "Zagranitujesz seraz, ten kampałek znacz, jak ja mielisztek się kubie tak, nie poprawiaj niech tak trwa, Twoja włoń na mojej błoni, kubekrzy nam żegł stoł",
+            "start": 48.959999999999994,
+            "end": 72.96,
+            "words": [
+              {
+                "word": "Zagranitujesz",
+                "start": 48.959999999999994,
+                "end": 50.31999999999999
+              },
+              {
+                "word": "seraz,",
+                "start": 50.64,
+                "end": 52.879999999999995
+              },
+              {
+                "word": "ten",
+                "start": 52.879999999999995,
+                "end": 53.04
+              },
+              {
+                "word": "kampałek",
+                "start": 53.279999999999994,
+                "end": 53.839999999999996
+              },
+              {
+                "word": "znacz,",
+                "start": 54.08,
+                "end": 54.559999999999995
+              },
+              {
+                "word": "jak",
+                "start": 54.559999999999995,
+                "end": 54.64
+              },
+              {
+                "word": "ja",
+                "start": 54.959999999999994,
+                "end": 55.199999999999996
+              },
+              {
+                "word": "mielisztek",
+                "start": 56.879999999999995,
+                "end": 57.599999999999994
+              },
+              {
+                "word": "się",
+                "start": 57.76,
+                "end": 57.839999999999996
+              },
+              {
+                "word": "kubie",
+                "start": 58.239999999999995,
+                "end": 58.72
+              },
+              {
+                "word": "tak,",
+                "start": 58.959999999999994,
+                "end": 60.959999999999994
+              },
+              {
+                "word": "nie",
+                "start": 60.959999999999994,
+                "end": 61.28
+              },
+              {
+                "word": "poprawiaj",
+                "start": 61.519999999999996,
+                "end": 62.72
+              },
+              {
+                "word": "niech",
+                "start": 62.879999999999995,
+                "end": 63.199999999999996
+              },
+              {
+                "word": "tak",
+                "start": 63.36,
+                "end": 63.67999999999999
+              },
+              {
+                "word": "trwa,",
+                "start": 63.67999999999999,
+                "end": 65.44
+              },
+              {
+                "word": "Twoja",
+                "start": 65.44,
+                "end": 66.08
+              },
+              {
+                "word": "włoń",
+                "start": 66.08,
+                "end": 66.72
+              },
+              {
+                "word": "na",
+                "start": 66.88,
+                "end": 67.03999999999999
+              },
+              {
+                "word": "mojej",
+                "start": 67.28,
+                "end": 67.84
+              },
+              {
+                "word": "błoni,",
+                "start": 68.16,
+                "end": 69.44
+              },
+              {
+                "word": "kubekrzy",
+                "start": 69.44,
+                "end": 70.24
+              },
+              {
+                "word": "nam",
+                "start": 70.64,
+                "end": 70.88
+              },
+              {
+                "word": "żegł",
+                "start": 71.19999999999999,
+                "end": 71.92
+              },
+              {
+                "word": "stoł",
+                "start": 72.08,
+                "end": 72.96
+              }
+            ]
+          },
+          {
+            "text": "Vegai, Saras, vê, voy a ver.",
+            "start": 73.92,
+            "end": 100.80000000000001,
+            "words": [
+              {
+                "word": "Vegai,",
+                "start": 73.92,
+                "end": 74.80000000000001
+              },
+              {
+                "word": "Saras,",
+                "start": 74.96000000000001,
+                "end": 75.92
+              },
+              {
+                "word": "vê,",
+                "start": 75.92,
+                "end": 77.28
+              },
+              {
+                "word": "voy",
+                "start": 78.0,
+                "end": 78.32000000000001
+              },
+              {
+                "word": "a",
+                "start": 78.32000000000001,
+                "end": 78.48
+              },
+              {
+                "word": "ver.",
+                "start": 100.80000000000001,
+                "end": 100.80000000000001
+              }
+            ]
+          },
+          {
+            "text": "Jeszcze raz Miałem wyjdźkę pierwszą już dochodzi trzecia opowiadasz coś, co znam, chcę posłuchać jeszcze radą pewnie będę zpał na stojącą w tramwaju teraz zdejmę buty Dobra, puszczaj zagraj Zagraj mi tutaj",
+            "start": 111.36,
+            "end": 130.0,
+            "words": [
+              {
+                "word": "Jeszcze",
+                "start": 111.36,
+                "end": 111.83999999999999
+              },
+              {
+                "word": "raz",
+                "start": 112.08,
+                "end": 112.39999999999999
+              },
+              {
+                "word": "Miałem",
+                "start": 113.28,
+                "end": 113.91999999999999
+              },
+              {
+                "word": "wyjdźkę",
+                "start": 113.91999999999999,
+                "end": 114.39999999999999
+              },
+              {
+                "word": "pierwszą",
+                "start": 114.55999999999999,
+                "end": 114.88
+              },
+              {
+                "word": "już",
+                "start": 115.03999999999999,
+                "end": 115.36
+              },
+              {
+                "word": "dochodzi",
+                "start": 115.36,
+                "end": 115.83999999999999
+              },
+              {
+                "word": "trzecia",
+                "start": 116.0,
+                "end": 116.47999999999999
+              },
+              {
+                "word": "opowiadasz",
+                "start": 116.72,
+                "end": 117.35999999999999
+              },
+              {
+                "word": "coś,",
+                "start": 117.52,
+                "end": 117.75999999999999
+              },
+              {
+                "word": "co",
+                "start": 117.75999999999999,
+                "end": 117.91999999999999
+              },
+              {
+                "word": "znam,",
+                "start": 117.91999999999999,
+                "end": 118.32
+              },
+              {
+                "word": "chcę",
+                "start": 118.47999999999999,
+                "end": 118.63999999999999
+              },
+              {
+                "word": "posłuchać",
+                "start": 118.8,
+                "end": 119.44
+              },
+              {
+                "word": "jeszcze",
+                "start": 119.52,
+                "end": 119.75999999999999
+              },
+              {
+                "word": "radą",
+                "start": 120.0,
+                "end": 120.39999999999999
+              },
+              {
+                "word": "pewnie",
+                "start": 120.47999999999999,
+                "end": 120.72
+              },
+              {
+                "word": "będę",
+                "start": 120.88,
+                "end": 121.03999999999999
+              },
+              {
+                "word": "zpał",
+                "start": 121.19999999999999,
+                "end": 121.52
+              },
+              {
+                "word": "na",
+                "start": 121.6,
+                "end": 121.67999999999999
+              },
+              {
+                "word": "stojącą",
+                "start": 121.83999999999999,
+                "end": 122.39999999999999
+              },
+              {
+                "word": "w",
+                "start": 122.39999999999999,
+                "end": 122.56
+              },
+              {
+                "word": "tramwaju",
+                "start": 122.56,
+                "end": 123.11999999999999
+              },
+              {
+                "word": "teraz",
+                "start": 123.52,
+                "end": 123.67999999999999
+              },
+              {
+                "word": "zdejmę",
+                "start": 123.91999999999999,
+                "end": 124.56
+              },
+              {
+                "word": "buty",
+                "start": 124.56,
+                "end": 125.03999999999999
+              },
+              {
+                "word": "Dobra,",
+                "start": 125.44,
+                "end": 125.83999999999999
+              },
+              {
+                "word": "puszczaj",
+                "start": 125.91999999999999,
+                "end": 126.47999999999999
+              },
+              {
+                "word": "zagraj",
+                "start": 126.63999999999999,
+                "end": 127.03999999999999
+              },
+              {
+                "word": "Zagraj",
+                "start": 128.88,
+                "end": 129.35999999999999
+              },
+              {
+                "word": "mi",
+                "start": 129.51999999999998,
+                "end": 129.68
+              },
+              {
+                "word": "tutaj",
+                "start": 129.76,
+                "end": 130.0
+              }
+            ]
+          },
+          {
+            "text": "Nie mój prawdzich tak zwana Ostatni, ostatni.",
+            "start": 140.92000000000002,
+            "end": 149.32,
+            "words": [
+              {
+                "word": "Nie",
+                "start": 140.92000000000002,
+                "end": 141.24
+              },
+              {
+                "word": "mój",
+                "start": 141.24,
+                "end": 141.48
+              },
+              {
+                "word": "prawdzich",
+                "start": 141.88,
+                "end": 143.16
+              },
+              {
+                "word": "tak",
+                "start": 143.4,
+                "end": 143.72
+              },
+              {
+                "word": "zwana",
+                "start": 143.72,
+                "end": 144.2
+              },
+              {
+                "word": "Ostatni,",
+                "start": 146.52,
+                "end": 147.72
+              },
+              {
+                "word": "ostatni.",
+                "start": 147.72,
+                "end": 149.32
+              }
+            ]
+          },
+          {
+            "text": "Ostatni.",
+            "start": 149.32,
+            "end": 150.28,
+            "words": [
+              {
+                "word": "Ostatni.",
+                "start": 149.32,
+                "end": 150.28
+              }
+            ]
+          },
+          {
+            "text": "Dobra, jeszcze ten.",
+            "start": 151.16,
+            "end": 152.84,
+            "words": [
+              {
+                "word": "Dobra,",
+                "start": 151.16,
+                "end": 151.64
+              },
+              {
+                "word": "jeszcze",
+                "start": 151.72,
+                "end": 151.96
+              },
+              {
+                "word": "ten.",
+                "start": 152.2,
+                "end": 152.84
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "9df11797-3012-4265-ad1f-e49ac6ee635d": {
+      "status": "completed",
+      "audio_url": "https://storage.googleapis.com/producer-app-public/clips/9df11797-3012-4265-ad1f-e49ac6ee635d.m4a",
+      "created_at": "2026-11-06T09:07:24.899427+00:00",
+      "text": "I forgot who I was Reading lines from the past I've heard the pages just to act like we got all entries that are many rise My recall was playing fake scene There is no person left inside hers hers how I'm supposed to speak It's a custom that aware to die I read the pages just to act like me Got a black book from there as a guy Script in answers when they ask my name So kids and acts just to do the show Every scene is feeling just the same Vampire life style out the car I wrote down how I used to smile Got to fake it for a little while My X hated how I used to talk Now I say it like a line I read But as he I go and I go to walk And in a live but I'm already dead I read the pages just to ex And my recall is plainly there is no person left inside I recur It It's a castle that I read the pages just acknowledging me Turn the page again. Turn the page. What am I today? Forgot the line. Forgot the line Nothing left to say",
+      "words": [
+        {
+          "word": "I",
+          "start": 5.92,
+          "end": 6.16
+        },
+        {
+          "word": "forgot",
+          "start": 6.4,
+          "end": 6.96
+        },
+        {
+          "word": "who",
+          "start": 7.12,
+          "end": 7.28
+        },
+        {
+          "word": "I",
+          "start": 7.5200000000000005,
+          "end": 7.84
+        },
+        {
+          "word": "was",
+          "start": 7.84,
+          "end": 8.16
+        },
+        {
+          "word": "Reading",
+          "start": 9.84,
+          "end": 10.48
+        },
+        {
+          "word": "lines",
+          "start": 10.48,
+          "end": 10.8
+        },
+        {
+          "word": "from",
+          "start": 11.040000000000001,
+          "end": 11.28
+        },
+        {
+          "word": "the",
+          "start": 11.28,
+          "end": 11.6
+        },
+        {
+          "word": "past",
+          "start": 11.6,
+          "end": 11.92
+        },
+        {
+          "word": "I've",
+          "start": 15.16,
+          "end": 15.56
+        },
+        {
+          "word": "heard",
+          "start": 15.56,
+          "end": 15.88
+        },
+        {
+          "word": "the",
+          "start": 15.96,
+          "end": 16.12
+        },
+        {
+          "word": "pages",
+          "start": 16.12,
+          "end": 16.44
+        },
+        {
+          "word": "just",
+          "start": 16.68,
+          "end": 16.84
+        },
+        {
+          "word": "to",
+          "start": 17.0,
+          "end": 17.240000000000002
+        },
+        {
+          "word": "act",
+          "start": 17.240000000000002,
+          "end": 17.560000000000002
+        },
+        {
+          "word": "like",
+          "start": 17.560000000000002,
+          "end": 17.72
+        },
+        {
+          "word": "we",
+          "start": 18.12,
+          "end": 18.36
+        },
+        {
+          "word": "got",
+          "start": 19.4,
+          "end": 19.560000000000002
+        },
+        {
+          "word": "all",
+          "start": 19.72,
+          "end": 19.880000000000003
+        },
+        {
+          "word": "entries",
+          "start": 20.04,
+          "end": 20.52
+        },
+        {
+          "word": "that",
+          "start": 20.52,
+          "end": 20.6
+        },
+        {
+          "word": "are",
+          "start": 20.84,
+          "end": 21.080000000000002
+        },
+        {
+          "word": "many",
+          "start": 21.080000000000002,
+          "end": 21.560000000000002
+        },
+        {
+          "word": "rise",
+          "start": 21.8,
+          "end": 22.28
+        },
+        {
+          "word": "My",
+          "start": 23.16,
+          "end": 23.32
+        },
+        {
+          "word": "recall",
+          "start": 23.560000000000002,
+          "end": 23.880000000000003
+        },
+        {
+          "word": "was",
+          "start": 24.04,
+          "end": 24.200000000000003
+        },
+        {
+          "word": "playing",
+          "start": 24.28,
+          "end": 24.6
+        },
+        {
+          "word": "fake",
+          "start": 24.840000000000003,
+          "end": 25.16
+        },
+        {
+          "word": "scene",
+          "start": 25.48,
+          "end": 25.880000000000003
+        },
+        {
+          "word": "There",
+          "start": 27.0,
+          "end": 27.4
+        },
+        {
+          "word": "is",
+          "start": 27.4,
+          "end": 27.64
+        },
+        {
+          "word": "no",
+          "start": 27.64,
+          "end": 27.8
+        },
+        {
+          "word": "person",
+          "start": 27.96,
+          "end": 28.200000000000003
+        },
+        {
+          "word": "left",
+          "start": 28.44,
+          "end": 29.08
+        },
+        {
+          "word": "inside",
+          "start": 29.08,
+          "end": 29.720000000000002
+        },
+        {
+          "word": "hers",
+          "start": 31.32,
+          "end": 31.64
+        },
+        {
+          "word": "hers",
+          "start": 31.880000000000003,
+          "end": 32.2
+        },
+        {
+          "word": "how",
+          "start": 32.519999999999996,
+          "end": 32.68
+        },
+        {
+          "word": "I'm",
+          "start": 32.84,
+          "end": 33.24
+        },
+        {
+          "word": "supposed",
+          "start": 33.24,
+          "end": 33.72
+        },
+        {
+          "word": "to",
+          "start": 33.88,
+          "end": 34.2
+        },
+        {
+          "word": "speak",
+          "start": 34.2,
+          "end": 34.84
+        },
+        {
+          "word": "It's",
+          "start": 38.36,
+          "end": 38.760000000000005
+        },
+        {
+          "word": "a",
+          "start": 38.760000000000005,
+          "end": 39.0
+        },
+        {
+          "word": "custom",
+          "start": 39.0,
+          "end": 39.400000000000006
+        },
+        {
+          "word": "that",
+          "start": 39.56,
+          "end": 39.72
+        },
+        {
+          "word": "aware",
+          "start": 39.88,
+          "end": 40.36
+        },
+        {
+          "word": "to",
+          "start": 40.519999999999996,
+          "end": 40.84
+        },
+        {
+          "word": "die",
+          "start": 40.84,
+          "end": 41.08
+        },
+        {
+          "word": "I",
+          "start": 43.08,
+          "end": 43.16
+        },
+        {
+          "word": "read",
+          "start": 43.32,
+          "end": 43.559999999999995
+        },
+        {
+          "word": "the",
+          "start": 43.64,
+          "end": 43.8
+        },
+        {
+          "word": "pages",
+          "start": 43.8,
+          "end": 44.12
+        },
+        {
+          "word": "just",
+          "start": 44.36,
+          "end": 44.6
+        },
+        {
+          "word": "to",
+          "start": 44.6,
+          "end": 44.839999999999996
+        },
+        {
+          "word": "act",
+          "start": 44.839999999999996,
+          "end": 45.16
+        },
+        {
+          "word": "like",
+          "start": 45.32,
+          "end": 45.48
+        },
+        {
+          "word": "me",
+          "start": 45.72,
+          "end": 45.879999999999995
+        },
+        {
+          "word": "Got",
+          "start": 47.0,
+          "end": 47.32
+        },
+        {
+          "word": "a",
+          "start": 47.4,
+          "end": 47.56
+        },
+        {
+          "word": "black",
+          "start": 47.56,
+          "end": 47.879999999999995
+        },
+        {
+          "word": "book",
+          "start": 48.04,
+          "end": 48.44
+        },
+        {
+          "word": "from",
+          "start": 48.44,
+          "end": 48.76
+        },
+        {
+          "word": "there",
+          "start": 48.76,
+          "end": 48.92
+        },
+        {
+          "word": "as",
+          "start": 49.08,
+          "end": 49.239999999999995
+        },
+        {
+          "word": "a",
+          "start": 49.4,
+          "end": 49.56
+        },
+        {
+          "word": "guy",
+          "start": 49.56,
+          "end": 49.96
+        },
+        {
+          "word": "Script",
+          "start": 50.68,
+          "end": 51.16
+        },
+        {
+          "word": "in",
+          "start": 51.32,
+          "end": 51.56
+        },
+        {
+          "word": "answers",
+          "start": 51.56,
+          "end": 52.12
+        },
+        {
+          "word": "when",
+          "start": 52.36,
+          "end": 52.519999999999996
+        },
+        {
+          "word": "they",
+          "start": 52.519999999999996,
+          "end": 52.68
+        },
+        {
+          "word": "ask",
+          "start": 52.76,
+          "end": 53.0
+        },
+        {
+          "word": "my",
+          "start": 53.239999999999995,
+          "end": 53.32
+        },
+        {
+          "word": "name",
+          "start": 53.48,
+          "end": 54.04
+        },
+        {
+          "word": "So",
+          "start": 54.599999999999994,
+          "end": 54.76
+        },
+        {
+          "word": "kids",
+          "start": 54.92,
+          "end": 55.16
+        },
+        {
+          "word": "and",
+          "start": 55.32,
+          "end": 55.48
+        },
+        {
+          "word": "acts",
+          "start": 55.64,
+          "end": 56.04
+        },
+        {
+          "word": "just",
+          "start": 56.2,
+          "end": 56.44
+        },
+        {
+          "word": "to",
+          "start": 56.44,
+          "end": 56.68
+        },
+        {
+          "word": "do",
+          "start": 56.68,
+          "end": 56.92
+        },
+        {
+          "word": "the",
+          "start": 56.92,
+          "end": 57.16
+        },
+        {
+          "word": "show",
+          "start": 57.16,
+          "end": 57.64
+        },
+        {
+          "word": "Every",
+          "start": 58.44,
+          "end": 58.92
+        },
+        {
+          "word": "scene",
+          "start": 58.92,
+          "end": 59.239999999999995
+        },
+        {
+          "word": "is",
+          "start": 59.48,
+          "end": 59.64
+        },
+        {
+          "word": "feeling",
+          "start": 59.8,
+          "end": 60.36
+        },
+        {
+          "word": "just",
+          "start": 60.519999999999996,
+          "end": 60.76
+        },
+        {
+          "word": "the",
+          "start": 60.76,
+          "end": 61.08
+        },
+        {
+          "word": "same",
+          "start": 61.08,
+          "end": 61.72
+        },
+        {
+          "word": "Vampire",
+          "start": 62.68,
+          "end": 63.32
+        },
+        {
+          "word": "life",
+          "start": 63.56,
+          "end": 63.8
+        },
+        {
+          "word": "style",
+          "start": 63.959999999999994,
+          "end": 64.2
+        },
+        {
+          "word": "out",
+          "start": 64.36,
+          "end": 64.52
+        },
+        {
+          "word": "the",
+          "start": 64.6,
+          "end": 64.84
+        },
+        {
+          "word": "car",
+          "start": 64.84,
+          "end": 65.08
+        },
+        {
+          "word": "I",
+          "start": 66.52,
+          "end": 66.76
+        },
+        {
+          "word": "wrote",
+          "start": 66.76,
+          "end": 67.16
+        },
+        {
+          "word": "down",
+          "start": 67.32,
+          "end": 67.4
+        },
+        {
+          "word": "how",
+          "start": 67.64,
+          "end": 67.88
+        },
+        {
+          "word": "I",
+          "start": 67.88,
+          "end": 68.04
+        },
+        {
+          "word": "used",
+          "start": 68.04,
+          "end": 68.28
+        },
+        {
+          "word": "to",
+          "start": 68.36,
+          "end": 68.44
+        },
+        {
+          "word": "smile",
+          "start": 68.67999999999999,
+          "end": 69.24
+        },
+        {
+          "word": "Got",
+          "start": 70.28,
+          "end": 70.6
+        },
+        {
+          "word": "to",
+          "start": 70.6,
+          "end": 70.84
+        },
+        {
+          "word": "fake",
+          "start": 70.84,
+          "end": 71.24
+        },
+        {
+          "word": "it",
+          "start": 71.24,
+          "end": 71.4
+        },
+        {
+          "word": "for",
+          "start": 71.56,
+          "end": 71.8
+        },
+        {
+          "word": "a",
+          "start": 71.8,
+          "end": 72.12
+        },
+        {
+          "word": "little",
+          "start": 72.12,
+          "end": 72.44
+        },
+        {
+          "word": "while",
+          "start": 72.44,
+          "end": 73.0
+        },
+        {
+          "word": "My",
+          "start": 74.03999999999999,
+          "end": 74.2
+        },
+        {
+          "word": "X",
+          "start": 74.44,
+          "end": 74.6
+        },
+        {
+          "word": "hated",
+          "start": 74.76,
+          "end": 75.16
+        },
+        {
+          "word": "how",
+          "start": 75.32,
+          "end": 75.56
+        },
+        {
+          "word": "I",
+          "start": 75.56,
+          "end": 75.72
+        },
+        {
+          "word": "used",
+          "start": 75.72,
+          "end": 76.03999999999999
+        },
+        {
+          "word": "to",
+          "start": 76.03999999999999,
+          "end": 76.36
+        },
+        {
+          "word": "talk",
+          "start": 76.36,
+          "end": 77.0
+        },
+        {
+          "word": "Now",
+          "start": 77.88,
+          "end": 78.28
+        },
+        {
+          "word": "I",
+          "start": 78.28,
+          "end": 78.52
+        },
+        {
+          "word": "say",
+          "start": 78.52,
+          "end": 78.76
+        },
+        {
+          "word": "it",
+          "start": 78.76,
+          "end": 78.92
+        },
+        {
+          "word": "like",
+          "start": 79.0,
+          "end": 79.24
+        },
+        {
+          "word": "a",
+          "start": 79.24,
+          "end": 79.4
+        },
+        {
+          "word": "line",
+          "start": 79.4,
+          "end": 79.72
+        },
+        {
+          "word": "I",
+          "start": 79.88,
+          "end": 80.12
+        },
+        {
+          "word": "read",
+          "start": 80.12,
+          "end": 80.44
+        },
+        {
+          "word": "But",
+          "start": 81.08,
+          "end": 81.24
+        },
+        {
+          "word": "as",
+          "start": 81.4,
+          "end": 81.56
+        },
+        {
+          "word": "he",
+          "start": 81.72,
+          "end": 81.88
+        },
+        {
+          "word": "I",
+          "start": 82.03999999999999,
+          "end": 82.2
+        },
+        {
+          "word": "go",
+          "start": 82.44,
+          "end": 82.52
+        },
+        {
+          "word": "and",
+          "start": 82.68,
+          "end": 82.84
+        },
+        {
+          "word": "I",
+          "start": 83.08,
+          "end": 83.32
+        },
+        {
+          "word": "go",
+          "start": 83.32,
+          "end": 83.48
+        },
+        {
+          "word": "to",
+          "start": 83.64,
+          "end": 83.88
+        },
+        {
+          "word": "walk",
+          "start": 83.88,
+          "end": 84.36
+        },
+        {
+          "word": "And",
+          "start": 84.92,
+          "end": 85.08
+        },
+        {
+          "word": "in",
+          "start": 85.32,
+          "end": 85.48
+        },
+        {
+          "word": "a",
+          "start": 85.56,
+          "end": 85.72
+        },
+        {
+          "word": "live",
+          "start": 85.72,
+          "end": 86.03999999999999
+        },
+        {
+          "word": "but",
+          "start": 86.28,
+          "end": 86.44
+        },
+        {
+          "word": "I'm",
+          "start": 86.52,
+          "end": 87.0
+        },
+        {
+          "word": "already",
+          "start": 87.0,
+          "end": 87.4
+        },
+        {
+          "word": "dead",
+          "start": 87.64,
+          "end": 88.2
+        },
+        {
+          "word": "I",
+          "start": 88.6,
+          "end": 88.76
+        },
+        {
+          "word": "read",
+          "start": 88.92,
+          "end": 89.16
+        },
+        {
+          "word": "the",
+          "start": 89.32,
+          "end": 89.48
+        },
+        {
+          "word": "pages",
+          "start": 89.48,
+          "end": 89.8
+        },
+        {
+          "word": "just",
+          "start": 90.03999999999999,
+          "end": 90.12
+        },
+        {
+          "word": "to",
+          "start": 90.28,
+          "end": 90.52
+        },
+        {
+          "word": "ex",
+          "start": 90.52,
+          "end": 90.68
+        },
+        {
+          "word": "And",
+          "start": 96.28,
+          "end": 96.6
+        },
+        {
+          "word": "my",
+          "start": 96.6,
+          "end": 96.83999999999999
+        },
+        {
+          "word": "recall",
+          "start": 96.83999999999999,
+          "end": 97.24
+        },
+        {
+          "word": "is",
+          "start": 97.39999999999999,
+          "end": 97.55999999999999
+        },
+        {
+          "word": "plainly",
+          "start": 97.72,
+          "end": 98.28
+        },
+        {
+          "word": "there",
+          "start": 99.47999999999999,
+          "end": 99.64
+        },
+        {
+          "word": "is",
+          "start": 99.8,
+          "end": 99.96
+        },
+        {
+          "word": "no",
+          "start": 99.96,
+          "end": 100.11999999999999
+        },
+        {
+          "word": "person",
+          "start": 100.28,
+          "end": 100.44
+        },
+        {
+          "word": "left",
+          "start": 100.75999999999999,
+          "end": 101.08
+        },
+        {
+          "word": "inside",
+          "start": 101.32,
+          "end": 102.03999999999999
+        },
+        {
+          "word": "I",
+          "start": 103.24,
+          "end": 103.56
+        },
+        {
+          "word": "recur",
+          "start": 103.56,
+          "end": 103.88
+        },
+        {
+          "word": "It",
+          "start": 107.0,
+          "end": 107.08
+        },
+        {
+          "word": "It's",
+          "start": 107.08,
+          "end": 107.39999999999999
+        },
+        {
+          "word": "a",
+          "start": 107.39999999999999,
+          "end": 107.56
+        },
+        {
+          "word": "castle",
+          "start": 107.56,
+          "end": 108.03999999999999
+        },
+        {
+          "word": "that",
+          "start": 108.11999999999999,
+          "end": 108.28
+        },
+        {
+          "word": "I",
+          "start": 108.36,
+          "end": 108.44
+        },
+        {
+          "word": "read",
+          "start": 111.8,
+          "end": 112.11999999999999
+        },
+        {
+          "word": "the",
+          "start": 112.11999999999999,
+          "end": 112.28
+        },
+        {
+          "word": "pages",
+          "start": 112.28,
+          "end": 112.84
+        },
+        {
+          "word": "just",
+          "start": 112.84,
+          "end": 113.0
+        },
+        {
+          "word": "acknowledging",
+          "start": 113.47999999999999,
+          "end": 114.52
+        },
+        {
+          "word": "me",
+          "start": 114.52,
+          "end": 114.84
+        },
+        {
+          "word": "Turn",
+          "start": 119.32000000000001,
+          "end": 119.72
+        },
+        {
+          "word": "the",
+          "start": 119.88,
+          "end": 120.04
+        },
+        {
+          "word": "page",
+          "start": 120.04,
+          "end": 120.52
+        },
+        {
+          "word": "again.",
+          "start": 120.52,
+          "end": 121.48
+        },
+        {
+          "word": "Turn",
+          "start": 121.48,
+          "end": 121.72
+        },
+        {
+          "word": "the",
+          "start": 121.8,
+          "end": 122.04
+        },
+        {
+          "word": "page.",
+          "start": 122.04,
+          "end": 123.0
+        },
+        {
+          "word": "What",
+          "start": 123.32000000000001,
+          "end": 123.64
+        },
+        {
+          "word": "am",
+          "start": 123.64,
+          "end": 123.8
+        },
+        {
+          "word": "I",
+          "start": 123.96000000000001,
+          "end": 124.12
+        },
+        {
+          "word": "today?",
+          "start": 124.36,
+          "end": 125.08
+        },
+        {
+          "word": "Forgot",
+          "start": 126.84,
+          "end": 127.24000000000001
+        },
+        {
+          "word": "the",
+          "start": 127.4,
+          "end": 127.56
+        },
+        {
+          "word": "line.",
+          "start": 127.8,
+          "end": 128.76
+        },
+        {
+          "word": "Forgot",
+          "start": 128.76,
+          "end": 129.24
+        },
+        {
+          "word": "the",
+          "start": 129.32,
+          "end": 129.56
+        },
+        {
+          "word": "line",
+          "start": 129.56,
+          "end": 130.04
+        },
+        {
+          "word": "Nothing",
+          "start": 130.76,
+          "end": 131.32
+        },
+        {
+          "word": "left",
+          "start": 131.56,
+          "end": 132.04
+        },
+        {
+          "word": "to",
+          "start": 132.04,
+          "end": 132.36
+        },
+        {
+          "word": "say",
+          "start": 132.36,
+          "end": 132.68
+        }
+      ],
+      "response": {
+        "text": "I forgot who I was Reading lines from the past I've heard the pages just to act like we got all entries that are many rise My recall was playing fake scene There is no person left inside hers hers how I'm supposed to speak It's a custom that aware to die I read the pages just to act like me Got a black book from there as a guy Script in answers when they ask my name So kids and acts just to do the show Every scene is feeling just the same Vampire life style out the car I wrote down how I used to smile Got to fake it for a little while My X hated how I used to talk Now I say it like a line I read But as he I go and I go to walk And in a live but I'm already dead I read the pages just to ex And my recall is plainly there is no person left inside I recur It It's a castle that I read the pages just acknowledging me Turn the page again. Turn the page. What am I today? Forgot the line. Forgot the line Nothing left to say",
+        "language": null,
+        "task": "transcribe",
+        "duration_seconds": 135.616,
+        "source_duration_seconds": 135.616,
+        "clip_start_seconds": 0.0,
+        "clip_end_seconds": 135.616,
+        "segments": [
+          {
+            "text": "I forgot who I was Reading lines from the past",
+            "start": 5.92,
+            "end": 11.92,
+            "words": [
+              {
+                "word": "I",
+                "start": 5.92,
+                "end": 6.16
+              },
+              {
+                "word": "forgot",
+                "start": 6.4,
+                "end": 6.96
+              },
+              {
+                "word": "who",
+                "start": 7.12,
+                "end": 7.28
+              },
+              {
+                "word": "I",
+                "start": 7.5200000000000005,
+                "end": 7.84
+              },
+              {
+                "word": "was",
+                "start": 7.84,
+                "end": 8.16
+              },
+              {
+                "word": "Reading",
+                "start": 9.84,
+                "end": 10.48
+              },
+              {
+                "word": "lines",
+                "start": 10.48,
+                "end": 10.8
+              },
+              {
+                "word": "from",
+                "start": 11.040000000000001,
+                "end": 11.28
+              },
+              {
+                "word": "the",
+                "start": 11.28,
+                "end": 11.6
+              },
+              {
+                "word": "past",
+                "start": 11.6,
+                "end": 11.92
+              }
+            ]
+          },
+          {
+            "text": "I've heard the pages just to act like we got all entries that are many rise My recall was playing fake scene There is no person left inside hers hers how I'm supposed to speak It's a custom that aware to die",
+            "start": 15.16,
+            "end": 41.08,
+            "words": [
+              {
+                "word": "I've",
+                "start": 15.16,
+                "end": 15.56
+              },
+              {
+                "word": "heard",
+                "start": 15.56,
+                "end": 15.88
+              },
+              {
+                "word": "the",
+                "start": 15.96,
+                "end": 16.12
+              },
+              {
+                "word": "pages",
+                "start": 16.12,
+                "end": 16.44
+              },
+              {
+                "word": "just",
+                "start": 16.68,
+                "end": 16.84
+              },
+              {
+                "word": "to",
+                "start": 17.0,
+                "end": 17.240000000000002
+              },
+              {
+                "word": "act",
+                "start": 17.240000000000002,
+                "end": 17.560000000000002
+              },
+              {
+                "word": "like",
+                "start": 17.560000000000002,
+                "end": 17.72
+              },
+              {
+                "word": "we",
+                "start": 18.12,
+                "end": 18.36
+              },
+              {
+                "word": "got",
+                "start": 19.4,
+                "end": 19.560000000000002
+              },
+              {
+                "word": "all",
+                "start": 19.72,
+                "end": 19.880000000000003
+              },
+              {
+                "word": "entries",
+                "start": 20.04,
+                "end": 20.52
+              },
+              {
+                "word": "that",
+                "start": 20.52,
+                "end": 20.6
+              },
+              {
+                "word": "are",
+                "start": 20.84,
+                "end": 21.080000000000002
+              },
+              {
+                "word": "many",
+                "start": 21.080000000000002,
+                "end": 21.560000000000002
+              },
+              {
+                "word": "rise",
+                "start": 21.8,
+                "end": 22.28
+              },
+              {
+                "word": "My",
+                "start": 23.16,
+                "end": 23.32
+              },
+              {
+                "word": "recall",
+                "start": 23.560000000000002,
+                "end": 23.880000000000003
+              },
+              {
+                "word": "was",
+                "start": 24.04,
+                "end": 24.200000000000003
+              },
+              {
+                "word": "playing",
+                "start": 24.28,
+                "end": 24.6
+              },
+              {
+                "word": "fake",
+                "start": 24.840000000000003,
+                "end": 25.16
+              },
+              {
+                "word": "scene",
+                "start": 25.48,
+                "end": 25.880000000000003
+              },
+              {
+                "word": "There",
+                "start": 27.0,
+                "end": 27.4
+              },
+              {
+                "word": "is",
+                "start": 27.4,
+                "end": 27.64
+              },
+              {
+                "word": "no",
+                "start": 27.64,
+                "end": 27.8
+              },
+              {
+                "word": "person",
+                "start": 27.96,
+                "end": 28.200000000000003
+              },
+              {
+                "word": "left",
+                "start": 28.44,
+                "end": 29.08
+              },
+              {
+                "word": "inside",
+                "start": 29.08,
+                "end": 29.720000000000002
+              },
+              {
+                "word": "hers",
+                "start": 31.32,
+                "end": 31.64
+              },
+              {
+                "word": "hers",
+                "start": 31.880000000000003,
+                "end": 32.2
+              },
+              {
+                "word": "how",
+                "start": 32.519999999999996,
+                "end": 32.68
+              },
+              {
+                "word": "I'm",
+                "start": 32.84,
+                "end": 33.24
+              },
+              {
+                "word": "supposed",
+                "start": 33.24,
+                "end": 33.72
+              },
+              {
+                "word": "to",
+                "start": 33.88,
+                "end": 34.2
+              },
+              {
+                "word": "speak",
+                "start": 34.2,
+                "end": 34.84
+              },
+              {
+                "word": "It's",
+                "start": 38.36,
+                "end": 38.760000000000005
+              },
+              {
+                "word": "a",
+                "start": 38.760000000000005,
+                "end": 39.0
+              },
+              {
+                "word": "custom",
+                "start": 39.0,
+                "end": 39.400000000000006
+              },
+              {
+                "word": "that",
+                "start": 39.56,
+                "end": 39.72
+              },
+              {
+                "word": "aware",
+                "start": 39.88,
+                "end": 40.36
+              },
+              {
+                "word": "to",
+                "start": 40.519999999999996,
+                "end": 40.84
+              },
+              {
+                "word": "die",
+                "start": 40.84,
+                "end": 41.08
+              }
+            ]
+          },
+          {
+            "text": "I read the pages just to act like me Got a black book from there as a guy Script in answers when they ask my name So kids and acts just to do the show Every scene is feeling just the same Vampire life style out the car",
+            "start": 43.08,
+            "end": 65.08,
+            "words": [
+              {
+                "word": "I",
+                "start": 43.08,
+                "end": 43.16
+              },
+              {
+                "word": "read",
+                "start": 43.32,
+                "end": 43.559999999999995
+              },
+              {
+                "word": "the",
+                "start": 43.64,
+                "end": 43.8
+              },
+              {
+                "word": "pages",
+                "start": 43.8,
+                "end": 44.12
+              },
+              {
+                "word": "just",
+                "start": 44.36,
+                "end": 44.6
+              },
+              {
+                "word": "to",
+                "start": 44.6,
+                "end": 44.839999999999996
+              },
+              {
+                "word": "act",
+                "start": 44.839999999999996,
+                "end": 45.16
+              },
+              {
+                "word": "like",
+                "start": 45.32,
+                "end": 45.48
+              },
+              {
+                "word": "me",
+                "start": 45.72,
+                "end": 45.879999999999995
+              },
+              {
+                "word": "Got",
+                "start": 47.0,
+                "end": 47.32
+              },
+              {
+                "word": "a",
+                "start": 47.4,
+                "end": 47.56
+              },
+              {
+                "word": "black",
+                "start": 47.56,
+                "end": 47.879999999999995
+              },
+              {
+                "word": "book",
+                "start": 48.04,
+                "end": 48.44
+              },
+              {
+                "word": "from",
+                "start": 48.44,
+                "end": 48.76
+              },
+              {
+                "word": "there",
+                "start": 48.76,
+                "end": 48.92
+              },
+              {
+                "word": "as",
+                "start": 49.08,
+                "end": 49.239999999999995
+              },
+              {
+                "word": "a",
+                "start": 49.4,
+                "end": 49.56
+              },
+              {
+                "word": "guy",
+                "start": 49.56,
+                "end": 49.96
+              },
+              {
+                "word": "Script",
+                "start": 50.68,
+                "end": 51.16
+              },
+              {
+                "word": "in",
+                "start": 51.32,
+                "end": 51.56
+              },
+              {
+                "word": "answers",
+                "start": 51.56,
+                "end": 52.12
+              },
+              {
+                "word": "when",
+                "start": 52.36,
+                "end": 52.519999999999996
+              },
+              {
+                "word": "they",
+                "start": 52.519999999999996,
+                "end": 52.68
+              },
+              {
+                "word": "ask",
+                "start": 52.76,
+                "end": 53.0
+              },
+              {
+                "word": "my",
+                "start": 53.239999999999995,
+                "end": 53.32
+              },
+              {
+                "word": "name",
+                "start": 53.48,
+                "end": 54.04
+              },
+              {
+                "word": "So",
+                "start": 54.599999999999994,
+                "end": 54.76
+              },
+              {
+                "word": "kids",
+                "start": 54.92,
+                "end": 55.16
+              },
+              {
+                "word": "and",
+                "start": 55.32,
+                "end": 55.48
+              },
+              {
+                "word": "acts",
+                "start": 55.64,
+                "end": 56.04
+              },
+              {
+                "word": "just",
+                "start": 56.2,
+                "end": 56.44
+              },
+              {
+                "word": "to",
+                "start": 56.44,
+                "end": 56.68
+              },
+              {
+                "word": "do",
+                "start": 56.68,
+                "end": 56.92
+              },
+              {
+                "word": "the",
+                "start": 56.92,
+                "end": 57.16
+              },
+              {
+                "word": "show",
+                "start": 57.16,
+                "end": 57.64
+              },
+              {
+                "word": "Every",
+                "start": 58.44,
+                "end": 58.92
+              },
+              {
+                "word": "scene",
+                "start": 58.92,
+                "end": 59.239999999999995
+              },
+              {
+                "word": "is",
+                "start": 59.48,
+                "end": 59.64
+              },
+              {
+                "word": "feeling",
+                "start": 59.8,
+                "end": 60.36
+              },
+              {
+                "word": "just",
+                "start": 60.519999999999996,
+                "end": 60.76
+              },
+              {
+                "word": "the",
+                "start": 60.76,
+                "end": 61.08
+              },
+              {
+                "word": "same",
+                "start": 61.08,
+                "end": 61.72
+              },
+              {
+                "word": "Vampire",
+                "start": 62.68,
+                "end": 63.32
+              },
+              {
+                "word": "life",
+                "start": 63.56,
+                "end": 63.8
+              },
+              {
+                "word": "style",
+                "start": 63.959999999999994,
+                "end": 64.2
+              },
+              {
+                "word": "out",
+                "start": 64.36,
+                "end": 64.52
+              },
+              {
+                "word": "the",
+                "start": 64.6,
+                "end": 64.84
+              },
+              {
+                "word": "car",
+                "start": 64.84,
+                "end": 65.08
+              }
+            ]
+          },
+          {
+            "text": "I wrote down how I used to smile Got to fake it for a little while My X hated how I used to talk Now I say it like a line I read But as he I go and I go to walk And in a live but I'm already dead I read the pages just to ex",
+            "start": 66.52,
+            "end": 90.68,
+            "words": [
+              {
+                "word": "I",
+                "start": 66.52,
+                "end": 66.76
+              },
+              {
+                "word": "wrote",
+                "start": 66.76,
+                "end": 67.16
+              },
+              {
+                "word": "down",
+                "start": 67.32,
+                "end": 67.4
+              },
+              {
+                "word": "how",
+                "start": 67.64,
+                "end": 67.88
+              },
+              {
+                "word": "I",
+                "start": 67.88,
+                "end": 68.04
+              },
+              {
+                "word": "used",
+                "start": 68.04,
+                "end": 68.28
+              },
+              {
+                "word": "to",
+                "start": 68.36,
+                "end": 68.44
+              },
+              {
+                "word": "smile",
+                "start": 68.67999999999999,
+                "end": 69.24
+              },
+              {
+                "word": "Got",
+                "start": 70.28,
+                "end": 70.6
+              },
+              {
+                "word": "to",
+                "start": 70.6,
+                "end": 70.84
+              },
+              {
+                "word": "fake",
+                "start": 70.84,
+                "end": 71.24
+              },
+              {
+                "word": "it",
+                "start": 71.24,
+                "end": 71.4
+              },
+              {
+                "word": "for",
+                "start": 71.56,
+                "end": 71.8
+              },
+              {
+                "word": "a",
+                "start": 71.8,
+                "end": 72.12
+              },
+              {
+                "word": "little",
+                "start": 72.12,
+                "end": 72.44
+              },
+              {
+                "word": "while",
+                "start": 72.44,
+                "end": 73.0
+              },
+              {
+                "word": "My",
+                "start": 74.03999999999999,
+                "end": 74.2
+              },
+              {
+                "word": "X",
+                "start": 74.44,
+                "end": 74.6
+              },
+              {
+                "word": "hated",
+                "start": 74.76,
+                "end": 75.16
+              },
+              {
+                "word": "how",
+                "start": 75.32,
+                "end": 75.56
+              },
+              {
+                "word": "I",
+                "start": 75.56,
+                "end": 75.72
+              },
+              {
+                "word": "used",
+                "start": 75.72,
+                "end": 76.03999999999999
+              },
+              {
+                "word": "to",
+                "start": 76.03999999999999,
+                "end": 76.36
+              },
+              {
+                "word": "talk",
+                "start": 76.36,
+                "end": 77.0
+              },
+              {
+                "word": "Now",
+                "start": 77.88,
+                "end": 78.28
+              },
+              {
+                "word": "I",
+                "start": 78.28,
+                "end": 78.52
+              },
+              {
+                "word": "say",
+                "start": 78.52,
+                "end": 78.76
+              },
+              {
+                "word": "it",
+                "start": 78.76,
+                "end": 78.92
+              },
+              {
+                "word": "like",
+                "start": 79.0,
+                "end": 79.24
+              },
+              {
+                "word": "a",
+                "start": 79.24,
+                "end": 79.4
+              },
+              {
+                "word": "line",
+                "start": 79.4,
+                "end": 79.72
+              },
+              {
+                "word": "I",
+                "start": 79.88,
+                "end": 80.12
+              },
+              {
+                "word": "read",
+                "start": 80.12,
+                "end": 80.44
+              },
+              {
+                "word": "But",
+                "start": 81.08,
+                "end": 81.24
+              },
+              {
+                "word": "as",
+                "start": 81.4,
+                "end": 81.56
+              },
+              {
+                "word": "he",
+                "start": 81.72,
+                "end": 81.88
+              },
+              {
+                "word": "I",
+                "start": 82.03999999999999,
+                "end": 82.2
+              },
+              {
+                "word": "go",
+                "start": 82.44,
+                "end": 82.52
+              },
+              {
+                "word": "and",
+                "start": 82.68,
+                "end": 82.84
+              },
+              {
+                "word": "I",
+                "start": 83.08,
+                "end": 83.32
+              },
+              {
+                "word": "go",
+                "start": 83.32,
+                "end": 83.48
+              },
+              {
+                "word": "to",
+                "start": 83.64,
+                "end": 83.88
+              },
+              {
+                "word": "walk",
+                "start": 83.88,
+                "end": 84.36
+              },
+              {
+                "word": "And",
+                "start": 84.92,
+                "end": 85.08
+              },
+              {
+                "word": "in",
+                "start": 85.32,
+                "end": 85.48
+              },
+              {
+                "word": "a",
+                "start": 85.56,
+                "end": 85.72
+              },
+              {
+                "word": "live",
+                "start": 85.72,
+                "end": 86.03999999999999
+              },
+              {
+                "word": "but",
+                "start": 86.28,
+                "end": 86.44
+              },
+              {
+                "word": "I'm",
+                "start": 86.52,
+                "end": 87.0
+              },
+              {
+                "word": "already",
+                "start": 87.0,
+                "end": 87.4
+              },
+              {
+                "word": "dead",
+                "start": 87.64,
+                "end": 88.2
+              },
+              {
+                "word": "I",
+                "start": 88.6,
+                "end": 88.76
+              },
+              {
+                "word": "read",
+                "start": 88.92,
+                "end": 89.16
+              },
+              {
+                "word": "the",
+                "start": 89.32,
+                "end": 89.48
+              },
+              {
+                "word": "pages",
+                "start": 89.48,
+                "end": 89.8
+              },
+              {
+                "word": "just",
+                "start": 90.03999999999999,
+                "end": 90.12
+              },
+              {
+                "word": "to",
+                "start": 90.28,
+                "end": 90.52
+              },
+              {
+                "word": "ex",
+                "start": 90.52,
+                "end": 90.68
+              }
+            ]
+          },
+          {
+            "text": "And my recall is plainly there is no person left inside I recur It It's a castle that I read the pages just acknowledging me",
+            "start": 96.28,
+            "end": 114.84,
+            "words": [
+              {
+                "word": "And",
+                "start": 96.28,
+                "end": 96.6
+              },
+              {
+                "word": "my",
+                "start": 96.6,
+                "end": 96.83999999999999
+              },
+              {
+                "word": "recall",
+                "start": 96.83999999999999,
+                "end": 97.24
+              },
+              {
+                "word": "is",
+                "start": 97.39999999999999,
+                "end": 97.55999999999999
+              },
+              {
+                "word": "plainly",
+                "start": 97.72,
+                "end": 98.28
+              },
+              {
+                "word": "there",
+                "start": 99.47999999999999,
+                "end": 99.64
+              },
+              {
+                "word": "is",
+                "start": 99.8,
+                "end": 99.96
+              },
+              {
+                "word": "no",
+                "start": 99.96,
+                "end": 100.11999999999999
+              },
+              {
+                "word": "person",
+                "start": 100.28,
+                "end": 100.44
+              },
+              {
+                "word": "left",
+                "start": 100.75999999999999,
+                "end": 101.08
+              },
+              {
+                "word": "inside",
+                "start": 101.32,
+                "end": 102.03999999999999
+              },
+              {
+                "word": "I",
+                "start": 103.24,
+                "end": 103.56
+              },
+              {
+                "word": "recur",
+                "start": 103.56,
+                "end": 103.88
+              },
+              {
+                "word": "It",
+                "start": 107.0,
+                "end": 107.08
+              },
+              {
+                "word": "It's",
+                "start": 107.08,
+                "end": 107.39999999999999
+              },
+              {
+                "word": "a",
+                "start": 107.39999999999999,
+                "end": 107.56
+              },
+              {
+                "word": "castle",
+                "start": 107.56,
+                "end": 108.03999999999999
+              },
+              {
+                "word": "that",
+                "start": 108.11999999999999,
+                "end": 108.28
+              },
+              {
+                "word": "I",
+                "start": 108.36,
+                "end": 108.44
+              },
+              {
+                "word": "read",
+                "start": 111.8,
+                "end": 112.11999999999999
+              },
+              {
+                "word": "the",
+                "start": 112.11999999999999,
+                "end": 112.28
+              },
+              {
+                "word": "pages",
+                "start": 112.28,
+                "end": 112.84
+              },
+              {
+                "word": "just",
+                "start": 112.84,
+                "end": 113.0
+              },
+              {
+                "word": "acknowledging",
+                "start": 113.47999999999999,
+                "end": 114.52
+              },
+              {
+                "word": "me",
+                "start": 114.52,
+                "end": 114.84
+              }
+            ]
+          },
+          {
+            "text": "Turn the page again.",
+            "start": 119.32000000000001,
+            "end": 121.48,
+            "words": [
+              {
+                "word": "Turn",
+                "start": 119.32000000000001,
+                "end": 119.72
+              },
+              {
+                "word": "the",
+                "start": 119.88,
+                "end": 120.04
+              },
+              {
+                "word": "page",
+                "start": 120.04,
+                "end": 120.52
+              },
+              {
+                "word": "again.",
+                "start": 120.52,
+                "end": 121.48
+              }
+            ]
+          },
+          {
+            "text": "Turn the page.",
+            "start": 121.48,
+            "end": 123.0,
+            "words": [
+              {
+                "word": "Turn",
+                "start": 121.48,
+                "end": 121.72
+              },
+              {
+                "word": "the",
+                "start": 121.8,
+                "end": 122.04
+              },
+              {
+                "word": "page.",
+                "start": 122.04,
+                "end": 123.0
+              }
+            ]
+          },
+          {
+            "text": "What am I today?",
+            "start": 123.32000000000001,
+            "end": 125.08,
+            "words": [
+              {
+                "word": "What",
+                "start": 123.32000000000001,
+                "end": 123.64
+              },
+              {
+                "word": "am",
+                "start": 123.64,
+                "end": 123.8
+              },
+              {
+                "word": "I",
+                "start": 123.96000000000001,
+                "end": 124.12
+              },
+              {
+                "word": "today?",
+                "start": 124.36,
+                "end": 125.08
+              }
+            ]
+          },
+          {
+            "text": "Forgot the line.",
+            "start": 126.84,
+            "end": 128.76,
+            "words": [
+              {
+                "word": "Forgot",
+                "start": 126.84,
+                "end": 127.24000000000001
+              },
+              {
+                "word": "the",
+                "start": 127.4,
+                "end": 127.56
+              },
+              {
+                "word": "line.",
+                "start": 127.8,
+                "end": 128.76
+              }
+            ]
+          },
+          {
+            "text": "Forgot the line Nothing left to say",
+            "start": 128.76,
+            "end": 132.68,
+            "words": [
+              {
+                "word": "Forgot",
+                "start": 128.76,
+                "end": 129.24
+              },
+              {
+                "word": "the",
+                "start": 129.32,
+                "end": 129.56
+              },
+              {
+                "word": "line",
+                "start": 129.56,
+                "end": 130.04
+              },
+              {
+                "word": "Nothing",
+                "start": 130.76,
+                "end": 131.32
+              },
+              {
+                "word": "left",
+                "start": 131.56,
+                "end": 132.04
+              },
+              {
+                "word": "to",
+                "start": 132.04,
+                "end": 132.36
+              },
+              {
+                "word": "say",
+                "start": 132.36,
+                "end": 132.68
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }
