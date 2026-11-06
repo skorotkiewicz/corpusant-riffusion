@@ -172,7 +172,7 @@ export function App() {
     <header class="masthead">
       <a class="wordmark" href={import.meta.env.BASE_URL} aria-label="Sleeve Notes home"><Disc3 size={36} strokeWidth={1.4} /><span>SLEEVE<br /><strong>NOTES</strong></span></a>
       <div class="masthead-center">YOUR MUSIC LIBRARY<span />AUDIO & LYRICS</div>
-      <button class="surprise-button" onClick={surprise} disabled={loading || !results.some((clip) => clip.audioUrl)}><Shuffle size={17} /><span>Play random song</span><ArrowRight size={16} /></button>
+      <button class="surprise-button" onClick={surprise} disabled={loading || !results.some((clip) => clip.audioUrl)}><Shuffle size={17} /><span>Surprise me</span><ArrowRight size={16} /></button>
     </header>
 
     <main class="listening-room">
