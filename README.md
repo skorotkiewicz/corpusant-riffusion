@@ -43,6 +43,9 @@ Requires Python 3, curl, FFmpeg with the `libmp3lame` encoder, and a running tra
 ```bash
 python3 build_timing.py --limit 1
 python3 build_timing.py
+
+# eg
+python3 build_timing.py --api-url http://192.168.0.124:8055/transcribe
 ```
 
 The default endpoint is `http://localhost:8055/transcribe`. Use `--api-url` or `TRANSCRIBE_URL` for another endpoint. `--limit 1` processes one song as a first check; omit it to process all remaining songs.
