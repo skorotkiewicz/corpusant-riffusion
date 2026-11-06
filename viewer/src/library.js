@@ -32,6 +32,56 @@ export function clock(seconds = 0) {
   return `${hours ? `${hours}:` : ''}${hours ? String(minutes).padStart(2, '0') : minutes}:${String(total % 60).padStart(2, '0')}`
 }
 
+function lyricWords(text) {
+  return [...text.matchAll(/\[[^\]]*\]|[\p{L}\p{N}]+(?:['’][\p{L}\p{N}]+)*/gu)]
+    .filter((match) => !match[0].startsWith('['))
+    .map((match) => ({
+      start: match.index, end: match.index + match[0].length,
+      key: match[0].normalize('NFKD').toLocaleLowerCase().replace(/\p{M}|['’]/gu, ''),
+    }))
+}
+
+function alignWordTiming(text, words) {
+  const original = lyricWords(text)
+  const recognized = words.flatMap((word, index) => lyricWords(word.word)
+    .map((token) => ({ key: token.key, time: word.start, end: word.end, wordIndex: index })))
+  // Match the complete sequences so repeated choruses and missing words keep their order.
+  const width = recognized.length + 1
+  const matches = new Uint32Array((original.length + 1) * width)
+  for (let i = original.length - 1; i >= 0; i--) {
+    for (let j = recognized.length - 1; j >= 0; j--) {
+      matches[i * width + j] = original[i].key === recognized[j].key
+        ? 1 + matches[(i + 1) * width + j + 1]
+        : Math.max(matches[(i + 1) * width + j], matches[i * width + j + 1])
+    }
+  }
+  const aligned = []
+  let i = 0, j = 0
+  while (i < original.length && j < recognized.length) {
+    if (original[i].key === recognized[j].key) {
+      const previous = aligned[aligned.length - 1]
+      if (previous?.wordIndex === recognized[j].wordIndex && previous.sourceIndex === i - 1) {
+        previous.endOffset = original[i].end
+        previous.sourceIndex = i
+      } else {
+        aligned.push({ ...recognized[j], startOffset: original[i].start, endOffset: original[i].end, sourceIndex: i })
+      }
+      i++
+      j++
+    } else if (matches[(i + 1) * width + j] >= matches[i * width + j + 1]) i++
+    else j++
+  }
+  const segments = []
+  let offset = 0
+  for (const word of aligned) {
+    if (word.startOffset > offset) segments.push({ text: text.slice(offset, word.startOffset), time: null })
+    segments.push({ text: text.slice(word.startOffset, word.endOffset), time: word.time, end: word.end, transcribed: true })
+    offset = word.endOffset
+  }
+  if (offset < text.length) segments.push({ text: text.slice(offset), time: null })
+  return segments
+}
+
 function transcribedSegments(clip) {
   const timing = clip.transcriptionTiming
   if (timing?.status !== 'completed' || timing.audio_url !== clip.audio_url ||
@@ -40,6 +90,8 @@ function transcribedSegments(clip) {
     Number.isFinite(word.start) && Number.isFinite(word.end) && word.start >= 0 && word.end >= word.start &&
     (!index || word.start >= timing.words[index - 1].start))
   if (!valid) return []
+  const text = clip.lyrics?.value?.text
+  if (typeof text === 'string' && text) return alignWordTiming(text, timing.words)
   return timing.words.map((word, index) => ({
     text: word.word.trim() + (index < timing.words.length - 1 ? ' ' : ''),
     time: word.start, end: word.end, transcribed: true,

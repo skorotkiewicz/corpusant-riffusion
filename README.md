@@ -56,4 +56,4 @@ Each successful API response and its normalized words are saved atomically in `t
 
 Options include `--source`, `--output`, and `--viewer-output` to change the default `songs.json`, `timing.json`, and `viewer/public/timing.json` paths. Both timing files are ignored by Git.
 
-Refresh the viewer to load newly saved timing. Original export timing takes priority. Songs without it use the API's transcribed words, labeled **Transcribed lyrics** because speech recognition may differ from the original lyrics. The export's written lyrics remain intact.
+Refresh the viewer to load newly saved timing. Original export timing takes priority. Songs without it match the API's word timestamps to the original lyrics, preserving all wording, punctuation, section headings, and line breaks. Words that cannot be matched stay visible without highlighting. If a song has no written lyrics, the recognized text is displayed as **Transcribed lyrics**.

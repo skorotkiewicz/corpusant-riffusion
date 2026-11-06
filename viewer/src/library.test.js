@@ -93,3 +93,33 @@ test('transcribed timing highlights original words without replacing formatting 
   const [noLyrics] = readLibrary({ clips: [{ ...raw, lyrics: null }] }, timing)
   assert.equal(noLyrics.hasTiming, true)
 })
+
+test('word alignment preserves Unicode and punctuation, skips directions, and follows repeated choruses', () => {
+  const text = '[Intro: hello]\n🌑 Héllo, don’t stop!\nA missing word.\n\n[Chorus]\nHello again.\nHello again!'
+  const raw = { id: 'aligned', audio_url: 'https://example.test/song.m4a', lyrics: { value: { text } } }
+  const words = ['hello', "don't", 'stop', 'extra', 'a', 'word', 'hello', 'again', 'hello', 'again']
+    .map((word, index) => ({ word, start: index + 1, end: index + 1.5 }))
+  const [clip] = readLibrary({ clips: [raw] }, { version: 1, songs: {
+    aligned: { status: 'completed', audio_url: raw.audio_url, words },
+  } })
+  const segments = lyricSegments(clip)
+  assert.equal(segments.map((segment) => segment.text).join(''), text)
+  assert.equal(segments[activeLyric(segments, 1.2)].text, 'Héllo')
+  assert.equal(segments[activeLyric(segments, 2.2)].text, 'don’t')
+  assert.equal(activeLyric(segments, 4.2), -1)
+  assert.equal(segments[activeLyric(segments, 7.2)].text, 'Hello')
+  assert.equal(segments[activeLyric(segments, 9.2)].text, 'Hello')
+  assert.ok(activeLyric(segments, 9.2) > activeLyric(segments, 7.2))
+  assert.equal(segments.find((segment) => segment.text.includes('missing')).time, null)
+  assert.equal(segments.find((segment) => segment.text.includes('[Intro: hello]')).time, null)
+})
+
+test('unrelated transcription leaves the complete original lyrics untimed', () => {
+  const raw = { id: 'unmatched', audio_url: 'https://example.test/song.m4a',
+    lyrics: { value: { text: '[Verse]\nOriginal words.\n' } } }
+  const [clip] = readLibrary({ clips: [raw] }, { version: 1, songs: {
+    unmatched: { status: 'completed', audio_url: raw.audio_url, words: [{ word: 'Different', start: 1, end: 2 }] },
+  } })
+  assert.equal(clip.hasTiming, false)
+  assert.deepEqual(lyricSegments(clip), [{ text: raw.lyrics.value.text, time: null }])
+})
